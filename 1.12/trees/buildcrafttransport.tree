@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+|=================================================================|
+| INVENTORY TWEAKS Mod - https://inventory-tweaks.readthedocs.org |
+| Tree configuration                                              |
+|=================================================================|
+
+# Q: WHAT IS THIS?
+# A: This file is used to store all the keywords you can use to create item rules, but also to define the items order.
+# You can move/change all that you want, but it's recommended not to delete any default item.
+
+# Q: MY CUSTOM FILE WAS REPLACED =(
+# A: Since a new major version of Minecraft appeared, I silently updated the tree... BUT!
+# I kept a backup of your version in the same directory. Sorry for the trouble, feel free to import your changes in the new file.
+
+# Q: THE FILE IS BROKEN AND I DON'T KNOW WHAT TO DO =(
+# A: Just delete this file, the default tree will be reloaded next time you sort something!
+
+# This is the modded minecraft tree.  There may be a newer version available at
+# https://github.com/IMarvinTPA/inventory-tweaks/tree/develop/src/main/resources/assets/inventorytweaks
+# Help on maintaining and expanding the tree is welcomed, please contact IMarvinTPA.
+
+# CREDITS
+# Thanks to Larandar & Lunaqua for their contributions.
+# IMarvinTPA for the modded tree.
+-->
+<!-- Note: 'stuff' matches everything, even items that don't appear here -->
+<stuff treeVersion="1.12.2">
+	<block treeOrder="20">
+		<manufacturedBlock treeOrder="50">
+			<constructionBlock treeOrder="70">
+				<facades treeOrder="130">
+					<itemBCFacade id="buildcrafttransport:pipefacade" treeOrder="50"/>
+				</facades>
+			</constructionBlock>
+		</manufacturedBlock>
+		<mechanism treeOrder="60">
+			<resourceTransfer treeOrder="300">
+				<bcpipes treeOrder="20">
+					<itemPipeSealant id="buildcrafttransport:waterproof" treeOrder="10"/>
+					<itemCobblestoneStructurePipe id="buildcrafttransport:pipe_structure" treeOrder="20"/>
+					<itemPipePlug id="buildcrafttransport:plug_blocker" treeOrder="40"/>
+					<itemPowerAdapter id="buildcrafttransport:plug_power_adaptor" treeOrder="50"/>
+					<itemFilteredBuffer id="buildcrafttransport:filtered_buffer" treeOrder="60"/>
+					<bcItemPipes treeOrder="70">
+						<itemWoodenTransportPipe id="buildcrafttransport:pipe_wood_item" treeOrder="10"/>
+						<itemWoodenDiamondTransportPipe id="buildcrafttransport:pipe_diamond_wood_item" treeOrder="20"/>
+						<itemCobblestoneTransportPipe id="buildcrafttransport:pipe_cobble_item" treeOrder="30"/>
+						<itemStoneTransportPipe id="buildcrafttransport:pipe_stone_item" treeOrder="40"/>
+						<itemClayTransportPipe id="buildcrafttransport:pipe_clay_item" treeOrder="50"/>
+						<itemDaizuliTransportPipe id="buildcrafttransport:pipe_daizuli_item" treeOrder="60"/>
+						<itemDiamondTransportPipe id="buildcrafttransport:pipe_diamond_item" treeOrder="70"/>
+						<itemEmzuliTransportPipe id="buildcrafttransport:pipe_emzuli_item" treeOrder="80"/>
+						<itemGoldenTransportPipe id="buildcrafttransport:pipe_gold_item" treeOrder="90"/>
+						<itemIronTransportPipe id="buildcrafttransport:pipe_iron_item" treeOrder="100"/>
+						<itemLazuliTransportPipe id="buildcrafttransport:pipe_lapis_item" treeOrder="110"/>
+						<itemObsidianTransportPipe id="buildcrafttransport:pipe_obsidian_item" treeOrder="120"/>
+						<itemQuartzTransportPipe id="buildcrafttransport:pipe_quartz_item" treeOrder="130"/>
+						<itemSandstoneTransportPipe id="buildcrafttransport:pipe_sandstone_item" treeOrder="140"/>
+						<itemStripesTransportPipe id="buildcrafttransport:pipe_stripes_item" treeOrder="150"/>
+						<itemVoidTransportPipe id="buildcrafttransport:pipe_void_item" treeOrder="160"/>
+					</bcItemPipes>
+					<bcFluidPipes treeOrder="80">
+						<itemWoodenFluidPipe id="buildcrafttransport:pipe_wood_fluid" treeOrder="10"/>
+						<itemWoodenDiamondFluidPipe id="buildcrafttransport:pipe_diamond_wood_fluid" treeOrder="20"/>
+						<itemCobblestoneFluidPipe id="buildcrafttransport:pipe_cobble_fluid" treeOrder="30"/>
+						<itemStoneFluidPipe id="buildcrafttransport:pipe_stone_fluid" treeOrder="40"/>
+						<itemClayFluidPipe id="buildcrafttransport:pipe_clay_fluid" treeOrder="50"/>
+						<itemDiamondFluidPipe id="buildcrafttransport:pipe_diamond_fluid" treeOrder="60"/>
+						<itemGoldenFluidPipe id="buildcrafttransport:pipe_gold_fluid" treeOrder="70"/>
+						<itemIronFluidPipe id="buildcrafttransport:pipe_iron_fluid" treeOrder="80"/>
+						<itemQuartzFluidPipe id="buildcrafttransport:pipe_quartz_fluid" treeOrder="90"/>
+						<itemSandstoneFluidPipe id="buildcrafttransport:pipe_sandstone_fluid" treeOrder="100"/>
+						<itemVoidFluidPipe id="buildcrafttransport:pipe_void_fluid" treeOrder="110"/>
+					</bcFluidPipes>
+					<bcPowerPipes treeOrder="90">
+						<itemWoodenKinesisPipe id="buildcrafttransport:pipe_wood_power" treeOrder="10"/>
+						<itemCobblestoneKinesisPipe id="buildcrafttransport:pipe_cobble_power" treeOrder="20"/>
+						<itemStoneKinesisPipe id="buildcrafttransport:pipe_stone_power" treeOrder="30"/>
+						<itemGoldenKinesisPipe id="buildcrafttransport:pipe_gold_power" treeOrder="40"/>
+						<itemQuartzKinesisPipe id="buildcrafttransport:pipe_quartz_power" treeOrder="50"/>
+						<itemSandstoneKinesisPipe id="buildcrafttransport:pipe_sandstone_power" treeOrder="60"/>
+					</bcPowerPipes>
+				</bcpipes>
+			</resourceTransfer>
+			<machineupgrades treeOrder="390">
+				<transportUpgrades treeOrder="20">
+					<bcPipeUpgrades treeOrder="10">
+						<itemPipeWire id="buildcrafttransport:wire" treeOrder="10"/>
+					</bcPipeUpgrades>
+				</transportUpgrades>
+			</machineupgrades>
+		</mechanism>
+	</block>
+</stuff>

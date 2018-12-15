@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+|=================================================================|
+| INVENTORY TWEAKS Mod - https://inventory-tweaks.readthedocs.org |
+| Tree configuration                                              |
+|=================================================================|
+
+# Q: WHAT IS THIS?
+# A: This file is used to store all the keywords you can use to create item rules, but also to define the items order.
+# You can move/change all that you want, but it's recommended not to delete any default item.
+
+# Q: MY CUSTOM FILE WAS REPLACED =(
+# A: Since a new major version of Minecraft appeared, I silently updated the tree... BUT!
+# I kept a backup of your version in the same directory. Sorry for the trouble, feel free to import your changes in the new file.
+
+# Q: THE FILE IS BROKEN AND I DON'T KNOW WHAT TO DO =(
+# A: Just delete this file, the default tree will be reloaded next time you sort something!
+
+# This is the modded minecraft tree.  There may be a newer version available at
+# https://github.com/IMarvinTPA/inventory-tweaks/tree/develop/src/main/resources/assets/inventorytweaks
+# Help on maintaining and expanding the tree is welcomed, please contact IMarvinTPA.
+
+# CREDITS
+# Thanks to Larandar & Lunaqua for their contributions.
+# IMarvinTPA for the modded tree.
+-->
+<!-- Note: 'stuff' matches everything, even items that don't appear here -->
+<stuff treeVersion="1.12.2">
+	<block treeOrder="20">
+		<mechanism treeOrder="60">
+			<resourceTransfer treeOrder="300">
+				<bcpipes treeOrder="20">
+					<itemFrame id="buildcraftbuilders:frame" treeOrder="30"/>
+				</bcpipes>
+			</resourceTransfer>
+			<machines treeOrder="380">
+				<poweredMining treeOrder="130">
+					<itemQuarry id="buildcraftbuilders:quarry" treeOrder="80"/>
+				</poweredMining>
+				<poweredDroppers treeOrder="150">
+					<itemArchitectTable id="buildcraftbuilders:architect" treeOrder="40"/>
+					<itemBuilder id="buildcraftbuilders:builder" treeOrder="50"/>
+					<itemFiller id="buildcraftbuilders:filler" treeOrder="60"/>
+				</poweredDroppers>
+			</machines>
+		</mechanism>
+	</block>
+	<item treeOrder="40">
+		<utility treeOrder="10">
+			<storage treeOrder="30">
+				<cabinets treeOrder="20">
+					<itemElectronicLibrary id="buildcraftbuilders:library" treeOrder="20"/>
+				</cabinets>
+			</storage>
+		</utility>
+		<patterns treeOrder="90">
+			<itemBlueprint id="buildcraftbuilders:snapshot" treeOrder="10"/>
+			<itemSingleBlockSchematic id="buildcraftbuilders:schematic_single" treeOrder="20"/>
+		</patterns>
+	</item>
+	<nonItems treeOrder="50">
+		<itemFillerPlanner id="buildcraftbuilders:filler_planner" treeOrder="170"/>
+		<itemtile.replacerBlock.name id="buildcraftbuilders:replacer" treeOrder="180"/>
+	</nonItems>
+</stuff>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+|=================================================================|
+| INVENTORY TWEAKS Mod - https://inventory-tweaks.readthedocs.org |
+| Tree configuration                                              |
+|=================================================================|
+
+# Q: WHAT IS THIS?
+# A: This file is used to store all the keywords you can use to create item rules, but also to define the items order.
+# You can move/change all that you want, but it's recommended not to delete any default item.
+
+# Q: MY CUSTOM FILE WAS REPLACED =(
+# A: Since a new major version of Minecraft appeared, I silently updated the tree... BUT!
+# I kept a backup of your version in the same directory. Sorry for the trouble, feel free to import your changes in the new file.
+
+# Q: THE FILE IS BROKEN AND I DON'T KNOW WHAT TO DO =(
+# A: Just delete this file, the default tree will be reloaded next time you sort something!
+
+# This is the modded minecraft tree.  There may be a newer version available at
+# https://github.com/IMarvinTPA/inventory-tweaks/tree/develop/src/main/resources/assets/inventorytweaks
+# Help on maintaining and expanding the tree is welcomed, please contact IMarvinTPA.
+
+# CREDITS
+# Thanks to Larandar & Lunaqua for their contributions.
+# IMarvinTPA for the modded tree.
+-->
+<!-- Note: 'stuff' matches everything, even items that don't appear here -->
+<stuff treeVersion="1.12.2">
+	<block treeOrder="20">
+		<manufacturedBlock treeOrder="50">
+			<constructionBlock treeOrder="70">
+				<facades treeOrder="130">
+					<itemBCFacade id="buildcraftsilicon:plug_facade" treeOrder="60"/>
+				</facades>
+			</constructionBlock>
+		</manufacturedBlock>
+		<mechanism treeOrder="60">
+			<machines treeOrder="380">
+				<poweredCrafting treeOrder="10">
+					<itemLaser id="buildcraftsilicon:laser" treeOrder="110"/>
+					<itemAdvancedCraftingTable id="buildcraftsilicon:advanced_crafting_table" treeOrder="120"/>
+					<itemAssemblyTable id="buildcraftsilicon:assembly_table" treeOrder="130"/>
+					<itemIntegrationTable id="buildcraftsilicon:integration_table" treeOrder="140"/>
+				</poweredCrafting>
+			</machines>
+			<machineupgrades treeOrder="390">
+				<transportUpgrades treeOrder="20">
+					<bcPipeUpgrades treeOrder="10">
+						<itemPipeLens id="buildcraftsilicon:plug_lens" treeOrder="20"/>
+						<itemPipeGate id="buildcraftsilicon:plug_gate" treeOrder="30"/>
+						<itemLightSensor id="buildcraftsilicon:plug_light_sensor" treeOrder="40"/>
+						<itemPipePulsar id="buildcraftsilicon:plug_pulsar" treeOrder="50"/>
+					</bcPipeUpgrades>
+				</transportUpgrades>
+			</machineupgrades>
+		</mechanism>
+	</block>
+	<item treeOrder="40">
+		<parts treeOrder="110">
+			<mechanicalParts treeOrder="10">
+				<chip treeOrder="10">
+					<itemRedstoneChipset id="buildcraftsilicon:redstone_chipset" damage="0" treeOrder="20"/>
+					<itemIronChipset id="buildcraftsilicon:redstone_chipset" damage="1" treeOrder="40"/>
+					<itemGoldenChipset id="buildcraftsilicon:redstone_chipset" damage="2" treeOrder="60"/>
+					<itemDiamondChipset id="buildcraftsilicon:redstone_chipset" damage="4" treeOrder="80"/>
+					<itemQuartzChipset id="buildcraftsilicon:redstone_chipset" damage="3" treeOrder="110"/>
+				</chip>
+			</mechanicalParts>
+		</parts>
+	</item>
+</stuff>
