@@ -55,14 +55,14 @@
 			</miningTool>
 			<diggingTool treeOrder="30">
 				<shovel class="Item" data="{ToolClass : &quot;shovel&quot;}" mergeChildren="true" treeOrder="20">
-					<itemAwakenedIchoriumShovel id="thaumictinkerer:ichorshovelgem" treeOrder="30"/>
-					<itemIchoriumShovel id="thaumictinkerer:ichorshovel" treeOrder="330"/>
+					<itemAwakenedIchoriumShovel id="thaumictinkerer:ichorshovelgem" treeOrder="50"/>
+					<itemIchoriumShovel id="thaumictinkerer:ichorshovel" treeOrder="350"/>
 				</shovel>
 			</diggingTool>
 			<choppingTool treeOrder="40">
 				<axe class="Item" data="{ToolClass : &quot;axe&quot;}" mergeChildren="true" treeOrder="20">
-					<itemAwakenedIchoriumAxe id="thaumictinkerer:ichoraxegem" treeOrder="30"/>
-					<itemIchoriumAxe id="thaumictinkerer:ichoraxe" treeOrder="390"/>
+					<itemAwakenedIchoriumAxe id="thaumictinkerer:ichoraxegem" treeOrder="50"/>
+					<itemIchoriumAxe id="thaumictinkerer:ichoraxe" treeOrder="410"/>
 				</axe>
 			</choppingTool>
 		</tool>
@@ -112,15 +112,15 @@
 	<item treeOrder="40">
 		<utility treeOrder="10">
 			<readableBooks treeOrder="90">
-				<itemTomeofKnowledgeSharing id="thaumictinkerer:sharebook" treeOrder="220"/>
+				<itemTomeofKnowledgeSharing id="thaumictinkerer:sharebook" treeOrder="230"/>
 			</readableBooks>
 		</utility>
-		<plant treeOrder="160">
+		<plant treeOrder="170">
 			<seed treeOrder="60">
-				<itemThaumicTinkerer_infusedSeeds id="thaumictinkerer:infusedseeds" treeOrder="1080"/>
+				<itemThaumicTinkerer_infusedSeeds id="thaumictinkerer:infusedseeds" treeOrder="1090"/>
 			</seed>
 		</plant>
-		<magical treeOrder="280">
+		<magical treeOrder="310">
 			<thaumurgy treeOrder="10">
 				<shards treeOrder="20">
 					<itemNetherShard id="thaumictinkerer:kamiresource" damage="6" treeOrder="80"/>

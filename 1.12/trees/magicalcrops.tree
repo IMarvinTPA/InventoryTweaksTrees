@@ -29,10 +29,10 @@
 	<block treeOrder="20">
 		<naturalBlock treeOrder="10">
 			<oreBlock treeOrder="90">
-				<oreEndMinicioOreItem id="magicalcrops:miniciooreend" treeOrder="660"/>
-				<oreMinicioOreItem id="magicalcrops:minicioore" treeOrder="1350"/>
+				<oreEndMinicioOreItem id="magicalcrops:miniciooreend" treeOrder="670"/>
+				<oreMinicioOreItem id="magicalcrops:minicioore" treeOrder="1360"/>
 			</oreBlock>
-			<obsidian treeOrder="280">
+			<obsidian treeOrder="290">
 				<blockReinforcedObsidianDict oreDictName="blockReinforcedObsidian" treeOrder="50">
 					<itemWitherProofBlock id="magicalcrops:witherproof" treeOrder="30"/>
 				</blockReinforcedObsidianDict>
@@ -63,7 +63,7 @@
 				<itemExperienceBook id="magicalcrops:experiencebook" treeOrder="10"/>
 			</experienceBook>
 		</utility>
-		<plant treeOrder="160">
+		<plant treeOrder="170">
 			<seedbag treeOrder="50">
 				<itemmagicalcrops_SeedBagAccio id="magicalcrops:seedbagaccio" treeOrder="90"/>
 				<itemmagicalcrops_SeedBagCrucio id="magicalcrops:seedbagcrucio" treeOrder="100"/>
@@ -107,46 +107,46 @@
 				<itemmagicalcrops_GhastSeeds id="magicalcrops:ghastseeds" treeOrder="540"/>
 				<itemmagicalcrops_GlowstoneSeeds id="magicalcrops:glowstoneseeds" treeOrder="550"/>
 				<itemmagicalcrops_GoldSeeds id="magicalcrops:goldseeds" treeOrder="560"/>
-				<itemmagicalcrops_InvarSeeds id="magicalcrops:invarseeds" treeOrder="590"/>
-				<itemmagicalcrops_IronSeeds id="magicalcrops:ironseeds" treeOrder="600"/>
-				<itemmagicalcrops_LapisSeeds id="magicalcrops:lapisseeds" treeOrder="620"/>
-				<itemmagicalcrops_LeadSeeds id="magicalcrops:leadseeds" treeOrder="630"/>
-				<itemmagicalcrops_LumiumSeeds id="magicalcrops:lumiumseeds" treeOrder="640"/>
-				<itemmagicalcrops_ManyullynSeeds id="magicalcrops:manyullynseeds" treeOrder="650"/>
-				<itemmagicalcrops_MinicioSeeds id="magicalcrops:minicioseeds" treeOrder="660"/>
-				<itemmagicalcrops_NatureSeeds id="magicalcrops:natureseeds" treeOrder="670"/>
-				<itemmagicalcrops_NetherSeeds id="magicalcrops:netherseeds" treeOrder="680"/>
-				<itemmagicalcrops_NickelSeeds id="magicalcrops:nickelseeds" treeOrder="690"/>
-				<itemmagicalcrops_ObsidianSeeds id="magicalcrops:obsidianseeds" treeOrder="700"/>
-				<itemmagicalcrops_OrdershardSeeds id="magicalcrops:ordershardseeds" treeOrder="720"/>
-				<itemmagicalcrops_PeridotSeeds id="magicalcrops:peridotseeds" treeOrder="730"/>
-				<itemmagicalcrops_PigSeeds id="magicalcrops:pigseeds" treeOrder="750"/>
-				<itemmagicalcrops_PlatinumSeeds id="magicalcrops:platinumseeds" treeOrder="760"/>
-				<itemmagicalcrops_PulsatingIronSeeds id="magicalcrops:pulsatingironseeds" treeOrder="780"/>
-				<itemmagicalcrops_QuartzSeeds id="magicalcrops:quartzseeds" treeOrder="790"/>
-				<itemmagicalcrops_QuicksilverSeeds id="magicalcrops:quicksilverseeds" treeOrder="810"/>
-				<itemmagicalcrops_RedstoneAlloySeeds id="magicalcrops:redstonealloyseeds" treeOrder="830"/>
-				<itemmagicalcrops_RedstoneSeeds id="magicalcrops:redstoneseeds" treeOrder="840"/>
-				<itemmagicalcrops_RubberSeeds id="magicalcrops:rubberseeds" treeOrder="860"/>
-				<itemmagicalcrops_RubySeeds id="magicalcrops:rubyseeds" treeOrder="870"/>
-				<itemmagicalcrops_SaltpeterSeeds id="magicalcrops:saltpeterseeds" treeOrder="900"/>
-				<itemmagicalcrops_SapphireSeeds id="magicalcrops:sapphireseeds" treeOrder="910"/>
-				<itemmagicalcrops_SheepSeeds id="magicalcrops:sheepseeds" treeOrder="960"/>
-				<itemmagicalcrops_SignalumSeeds id="magicalcrops:signalumseeds" treeOrder="970"/>
-				<itemmagicalcrops_SilverSeeds id="magicalcrops:silverseeds" treeOrder="980"/>
-				<itemmagicalcrops_SkeletonSeeds id="magicalcrops:skeletonseeds" treeOrder="1000"/>
-				<itemmagicalcrops_SlimeSeeds id="magicalcrops:slimeseeds" treeOrder="1010"/>
-				<itemmagicalcrops_SoulariumSeeds id="magicalcrops:soulariumseeds" treeOrder="1020"/>
-				<itemmagicalcrops_SpiderSeeds id="magicalcrops:spiderseeds" treeOrder="1030"/>
-				<itemmagicalcrops_SteelSeeds id="magicalcrops:steelseeds" treeOrder="1040"/>
-				<itemmagicalcrops_SulfurSeeds id="magicalcrops:sulfurseeds" treeOrder="1050"/>
-				<itemmagicalcrops_ThaumiumSeeds id="magicalcrops:thaumiumseeds" treeOrder="1090"/>
-				<itemmagicalcrops_TinSeeds id="magicalcrops:tinseeds" treeOrder="1290"/>
-				<itemmagicalcrops_VibrantAlloySeeds id="magicalcrops:vibrantalloyseeds" treeOrder="1310"/>
-				<itemmagicalcrops_WaterSeeds id="magicalcrops:waterseeds" treeOrder="1320"/>
-				<itemmagicalcrops_WatershardSeeds id="magicalcrops:watershardseeds" treeOrder="1330"/>
-				<itemmagicalcrops_WitherSeeds id="magicalcrops:witherseeds" treeOrder="1340"/>
-				<itemmagicalcrops_YelloriteSeeds id="magicalcrops:yelloriteseeds" treeOrder="1350"/>
+				<itemmagicalcrops_InvarSeeds id="magicalcrops:invarseeds" treeOrder="600"/>
+				<itemmagicalcrops_IronSeeds id="magicalcrops:ironseeds" treeOrder="610"/>
+				<itemmagicalcrops_LapisSeeds id="magicalcrops:lapisseeds" treeOrder="630"/>
+				<itemmagicalcrops_LeadSeeds id="magicalcrops:leadseeds" treeOrder="640"/>
+				<itemmagicalcrops_LumiumSeeds id="magicalcrops:lumiumseeds" treeOrder="650"/>
+				<itemmagicalcrops_ManyullynSeeds id="magicalcrops:manyullynseeds" treeOrder="660"/>
+				<itemmagicalcrops_MinicioSeeds id="magicalcrops:minicioseeds" treeOrder="670"/>
+				<itemmagicalcrops_NatureSeeds id="magicalcrops:natureseeds" treeOrder="680"/>
+				<itemmagicalcrops_NetherSeeds id="magicalcrops:netherseeds" treeOrder="690"/>
+				<itemmagicalcrops_NickelSeeds id="magicalcrops:nickelseeds" treeOrder="700"/>
+				<itemmagicalcrops_ObsidianSeeds id="magicalcrops:obsidianseeds" treeOrder="710"/>
+				<itemmagicalcrops_OrdershardSeeds id="magicalcrops:ordershardseeds" treeOrder="730"/>
+				<itemmagicalcrops_PeridotSeeds id="magicalcrops:peridotseeds" treeOrder="740"/>
+				<itemmagicalcrops_PigSeeds id="magicalcrops:pigseeds" treeOrder="760"/>
+				<itemmagicalcrops_PlatinumSeeds id="magicalcrops:platinumseeds" treeOrder="770"/>
+				<itemmagicalcrops_PulsatingIronSeeds id="magicalcrops:pulsatingironseeds" treeOrder="790"/>
+				<itemmagicalcrops_QuartzSeeds id="magicalcrops:quartzseeds" treeOrder="800"/>
+				<itemmagicalcrops_QuicksilverSeeds id="magicalcrops:quicksilverseeds" treeOrder="820"/>
+				<itemmagicalcrops_RedstoneAlloySeeds id="magicalcrops:redstonealloyseeds" treeOrder="840"/>
+				<itemmagicalcrops_RedstoneSeeds id="magicalcrops:redstoneseeds" treeOrder="850"/>
+				<itemmagicalcrops_RubberSeeds id="magicalcrops:rubberseeds" treeOrder="870"/>
+				<itemmagicalcrops_RubySeeds id="magicalcrops:rubyseeds" treeOrder="880"/>
+				<itemmagicalcrops_SaltpeterSeeds id="magicalcrops:saltpeterseeds" treeOrder="910"/>
+				<itemmagicalcrops_SapphireSeeds id="magicalcrops:sapphireseeds" treeOrder="920"/>
+				<itemmagicalcrops_SheepSeeds id="magicalcrops:sheepseeds" treeOrder="970"/>
+				<itemmagicalcrops_SignalumSeeds id="magicalcrops:signalumseeds" treeOrder="980"/>
+				<itemmagicalcrops_SilverSeeds id="magicalcrops:silverseeds" treeOrder="990"/>
+				<itemmagicalcrops_SkeletonSeeds id="magicalcrops:skeletonseeds" treeOrder="1010"/>
+				<itemmagicalcrops_SlimeSeeds id="magicalcrops:slimeseeds" treeOrder="1020"/>
+				<itemmagicalcrops_SoulariumSeeds id="magicalcrops:soulariumseeds" treeOrder="1030"/>
+				<itemmagicalcrops_SpiderSeeds id="magicalcrops:spiderseeds" treeOrder="1040"/>
+				<itemmagicalcrops_SteelSeeds id="magicalcrops:steelseeds" treeOrder="1050"/>
+				<itemmagicalcrops_SulfurSeeds id="magicalcrops:sulfurseeds" treeOrder="1060"/>
+				<itemmagicalcrops_ThaumiumSeeds id="magicalcrops:thaumiumseeds" treeOrder="1100"/>
+				<itemmagicalcrops_TinSeeds id="magicalcrops:tinseeds" treeOrder="1300"/>
+				<itemmagicalcrops_VibrantAlloySeeds id="magicalcrops:vibrantalloyseeds" treeOrder="1320"/>
+				<itemmagicalcrops_WaterSeeds id="magicalcrops:waterseeds" treeOrder="1330"/>
+				<itemmagicalcrops_WatershardSeeds id="magicalcrops:watershardseeds" treeOrder="1340"/>
+				<itemmagicalcrops_WitherSeeds id="magicalcrops:witherseeds" treeOrder="1350"/>
+				<itemmagicalcrops_YelloriteSeeds id="magicalcrops:yelloriteseeds" treeOrder="1360"/>
 			</seed>
 			<seedlings treeOrder="70">
 				<magicalCrops treeOrder="620">
@@ -239,8 +239,8 @@
 				<itemGrowthPulser id="magicalcrops:cropbooster" treeOrder="70"/>
 			</irrigation>
 		</plant>
-		<magical treeOrder="280">
-			<magicalCrops treeOrder="50">
+		<magical treeOrder="310">
+			<magicalCrops treeOrder="60">
 				<infusionStones treeOrder="10">
 					<itemMasterInfusionStone id="magicalcrops:infusionstonemaster" treeOrder="10"/>
 					<itemExtremeInfusionStone id="magicalcrops:infusionstoneextreme" treeOrder="30"/>

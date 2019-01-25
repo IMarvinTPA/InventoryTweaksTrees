@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+|=================================================================|
+| INVENTORY TWEAKS Mod - https://inventory-tweaks.readthedocs.org |
+| Tree configuration                                              |
+|=================================================================|
+
+# Q: WHAT IS THIS?
+# A: This file is used to store all the keywords you can use to create item rules, but also to define the items order.
+# You can move/change all that you want, but it's recommended not to delete any default item.
+
+# Q: MY CUSTOM FILE WAS REPLACED =(
+# A: Since a new major version of Minecraft appeared, I silently updated the tree... BUT!
+# I kept a backup of your version in the same directory. Sorry for the trouble, feel free to import your changes in the new file.
+
+# Q: THE FILE IS BROKEN AND I DON'T KNOW WHAT TO DO =(
+# A: Just delete this file, the default tree will be reloaded next time you sort something!
+
+# This is the modded minecraft tree.  There may be a newer version available at
+# https://github.com/IMarvinTPA/inventory-tweaks/tree/develop/src/main/resources/assets/inventorytweaks
+# Help on maintaining and expanding the tree is welcomed, please contact IMarvinTPA.
+
+# CREDITS
+# Thanks to Larandar & Lunaqua for their contributions.
+# IMarvinTPA for the modded tree.
+-->
+<!-- Note: 'stuff' matches everything, even items that don't appear here -->
+<stuff treeVersion="1.12.2">
+	<block treeOrder="20">
+		<mechanism treeOrder="60">
+			<generators treeOrder="370">
+				<fuelGenerators treeOrder="20">
+					<itemHeatGenerator id="mekanismgenerators:generator" damage="0" treeOrder="230"/>
+				</fuelGenerators>
+				<weirdGenerators treeOrder="80">
+					<itemBio-Generator id="mekanismgenerators:generator" damage="4" treeOrder="190"/>
+					<itemGas-BurningGenerator id="mekanismgenerators:generator" damage="3" treeOrder="200"/>
+					<itemWindGenerator id="mekanismgenerators:generator" damage="6" treeOrder="210"/>
+				</weirdGenerators>
+				<solarGenerators treeOrder="110">
+					<itemSolarGenerator id="mekanismgenerators:generator" damage="1" treeOrder="80"/>
+					<itemAdvancedSolarGenerator id="mekanismgenerators:generator" damage="5" treeOrder="90"/>
+				</solarGenerators>
+				<nuclearGenerators treeOrder="120">
+					<itemReactorController id="mekanismgenerators:reactor" damage="0" treeOrder="280"/>
+					<itemReactorFrame id="mekanismgenerators:reactor" damage="1" treeOrder="290"/>
+					<itemReactorGlass id="mekanismgenerators:reactorglass" damage="0" treeOrder="300"/>
+					<itemReactorLogicAdapter id="mekanismgenerators:reactor" damage="3" treeOrder="310"/>
+					<itemReactorPort id="mekanismgenerators:reactor" damage="2" treeOrder="320"/>
+					<itemLaserFocusMatrix id="mekanismgenerators:reactorglass" damage="1" treeOrder="330"/>
+				</nuclearGenerators>
+				<turbineGenerators treeOrder="130">
+					<itemTurbineBlade id="mekanismgenerators:turbineblade" damage="0" treeOrder="230"/>
+					<itemTurbineCasing id="mekanismgenerators:generator" damage="10" treeOrder="240"/>
+					<itemTurbineRotor id="mekanismgenerators:generator" damage="7" treeOrder="250"/>
+					<itemTurbineValve id="mekanismgenerators:generator" damage="11" treeOrder="260"/>
+					<itemTurbineVent id="mekanismgenerators:generator" damage="12" treeOrder="270"/>
+					<itemElectromagneticCoil id="mekanismgenerators:generator" damage="9" treeOrder="280"/>
+					<itemRotationalComplex id="mekanismgenerators:generator" damage="8" treeOrder="290"/>
+					<itemSaturatingCondenser id="mekanismgenerators:generator" damage="13" treeOrder="300"/>
+				</turbineGenerators>
+			</generators>
+		</mechanism>
+	</block>
+	<item treeOrder="40">
+		<parts treeOrder="120">
+			<mechanicalParts treeOrder="10">
+				<otherParts treeOrder="100">
+					<itemHohlraum id="mekanismgenerators:hohlraum" treeOrder="350"/>
+					<itemSolarPanel id="mekanismgenerators:solarpanel" treeOrder="360"/>
+				</otherParts>
+			</mechanicalParts>
+		</parts>
+	</item>
+</stuff>

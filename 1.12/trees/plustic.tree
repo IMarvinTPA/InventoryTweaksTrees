@@ -37,7 +37,7 @@
 			</meleeWeapon>
 			<munition treeOrder="20">
 				<gun treeOrder="20">
-					<itemLaserGun id="plustic:laser_gun" treeOrder="30"/>
+					<itemLaserGun id="plustic:laser_gun" treeOrder="40"/>
 				</gun>
 			</munition>
 		</weapon>
@@ -61,7 +61,7 @@
 		</naturalBlock>
 	</block>
 	<item treeOrder="40">
-		<parts treeOrder="110">
+		<parts treeOrder="120">
 			<tinkerParts treeOrder="20">
 				<itemPipePiece id="plustic:pipe_piece" treeOrder="790"/>
 				<itemLaserMedium id="plustic:laser_medium" treeOrder="800"/>

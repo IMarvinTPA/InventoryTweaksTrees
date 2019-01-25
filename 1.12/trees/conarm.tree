@@ -30,7 +30,7 @@
 		<armor treeOrder="30">
 			<boots class="ItemArmor" data="{ArmorType:&quot;feet&quot;}" treeOrder="50">
 				<bootsUnsorted treeOrder="70">
-					<itemBoots id="conarm:boots" treeOrder="70"/>
+					<itemBoots id="conarm:boots" treeOrder="80"/>
 				</bootsUnsorted>
 			</boots>
 		</armor>
@@ -38,7 +38,7 @@
 	<item treeOrder="40">
 		<utility treeOrder="10">
 			<readableBooks treeOrder="90">
-				<itemMaterialsandYou-ArmoryAddendum id="conarm:book" treeOrder="520"/>
+				<itemMaterialsandYou-ArmoryAddendum id="conarm:book" treeOrder="540"/>
 			</readableBooks>
 		</utility>
 	</item>

@@ -28,7 +28,7 @@
 <stuff treeVersion="1.12.2">
 	<equipment treeOrder="10">
 		<tool treeOrder="20">
-			<instrument treeOrder="310">
+			<instrument treeOrder="340">
 				<Analyzers treeOrder="30">
 					<itemChickenAnalyzer id="chickens:analyzer" treeOrder="20"/>
 				</Analyzers>
@@ -53,11 +53,11 @@
 	</block>
 	<item treeOrder="40">
 		<utility treeOrder="10">
-			<spawnerEggs treeOrder="200">
+			<spawnerEggs treeOrder="210">
 				<itemSmartChicken id="chickens:spawn_egg" treeOrder="850"/>
 			</spawnerEggs>
 		</utility>
-		<food treeOrder="150">
+		<food treeOrder="160">
 			<edibleFood treeOrder="10">
 				<rawFood treeOrder="130">
 					<rawEgg mergeChildren="true" treeOrder="10">

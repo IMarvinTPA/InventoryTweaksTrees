@@ -54,16 +54,16 @@
 			</miningTool>
 			<diggingTool treeOrder="30">
 				<shovel class="Item" data="{ToolClass : &quot;shovel&quot;}" mergeChildren="true" treeOrder="20">
-					<itemPeridotShovel id="projred|exploration:projectred.exploration.shovelperidot" treeOrder="450"/>
-					<itemRubyShovel id="projred|exploration:projectred.exploration.shovelruby" treeOrder="520"/>
-					<itemSapphireShovel id="projred|exploration:projectred.exploration.shovelsapphire" treeOrder="540"/>
+					<itemPeridotShovel id="projred|exploration:projectred.exploration.shovelperidot" treeOrder="470"/>
+					<itemRubyShovel id="projred|exploration:projectred.exploration.shovelruby" treeOrder="540"/>
+					<itemSapphireShovel id="projred|exploration:projectred.exploration.shovelsapphire" treeOrder="560"/>
 				</shovel>
 			</diggingTool>
 			<choppingTool treeOrder="40">
 				<axe class="Item" data="{ToolClass : &quot;axe&quot;}" mergeChildren="true" treeOrder="20">
-					<itemPeridotAxe id="projred|exploration:projectred.exploration.axeperidot" treeOrder="510"/>
-					<itemRubyAxe id="projred|exploration:projectred.exploration.axeruby" treeOrder="590"/>
-					<itemSapphireAxe id="projred|exploration:projectred.exploration.axesapphire" treeOrder="610"/>
+					<itemPeridotAxe id="projred|exploration:projectred.exploration.axeperidot" treeOrder="530"/>
+					<itemRubyAxe id="projred|exploration:projectred.exploration.axeruby" treeOrder="610"/>
+					<itemSapphireAxe id="projred|exploration:projectred.exploration.axesapphire" treeOrder="630"/>
 				</axe>
 			</choppingTool>
 			<farmingTool treeOrder="50">
@@ -78,9 +78,9 @@
 					<itemWoodenSickle id="projred|exploration:projectred.exploration.sicklewood" treeOrder="220"/>
 				</sickle>
 				<hoe class="Item" data="{ToolClass : &quot;hoe&quot;}" mergeChildren="true" treeOrder="50">
-					<itemPeridotHoe id="projred|exploration:projectred.exploration.hoeperidot" treeOrder="440"/>
-					<itemRubyHoe id="projred|exploration:projectred.exploration.hoeruby" treeOrder="520"/>
-					<itemSapphireHoe id="projred|exploration:projectred.exploration.hoesapphire" treeOrder="540"/>
+					<itemPeridotHoe id="projred|exploration:projectred.exploration.hoeperidot" treeOrder="450"/>
+					<itemRubyHoe id="projred|exploration:projectred.exploration.hoeruby" treeOrder="530"/>
+					<itemSapphireHoe id="projred|exploration:projectred.exploration.hoesapphire" treeOrder="550"/>
 				</hoe>
 			</farmingTool>
 			<saws class="Item" data="{ToolClass : &quot;saw&quot;}" treeOrder="90">
@@ -137,7 +137,7 @@
 					<itemProjRed_Exploration_projectred_exploration_barrel id="projred|exploration:projectred.exploration.barrel" treeOrder="20"/>
 				</barrels>
 				<portableStorage treeOrder="90">
-					<itemPRBackpack id="projred|exploration:projectred.exploration.backpack" treeOrder="250"/>
+					<itemPRBackpack id="projred|exploration:projectred.exploration.backpack" treeOrder="280"/>
 				</portableStorage>
 			</storage>
 		</utility>

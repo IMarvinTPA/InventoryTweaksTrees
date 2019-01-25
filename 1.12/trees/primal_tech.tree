@@ -37,26 +37,26 @@
 			</miningTool>
 			<diggingTool treeOrder="30">
 				<shovel class="Item" data="{ToolClass : &quot;shovel&quot;}" mergeChildren="true" treeOrder="20">
-					<itemBoneShovel id="primal_tech:bone_shovel" treeOrder="1140"/>
+					<itemBoneShovel id="primal_tech:bone_shovel" treeOrder="1160"/>
 				</shovel>
 			</diggingTool>
 			<choppingTool treeOrder="40">
 				<axe class="Item" data="{ToolClass : &quot;axe&quot;}" mergeChildren="true" treeOrder="20">
-					<itemBoneAxe id="primal_tech:bone_axe" treeOrder="1080"/>
+					<itemBoneAxe id="primal_tech:bone_axe" treeOrder="1100"/>
 				</axe>
 			</choppingTool>
 			<saws class="Item" data="{ToolClass : &quot;saw&quot;}" treeOrder="90">
 				<itemFlintSawBlade id="primal_tech:flint_edged_disc" treeOrder="210"/>
 			</saws>
-			<itemCraftingRock id="primal_tech:rock" treeOrder="330"/>
+			<itemCraftingRock id="primal_tech:rock" treeOrder="360"/>
 		</tool>
 	</equipment>
 	<block treeOrder="20">
 		<mechanism treeOrder="60">
 			<basicCrafting treeOrder="360">
 				<craftingTables treeOrder="10">
-					<itemWorkStump id="primal_tech:work_stump" treeOrder="200"/>
-					<itemWorkStumpMk2 id="primal_tech:work_stump_upgraded" treeOrder="210"/>
+					<itemWorkStump id="primal_tech:work_stump" treeOrder="230"/>
+					<itemWorkStumpMk2 id="primal_tech:work_stump_upgraded" treeOrder="240"/>
 				</craftingTables>
 			</basicCrafting>
 		</mechanism>

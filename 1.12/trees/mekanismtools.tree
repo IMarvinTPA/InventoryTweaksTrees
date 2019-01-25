@@ -55,17 +55,17 @@
 					<diggingTool treeOrder="10">
 						<choppingTool treeOrder="10">
 							<farmingTool treeOrder="10">
-								<itemBronzePaxel id="mekanismtools:bronzepaxel" treeOrder="70"/>
-								<itemDiamondPaxel id="mekanismtools:diamondpaxel" treeOrder="100"/>
-								<itemGlowstonePaxel id="mekanismtools:glowstonepaxel" treeOrder="140"/>
-								<itemGoldPaxel id="mekanismtools:goldpaxel" treeOrder="150"/>
-								<itemIronPaxel id="mekanismtools:ironpaxel" treeOrder="180"/>
-								<itemLapisLazuliPaxel id="mekanismtools:lapislazulipaxel" treeOrder="190"/>
-								<itemObsidianPaxel id="mekanismtools:obsidianpaxel" treeOrder="210"/>
-								<itemOsmiumPaxel id="mekanismtools:osmiumpaxel" treeOrder="220"/>
-								<itemSteelPaxel id="mekanismtools:steelpaxel" treeOrder="250"/>
-								<itemStonePaxel id="mekanismtools:stonepaxel" treeOrder="270"/>
-								<itemWoodPaxel id="mekanismtools:woodpaxel" treeOrder="290"/>
+								<itemBronzePaxel id="mekanismtools:bronzepaxel" treeOrder="110"/>
+								<itemDiamondPaxel id="mekanismtools:diamondpaxel" treeOrder="140"/>
+								<itemGlowstonePaxel id="mekanismtools:glowstonepaxel" treeOrder="180"/>
+								<itemGoldPaxel id="mekanismtools:goldpaxel" treeOrder="190"/>
+								<itemIronPaxel id="mekanismtools:ironpaxel" treeOrder="220"/>
+								<itemLapisLazuliPaxel id="mekanismtools:lapislazulipaxel" treeOrder="230"/>
+								<itemObsidianPaxel id="mekanismtools:obsidianpaxel" treeOrder="250"/>
+								<itemOsmiumPaxel id="mekanismtools:osmiumpaxel" treeOrder="260"/>
+								<itemSteelPaxel id="mekanismtools:steelpaxel" treeOrder="290"/>
+								<itemStonePaxel id="mekanismtools:stonepaxel" treeOrder="310"/>
+								<itemWoodPaxel id="mekanismtools:woodpaxel" treeOrder="330"/>
 							</farmingTool>
 						</choppingTool>
 					</diggingTool>
@@ -86,32 +86,32 @@
 			</miningTool>
 			<diggingTool treeOrder="30">
 				<shovel class="Item" data="{ToolClass : &quot;shovel&quot;}" mergeChildren="true" treeOrder="20">
-					<itemBronzeShovel id="mekanismtools:bronzeshovel" treeOrder="80"/>
-					<itemGlowstoneShovel id="mekanismtools:glowstoneshovel" treeOrder="320"/>
-					<itemitem.LapisLazuliShovel.name id="mekanismtools:lapislazulishovel" treeOrder="350"/>
-					<itemObsidianShovel id="mekanismtools:obsidianshovel" treeOrder="410"/>
-					<itemOsmiumShovel id="mekanismtools:osmiumshovel" treeOrder="420"/>
-					<itemSteelShovel id="mekanismtools:steelshovel" treeOrder="640"/>
+					<itemBronzeShovel id="mekanismtools:bronzeshovel" treeOrder="100"/>
+					<itemGlowstoneShovel id="mekanismtools:glowstoneshovel" treeOrder="340"/>
+					<itemitem.LapisLazuliShovel.name id="mekanismtools:lapislazulishovel" treeOrder="370"/>
+					<itemObsidianShovel id="mekanismtools:obsidianshovel" treeOrder="430"/>
+					<itemOsmiumShovel id="mekanismtools:osmiumshovel" treeOrder="440"/>
+					<itemSteelShovel id="mekanismtools:steelshovel" treeOrder="660"/>
 				</shovel>
 			</diggingTool>
 			<choppingTool treeOrder="40">
 				<axe class="Item" data="{ToolClass : &quot;axe&quot;}" mergeChildren="true" treeOrder="20">
-					<itemBronzeAxe id="mekanismtools:bronzeaxe" treeOrder="150"/>
-					<itemGlowstoneAxe id="mekanismtools:glowstoneaxe" treeOrder="370"/>
-					<itemLapisLazuliAxe id="mekanismtools:lapislazuliaxe" treeOrder="410"/>
-					<itemObsidianAxe id="mekanismtools:obsidianaxe" treeOrder="470"/>
-					<itemOsmiumAxe id="mekanismtools:osmiumaxe" treeOrder="480"/>
-					<itemSteelAxe id="mekanismtools:steelaxe" treeOrder="640"/>
+					<itemBronzeAxe id="mekanismtools:bronzeaxe" treeOrder="170"/>
+					<itemGlowstoneAxe id="mekanismtools:glowstoneaxe" treeOrder="390"/>
+					<itemLapisLazuliAxe id="mekanismtools:lapislazuliaxe" treeOrder="430"/>
+					<itemObsidianAxe id="mekanismtools:obsidianaxe" treeOrder="490"/>
+					<itemOsmiumAxe id="mekanismtools:osmiumaxe" treeOrder="500"/>
+					<itemSteelAxe id="mekanismtools:steelaxe" treeOrder="660"/>
 				</axe>
 			</choppingTool>
 			<farmingTool treeOrder="50">
 				<hoe class="Item" data="{ToolClass : &quot;hoe&quot;}" mergeChildren="true" treeOrder="50">
-					<itemBronzeHoe id="mekanismtools:bronzehoe" treeOrder="80"/>
-					<itemGlowstoneHoe id="mekanismtools:glowstonehoe" treeOrder="260"/>
-					<itemLapisLazuliHoe id="mekanismtools:lapislazulihoe" treeOrder="340"/>
-					<itemObsidianHoe id="mekanismtools:obsidianhoe" treeOrder="400"/>
-					<itemOsmiumHoe id="mekanismtools:osmiumhoe" treeOrder="410"/>
-					<itemSteelHoe id="mekanismtools:steelhoe" treeOrder="570"/>
+					<itemBronzeHoe id="mekanismtools:bronzehoe" treeOrder="90"/>
+					<itemGlowstoneHoe id="mekanismtools:glowstonehoe" treeOrder="270"/>
+					<itemLapisLazuliHoe id="mekanismtools:lapislazulihoe" treeOrder="350"/>
+					<itemObsidianHoe id="mekanismtools:obsidianhoe" treeOrder="410"/>
+					<itemOsmiumHoe id="mekanismtools:osmiumhoe" treeOrder="420"/>
+					<itemSteelHoe id="mekanismtools:steelhoe" treeOrder="580"/>
 				</hoe>
 			</farmingTool>
 		</tool>

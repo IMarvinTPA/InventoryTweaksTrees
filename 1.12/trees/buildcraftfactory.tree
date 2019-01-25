@@ -40,14 +40,14 @@
 			</basicCrafting>
 			<machines treeOrder="380">
 				<poweredMining treeOrder="130">
-					<itemMiningWell id="buildcraftfactory:mining_well" treeOrder="100"/>
+					<itemMiningWell id="buildcraftfactory:mining_well" treeOrder="110"/>
 				</poweredMining>
 				<poweredFluids treeOrder="140">
 					<itemPump id="buildcraftfactory:pump" treeOrder="170"/>
-					<itemDistiller id="buildcraftfactory:distiller" treeOrder="180"/>
-					<itemHeatExchanger id="buildcraftfactory:heat_exchange" treeOrder="190"/>
+					<itemDistiller id="buildcraftfactory:distiller" treeOrder="200"/>
+					<itemHeatExchanger id="buildcraftfactory:heat_exchange" treeOrder="210"/>
 				</poweredFluids>
-				<poweredDroppers treeOrder="150">
+				<poweredDroppers treeOrder="160">
 					<itemFloodGate id="buildcraftfactory:flood_gate" treeOrder="70"/>
 				</poweredDroppers>
 			</machines>
@@ -62,9 +62,9 @@
 				<itemTank id="buildcraftfactory:tank" treeOrder="90"/>
 			</fluidTanks>
 		</fluidStorage>
-		<food treeOrder="150">
+		<food treeOrder="160">
 			<unedibleFood treeOrder="50">
-				<itemGelledWater id="buildcraftfactory:gel" treeOrder="150"/>
+				<itemGelledWater id="buildcraftfactory:gel" treeOrder="260"/>
 			</unedibleFood>
 		</food>
 	</item>

@@ -56,10 +56,10 @@
 	<item treeOrder="40">
 		<fluidPortableStorage treeOrder="20">
 			<bucket treeOrder="10">
-				<itemExtraTiC_extra.bucket id="extratic:extra.bucket" treeOrder="270"/>
+				<itemExtraTiC_extra.bucket id="extratic:extra.bucket" treeOrder="280"/>
 			</bucket>
 		</fluidPortableStorage>
-		<parts treeOrder="110">
+		<parts treeOrder="120">
 			<tinkerParts treeOrder="20">
 				<itemTICHammerHead id="extratic:hammerhead" treeOrder="20"/>
 				<itemTICBroadAxeHead id="extratic:lumberaxehead" treeOrder="40"/>

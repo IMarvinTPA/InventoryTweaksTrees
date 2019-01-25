@@ -27,13 +27,13 @@
 <!-- Note: 'stuff' matches everything, even items that don't appear here -->
 <stuff treeVersion="1.12.2">
 	<item treeOrder="40">
-		<parts treeOrder="110">
+		<parts treeOrder="120">
 			<tinkerParts treeOrder="20">
 				<tinkerUpgrades treeOrder="820">
-					<itemBonusToolModifier id="tinkersaddons:modifier_item" damage="1" treeOrder="110"/>
-					<itemBonusToolModifier id="tinkersaddons:modifier_item" damage="2" treeOrder="120"/>
-					<itemBonusToolModifier id="tinkersaddons:modifier_item" damage="3" treeOrder="130"/>
-					<itemAmeliorationKit id="tinkersaddons:modifier_item" damage="0" treeOrder="150"/>
+					<itemBonusToolModifier id="tinkersaddons:modifier_item" damage="1" treeOrder="100"/>
+					<itemBonusToolModifier id="tinkersaddons:modifier_item" damage="2" treeOrder="110"/>
+					<itemBonusToolModifier id="tinkersaddons:modifier_item" damage="3" treeOrder="120"/>
+					<itemAmeliorationKit id="tinkersaddons:modifier_item" damage="0" treeOrder="140"/>
 				</tinkerUpgrades>
 			</tinkerParts>
 		</parts>

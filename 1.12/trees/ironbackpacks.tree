@@ -37,7 +37,7 @@
 					<itemLatchUpgrade id="ironbackpacks:upgrade" damage="0" treeOrder="580"/>
 				</storageupgrades>
 				<portableStorage treeOrder="90">
-					<itemBasicBackpack id="ironbackpacks:backpack" treeOrder="80"/>
+					<itemBasicBackpack id="ironbackpacks:backpack" treeOrder="90"/>
 				</portableStorage>
 			</storage>
 		</utility>

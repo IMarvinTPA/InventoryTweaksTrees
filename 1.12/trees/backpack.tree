@@ -28,7 +28,7 @@
 <stuff treeVersion="1.12.2">
 	<resources treeOrder="30">
 		<huntingResources treeOrder="20">
-			<leather id="leather" treeOrder="20">
+			<leather id="leather" treeOrder="40">
 				<itemBoundLeather id="backpack:boundleather" treeOrder="10"/>
 				<itemTannedLeather id="backpack:tannedleather" treeOrder="20"/>
 			</leather>
@@ -38,8 +38,8 @@
 		<utility treeOrder="10">
 			<storage treeOrder="30">
 				<portableStorage treeOrder="90">
-					<itemBackpack id="backpack:backpack" treeOrder="60"/>
-					<itemWorkbenchBackpack id="backpack:workbenchbackpack" treeOrder="240"/>
+					<itemBackpack id="backpack:backpack" treeOrder="70"/>
+					<itemWorkbenchBackpack id="backpack:workbenchbackpack" treeOrder="270"/>
 				</portableStorage>
 			</storage>
 		</utility>

@@ -29,13 +29,13 @@
 	<equipment treeOrder="10">
 		<weapon treeOrder="10">
 			<munition treeOrder="20">
-				<thrownMunitions treeOrder="70">
+				<thrownMunitions treeOrder="80">
 					<itemDemonicLightningCharge id="demonmobs:demoniclightningcharge" treeOrder="80"/>
 					<itemDevilstarCharge id="demonmobs:devilstarcharge" treeOrder="90"/>
 					<itemDoomfireCharge id="demonmobs:doomfirecharge" treeOrder="100"/>
 					<itemHellfireCharge id="demonmobs:hellfirecharge" treeOrder="110"/>
 				</thrownMunitions>
-				<scepters treeOrder="120">
+				<scepters treeOrder="130">
 					<itemDemonicLightningScepter id="demonmobs:demoniclightningscepter" treeOrder="60"/>
 					<itemDevilstarScepter id="demonmobs:devilstarscepter" treeOrder="70"/>
 					<itemDoomfireScepter id="demonmobs:doomfirescepter" treeOrder="80"/>
@@ -46,7 +46,7 @@
 	</equipment>
 	<item treeOrder="40">
 		<utility treeOrder="10">
-			<spawnerEggs treeOrder="200">
+			<spawnerEggs treeOrder="210">
 				<itemSpawnAstaroth id="demonmobs:demonegg" damage="4" treeOrder="90"/>
 				<itemSpawnBehemoth id="demonmobs:demonegg" damage="1" treeOrder="100"/>
 				<itemSpawnBelph id="demonmobs:demonegg" damage="0" treeOrder="110"/>
@@ -57,7 +57,7 @@
 				<itemSpawnTrite id="demonmobs:demonegg" damage="3" treeOrder="160"/>
 			</spawnerEggs>
 		</utility>
-		<food treeOrder="150">
+		<food treeOrder="160">
 			<edibleFood treeOrder="10">
 				<cookedFood treeOrder="50">
 					<itemdemonmobs_pinkymeatcooked id="demonmobs:pinkymeatcooked" treeOrder="270"/>

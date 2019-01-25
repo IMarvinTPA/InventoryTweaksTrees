@@ -28,7 +28,7 @@
 <stuff treeVersion="1.12.2">
 	<item treeOrder="40">
 		<utility treeOrder="10">
-			<spawnerEggs treeOrder="200">
+			<spawnerEggs treeOrder="210">
 				<itemSpawnKobold id="plainsmobs:plainsegg" damage="0" treeOrder="580"/>
 				<itemSpawnMaka id="plainsmobs:plainsegg" damage="2" treeOrder="590"/>
 				<itemSpawnMakaAlpha id="plainsmobs:plainsegg" damage="3" treeOrder="600"/>
@@ -37,7 +37,7 @@
 				<itemSpawnZoataur id="plainsmobs:plainsegg" damage="4" treeOrder="630"/>
 			</spawnerEggs>
 		</utility>
-		<food treeOrder="150">
+		<food treeOrder="160">
 			<edibleFood treeOrder="10">
 				<preparedFood treeOrder="30">
 					<sandwich treeOrder="190">

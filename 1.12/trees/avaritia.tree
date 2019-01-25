@@ -38,6 +38,119 @@
 					</sword>
 				</sword>
 			</meleeWeapon>
+			<munition treeOrder="20">
+				<bow mergeChildren="true" treeOrder="30">
+					<itemLongbowoftheHeavens id="avaritia:infinity_bow" treeOrder="320"/>
+				</bow>
+			</munition>
 		</weapon>
+		<tool treeOrder="20">
+			<farmingTool treeOrder="50">
+				<hoe class="Item" data="{ToolClass : &quot;hoe&quot;}" mergeChildren="true" treeOrder="50">
+					<itemHoeoftheGreenEarth id="avaritia:infinity_hoe" treeOrder="10"/>
+				</hoe>
+			</farmingTool>
+		</tool>
+		<armor treeOrder="30">
+			<helmet class="ItemArmor" data="{ArmorType : &quot;head&quot;}" treeOrder="20">
+				<helmetUnsorted treeOrder="60">
+					<itemInfinityHelmet id="avaritia:infinity_helmet" treeOrder="10"/>
+				</helmetUnsorted>
+			</helmet>
+			<chestplate class="ItemArmor" data="{ArmorType:&quot;chest&quot;}" treeOrder="30">
+				<chestplateArmor treeOrder="20">
+					<chestplateUnsorted treeOrder="120">
+						<itemInfinityBreastplate id="avaritia:infinity_chestplate" treeOrder="10"/>
+					</chestplateUnsorted>
+				</chestplateArmor>
+			</chestplate>
+			<leggings class="ItemArmor" data="{ArmorType:&quot;legs&quot;}" treeOrder="40">
+				<leggingsUnsorted treeOrder="100">
+					<itemInfinityLeggings id="avaritia:infinity_pants" treeOrder="10"/>
+				</leggingsUnsorted>
+			</leggings>
+			<boots class="ItemArmor" data="{ArmorType:&quot;feet&quot;}" treeOrder="50">
+				<bootsUnsorted treeOrder="70">
+					<itemInfinityBoots id="avaritia:infinity_boots" treeOrder="10"/>
+				</bootsUnsorted>
+			</boots>
+		</armor>
 	</equipment>
+	<block treeOrder="20">
+		<mechanism treeOrder="60">
+			<basicCrafting treeOrder="360">
+				<craftingTables treeOrder="10">
+					<itemCompressedCraftingTable id="avaritia:compressed_crafting_table" treeOrder="130"/>
+					<itemDoubleCompressedCraftingTable id="avaritia:double_compressed_crafting_table" treeOrder="140"/>
+					<itemExtremeCraftingTable id="avaritia:extreme_crafting_table" treeOrder="150"/>
+				</craftingTables>
+			</basicCrafting>
+			<machines treeOrder="380">
+				<randomMachines treeOrder="210">
+					<itemNeutronCollector id="avaritia:neutron_collector" treeOrder="370"/>
+					<itemNeutroniumCompressor id="avaritia:neutronium_compressor" treeOrder="380"/>
+				</randomMachines>
+			</machines>
+		</mechanism>
+	</block>
+	<resources treeOrder="30">
+		<miningResources treeOrder="10">
+			<tinyDust treeOrder="20">
+				<itemPileofNeutrons id="avaritia:resource" damage="2" treeOrder="420"/>
+			</tinyDust>
+			<ultraCompressedIngots treeOrder="110">
+				<itemCopperSingularity id="avaritia:singularity" damage="5" treeOrder="10"/>
+				<itemDiamondSingularity id="avaritia:singularity" damage="10" treeOrder="20"/>
+				<itemEmeraldSingularity id="avaritia:singularity" damage="11" treeOrder="30"/>
+				<itemFluxedSingularity id="avaritia:singularity" damage="12" treeOrder="40"/>
+				<itemGoldenSingularity id="avaritia:singularity" damage="1" treeOrder="50"/>
+				<itemIridiumSingularity id="avaritia:singularity" damage="14" treeOrder="60"/>
+				<itemIronSingularity id="avaritia:singularity" damage="0" treeOrder="70"/>
+				<itemLapisSingularity id="avaritia:singularity" damage="2" treeOrder="80"/>
+				<itemLeadSingularity id="avaritia:singularity" damage="7" treeOrder="90"/>
+				<itemNetherQuartzSingularity id="avaritia:singularity" damage="4" treeOrder="100"/>
+				<itemNickelSingularity id="avaritia:singularity" damage="9" treeOrder="110"/>
+				<itemPlatinumSingularity id="avaritia:singularity" damage="13" treeOrder="120"/>
+				<itemRedstoneSingularity id="avaritia:singularity" damage="3" treeOrder="130"/>
+				<itemSilverSingularity id="avaritia:singularity" damage="8" treeOrder="140"/>
+				<itemTinSingularity id="avaritia:singularity" damage="6" treeOrder="150"/>
+			</ultraCompressedIngots>
+			<ingot treeOrder="130">
+				<itemMatterCluster id="avaritia:matter_cluster" treeOrder="1410"/>
+			</ingot>
+			<nugget treeOrder="140">
+				<itemNeutroniumNugget id="avaritia:resource" damage="3" treeOrder="860"/>
+			</nugget>
+		</miningResources>
+		<huntingResources treeOrder="20">
+			<itemEndestPearl id="avaritia:endest_pearl" treeOrder="230"/>
+		</huntingResources>
+	</resources>
+	<item treeOrder="40">
+		<parts treeOrder="120">
+			<mechanicalParts treeOrder="10">
+				<otherParts treeOrder="100">
+					<itemDiamondLattice id="avaritia:resource" damage="0" treeOrder="310"/>
+					<itemInfinityCatalyst id="avaritia:resource" damage="5" treeOrder="320"/>
+				</otherParts>
+			</mechanicalParts>
+		</parts>
+		<decoration treeOrder="130">
+			<musicDisc treeOrder="420">
+				<itemRecordFragment id="avaritia:resource" damage="7" treeOrder="170"/>
+			</musicDisc>
+		</decoration>
+		<food treeOrder="160">
+			<edibleFood treeOrder="10">
+				<preparedFood treeOrder="30">
+					<soup treeOrder="150">
+						<itemUltimateStew id="avaritia:ultimate_stew" treeOrder="10"/>
+					</soup>
+				</preparedFood>
+			</edibleFood>
+			<todoFoods treeOrder="20">
+				<itemCosmicMeatballs id="avaritia:cosmic_meatballs" treeOrder="2340"/>
+			</todoFoods>
+		</food>
+	</item>
 </stuff>

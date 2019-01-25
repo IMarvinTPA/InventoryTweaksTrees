@@ -55,22 +55,22 @@
 					</otherStairs>
 				</stairs>
 				<slabs treeOrder="110">
-					<slabAlabaster treeOrder="270">
+					<slabAlabaster treeOrder="310">
 						<itemAlabasterSlab id="environmentaltech:alabaster_slab" treeOrder="10"/>
 						<itemAlabasterBrickSlab id="environmentaltech:alabaster_brick_slab" treeOrder="20"/>
 						<itemAlabasterPaverSlab id="environmentaltech:alabaster_paver_slab" treeOrder="30"/>
 					</slabAlabaster>
-					<slabBasalt treeOrder="280">
+					<slabBasalt treeOrder="320">
 						<itemBasaltSlab id="environmentaltech:basalt_slab" treeOrder="10"/>
 						<itemBasaltBrickSlab id="environmentaltech:basalt_brick_slab" treeOrder="20"/>
 						<itemBasaltPaverSlab id="environmentaltech:basalt_paver_slab" treeOrder="30"/>
 					</slabBasalt>
-					<slabHardenedStone treeOrder="290">
+					<slabHardenedStone treeOrder="330">
 						<itemHardenedStoneSlab id="environmentaltech:hardened_stone_slab" treeOrder="10"/>
 						<itemHardenedStoneBrickSlab id="environmentaltech:hardened_stone_brick_slab" treeOrder="20"/>
 						<itemHardenedStonePaverSlab id="environmentaltech:hardened_stone_paver_slab" treeOrder="30"/>
 					</slabHardenedStone>
-					<slabLonsdaleite treeOrder="300">
+					<slabLonsdaleite treeOrder="340">
 						<itemLonsdaleiteSlab id="environmentaltech:lonsdaleite_slab" treeOrder="10"/>
 						<itemLonsdaleiteBrickSlab id="environmentaltech:lonsdaleite_brick_slab" treeOrder="20"/>
 						<itemLonsdaleitePaverSlab id="environmentaltech:lonsdaleite_paver_slab" treeOrder="30"/>

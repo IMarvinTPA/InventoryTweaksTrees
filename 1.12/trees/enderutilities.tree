@@ -36,18 +36,18 @@
 					<itemVoidPickaxe id="enderutilities:void_pickaxe" treeOrder="140"/>
 				</pickaxe>
 			</miningTool>
-			<wands treeOrder="160">
-				<itemWandoftheLazyBuilder id="enderutilities:builderswand" treeOrder="240"/>
-				<itemChairWand id="enderutilities:chairwand" treeOrder="250"/>
-				<itemCheatyWaterWand id="enderutilities:icemelter" treeOrder="260"/>
-				<itemSuperCheatyWaterWand id="enderutilities:icemelter" treeOrder="270"/>
+			<wands treeOrder="180">
+				<itemWandoftheLazyBuilder id="enderutilities:builderswand" treeOrder="250"/>
+				<itemChairWand id="enderutilities:chairwand" treeOrder="260"/>
+				<itemCheatyWaterWand id="enderutilities:icemelter" treeOrder="270"/>
+				<itemSuperCheatyWaterWand id="enderutilities:icemelter" treeOrder="280"/>
 			</wands>
 		</tool>
 	</equipment>
 	<item treeOrder="40">
 		<fluidPortableStorage treeOrder="20">
 			<bucket treeOrder="10">
-				<itemEnderBucket id="enderutilities:enderbucket" treeOrder="630"/>
+				<itemEnderBucket id="enderutilities:enderbucket" treeOrder="640"/>
 			</bucket>
 		</fluidPortableStorage>
 	</item>

@@ -29,7 +29,7 @@
 	<block treeOrder="20">
 		<mechanism treeOrder="60">
 			<machines treeOrder="380">
-				<randomMachines treeOrder="200">
+				<randomMachines treeOrder="210">
 					<itemDrawbridge id="tmechworks:redstonemachine" damage="0" treeOrder="160"/>
 					<itemAdvancedDrawbridge id="tmechworks:redstonemachine" damage="2" treeOrder="170"/>
 					<itemExtendedDrawbridge id="tmechworks:redstonemachine" damage="3" treeOrder="180"/>

@@ -55,7 +55,7 @@
 	<item treeOrder="40">
 		<utility treeOrder="10">
 			<readableBooks treeOrder="90">
-				<itemCookingforBlockheads id="cookingforblockheads:recipe_book" treeOrder="530"/>
+				<itemCookingforBlockheads id="cookingforblockheads:recipe_book" treeOrder="550"/>
 			</readableBooks>
 		</utility>
 	</item>

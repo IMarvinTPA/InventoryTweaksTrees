@@ -29,14 +29,14 @@
 	<equipment treeOrder="10">
 		<weapon treeOrder="10">
 			<munition treeOrder="20">
-				<thrownMunitions treeOrder="70">
+				<thrownMunitions treeOrder="80">
 					<itemBlizzardCharge id="arcticmobs:blizzardcharge" treeOrder="30"/>
 					<itemFrostboltCharge id="arcticmobs:frostboltcharge" treeOrder="40"/>
 					<itemFrostwebCharge id="arcticmobs:frostwebcharge" treeOrder="50"/>
 					<itemIcefireCharge id="arcticmobs:icefirecharge" treeOrder="60"/>
 					<itemTundraCharge id="arcticmobs:tundracharge" treeOrder="70"/>
 				</thrownMunitions>
-				<scepters treeOrder="120">
+				<scepters treeOrder="130">
 					<itemBlizzardScepter id="arcticmobs:blizzardscepter" treeOrder="10"/>
 					<itemFrostboltScepter id="arcticmobs:frostboltscepter" treeOrder="20"/>
 					<itemFrostwebScepter id="arcticmobs:frostwebscepter" treeOrder="30"/>
@@ -48,7 +48,7 @@
 	</equipment>
 	<item treeOrder="40">
 		<utility treeOrder="10">
-			<spawnerEggs treeOrder="200">
+			<spawnerEggs treeOrder="210">
 				<itemSpawnArix id="arcticmobs:arcticegg" damage="4" treeOrder="30"/>
 				<itemSpawnFrostweaver id="arcticmobs:arcticegg" damage="1" treeOrder="40"/>
 				<itemSpawnReiver id="arcticmobs:arcticegg" damage="0" treeOrder="50"/>
@@ -59,14 +59,14 @@
 		</utility>
 		<fluidPortableStorage treeOrder="20">
 			<bucket treeOrder="10">
-				<itemarcticmobs_bucketooze id="arcticmobs:bucketooze" treeOrder="300"/>
+				<itemarcticmobs_bucketooze id="arcticmobs:bucketooze" treeOrder="310"/>
 			</bucket>
 		</fluidPortableStorage>
-		<food treeOrder="150">
+		<food treeOrder="160">
 			<edibleFood treeOrder="10">
 				<preparedFood treeOrder="30">
 					<soup treeOrder="150">
-						<itemPaleSoup id="arcticmobs:palesoup" treeOrder="230"/>
+						<itemPaleSoup id="arcticmobs:palesoup" treeOrder="240"/>
 					</soup>
 				</preparedFood>
 				<cookedFood treeOrder="50">

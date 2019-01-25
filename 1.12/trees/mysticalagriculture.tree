@@ -78,20 +78,20 @@
 			</miningTool>
 			<diggingTool treeOrder="30">
 				<shovel class="Item" data="{ToolClass : &quot;shovel&quot;}" mergeChildren="true" treeOrder="20">
-					<itemInferiumShovel id="mysticalagriculture:inferium_shovel" treeOrder="1000"/>
-					<itemIntermediumShovel id="mysticalagriculture:intermedium_shovel" treeOrder="1010"/>
-					<itemPrudentiumShovel id="mysticalagriculture:prudentium_shovel" treeOrder="1020"/>
-					<itemSuperiumShovel id="mysticalagriculture:superium_shovel" treeOrder="1030"/>
-					<itemSupremiumShovel id="mysticalagriculture:supremium_shovel" treeOrder="1040"/>
+					<itemInferiumShovel id="mysticalagriculture:inferium_shovel" treeOrder="1020"/>
+					<itemIntermediumShovel id="mysticalagriculture:intermedium_shovel" treeOrder="1030"/>
+					<itemPrudentiumShovel id="mysticalagriculture:prudentium_shovel" treeOrder="1040"/>
+					<itemSuperiumShovel id="mysticalagriculture:superium_shovel" treeOrder="1050"/>
+					<itemSupremiumShovel id="mysticalagriculture:supremium_shovel" treeOrder="1060"/>
 				</shovel>
 			</diggingTool>
 			<choppingTool treeOrder="40">
 				<axe class="Item" data="{ToolClass : &quot;axe&quot;}" mergeChildren="true" treeOrder="20">
-					<itemInferiumAxe id="mysticalagriculture:inferium_axe" treeOrder="1000"/>
-					<itemIntermediumAxe id="mysticalagriculture:intermedium_axe" treeOrder="1010"/>
-					<itemPrudentiumAxe id="mysticalagriculture:prudentium_axe" treeOrder="1020"/>
-					<itemSuperiumAxe id="mysticalagriculture:superium_axe" treeOrder="1030"/>
-					<itemSupremiumAxe id="mysticalagriculture:supremium_axe" treeOrder="1040"/>
+					<itemInferiumAxe id="mysticalagriculture:inferium_axe" treeOrder="1020"/>
+					<itemIntermediumAxe id="mysticalagriculture:intermedium_axe" treeOrder="1030"/>
+					<itemPrudentiumAxe id="mysticalagriculture:prudentium_axe" treeOrder="1040"/>
+					<itemSuperiumAxe id="mysticalagriculture:superium_axe" treeOrder="1050"/>
+					<itemSupremiumAxe id="mysticalagriculture:supremium_axe" treeOrder="1060"/>
 				</axe>
 			</choppingTool>
 			<farmingTool treeOrder="50">
@@ -110,11 +110,11 @@
 					<itemSupremiumSickle id="mysticalagriculture:supremium_sickle" treeOrder="340"/>
 				</sickle>
 				<hoe class="Item" data="{ToolClass : &quot;hoe&quot;}" mergeChildren="true" treeOrder="50">
-					<itemInferiumHoe id="mysticalagriculture:inferium_hoe" treeOrder="880"/>
-					<itemIntermediumHoe id="mysticalagriculture:intermedium_hoe" treeOrder="890"/>
-					<itemPrudentiumHoe id="mysticalagriculture:prudentium_hoe" treeOrder="900"/>
-					<itemSuperiumHoe id="mysticalagriculture:superium_hoe" treeOrder="910"/>
-					<itemSupremiumHoe id="mysticalagriculture:supremium_hoe" treeOrder="920"/>
+					<itemInferiumHoe id="mysticalagriculture:inferium_hoe" treeOrder="890"/>
+					<itemIntermediumHoe id="mysticalagriculture:intermedium_hoe" treeOrder="900"/>
+					<itemPrudentiumHoe id="mysticalagriculture:prudentium_hoe" treeOrder="910"/>
+					<itemSuperiumHoe id="mysticalagriculture:superium_hoe" treeOrder="920"/>
+					<itemSupremiumHoe id="mysticalagriculture:supremium_hoe" treeOrder="930"/>
 				</hoe>
 				<otherFarmingTools treeOrder="60">
 					<itemInferiumWateringCan id="mysticalagriculture:watering_can" treeOrder="90"/>
@@ -138,40 +138,40 @@
 		<armor treeOrder="30">
 			<helmet class="ItemArmor" data="{ArmorType : &quot;head&quot;}" treeOrder="20">
 				<helmetUnsorted treeOrder="60">
-					<itemInferiumHelmet id="mysticalagriculture:inferium_helmet" treeOrder="240"/>
-					<itemIntermediumHelmet id="mysticalagriculture:intermedium_helmet" treeOrder="250"/>
-					<itemPrudentiumHelmet id="mysticalagriculture:prudentium_helmet" treeOrder="420"/>
-					<itemSuperiumHelmet id="mysticalagriculture:superium_helmet" treeOrder="510"/>
-					<itemSupremiumHelmet id="mysticalagriculture:supremium_helmet" treeOrder="520"/>
+					<itemInferiumHelmet id="mysticalagriculture:inferium_helmet" treeOrder="250"/>
+					<itemIntermediumHelmet id="mysticalagriculture:intermedium_helmet" treeOrder="260"/>
+					<itemPrudentiumHelmet id="mysticalagriculture:prudentium_helmet" treeOrder="430"/>
+					<itemSuperiumHelmet id="mysticalagriculture:superium_helmet" treeOrder="520"/>
+					<itemSupremiumHelmet id="mysticalagriculture:supremium_helmet" treeOrder="530"/>
 				</helmetUnsorted>
 			</helmet>
 			<chestplate class="ItemArmor" data="{ArmorType:&quot;chest&quot;}" treeOrder="30">
 				<chestplateArmor treeOrder="20">
 					<chestplateUnsorted treeOrder="120">
-						<itemInferiumChestplate id="mysticalagriculture:inferium_chestplate" treeOrder="230"/>
-						<itemIntermediumChestplate id="mysticalagriculture:intermedium_chestplate" treeOrder="240"/>
-						<itemPrudentiumChestplate id="mysticalagriculture:prudentium_chestplate" treeOrder="420"/>
-						<itemSuperiumChestplate id="mysticalagriculture:superium_chestplate" treeOrder="520"/>
-						<itemSupremiumChestplate id="mysticalagriculture:supremium_chestplate" treeOrder="530"/>
+						<itemInferiumChestplate id="mysticalagriculture:inferium_chestplate" treeOrder="240"/>
+						<itemIntermediumChestplate id="mysticalagriculture:intermedium_chestplate" treeOrder="250"/>
+						<itemPrudentiumChestplate id="mysticalagriculture:prudentium_chestplate" treeOrder="430"/>
+						<itemSuperiumChestplate id="mysticalagriculture:superium_chestplate" treeOrder="530"/>
+						<itemSupremiumChestplate id="mysticalagriculture:supremium_chestplate" treeOrder="540"/>
 					</chestplateUnsorted>
 				</chestplateArmor>
 			</chestplate>
 			<leggings class="ItemArmor" data="{ArmorType:&quot;legs&quot;}" treeOrder="40">
 				<leggingsUnsorted treeOrder="100">
-					<itemInferiumLeggings id="mysticalagriculture:inferium_leggings" treeOrder="240"/>
-					<itemIntermediumLeggings id="mysticalagriculture:intermedium_leggings" treeOrder="250"/>
-					<itemPrudentiumLeggings id="mysticalagriculture:prudentium_leggings" treeOrder="410"/>
-					<itemSuperiumLeggings id="mysticalagriculture:superium_leggings" treeOrder="490"/>
-					<itemSupremiumLeggings id="mysticalagriculture:supremium_leggings" treeOrder="500"/>
+					<itemInferiumLeggings id="mysticalagriculture:inferium_leggings" treeOrder="250"/>
+					<itemIntermediumLeggings id="mysticalagriculture:intermedium_leggings" treeOrder="260"/>
+					<itemPrudentiumLeggings id="mysticalagriculture:prudentium_leggings" treeOrder="420"/>
+					<itemSuperiumLeggings id="mysticalagriculture:superium_leggings" treeOrder="500"/>
+					<itemSupremiumLeggings id="mysticalagriculture:supremium_leggings" treeOrder="510"/>
 				</leggingsUnsorted>
 			</leggings>
 			<boots class="ItemArmor" data="{ArmorType:&quot;feet&quot;}" treeOrder="50">
 				<bootsUnsorted treeOrder="70">
-					<itemInferiumBoots id="mysticalagriculture:inferium_boots" treeOrder="270"/>
-					<itemIntermediumBoots id="mysticalagriculture:intermedium_boots" treeOrder="280"/>
-					<itemPrudentiumBoots id="mysticalagriculture:prudentium_boots" treeOrder="430"/>
-					<itemSuperiumBoots id="mysticalagriculture:superium_boots" treeOrder="530"/>
-					<itemSupremiumBoots id="mysticalagriculture:supremium_boots" treeOrder="540"/>
+					<itemInferiumBoots id="mysticalagriculture:inferium_boots" treeOrder="280"/>
+					<itemIntermediumBoots id="mysticalagriculture:intermedium_boots" treeOrder="290"/>
+					<itemPrudentiumBoots id="mysticalagriculture:prudentium_boots" treeOrder="440"/>
+					<itemSuperiumBoots id="mysticalagriculture:superium_boots" treeOrder="540"/>
+					<itemSupremiumBoots id="mysticalagriculture:supremium_boots" treeOrder="550"/>
 				</bootsUnsorted>
 			</boots>
 		</armor>
@@ -183,7 +183,7 @@
 					<itemSoulstone id="mysticalagriculture:soulstone" treeOrder="10"/>
 				</stoneSoul>
 			</stones>
-			<obsidian treeOrder="280">
+			<obsidian treeOrder="290">
 				<blockReinforcedObsidianDict oreDictName="blockReinforcedObsidian" treeOrder="50">
 					<itemWitherproofBlock id="mysticalagriculture:witherproof_block" treeOrder="40"/>
 				</blockReinforcedObsidianDict>
@@ -215,7 +215,7 @@
 					</otherStairs>
 				</stairs>
 				<slabs treeOrder="110">
-					<slabSoulstone treeOrder="320">
+					<slabSoulstone treeOrder="350">
 						<itemCobbledSoulstoneSlab id="mysticalagriculture:cobbled_soulstone_slab" treeOrder="10"/>
 						<itemSoulstoneSlab id="mysticalagriculture:soulstone_slab" treeOrder="20"/>
 						<itemSoulstoneBrickSlab id="mysticalagriculture:soulstone_brick_slab" treeOrder="30"/>
@@ -226,10 +226,10 @@
 		<mechanism treeOrder="60">
 			<lighting treeOrder="30">
 				<torch treeOrder="10">
-					<itemMinersTorch id="mysticalagriculture:miners_torch" treeOrder="570"/>
+					<itemMinersTorch id="mysticalagriculture:miners_torch" treeOrder="580"/>
 				</torch>
-				<decorativeLights treeOrder="100">
-					<itemGlowstoneLamp id="mysticalagriculture:glowstone_lamp" treeOrder="310"/>
+				<decorativeLights treeOrder="110">
+					<itemGlowstoneLamp id="mysticalagriculture:glowstone_lamp" treeOrder="330"/>
 				</decorativeLights>
 			</lighting>
 			<basicCrafting treeOrder="360">
@@ -249,24 +249,24 @@
 			</basicCrafting>
 			<machines treeOrder="380">
 				<poweredFarming treeOrder="40">
-					<itemSeedReprocessor id="mysticalagriculture:seed_reprocessor" treeOrder="190"/>
+					<itemSeedReprocessor id="mysticalagriculture:seed_reprocessor" treeOrder="210"/>
 				</poweredFarming>
 			</machines>
 		</mechanism>
 	</block>
 	<resources treeOrder="30">
 		<miningResources treeOrder="10">
-			<nugget treeOrder="130">
-				<nuggetSoulium treeOrder="1170">
+			<nugget treeOrder="140">
+				<nuggetSoulium treeOrder="1180">
 					<itemSouliumNugget id="mysticalagriculture:crafting" damage="45" treeOrder="10"/>
 				</nuggetSoulium>
 			</nugget>
 		</miningResources>
 		<huntingResources treeOrder="20">
-			<string id="string" treeOrder="90">
+			<string id="string" treeOrder="110">
 				<itemMysticalString id="mysticalagriculture:crafting" damage="23" treeOrder="60"/>
 			</string>
-			<mobChunks treeOrder="340">
+			<mobChunks treeOrder="370">
 				<mobChunkLow treeOrder="10">
 					<itemMobChunk id="mysticalagriculture:chunk" treeOrder="10"/>
 				</mobChunkLow>
@@ -274,14 +274,14 @@
 		</huntingResources>
 	</resources>
 	<item treeOrder="40">
-		<parts treeOrder="110">
+		<parts treeOrder="120">
 			<mechanicalParts treeOrder="10">
 				<frames treeOrder="110">
 					<itemMysticalMachineFrame id="mysticalagriculture:mystical_machine_frame" treeOrder="170"/>
 				</frames>
 			</mechanicalParts>
 		</parts>
-		<food treeOrder="150">
+		<food treeOrder="160">
 			<edibleFood treeOrder="10">
 				<fruit treeOrder="80">
 					<apple treeOrder="30">
@@ -294,19 +294,19 @@
 				</fruit>
 			</edibleFood>
 		</food>
-		<plant treeOrder="160">
+		<plant treeOrder="170">
 			<seed treeOrder="60">
-				<itemBaseCraftingSeed id="mysticalagriculture:crafting" damage="16" treeOrder="1100"/>
-				<itemTier1CraftingSeed id="mysticalagriculture:crafting" damage="17" treeOrder="1110"/>
-				<itemTier2CraftingSeed id="mysticalagriculture:crafting" damage="18" treeOrder="1120"/>
-				<itemTier3CraftingSeed id="mysticalagriculture:crafting" damage="19" treeOrder="1130"/>
-				<itemTier4CraftingSeed id="mysticalagriculture:crafting" damage="20" treeOrder="1140"/>
-				<itemTier5CraftingSeed id="mysticalagriculture:crafting" damage="21" treeOrder="1150"/>
-				<itemInferiumSeeds id="mysticalagriculture:tier1_inferium_seeds" treeOrder="1170"/>
-				<itemInferiumSeeds id="mysticalagriculture:tier2_inferium_seeds" treeOrder="1180"/>
-				<itemInferiumSeeds id="mysticalagriculture:tier3_inferium_seeds" treeOrder="1190"/>
-				<itemInferiumSeeds id="mysticalagriculture:tier4_inferium_seeds" treeOrder="1200"/>
-				<itemInferiumSeeds id="mysticalagriculture:tier5_inferium_seeds" treeOrder="1210"/>
+				<itemBaseCraftingSeed id="mysticalagriculture:crafting" damage="16" treeOrder="1110"/>
+				<itemTier1CraftingSeed id="mysticalagriculture:crafting" damage="17" treeOrder="1120"/>
+				<itemTier2CraftingSeed id="mysticalagriculture:crafting" damage="18" treeOrder="1130"/>
+				<itemTier3CraftingSeed id="mysticalagriculture:crafting" damage="19" treeOrder="1140"/>
+				<itemTier4CraftingSeed id="mysticalagriculture:crafting" damage="20" treeOrder="1150"/>
+				<itemTier5CraftingSeed id="mysticalagriculture:crafting" damage="21" treeOrder="1160"/>
+				<itemInferiumSeeds id="mysticalagriculture:tier1_inferium_seeds" treeOrder="1180"/>
+				<itemInferiumSeeds id="mysticalagriculture:tier2_inferium_seeds" treeOrder="1190"/>
+				<itemInferiumSeeds id="mysticalagriculture:tier3_inferium_seeds" treeOrder="1200"/>
+				<itemInferiumSeeds id="mysticalagriculture:tier4_inferium_seeds" treeOrder="1210"/>
+				<itemInferiumSeeds id="mysticalagriculture:tier5_inferium_seeds" treeOrder="1220"/>
 			</seed>
 			<seedlings treeOrder="70">
 				<mysticalCrops treeOrder="630">
@@ -429,11 +429,11 @@
 				</mulches>
 			</fertilizer>
 		</plant>
-		<potion treeOrder="260">
+		<potion treeOrder="270">
 			<itemExperienceDroplet id="mysticalagriculture:xp_droplet" treeOrder="110"/>
 		</potion>
-		<magical treeOrder="280">
-			<magicalCrops treeOrder="50">
+		<magical treeOrder="310">
+			<magicalCrops treeOrder="60">
 				<infusionStones treeOrder="10">
 					<itemMasterInfusionCrystal id="mysticalagriculture:master_infusion_crystal" treeOrder="20"/>
 					<itemInfusionCrystal id="mysticalagriculture:infusion_crystal" treeOrder="70"/>

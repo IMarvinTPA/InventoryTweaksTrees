@@ -33,7 +33,7 @@
 					<diggingTool treeOrder="10">
 						<choppingTool treeOrder="10">
 							<farmingTool treeOrder="10">
-								<itemBearClawPaxel id="animalium:bear_claw_paxel" treeOrder="450"/>
+								<itemBearClawPaxel id="animalium:bear_claw_paxel" treeOrder="490"/>
 							</farmingTool>
 						</choppingTool>
 					</diggingTool>
@@ -43,7 +43,7 @@
 		<armor treeOrder="30">
 			<boots class="ItemArmor" data="{ArmorType:&quot;feet&quot;}" treeOrder="50">
 				<bootsUnsorted treeOrder="70">
-					<itemWildDogPeltBoots id="animalium:dog_boots" treeOrder="730"/>
+					<itemWildDogPeltBoots id="animalium:dog_boots" treeOrder="740"/>
 				</bootsUnsorted>
 			</boots>
 		</armor>

@@ -29,10 +29,10 @@
 	<equipment treeOrder="10">
 		<weapon treeOrder="10">
 			<munition treeOrder="20">
-				<thrownMunitions treeOrder="70">
+				<thrownMunitions treeOrder="80">
 					<itemLifeDrainCharge id="forestmobs:lifedraincharge" treeOrder="130"/>
 				</thrownMunitions>
-				<scepters treeOrder="120">
+				<scepters treeOrder="130">
 					<itemLifeDrainScepter id="forestmobs:lifedrainscepter" treeOrder="110"/>
 				</scepters>
 			</munition>
@@ -40,7 +40,7 @@
 	</equipment>
 	<item treeOrder="40">
 		<utility treeOrder="10">
-			<spawnerEggs treeOrder="200">
+			<spawnerEggs treeOrder="210">
 				<itemSpawnArisaur id="forestmobs:forestegg" damage="3" treeOrder="250"/>
 				<itemSpawnEnt id="forestmobs:forestegg" damage="0" treeOrder="260"/>
 				<itemSpawnShambler id="forestmobs:forestegg" damage="2" treeOrder="270"/>
@@ -49,7 +49,7 @@
 				<itemSpawnWarg id="forestmobs:forestegg" damage="5" treeOrder="300"/>
 			</spawnerEggs>
 		</utility>
-		<food treeOrder="150">
+		<food treeOrder="160">
 			<edibleFood treeOrder="10">
 				<cookedFood treeOrder="50">
 					<itemforestmobs_arisaurmeatcooked id="forestmobs:arisaurmeatcooked" treeOrder="190"/>

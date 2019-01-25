@@ -29,10 +29,10 @@
 	<equipment treeOrder="10">
 		<weapon treeOrder="10">
 			<munition treeOrder="20">
-				<thrownMunitions treeOrder="70">
+				<thrownMunitions treeOrder="80">
 					<itemPoop id="junglemobs:poopcharge" treeOrder="180"/>
 				</thrownMunitions>
-				<scepters treeOrder="120">
+				<scepters treeOrder="130">
 					<itemPoopScepter id="junglemobs:poopscepter" treeOrder="160"/>
 				</scepters>
 			</munition>
@@ -40,7 +40,7 @@
 	</equipment>
 	<item treeOrder="40">
 		<utility treeOrder="10">
-			<spawnerEggs treeOrder="200">
+			<spawnerEggs treeOrder="210">
 				<itemSpawnConba id="junglemobs:jungleegg" damage="5" treeOrder="400"/>
 				<itemSpawnConcapede id="junglemobs:jungleegg" damage="2" treeOrder="410"/>
 				<itemSpawnConcapedeSegment id="junglemobs:jungleegg" damage="3" treeOrder="420"/>
@@ -51,7 +51,7 @@
 				<itemSpawnVespidQueen id="junglemobs:jungleegg" damage="7" treeOrder="470"/>
 			</spawnerEggs>
 		</utility>
-		<food treeOrder="150">
+		<food treeOrder="160">
 			<edibleFood treeOrder="10">
 				<preparedFood treeOrder="30">
 					<curry treeOrder="30">

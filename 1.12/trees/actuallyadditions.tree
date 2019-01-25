@@ -67,35 +67,35 @@
 					<diggingTool treeOrder="10">
 						<choppingTool treeOrder="10">
 							<farmingTool treeOrder="10">
-								<itemDrill id="actuallyadditions:item_drill" treeOrder="30"/>
-								<itemBlackQuartzAIOT id="actuallyadditions:quartzpaxel" treeOrder="60"/>
-								<itemDiamatineCrystalAIOT id="actuallyadditions:itempaxelcrystallightblue" treeOrder="80"/>
-								<itemDiamondAIOT id="actuallyadditions:diamondpaxel" treeOrder="90"/>
-								<itemEmeradicCrystalAIOT id="actuallyadditions:itempaxelcrystalgreen" treeOrder="110"/>
-								<itemEmeraldAIOT id="actuallyadditions:emeraldpaxel" treeOrder="120"/>
-								<itemEnoriCrystalAIOT id="actuallyadditions:itempaxelcrystalwhite" treeOrder="130"/>
-								<itemGoldenAIOT id="actuallyadditions:goldpaxel" treeOrder="160"/>
-								<itemIronAIOT id="actuallyadditions:ironpaxel" treeOrder="170"/>
-								<itemObsidianAIOT id="actuallyadditions:obsidianpaxel" treeOrder="200"/>
-								<itemPalisCrystalAIOT id="actuallyadditions:itempaxelcrystalblue" treeOrder="230"/>
-								<itemRestoniaCrystalAIOT id="actuallyadditions:itempaxelcrystalred" treeOrder="240"/>
-								<itemStoneAIOT id="actuallyadditions:stonepaxel" treeOrder="260"/>
-								<itemVoidCrystalAIOT id="actuallyadditions:itempaxelcrystalblack" treeOrder="280"/>
-								<itemWoodenAIOT id="actuallyadditions:woodenpaxel" treeOrder="300"/>
-								<itemDiamondAIOT id="actuallyadditions:diamond_paxel" treeOrder="310"/>
-								<itemEmeraldAIOT id="actuallyadditions:emerald_paxel" treeOrder="320"/>
-								<itemGoldenAIOT id="actuallyadditions:gold_paxel" treeOrder="330"/>
-								<itemIronAIOT id="actuallyadditions:iron_paxel" treeOrder="340"/>
-								<itemVoidCrystalAIOT id="actuallyadditions:item_paxel_crystal_black" treeOrder="350"/>
-								<itemPalisCrystalAIOT id="actuallyadditions:item_paxel_crystal_blue" treeOrder="360"/>
-								<itemEmeradicCrystalAIOT id="actuallyadditions:item_paxel_crystal_green" treeOrder="370"/>
-								<itemDiamatineCrystalAIOT id="actuallyadditions:item_paxel_crystal_light_blue" treeOrder="380"/>
-								<itemRestoniaCrystalAIOT id="actuallyadditions:item_paxel_crystal_red" treeOrder="390"/>
-								<itemEnoriCrystalAIOT id="actuallyadditions:item_paxel_crystal_white" treeOrder="400"/>
-								<itemObsidianAIOT id="actuallyadditions:obsidian_paxel" treeOrder="410"/>
-								<itemBlackQuartzAIOT id="actuallyadditions:quartz_paxel" treeOrder="420"/>
-								<itemStoneAIOT id="actuallyadditions:stone_paxel" treeOrder="430"/>
-								<itemWoodenAIOT id="actuallyadditions:wooden_paxel" treeOrder="440"/>
+								<itemDrill id="actuallyadditions:item_drill" treeOrder="60"/>
+								<itemBlackQuartzAIOT id="actuallyadditions:quartzpaxel" treeOrder="100"/>
+								<itemDiamatineCrystalAIOT id="actuallyadditions:itempaxelcrystallightblue" treeOrder="120"/>
+								<itemDiamondAIOT id="actuallyadditions:diamondpaxel" treeOrder="130"/>
+								<itemEmeradicCrystalAIOT id="actuallyadditions:itempaxelcrystalgreen" treeOrder="150"/>
+								<itemEmeraldAIOT id="actuallyadditions:emeraldpaxel" treeOrder="160"/>
+								<itemEnoriCrystalAIOT id="actuallyadditions:itempaxelcrystalwhite" treeOrder="170"/>
+								<itemGoldenAIOT id="actuallyadditions:goldpaxel" treeOrder="200"/>
+								<itemIronAIOT id="actuallyadditions:ironpaxel" treeOrder="210"/>
+								<itemObsidianAIOT id="actuallyadditions:obsidianpaxel" treeOrder="240"/>
+								<itemPalisCrystalAIOT id="actuallyadditions:itempaxelcrystalblue" treeOrder="270"/>
+								<itemRestoniaCrystalAIOT id="actuallyadditions:itempaxelcrystalred" treeOrder="280"/>
+								<itemStoneAIOT id="actuallyadditions:stonepaxel" treeOrder="300"/>
+								<itemVoidCrystalAIOT id="actuallyadditions:itempaxelcrystalblack" treeOrder="320"/>
+								<itemWoodenAIOT id="actuallyadditions:woodenpaxel" treeOrder="340"/>
+								<itemDiamondAIOT id="actuallyadditions:diamond_paxel" treeOrder="350"/>
+								<itemEmeraldAIOT id="actuallyadditions:emerald_paxel" treeOrder="360"/>
+								<itemGoldenAIOT id="actuallyadditions:gold_paxel" treeOrder="370"/>
+								<itemIronAIOT id="actuallyadditions:iron_paxel" treeOrder="380"/>
+								<itemVoidCrystalAIOT id="actuallyadditions:item_paxel_crystal_black" treeOrder="390"/>
+								<itemPalisCrystalAIOT id="actuallyadditions:item_paxel_crystal_blue" treeOrder="400"/>
+								<itemEmeradicCrystalAIOT id="actuallyadditions:item_paxel_crystal_green" treeOrder="410"/>
+								<itemDiamatineCrystalAIOT id="actuallyadditions:item_paxel_crystal_light_blue" treeOrder="420"/>
+								<itemRestoniaCrystalAIOT id="actuallyadditions:item_paxel_crystal_red" treeOrder="430"/>
+								<itemEnoriCrystalAIOT id="actuallyadditions:item_paxel_crystal_white" treeOrder="440"/>
+								<itemObsidianAIOT id="actuallyadditions:obsidian_paxel" treeOrder="450"/>
+								<itemBlackQuartzAIOT id="actuallyadditions:quartz_paxel" treeOrder="460"/>
+								<itemStoneAIOT id="actuallyadditions:stone_paxel" treeOrder="470"/>
+								<itemWoodenAIOT id="actuallyadditions:wooden_paxel" treeOrder="480"/>
 							</farmingTool>
 						</choppingTool>
 					</diggingTool>
@@ -131,97 +131,97 @@
 			</miningTool>
 			<diggingTool treeOrder="30">
 				<shovel class="Item" data="{ToolClass : &quot;shovel&quot;}" mergeChildren="true" treeOrder="20">
-					<itemBlackQuartzShovel id="actuallyadditions:itemshovelquartz" treeOrder="40"/>
-					<itemDiamatineCrystalShovel id="actuallyadditions:itemshovelcrystallightblue" treeOrder="150"/>
-					<itemEmeradicCrystalShovel id="actuallyadditions:itemshovelcrystalgreen" treeOrder="190"/>
-					<itemEmeraldShovel id="actuallyadditions:itemshovelemerald" treeOrder="200"/>
-					<itemEnoriCrystalShovel id="actuallyadditions:itemshovelcrystalwhite" treeOrder="220"/>
-					<itemObsidianShovel id="actuallyadditions:itemshovelobsidian" treeOrder="400"/>
-					<itemPalisCrystalShovel id="actuallyadditions:itemshovelcrystalblue" treeOrder="430"/>
-					<itemRestoniaCrystalShovel id="actuallyadditions:itemshovelcrystalred" treeOrder="500"/>
-					<itemVoidCrystalShovel id="actuallyadditions:itemshovelcrystalblack" treeOrder="690"/>
-					<itemVoidCrystalShovel id="actuallyadditions:item_shovel_crystal_black" treeOrder="770"/>
-					<itemPalisCrystalShovel id="actuallyadditions:item_shovel_crystal_blue" treeOrder="780"/>
-					<itemEmeradicCrystalShovel id="actuallyadditions:item_shovel_crystal_green" treeOrder="790"/>
-					<itemDiamatineCrystalShovel id="actuallyadditions:item_shovel_crystal_light_blue" treeOrder="800"/>
-					<itemRestoniaCrystalShovel id="actuallyadditions:item_shovel_crystal_red" treeOrder="810"/>
-					<itemEnoriCrystalShovel id="actuallyadditions:item_shovel_crystal_white" treeOrder="820"/>
-					<itemEmeraldShovel id="actuallyadditions:item_shovel_emerald" treeOrder="830"/>
-					<itemObsidianShovel id="actuallyadditions:item_shovel_obsidian" treeOrder="840"/>
-					<itemBlackQuartzShovel id="actuallyadditions:item_shovel_quartz" treeOrder="850"/>
+					<itemBlackQuartzShovel id="actuallyadditions:itemshovelquartz" treeOrder="60"/>
+					<itemDiamatineCrystalShovel id="actuallyadditions:itemshovelcrystallightblue" treeOrder="170"/>
+					<itemEmeradicCrystalShovel id="actuallyadditions:itemshovelcrystalgreen" treeOrder="210"/>
+					<itemEmeraldShovel id="actuallyadditions:itemshovelemerald" treeOrder="220"/>
+					<itemEnoriCrystalShovel id="actuallyadditions:itemshovelcrystalwhite" treeOrder="240"/>
+					<itemObsidianShovel id="actuallyadditions:itemshovelobsidian" treeOrder="420"/>
+					<itemPalisCrystalShovel id="actuallyadditions:itemshovelcrystalblue" treeOrder="450"/>
+					<itemRestoniaCrystalShovel id="actuallyadditions:itemshovelcrystalred" treeOrder="520"/>
+					<itemVoidCrystalShovel id="actuallyadditions:itemshovelcrystalblack" treeOrder="710"/>
+					<itemVoidCrystalShovel id="actuallyadditions:item_shovel_crystal_black" treeOrder="790"/>
+					<itemPalisCrystalShovel id="actuallyadditions:item_shovel_crystal_blue" treeOrder="800"/>
+					<itemEmeradicCrystalShovel id="actuallyadditions:item_shovel_crystal_green" treeOrder="810"/>
+					<itemDiamatineCrystalShovel id="actuallyadditions:item_shovel_crystal_light_blue" treeOrder="820"/>
+					<itemRestoniaCrystalShovel id="actuallyadditions:item_shovel_crystal_red" treeOrder="830"/>
+					<itemEnoriCrystalShovel id="actuallyadditions:item_shovel_crystal_white" treeOrder="840"/>
+					<itemEmeraldShovel id="actuallyadditions:item_shovel_emerald" treeOrder="850"/>
+					<itemObsidianShovel id="actuallyadditions:item_shovel_obsidian" treeOrder="860"/>
+					<itemBlackQuartzShovel id="actuallyadditions:item_shovel_quartz" treeOrder="870"/>
 				</shovel>
 			</diggingTool>
 			<choppingTool treeOrder="40">
 				<axe class="Item" data="{ToolClass : &quot;axe&quot;}" mergeChildren="true" treeOrder="20">
-					<itemBlackQuartzAxe id="actuallyadditions:itemaxequartz" treeOrder="110"/>
-					<itemDiamatineCrystalAxe id="actuallyadditions:itemaxecrystallightblue" treeOrder="220"/>
-					<itemEmeradicCrystalAxe id="actuallyadditions:itemaxecrystalgreen" treeOrder="260"/>
-					<itemEmeraldAxe id="actuallyadditions:itemaxeemerald" treeOrder="270"/>
-					<itemEnoriCrystalAxe id="actuallyadditions:itemaxecrystalwhite" treeOrder="290"/>
-					<itemObsidianAxe id="actuallyadditions:itemaxeobsidian" treeOrder="460"/>
-					<itemPalisCrystalAxe id="actuallyadditions:itemaxecrystalblue" treeOrder="490"/>
-					<itemRestoniaCrystalAxe id="actuallyadditions:itemaxecrystalred" treeOrder="570"/>
-					<itemVoidCrystalAxe id="actuallyadditions:itemaxecrystalblack" treeOrder="690"/>
-					<itemVoidCrystalAxe id="actuallyadditions:item_axe_crystal_black" treeOrder="760"/>
-					<itemPalisCrystalAxe id="actuallyadditions:item_axe_crystal_blue" treeOrder="770"/>
-					<itemEmeradicCrystalAxe id="actuallyadditions:item_axe_crystal_green" treeOrder="780"/>
-					<itemDiamatineCrystalAxe id="actuallyadditions:item_axe_crystal_light_blue" treeOrder="790"/>
-					<itemRestoniaCrystalAxe id="actuallyadditions:item_axe_crystal_red" treeOrder="800"/>
-					<itemEnoriCrystalAxe id="actuallyadditions:item_axe_crystal_white" treeOrder="810"/>
-					<itemEmeraldAxe id="actuallyadditions:item_axe_emerald" treeOrder="820"/>
-					<itemObsidianAxe id="actuallyadditions:item_axe_obsidian" treeOrder="830"/>
-					<itemBlackQuartzAxe id="actuallyadditions:item_axe_quartz" treeOrder="840"/>
+					<itemBlackQuartzAxe id="actuallyadditions:itemaxequartz" treeOrder="130"/>
+					<itemDiamatineCrystalAxe id="actuallyadditions:itemaxecrystallightblue" treeOrder="240"/>
+					<itemEmeradicCrystalAxe id="actuallyadditions:itemaxecrystalgreen" treeOrder="280"/>
+					<itemEmeraldAxe id="actuallyadditions:itemaxeemerald" treeOrder="290"/>
+					<itemEnoriCrystalAxe id="actuallyadditions:itemaxecrystalwhite" treeOrder="310"/>
+					<itemObsidianAxe id="actuallyadditions:itemaxeobsidian" treeOrder="480"/>
+					<itemPalisCrystalAxe id="actuallyadditions:itemaxecrystalblue" treeOrder="510"/>
+					<itemRestoniaCrystalAxe id="actuallyadditions:itemaxecrystalred" treeOrder="590"/>
+					<itemVoidCrystalAxe id="actuallyadditions:itemaxecrystalblack" treeOrder="710"/>
+					<itemVoidCrystalAxe id="actuallyadditions:item_axe_crystal_black" treeOrder="780"/>
+					<itemPalisCrystalAxe id="actuallyadditions:item_axe_crystal_blue" treeOrder="790"/>
+					<itemEmeradicCrystalAxe id="actuallyadditions:item_axe_crystal_green" treeOrder="800"/>
+					<itemDiamatineCrystalAxe id="actuallyadditions:item_axe_crystal_light_blue" treeOrder="810"/>
+					<itemRestoniaCrystalAxe id="actuallyadditions:item_axe_crystal_red" treeOrder="820"/>
+					<itemEnoriCrystalAxe id="actuallyadditions:item_axe_crystal_white" treeOrder="830"/>
+					<itemEmeraldAxe id="actuallyadditions:item_axe_emerald" treeOrder="840"/>
+					<itemObsidianAxe id="actuallyadditions:item_axe_obsidian" treeOrder="850"/>
+					<itemBlackQuartzAxe id="actuallyadditions:item_axe_quartz" treeOrder="860"/>
 				</axe>
 			</choppingTool>
 			<farmingTool treeOrder="50">
 				<hoe class="Item" data="{ToolClass : &quot;hoe&quot;}" mergeChildren="true" treeOrder="50">
-					<itemBlackQuartzHoe id="actuallyadditions:itemhoequartz" treeOrder="60"/>
-					<itemDiamatineCrystalHoe id="actuallyadditions:itemhoecrystallightblue" treeOrder="140"/>
-					<itemEmeradicCrystalHoe id="actuallyadditions:itemhoecrystalgreen" treeOrder="180"/>
-					<itemEmeraldHoe id="actuallyadditions:itemhoeemerald" treeOrder="190"/>
-					<itemEnoriCrystalHoe id="actuallyadditions:itemhoecrystalwhite" treeOrder="210"/>
-					<itemObsidianHoe id="actuallyadditions:itemhoeobsidian" treeOrder="390"/>
-					<itemPalisCrystalHoe id="actuallyadditions:itemhoecrystalblue" treeOrder="420"/>
-					<itemRestoniaCrystalHoe id="actuallyadditions:itemhoecrystalred" treeOrder="490"/>
-					<itemVoidCrystalHoe id="actuallyadditions:itemhoecrystalblack" treeOrder="610"/>
-					<itemVoidCrystalHoe id="actuallyadditions:item_hoe_crystal_black" treeOrder="690"/>
-					<itemPalisCrystalHoe id="actuallyadditions:item_hoe_crystal_blue" treeOrder="700"/>
-					<itemEmeradicCrystalHoe id="actuallyadditions:item_hoe_crystal_green" treeOrder="710"/>
-					<itemDiamatineCrystalHoe id="actuallyadditions:item_hoe_crystal_light_blue" treeOrder="720"/>
-					<itemRestoniaCrystalHoe id="actuallyadditions:item_hoe_crystal_red" treeOrder="730"/>
-					<itemEnoriCrystalHoe id="actuallyadditions:item_hoe_crystal_white" treeOrder="740"/>
-					<itemEmeraldHoe id="actuallyadditions:item_hoe_emerald" treeOrder="750"/>
-					<itemObsidianHoe id="actuallyadditions:item_hoe_obsidian" treeOrder="760"/>
-					<itemBlackQuartzHoe id="actuallyadditions:item_hoe_quartz" treeOrder="770"/>
+					<itemBlackQuartzHoe id="actuallyadditions:itemhoequartz" treeOrder="70"/>
+					<itemDiamatineCrystalHoe id="actuallyadditions:itemhoecrystallightblue" treeOrder="150"/>
+					<itemEmeradicCrystalHoe id="actuallyadditions:itemhoecrystalgreen" treeOrder="190"/>
+					<itemEmeraldHoe id="actuallyadditions:itemhoeemerald" treeOrder="200"/>
+					<itemEnoriCrystalHoe id="actuallyadditions:itemhoecrystalwhite" treeOrder="220"/>
+					<itemObsidianHoe id="actuallyadditions:itemhoeobsidian" treeOrder="400"/>
+					<itemPalisCrystalHoe id="actuallyadditions:itemhoecrystalblue" treeOrder="430"/>
+					<itemRestoniaCrystalHoe id="actuallyadditions:itemhoecrystalred" treeOrder="500"/>
+					<itemVoidCrystalHoe id="actuallyadditions:itemhoecrystalblack" treeOrder="620"/>
+					<itemVoidCrystalHoe id="actuallyadditions:item_hoe_crystal_black" treeOrder="700"/>
+					<itemPalisCrystalHoe id="actuallyadditions:item_hoe_crystal_blue" treeOrder="710"/>
+					<itemEmeradicCrystalHoe id="actuallyadditions:item_hoe_crystal_green" treeOrder="720"/>
+					<itemDiamatineCrystalHoe id="actuallyadditions:item_hoe_crystal_light_blue" treeOrder="730"/>
+					<itemRestoniaCrystalHoe id="actuallyadditions:item_hoe_crystal_red" treeOrder="740"/>
+					<itemEnoriCrystalHoe id="actuallyadditions:item_hoe_crystal_white" treeOrder="750"/>
+					<itemEmeraldHoe id="actuallyadditions:item_hoe_emerald" treeOrder="760"/>
+					<itemObsidianHoe id="actuallyadditions:item_hoe_obsidian" treeOrder="770"/>
+					<itemBlackQuartzHoe id="actuallyadditions:item_hoe_quartz" treeOrder="780"/>
 				</hoe>
 			</farmingTool>
-			<wrench class="Item" data="{ToolClass : &quot;wrench&quot;}" treeOrder="130">
+			<wrench class="Item" data="{ToolClass : &quot;wrench&quot;}" mergeChildren="true" treeOrder="130">
 				<itemLaserWrench id="actuallyadditions:item_laser_wrench" treeOrder="200"/>
 			</wrench>
-			<wands treeOrder="160">
-				<itemHandheldFiller id="actuallyadditions:item_filling_wand" treeOrder="120"/>
+			<wands treeOrder="180">
 				<itemHandheldFiller id="actuallyadditions:item_filling_wand" treeOrder="130"/>
+				<itemHandheldFiller id="actuallyadditions:item_filling_wand" treeOrder="140"/>
 			</wands>
-			<magnets treeOrder="280">
+			<magnets treeOrder="310">
 				<itemRingofMagnetizing id="actuallyadditions:item_suction_ring" treeOrder="60"/>
 				<itemRingofMagnetizing id="actuallyadditions:magnet_ring_bauble" treeOrder="70"/>
 			</magnets>
-			<portableCrafting treeOrder="320">
+			<portableCrafting treeOrder="350">
 				<itemCraftingTableOnAStick id="actuallyadditions:item_crafter_on_a_stick" treeOrder="10"/>
 			</portableCrafting>
 		</tool>
 		<armor treeOrder="30">
 			<helmet class="ItemArmor" data="{ArmorType : &quot;head&quot;}" treeOrder="20">
 				<helmetUnsorted treeOrder="60">
-					<itemBlackQuartzHelmet id="actuallyadditions:item_helm_quartz" treeOrder="30"/>
-					<itemDiamatineCrystalHelmet id="actuallyadditions:item_helm_crystal_light_blue" treeOrder="120"/>
-					<itemEmeradicCrystalHelmet id="actuallyadditions:item_helm_crystal_green" treeOrder="160"/>
-					<itemEmeraldHelmet id="actuallyadditions:item_helm_emerald" treeOrder="170"/>
-					<itemEnoriCrystalHelmet id="actuallyadditions:item_helm_crystal_white" treeOrder="180"/>
-					<itemObsidianHelmet id="actuallyadditions:item_helm_obsidian" treeOrder="340"/>
-					<itemPalisCrystalHelmet id="actuallyadditions:item_helm_crystal_blue" treeOrder="360"/>
-					<itemRestoniaCrystalHelmet id="actuallyadditions:item_helm_crystal_red" treeOrder="460"/>
-					<itemVoidCrystalHelmet id="actuallyadditions:item_helm_crystal_black" treeOrder="680"/>
+					<itemBlackQuartzHelmet id="actuallyadditions:item_helm_quartz" treeOrder="40"/>
+					<itemDiamatineCrystalHelmet id="actuallyadditions:item_helm_crystal_light_blue" treeOrder="130"/>
+					<itemEmeradicCrystalHelmet id="actuallyadditions:item_helm_crystal_green" treeOrder="170"/>
+					<itemEmeraldHelmet id="actuallyadditions:item_helm_emerald" treeOrder="180"/>
+					<itemEnoriCrystalHelmet id="actuallyadditions:item_helm_crystal_white" treeOrder="190"/>
+					<itemObsidianHelmet id="actuallyadditions:item_helm_obsidian" treeOrder="350"/>
+					<itemPalisCrystalHelmet id="actuallyadditions:item_helm_crystal_blue" treeOrder="370"/>
+					<itemRestoniaCrystalHelmet id="actuallyadditions:item_helm_crystal_red" treeOrder="470"/>
+					<itemVoidCrystalHelmet id="actuallyadditions:item_helm_crystal_black" treeOrder="690"/>
 				</helmetUnsorted>
 			</helmet>
 			<chestplate class="ItemArmor" data="{ArmorType:&quot;chest&quot;}" treeOrder="30">
@@ -246,40 +246,40 @@
 						<itemObsidianChestplate id="actuallyadditions:itemchestobsidian" treeOrder="40"/>
 					</chestplate4>
 					<chestplateUnsorted treeOrder="120">
-						<itemBlackQuartzChestplate id="actuallyadditions:item_chest_quartz" treeOrder="30"/>
-						<itemDiamatineCrystalChestplate id="actuallyadditions:item_chest_crystal_light_blue" treeOrder="130"/>
-						<itemEmeraldChestplate id="actuallyadditions:item_chest_emerald" treeOrder="170"/>
-						<itemObsidianChestplate id="actuallyadditions:item_chest_obsidian" treeOrder="350"/>
-						<itemPalisCrystalChestplate id="actuallyadditions:item_chest_crystal_blue" treeOrder="370"/>
-						<itemRestoniaCrystalChestplate id="actuallyadditions:item_chest_crystal_red" treeOrder="460"/>
-						<itemVoidCrystalChestplate id="actuallyadditions:item_chest_crystal_black" treeOrder="710"/>
+						<itemBlackQuartzChestplate id="actuallyadditions:item_chest_quartz" treeOrder="40"/>
+						<itemDiamatineCrystalChestplate id="actuallyadditions:item_chest_crystal_light_blue" treeOrder="140"/>
+						<itemEmeraldChestplate id="actuallyadditions:item_chest_emerald" treeOrder="180"/>
+						<itemObsidianChestplate id="actuallyadditions:item_chest_obsidian" treeOrder="360"/>
+						<itemPalisCrystalChestplate id="actuallyadditions:item_chest_crystal_blue" treeOrder="380"/>
+						<itemRestoniaCrystalChestplate id="actuallyadditions:item_chest_crystal_red" treeOrder="470"/>
+						<itemVoidCrystalChestplate id="actuallyadditions:item_chest_crystal_black" treeOrder="720"/>
 					</chestplateUnsorted>
 				</chestplateArmor>
 			</chestplate>
 			<leggings class="ItemArmor" data="{ArmorType:&quot;legs&quot;}" treeOrder="40">
 				<leggingsUnsorted treeOrder="100">
-					<itemBlackQuartzPants id="actuallyadditions:item_pants_quartz" treeOrder="30"/>
-					<itemDiamatineCrystalPants id="actuallyadditions:item_pants_crystal_light_blue" treeOrder="120"/>
-					<itemEmeradicCrystalPants id="actuallyadditions:item_pants_crystal_green" treeOrder="160"/>
-					<itemEmeraldPants id="actuallyadditions:item_pants_emerald" treeOrder="170"/>
-					<itemEnoriCrystalPants id="actuallyadditions:item_pants_crystal_white" treeOrder="180"/>
-					<itemObsidianPants id="actuallyadditions:item_pants_obsidian" treeOrder="350"/>
-					<itemPalisCrystalPants id="actuallyadditions:item_pants_crystal_blue" treeOrder="370"/>
-					<itemRestoniaCrystalPants id="actuallyadditions:item_pants_crystal_red" treeOrder="450"/>
-					<itemVoidCrystalPants id="actuallyadditions:item_pants_crystal_black" treeOrder="640"/>
+					<itemBlackQuartzPants id="actuallyadditions:item_pants_quartz" treeOrder="40"/>
+					<itemDiamatineCrystalPants id="actuallyadditions:item_pants_crystal_light_blue" treeOrder="130"/>
+					<itemEmeradicCrystalPants id="actuallyadditions:item_pants_crystal_green" treeOrder="170"/>
+					<itemEmeraldPants id="actuallyadditions:item_pants_emerald" treeOrder="180"/>
+					<itemEnoriCrystalPants id="actuallyadditions:item_pants_crystal_white" treeOrder="190"/>
+					<itemObsidianPants id="actuallyadditions:item_pants_obsidian" treeOrder="360"/>
+					<itemPalisCrystalPants id="actuallyadditions:item_pants_crystal_blue" treeOrder="380"/>
+					<itemRestoniaCrystalPants id="actuallyadditions:item_pants_crystal_red" treeOrder="460"/>
+					<itemVoidCrystalPants id="actuallyadditions:item_pants_crystal_black" treeOrder="650"/>
 				</leggingsUnsorted>
 			</leggings>
 			<boots class="ItemArmor" data="{ArmorType:&quot;feet&quot;}" treeOrder="50">
 				<bootsUnsorted treeOrder="70">
-					<itemBlackQuartzBoots id="actuallyadditions:item_boots_quartz" treeOrder="30"/>
-					<itemDiamatineCrystalBoots id="actuallyadditions:item_boots_crystal_light_blue" treeOrder="150"/>
-					<itemEmeradicCrystalBoots id="actuallyadditions:item_boots_crystal_green" treeOrder="190"/>
-					<itemEmeraldBoots id="actuallyadditions:item_boots_emerald" treeOrder="200"/>
-					<itemEnoriCrystalBoots id="actuallyadditions:item_boots_crystal_white" treeOrder="210"/>
-					<itemObsidianBoots id="actuallyadditions:item_boots_obsidian" treeOrder="370"/>
-					<itemPalisCrystalBoots id="actuallyadditions:item_boots_crystal_blue" treeOrder="390"/>
-					<itemRestoniaCrystalBoots id="actuallyadditions:item_boots_crystal_red" treeOrder="470"/>
-					<itemVoidCrystalBoots id="actuallyadditions:item_boots_crystal_black" treeOrder="720"/>
+					<itemBlackQuartzBoots id="actuallyadditions:item_boots_quartz" treeOrder="40"/>
+					<itemDiamatineCrystalBoots id="actuallyadditions:item_boots_crystal_light_blue" treeOrder="160"/>
+					<itemEmeradicCrystalBoots id="actuallyadditions:item_boots_crystal_green" treeOrder="200"/>
+					<itemEmeraldBoots id="actuallyadditions:item_boots_emerald" treeOrder="210"/>
+					<itemEnoriCrystalBoots id="actuallyadditions:item_boots_crystal_white" treeOrder="220"/>
+					<itemObsidianBoots id="actuallyadditions:item_boots_obsidian" treeOrder="380"/>
+					<itemPalisCrystalBoots id="actuallyadditions:item_boots_crystal_blue" treeOrder="400"/>
+					<itemRestoniaCrystalBoots id="actuallyadditions:item_boots_crystal_red" treeOrder="480"/>
+					<itemVoidCrystalBoots id="actuallyadditions:item_boots_crystal_black" treeOrder="730"/>
 				</bootsUnsorted>
 			</boots>
 		</armor>
@@ -330,13 +330,13 @@
 		</manufacturedBlock>
 		<mechanism treeOrder="60">
 			<lighting treeOrder="30">
-				<decorativeLights treeOrder="100">
-					<itemWhiteLamp id="actuallyadditions:block_colored_lamp_on" treeOrder="320"/>
-					<itemWhiteLamp id="actuallyadditions:block_colored_lamp" treeOrder="330"/>
+				<decorativeLights treeOrder="110">
+					<itemWhiteLamp id="actuallyadditions:block_colored_lamp_on" treeOrder="340"/>
+					<itemWhiteLamp id="actuallyadditions:block_colored_lamp" treeOrder="350"/>
 				</decorativeLights>
 			</lighting>
 			<resourceTransfer treeOrder="300">
-				<aaTransfer treeOrder="90">
+				<aaTransfer treeOrder="110">
 					<itemItemLaserRelay id="actuallyadditions:block_laser_relay_item" treeOrder="10"/>
 					<itemAdvancedItemLaserRelay id="actuallyadditions:block_laser_relay_item_whitelist" treeOrder="20"/>
 					<itemFluidLaserRelay id="actuallyadditions:block_laser_relay_fluids" treeOrder="30"/>
@@ -355,9 +355,9 @@
 		<utility treeOrder="10">
 			<storage treeOrder="30">
 				<chests treeOrder="10">
-					<itemSmallStorageCrate id="actuallyadditions:block_giant_chest" treeOrder="450"/>
-					<itemMediumStorageCrate id="actuallyadditions:block_giant_chest_medium" treeOrder="460"/>
-					<itemLargeStorageCrate id="actuallyadditions:block_giant_chest_large" treeOrder="470"/>
+					<itemSmallStorageCrate id="actuallyadditions:block_giant_chest" treeOrder="460"/>
+					<itemMediumStorageCrate id="actuallyadditions:block_giant_chest_medium" treeOrder="470"/>
+					<itemLargeStorageCrate id="actuallyadditions:block_giant_chest_large" treeOrder="480"/>
 				</chests>
 				<storageupgrades treeOrder="80">
 					<itemChestToStorageCrateUpgrade id="actuallyadditions:item_chest_to_crate_upgrade" treeOrder="400"/>
@@ -366,17 +366,17 @@
 					<itemStorageCrateKeeper id="actuallyadditions:item_crate_keeper" treeOrder="430"/>
 				</storageupgrades>
 				<powerStorage treeOrder="120">
-					<itemBatteryBox id="actuallyadditions:block_battery_box" treeOrder="310"/>
+					<itemBatteryBox id="actuallyadditions:block_battery_box" treeOrder="330"/>
 				</powerStorage>
 			</storage>
 			<readableBooks treeOrder="90">
-				<itemActuallyAdditionsManual id="actuallyadditions:item_booklet" treeOrder="380"/>
+				<itemActuallyAdditionsManual id="actuallyadditions:item_booklet" treeOrder="400"/>
 			</readableBooks>
 		</utility>
-		<experienceStorage treeOrder="60">
+		<experienceStorage treeOrder="70">
 			<itemExperienceSolidifier id="actuallyadditions:block_xp_solidifier" treeOrder="10"/>
 		</experienceStorage>
-		<parts treeOrder="110">
+		<parts treeOrder="120">
 			<mechanicalParts treeOrder="10">
 				<coils treeOrder="80">
 					<itemBasicCoil id="actuallyadditions:item_misc" damage="7" treeOrder="110"/>
@@ -388,11 +388,11 @@
 				</frames>
 			</mechanicalParts>
 		</parts>
-		<food treeOrder="150">
+		<food treeOrder="160">
 			<edibleFood treeOrder="10">
 				<preparedFood treeOrder="30">
 					<bacon treeOrder="60">
-						<itemBacon id="actuallyadditions:item_food" damage="20" treeOrder="80"/>
+						<itemBacon id="actuallyadditions:item_food" damage="20" treeOrder="90"/>
 					</bacon>
 					<preppedfish treeOrder="120">
 						<itemFishNChips id="actuallyadditions:item_food" damage="3" treeOrder="20"/>
@@ -404,7 +404,7 @@
 						<itemPizza id="actuallyadditions:item_food" damage="14" treeOrder="90"/>
 					</pizza>
 					<soup treeOrder="150">
-						<itemPumpkinStew id="actuallyadditions:item_food" damage="1" treeOrder="290"/>
+						<itemPumpkinStew id="actuallyadditions:item_food" damage="1" treeOrder="300"/>
 					</soup>
 					<toasts treeOrder="160">
 						<itemToast id="actuallyadditions:item_food" damage="10" treeOrder="20"/>
@@ -437,7 +437,7 @@
 				</foodIntermediate>
 				<dessert treeOrder="100">
 					<cookies treeOrder="10">
-						<itemBigCookie id="actuallyadditions:item_food" damage="12" treeOrder="120"/>
+						<itemBigCookie id="actuallyadditions:item_food" damage="12" treeOrder="130"/>
 					</cookies>
 					<donut treeOrder="20">
 						<itemDoughnut id="actuallyadditions:item_food" damage="18" treeOrder="20"/>
@@ -448,7 +448,7 @@
 				</dessert>
 				<drink treeOrder="120">
 					<juice treeOrder="10">
-						<itemCarrotJuice id="actuallyadditions:item_food" damage="2" treeOrder="80"/>
+						<itemCarrotJuice id="actuallyadditions:item_food" damage="2" treeOrder="130"/>
 					</juice>
 				</drink>
 			</edibleFood>
@@ -456,19 +456,19 @@
 				<dough treeOrder="30">
 					<itemNoodle id="actuallyadditions:item_food" damage="7" treeOrder="60"/>
 				</dough>
-				<cakes treeOrder="130">
+				<cakes treeOrder="240">
 					<itemChocolateCake id="actuallyadditions:item_food" damage="8" treeOrder="90"/>
 				</cakes>
 			</unedibleFood>
 		</food>
-		<plant treeOrder="160">
+		<plant treeOrder="170">
 			<flower treeOrder="10">
 				<flowerBlack treeOrder="170">
 					<itemBlackLotus id="actuallyadditions:block_black_lotus" treeOrder="20"/>
 				</flowerBlack>
 			</flower>
 		</plant>
-		<potion treeOrder="260">
+		<potion treeOrder="270">
 			<itemSolidifiedExperience id="actuallyadditions:item_solidified_experience" treeOrder="130"/>
 		</potion>
 	</item>

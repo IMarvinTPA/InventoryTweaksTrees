@@ -33,11 +33,11 @@
 					<diggingTool treeOrder="10">
 						<choppingTool treeOrder="10">
 							<farmingTool treeOrder="10">
-								<itemInferiumPaxel id="mysticalagradditions:inferium_paxel" treeOrder="460"/>
-								<itemIntermediumPaxel id="mysticalagradditions:intermedium_paxel" treeOrder="470"/>
-								<itemPrudentiumPaxel id="mysticalagradditions:prudentium_paxel" treeOrder="480"/>
-								<itemSuperiumPaxel id="mysticalagradditions:superium_paxel" treeOrder="490"/>
-								<itemSupremiumPaxel id="mysticalagradditions:supremium_paxel" treeOrder="500"/>
+								<itemInferiumPaxel id="mysticalagradditions:inferium_paxel" treeOrder="500"/>
+								<itemIntermediumPaxel id="mysticalagradditions:intermedium_paxel" treeOrder="510"/>
+								<itemPrudentiumPaxel id="mysticalagradditions:prudentium_paxel" treeOrder="520"/>
+								<itemSuperiumPaxel id="mysticalagradditions:superium_paxel" treeOrder="530"/>
+								<itemSupremiumPaxel id="mysticalagradditions:supremium_paxel" treeOrder="540"/>
 							</farmingTool>
 						</choppingTool>
 					</diggingTool>
@@ -57,13 +57,13 @@
 	<resources treeOrder="30">
 		<miningResources treeOrder="10">
 			<coals treeOrder="100">
-				<coalInsanium treeOrder="120">
+				<coalInsanium treeOrder="150">
 					<itemInsaniumCoal id="mysticalagradditions:insanium" damage="5" treeOrder="10"/>
 				</coalInsanium>
 			</coals>
 		</miningResources>
 		<huntingResources treeOrder="20">
-			<mobChunks treeOrder="340">
+			<mobChunks treeOrder="370">
 				<mobChunkHigh treeOrder="20">
 					<itemTier6MobChunk id="mysticalagradditions:insanium" damage="4" treeOrder="10"/>
 				</mobChunkHigh>
@@ -71,10 +71,10 @@
 		</huntingResources>
 	</resources>
 	<item treeOrder="40">
-		<plant treeOrder="160">
+		<plant treeOrder="170">
 			<seed treeOrder="60">
-				<itemTier6CraftingSeed id="mysticalagradditions:insanium" damage="1" treeOrder="1160"/>
-				<itemInferiumSeeds id="mysticalagradditions:tier6_inferium_seeds" treeOrder="1220"/>
+				<itemTier6CraftingSeed id="mysticalagradditions:insanium" damage="1" treeOrder="1170"/>
+				<itemInferiumSeeds id="mysticalagradditions:tier6_inferium_seeds" treeOrder="1230"/>
 			</seed>
 			<seedlings treeOrder="70">
 				<mysticalCrops treeOrder="630">
@@ -85,8 +85,8 @@
 				</mysticalCrops>
 			</seedlings>
 		</plant>
-		<magical treeOrder="280">
-			<magicalCrops treeOrder="50">
+		<magical treeOrder="310">
+			<magicalCrops treeOrder="60">
 				<magicalParts treeOrder="20">
 					<itemCharm_MiningAOE id="mysticalagradditions:charm" treeOrder="20"/>
 					<itemAwakenedDraconiumCrux id="mysticalagradditions:special" treeOrder="70"/>

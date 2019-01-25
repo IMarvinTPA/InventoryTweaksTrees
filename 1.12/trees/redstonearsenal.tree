@@ -56,13 +56,13 @@
 			</miningTool>
 			<diggingTool treeOrder="30">
 				<shovel class="Item" data="{ToolClass : &quot;shovel&quot;}" mergeChildren="true" treeOrder="20">
-					<itemFlux-InfusedShovel id="redstonearsenal:tool.shovelflux" treeOrder="280"/>
-					<itemFlux-InfusedShovel id="redstonearsenal:tool.shovelflux" treeOrder="290"/>
+					<itemFlux-InfusedShovel id="redstonearsenal:tool.shovelflux" treeOrder="300"/>
+					<itemFlux-InfusedShovel id="redstonearsenal:tool.shovelflux" treeOrder="310"/>
 				</shovel>
 			</diggingTool>
 			<choppingTool treeOrder="40">
 				<axe class="Item" data="{ToolClass : &quot;axe&quot;}" mergeChildren="true" treeOrder="20">
-					<itemFlux-InfusedAxe id="redstonearsenal:tool.axeflux" treeOrder="340"/>
+					<itemFlux-InfusedAxe id="redstonearsenal:tool.axeflux" treeOrder="360"/>
 				</axe>
 			</choppingTool>
 			<farmingTool treeOrder="50">
@@ -73,7 +73,7 @@
 			<fishingRod class="Item" data="{ToolClass : &quot;fishingrod&quot;}" treeOrder="70">
 				<itemFlux-InfusedFishingRod id="redstonearsenal:tool.fishingrodflux" treeOrder="70"/>
 			</fishingRod>
-			<wrench class="Item" data="{ToolClass : &quot;wrench&quot;}" treeOrder="130">
+			<wrench class="Item" data="{ToolClass : &quot;wrench&quot;}" mergeChildren="true" treeOrder="130">
 				<itemRedstoneArsenal_tool.battleWrenchFlux id="redstonearsenal:tool.battlewrenchflux" treeOrder="10"/>
 				<itemRedstoneArsenal_tool.wrenchFlux id="redstonearsenal:tool.wrenchflux" treeOrder="160"/>
 			</wrench>

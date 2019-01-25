@@ -28,10 +28,10 @@
 <stuff treeVersion="1.12.2">
 	<equipment treeOrder="10">
 		<tool treeOrder="20">
-			<wrench class="Item" data="{ToolClass : &quot;wrench&quot;}" treeOrder="130">
+			<wrench class="Item" data="{ToolClass : &quot;wrench&quot;}" mergeChildren="true" treeOrder="130">
 				<itemExtremeWrench id="bigreactors:wrench" treeOrder="190"/>
 			</wrench>
-			<debugTools treeOrder="170">
+			<debugTools treeOrder="200">
 				<itemBeefTronicDiagnosticsTool id="bigreactors:brdebugtool" treeOrder="10"/>
 			</debugTools>
 		</tool>
@@ -95,7 +95,7 @@
 	</block>
 	<resources treeOrder="30">
 		<miningResources treeOrder="10">
-			<gem treeOrder="140">
+			<gem treeOrder="150">
 				<gemAnglesite treeOrder="30">
 					<itemAnglesitePbSO4 id="bigreactors:minerals" damage="0" treeOrder="10"/>
 				</gemAnglesite>
@@ -108,8 +108,8 @@
 	<item treeOrder="40">
 		<fluidPortableStorage treeOrder="20">
 			<bucket treeOrder="10">
-				<itemBigReactors_bucketCyanite id="bigreactors:bucketcyanite" treeOrder="210"/>
-				<itemBigReactors_bucketYellorium id="bigreactors:bucketyellorium" treeOrder="220"/>
+				<itemBigReactors_bucketCyanite id="bigreactors:bucketcyanite" treeOrder="220"/>
+				<itemBigReactors_bucketYellorium id="bigreactors:bucketyellorium" treeOrder="230"/>
 			</bucket>
 		</fluidPortableStorage>
 	</item>

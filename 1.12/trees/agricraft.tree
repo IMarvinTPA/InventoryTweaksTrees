@@ -65,7 +65,7 @@
 				<itemWoodenWaterTank id="agricraft:watertank" damage="0" treeOrder="80"/>
 			</fluidMultiBlockTanks>
 		</fluidStorage>
-		<plant treeOrder="160">
+		<plant treeOrder="170">
 			<crops treeOrder="100">
 				<itemCropSticks id="agricraft:cropsitem" treeOrder="10"/>
 				<itemSeedAnalyzer id="agricraft:seedanalyzer" treeOrder="20"/>

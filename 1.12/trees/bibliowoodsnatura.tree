@@ -41,7 +41,7 @@
 		</mechanism>
 	</block>
 	<item treeOrder="40">
-		<decoration treeOrder="120">
+		<decoration treeOrder="130">
 			<itemBloodwoodPaintingFrame id="bibliowoodsnatura:bibliowoodpaintingt0" treeOrder="110"/>
 			<itemBloodwoodPaintingFrame id="bibliowoodsnatura:bibliowoodpaintingt1" treeOrder="120"/>
 			<itemBloodwoodPaintingFrame id="bibliowoodsnatura:bibliowoodpaintingt2" treeOrder="130"/>
@@ -65,16 +65,16 @@
 				<itemTigerBookcase id="bibliowoodsnatura:bibliowoodbookcase" damage="11" treeOrder="390"/>
 				<itemWillowNaturaBookcase id="bibliowoodsnatura:bibliowoodbookcase" damage="12" treeOrder="410"/>
 			</bookcase>
-			<clocks treeOrder="300">
+			<clocks treeOrder="310">
 				<itemBloodwoodClock id="bibliowoodsnatura:bibliowoodclock" treeOrder="40"/>
 			</clocks>
-			<desks treeOrder="330">
+			<desks treeOrder="340">
 				<itemAmaranthDesk id="bibliowoodsnatura:bibliowooddesk" treeOrder="30"/>
 			</desks>
-			<tables treeOrder="340">
+			<tables treeOrder="350">
 				<itemBloodwoodTable id="bibliowoodsnatura:bibliowoodtable" treeOrder="30"/>
 			</tables>
-			<seating treeOrder="350">
+			<seating treeOrder="360">
 				<seats treeOrder="10">
 					<itemBloodwoodSeat id="bibliowoodsnatura:bibliowoodseat" treeOrder="30"/>
 				</seats>
@@ -86,15 +86,15 @@
 					<itemBloodwoodSeatBack id="bibliowoodsnatura:seatback5" treeOrder="160"/>
 				</seatbacks>
 			</seating>
-			<case treeOrder="360">
+			<case treeOrder="370">
 				<itemBloodwoodMapFrame id="bibliowoodsnatura:bibliowoodmapframe" treeOrder="60"/>
 				<itemNaturaLabel id="bibliowoodsnatura:bibliowoodlabel" treeOrder="90"/>
 				<itemNaturaCase id="bibliowoodsnatura:bibliowoodcase0" treeOrder="130"/>
 			</case>
-			<toolRack treeOrder="370">
+			<toolRack treeOrder="380">
 				<itemNaturaToolRack id="bibliowoodsnatura:bibliowoodrack" treeOrder="30"/>
 			</toolRack>
-			<shelf treeOrder="380">
+			<shelf treeOrder="390">
 				<itemAmaranthShelf id="bibliowoodsnatura:bibliowoodshelf" damage="7" treeOrder="20"/>
 				<itemBloodwoodShelf id="bibliowoodsnatura:bibliowoodshelf" damage="0" treeOrder="40"/>
 				<itemDarkwoodShelf id="bibliowoodsnatura:bibliowoodshelf" damage="1" treeOrder="80"/>
@@ -109,7 +109,7 @@
 				<itemTigerShelf id="bibliowoodsnatura:bibliowoodshelf" damage="11" treeOrder="320"/>
 				<itemWillowNaturaShelf id="bibliowoodsnatura:bibliowoodshelf" damage="12" treeOrder="340"/>
 			</shelf>
-			<potionShelf treeOrder="390">
+			<potionShelf treeOrder="400">
 				<itemAmaranthPotionShelf id="bibliowoodsnatura:bibliowoodpotshelf" damage="7" treeOrder="20"/>
 				<itemBloodwoodPotionShelf id="bibliowoodsnatura:bibliowoodpotshelf" damage="0" treeOrder="40"/>
 				<itemDarkwoodPotionShelf id="bibliowoodsnatura:bibliowoodpotshelf" damage="1" treeOrder="80"/>

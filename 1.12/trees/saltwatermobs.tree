@@ -28,7 +28,7 @@
 <stuff treeVersion="1.12.2">
 	<item treeOrder="40">
 		<utility treeOrder="10">
-			<spawnerEggs treeOrder="200">
+			<spawnerEggs treeOrder="210">
 				<itemSpawnAbtu id="saltwatermobs:saltwateregg" damage="3" treeOrder="640"/>
 				<itemSpawnIka id="saltwatermobs:saltwateregg" damage="2" treeOrder="650"/>
 				<itemSpawnLacedon id="saltwatermobs:saltwateregg" damage="0" treeOrder="660"/>
@@ -36,7 +36,7 @@
 				<itemSpawnSkylus id="saltwatermobs:saltwateregg" damage="1" treeOrder="680"/>
 			</spawnerEggs>
 		</utility>
-		<food treeOrder="150">
+		<food treeOrder="160">
 			<edibleFood treeOrder="10">
 				<cookedFood treeOrder="50">
 					<itemsaltwatermobs_ikameatcooked id="saltwatermobs:ikameatcooked" treeOrder="240"/>

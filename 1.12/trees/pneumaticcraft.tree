@@ -28,14 +28,14 @@
 <stuff treeVersion="1.12.2">
 	<equipment treeOrder="10">
 		<tool treeOrder="20">
-			<wrench class="Item" data="{ToolClass : &quot;wrench&quot;}" treeOrder="130">
+			<wrench class="Item" data="{ToolClass : &quot;wrench&quot;}" mergeChildren="true" treeOrder="130">
 				<itemPneumaticWrench id="pneumaticcraft:pneumatic_wrench" treeOrder="290"/>
 			</wrench>
 		</tool>
 		<armor treeOrder="30">
 			<helmet class="ItemArmor" data="{ArmorType : &quot;head&quot;}" treeOrder="20">
 				<helmetUnsorted treeOrder="60">
-					<itemPneumaticHelmet id="pneumaticcraft:pneumatic_helmet" treeOrder="410"/>
+					<itemPneumaticHelmet id="pneumaticcraft:pneumatic_helmet" treeOrder="420"/>
 				</helmetUnsorted>
 			</helmet>
 		</armor>

@@ -72,7 +72,7 @@
 							<itemInfusionProvider id="thaumicenergistics:thaumicenergistics.block.infusion.provider" treeOrder="50"/>
 						</otherInterfaces>
 					</interfaces>
-					<parts treeOrder="50">
+					<digitalStorageParts treeOrder="50">
 						<meCores treeOrder="20">
 							<itemDiffusionCore id="thaumicenergistics:material" damage="0" treeOrder="20"/>
 							<itemKnowledgeCore id="thaumicenergistics:knowledge.core" damage="0" treeOrder="30"/>
@@ -87,7 +87,7 @@
 							<item16kMEEssentiaStorageComponent id="thaumicenergistics:storage.component" damage="2" treeOrder="30"/>
 							<item64kMEEssentiaStorageComponent id="thaumicenergistics:storage.component" damage="3" treeOrder="40"/>
 						</meOtherStorageComponents>
-					</parts>
+					</digitalStorageParts>
 					<storagecells treeOrder="60">
 						<meOtherStorageCells treeOrder="40">
 							<item1kMEEssentiaStorageCell id="thaumicenergistics:storage.essentia" damage="0" treeOrder="10"/>
@@ -105,12 +105,12 @@
 					</machines>
 				</digitalstorage>
 				<portableStorage treeOrder="90">
-					<itemWirelessEssentiaTerminal id="thaumicenergistics:wireless.essentia.terminal" treeOrder="390"/>
-					<itemWirelessGolemBackpack id="thaumicenergistics:golem.wifi.backpack" damage="0" treeOrder="400"/>
+					<itemWirelessEssentiaTerminal id="thaumicenergistics:wireless.essentia.terminal" treeOrder="420"/>
+					<itemWirelessGolemBackpack id="thaumicenergistics:golem.wifi.backpack" damage="0" treeOrder="430"/>
 				</portableStorage>
 			</storage>
 		</utility>
-		<magical treeOrder="280">
+		<magical treeOrder="310">
 			<thaumurgy treeOrder="10">
 				<wandFocuses treeOrder="50">
 					<itemWandFocus_AEWrench id="thaumicenergistics:focus.aewrench" damage="0" treeOrder="30"/>

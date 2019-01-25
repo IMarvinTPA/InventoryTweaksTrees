@@ -30,7 +30,7 @@
 		<utility treeOrder="10">
 			<storage treeOrder="30">
 				<treasureContainers treeOrder="100">
-					<itemRewardBag id="hardcorequesting:bags" treeOrder="40"/>
+					<itemRewardBag id="hardcorequesting:bags" treeOrder="110"/>
 				</treasureContainers>
 			</storage>
 			<readableBooks treeOrder="90">

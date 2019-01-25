@@ -55,7 +55,7 @@
 	<block treeOrder="20">
 		<naturalBlock treeOrder="10">
 			<oreBlock treeOrder="90">
-				<oreSalt treeOrder="1790">
+				<oreSalt treeOrder="1800">
 					<itemSaltOre id="harvestcraft:salt" treeOrder="10"/>
 				</oreSalt>
 			</oreBlock>
@@ -63,22 +63,22 @@
 		<mechanism treeOrder="60">
 			<lighting treeOrder="30">
 				<torch treeOrder="10">
-					<itemBlackCandle id="harvestcraft:candledeco16" treeOrder="90"/>
-					<itemBlueCandle id="harvestcraft:candledeco12" treeOrder="100"/>
-					<itemBrownCandle id="harvestcraft:candledeco13" treeOrder="110"/>
-					<itemCyanCandle id="harvestcraft:candledeco10" treeOrder="120"/>
-					<itemDarkGreyCandle id="harvestcraft:candledeco8" treeOrder="130"/>
-					<itemGreenCandle id="harvestcraft:candledeco14" treeOrder="140"/>
-					<itemLightBlueCandle id="harvestcraft:candledeco4" treeOrder="150"/>
-					<itemLightGreyCandle id="harvestcraft:candledeco9" treeOrder="160"/>
-					<itemLimeCandle id="harvestcraft:candledeco6" treeOrder="170"/>
-					<itemMagentaCandle id="harvestcraft:candledeco3" treeOrder="180"/>
-					<itemOrangeCandle id="harvestcraft:candledeco2" treeOrder="190"/>
-					<itemPinkCandle id="harvestcraft:candledeco7" treeOrder="200"/>
-					<itemPurpleCandle id="harvestcraft:candledeco11" treeOrder="210"/>
-					<itemRedCandle id="harvestcraft:candledeco15" treeOrder="220"/>
-					<itemWhiteCandle id="harvestcraft:candledeco1" treeOrder="230"/>
-					<itemYellowCandle id="harvestcraft:candledeco5" treeOrder="240"/>
+					<itemBlackCandle id="harvestcraft:candledeco16" treeOrder="100"/>
+					<itemBlueCandle id="harvestcraft:candledeco12" treeOrder="110"/>
+					<itemBrownCandle id="harvestcraft:candledeco13" treeOrder="120"/>
+					<itemCyanCandle id="harvestcraft:candledeco10" treeOrder="130"/>
+					<itemDarkGreyCandle id="harvestcraft:candledeco8" treeOrder="140"/>
+					<itemGreenCandle id="harvestcraft:candledeco14" treeOrder="150"/>
+					<itemLightBlueCandle id="harvestcraft:candledeco4" treeOrder="160"/>
+					<itemLightGreyCandle id="harvestcraft:candledeco9" treeOrder="170"/>
+					<itemLimeCandle id="harvestcraft:candledeco6" treeOrder="180"/>
+					<itemMagentaCandle id="harvestcraft:candledeco3" treeOrder="190"/>
+					<itemOrangeCandle id="harvestcraft:candledeco2" treeOrder="200"/>
+					<itemPinkCandle id="harvestcraft:candledeco7" treeOrder="210"/>
+					<itemPurpleCandle id="harvestcraft:candledeco11" treeOrder="220"/>
+					<itemRedCandle id="harvestcraft:candledeco15" treeOrder="230"/>
+					<itemWhiteCandle id="harvestcraft:candledeco1" treeOrder="240"/>
+					<itemYellowCandle id="harvestcraft:candledeco5" treeOrder="250"/>
 				</torch>
 			</lighting>
 			<basicCrafting treeOrder="360">
@@ -99,18 +99,18 @@
 	</block>
 	<resources treeOrder="30">
 		<huntingResources treeOrder="20">
-			<leather id="leather" treeOrder="20">
+			<leather id="leather" treeOrder="40">
 				<itemHardenedLeather id="harvestcraft:hardenedleatheritem" treeOrder="30"/>
 			</leather>
 		</huntingResources>
 	</resources>
 	<item treeOrder="40">
 		<itemWaterBarrel id="harvestcraft:sink" treeOrder="30"/>
-		<cookingTool treeOrder="140">
+		<cookingTool treeOrder="150">
 			<itemPot id="harvestcraft:pot" treeOrder="40"/>
 			<itemCuttingBoard id="harvestcraft:cuttingboard" treeOrder="100"/>
 		</cookingTool>
-		<food treeOrder="150">
+		<food treeOrder="160">
 			<edibleFood treeOrder="10">
 				<preparedFood treeOrder="30">
 					<taco treeOrder="210">
@@ -177,7 +177,7 @@
 				</fruit>
 			</edibleFood>
 			<unedibleFood treeOrder="50">
-				<cakes treeOrder="130">
+				<cakes treeOrder="240">
 					<itemharvestcraft_carrotcakeItem id="harvestcraft:carrotcakeitem" treeOrder="150"/>
 					<itemharvestcraft_pamcarrotCake id="harvestcraft:pamcarrotcake" treeOrder="160"/>
 					<itemharvestcraft_pamcheeseCake id="harvestcraft:pamcheesecake" treeOrder="170"/>
@@ -213,7 +213,7 @@
 				</bait>
 			</hunting>
 		</food>
-		<plant treeOrder="160">
+		<plant treeOrder="170">
 			<sapling treeOrder="20">
 				<itemAlmondSapling id="harvestcraft:pamalmondsapling" treeOrder="80"/>
 				<itemAppleSapling id="harvestcraft:pamapplesapling" treeOrder="90"/>
@@ -318,7 +318,7 @@
 				<itemZucchiniCrop id="harvestcraft:pamzucchinicrop" treeOrder="600"/>
 			</seedlings>
 			<groundCover treeOrder="220">
-				<foodGardens treeOrder="90">
+				<foodGardens treeOrder="100">
 					<itemAridGarden id="harvestcraft:aridgarden" treeOrder="10"/>
 					<itemBerryGarden id="harvestcraft:berrygarden" treeOrder="20"/>
 					<itemDesertGarden id="harvestcraft:desertgarden" treeOrder="30"/>
@@ -339,7 +339,7 @@
 				</foodGardens>
 			</groundCover>
 		</plant>
-		<bees treeOrder="170">
+		<bees treeOrder="180">
 			<beeQueens treeOrder="10">
 				<itemQueenBee id="harvestcraft:queenbeeitem" damage="18" treeOrder="40"/>
 				<itemQueenBee id="harvestcraft:queenbeeitem" treeOrder="50"/>

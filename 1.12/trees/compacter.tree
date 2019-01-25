@@ -29,6 +29,9 @@
 	<block treeOrder="20">
 		<mechanism treeOrder="60">
 			<machines treeOrder="380">
+				<poweredCrafting treeOrder="10">
+					<itemCompacter id="compacter:compacter" treeOrder="20"/>
+				</poweredCrafting>
 				<cobbleCreators treeOrder="120">
 					<itemCreativeCobbleGenerator id="compacter:cobbler" treeOrder="90"/>
 				</cobbleCreators>

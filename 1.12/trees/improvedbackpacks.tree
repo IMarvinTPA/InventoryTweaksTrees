@@ -41,7 +41,7 @@
 					<itemStorageUpgradeWood id="improvedbackpacks:upgrade" damage="0" treeOrder="530"/>
 				</storageupgrades>
 				<portableStorage treeOrder="90">
-					<itemBackpack id="improvedbackpacks:backpack" treeOrder="70"/>
+					<itemBackpack id="improvedbackpacks:backpack" treeOrder="80"/>
 				</portableStorage>
 			</storage>
 		</utility>

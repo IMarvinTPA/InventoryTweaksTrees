@@ -30,7 +30,7 @@
 		<naturalBlock treeOrder="10">
 			<netherBlock treeOrder="80">
 				<netherrack treeOrder="20">
-					<itemNetherrackHellFish id="netherores:netheroresblockhellfish" treeOrder="110"/>
+					<itemNetherrackHellFish id="netherores:netheroresblockhellfish" treeOrder="130"/>
 				</netherrack>
 			</netherBlock>
 		</naturalBlock>

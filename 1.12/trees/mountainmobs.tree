@@ -29,11 +29,11 @@
 	<equipment treeOrder="10">
 		<weapon treeOrder="10">
 			<munition treeOrder="20">
-				<thrownMunitions treeOrder="70">
+				<thrownMunitions treeOrder="80">
 					<itemArcaneLaserStormCharge id="mountainmobs:arcanelaserstormcharge" treeOrder="210"/>
 					<itemBoulderBlastCharge id="mountainmobs:boulderblastcharge" treeOrder="220"/>
 				</thrownMunitions>
-				<scepters treeOrder="120">
+				<scepters treeOrder="130">
 					<itemArcaneLaserStormScepter id="mountainmobs:arcanelaserstormscepter" treeOrder="170"/>
 					<itemBoulderBlastScepter id="mountainmobs:boulderblastscepter" treeOrder="180"/>
 				</scepters>
@@ -42,7 +42,7 @@
 	</equipment>
 	<item treeOrder="40">
 		<utility treeOrder="10">
-			<spawnerEggs treeOrder="200">
+			<spawnerEggs treeOrder="210">
 				<itemSpawnBarghest id="mountainmobs:mountainegg" damage="5" treeOrder="480"/>
 				<itemSpawnBeholder id="mountainmobs:mountainegg" damage="4" treeOrder="490"/>
 				<itemSpawnGeonach id="mountainmobs:mountainegg" damage="3" treeOrder="500"/>
@@ -51,7 +51,7 @@
 				<itemSpawnYale id="mountainmobs:mountainegg" damage="2" treeOrder="530"/>
 			</spawnerEggs>
 		</utility>
-		<food treeOrder="150">
+		<food treeOrder="160">
 			<edibleFood treeOrder="10">
 				<cookedFood treeOrder="50">
 					<itemmountainmobs_yalemeatcooked id="mountainmobs:yalemeatcooked" treeOrder="290"/>

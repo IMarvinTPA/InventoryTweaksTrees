@@ -105,28 +105,28 @@
 			</miningTool>
 			<diggingTool treeOrder="30">
 				<shovel class="Item" data="{ToolClass : &quot;shovel&quot;}" mergeChildren="true" treeOrder="20">
-					<itemBronzeShovel id="thermalfoundation:tool.shovelbronze" treeOrder="100"/>
-					<itemCopperShovel id="thermalfoundation:tool.shovelcopper" treeOrder="130"/>
-					<itemElectrumShovel id="thermalfoundation:tool.shovelelectrum" treeOrder="180"/>
-					<itemFerrousShovel id="thermalfoundation:tool.shovelnickel" treeOrder="250"/>
-					<itemInvarShovel id="thermalfoundation:tool.shovelinvar" treeOrder="340"/>
-					<itemLeadShovel id="thermalfoundation:tool.shovellead" treeOrder="360"/>
-					<itemShinyShovel id="thermalfoundation:tool.shovelplatinum" treeOrder="550"/>
-					<itemSilverShovel id="thermalfoundation:tool.shovelsilver" treeOrder="630"/>
-					<itemTinShovel id="thermalfoundation:tool.shoveltin" treeOrder="680"/>
+					<itemBronzeShovel id="thermalfoundation:tool.shovelbronze" treeOrder="120"/>
+					<itemCopperShovel id="thermalfoundation:tool.shovelcopper" treeOrder="150"/>
+					<itemElectrumShovel id="thermalfoundation:tool.shovelelectrum" treeOrder="200"/>
+					<itemFerrousShovel id="thermalfoundation:tool.shovelnickel" treeOrder="270"/>
+					<itemInvarShovel id="thermalfoundation:tool.shovelinvar" treeOrder="360"/>
+					<itemLeadShovel id="thermalfoundation:tool.shovellead" treeOrder="380"/>
+					<itemShinyShovel id="thermalfoundation:tool.shovelplatinum" treeOrder="570"/>
+					<itemSilverShovel id="thermalfoundation:tool.shovelsilver" treeOrder="650"/>
+					<itemTinShovel id="thermalfoundation:tool.shoveltin" treeOrder="700"/>
 				</shovel>
 			</diggingTool>
 			<choppingTool treeOrder="40">
 				<axe class="Item" data="{ToolClass : &quot;axe&quot;}" mergeChildren="true" treeOrder="20">
-					<itemBronzeAxe id="thermalfoundation:tool.axebronze" treeOrder="170"/>
-					<itemCopperAxe id="thermalfoundation:tool.axecopper" treeOrder="190"/>
-					<itemElectrumAxe id="thermalfoundation:tool.axeelectrum" treeOrder="250"/>
-					<itemFerrousAxe id="thermalfoundation:tool.axenickel" treeOrder="310"/>
-					<itemInvarAxe id="thermalfoundation:tool.axeinvar" treeOrder="400"/>
-					<itemLeadAxe id="thermalfoundation:tool.axelead" treeOrder="420"/>
-					<itemShinyAxe id="thermalfoundation:tool.axeplatinum" treeOrder="620"/>
-					<itemSilverAxe id="thermalfoundation:tool.axesilver" treeOrder="630"/>
-					<itemTinAxe id="thermalfoundation:tool.axetin" treeOrder="670"/>
+					<itemBronzeAxe id="thermalfoundation:tool.axebronze" treeOrder="190"/>
+					<itemCopperAxe id="thermalfoundation:tool.axecopper" treeOrder="210"/>
+					<itemElectrumAxe id="thermalfoundation:tool.axeelectrum" treeOrder="270"/>
+					<itemFerrousAxe id="thermalfoundation:tool.axenickel" treeOrder="330"/>
+					<itemInvarAxe id="thermalfoundation:tool.axeinvar" treeOrder="420"/>
+					<itemLeadAxe id="thermalfoundation:tool.axelead" treeOrder="440"/>
+					<itemShinyAxe id="thermalfoundation:tool.axeplatinum" treeOrder="640"/>
+					<itemSilverAxe id="thermalfoundation:tool.axesilver" treeOrder="650"/>
+					<itemTinAxe id="thermalfoundation:tool.axetin" treeOrder="690"/>
 				</axe>
 			</choppingTool>
 			<farmingTool treeOrder="50">
@@ -147,15 +147,15 @@
 					<itemWoodSickle id="thermalfoundation:tool.sicklewood" treeOrder="230"/>
 				</sickle>
 				<hoe class="Item" data="{ToolClass : &quot;hoe&quot;}" mergeChildren="true" treeOrder="50">
-					<itemBronzeHoe id="thermalfoundation:tool.hoebronze" treeOrder="100"/>
-					<itemCopperHoe id="thermalfoundation:tool.hoecopper" treeOrder="130"/>
-					<itemElectrumHoe id="thermalfoundation:tool.hoeelectrum" treeOrder="170"/>
-					<itemFerrousHoe id="thermalfoundation:tool.hoenickel" treeOrder="230"/>
-					<itemInvarHoe id="thermalfoundation:tool.hoeinvar" treeOrder="330"/>
-					<itemLeadHoe id="thermalfoundation:tool.hoelead" treeOrder="350"/>
-					<itemShinyHoe id="thermalfoundation:tool.hoeplatinum" treeOrder="550"/>
-					<itemSilverHoe id="thermalfoundation:tool.hoesilver" treeOrder="560"/>
-					<itemTinHoe id="thermalfoundation:tool.hoetin" treeOrder="600"/>
+					<itemBronzeHoe id="thermalfoundation:tool.hoebronze" treeOrder="110"/>
+					<itemCopperHoe id="thermalfoundation:tool.hoecopper" treeOrder="140"/>
+					<itemElectrumHoe id="thermalfoundation:tool.hoeelectrum" treeOrder="180"/>
+					<itemFerrousHoe id="thermalfoundation:tool.hoenickel" treeOrder="240"/>
+					<itemInvarHoe id="thermalfoundation:tool.hoeinvar" treeOrder="340"/>
+					<itemLeadHoe id="thermalfoundation:tool.hoelead" treeOrder="360"/>
+					<itemShinyHoe id="thermalfoundation:tool.hoeplatinum" treeOrder="560"/>
+					<itemSilverHoe id="thermalfoundation:tool.hoesilver" treeOrder="570"/>
+					<itemTinHoe id="thermalfoundation:tool.hoetin" treeOrder="610"/>
 				</hoe>
 			</farmingTool>
 			<shears class="Item" data="{ToolClass : &quot;shears&quot;}" mergeChildren="true" treeOrder="60">
@@ -196,8 +196,8 @@
 				<itemSilverFishingRod id="thermalfoundation:tool.fishingrodsilver" treeOrder="110"/>
 				<itemTinFishingRod id="thermalfoundation:tool.fishingrodtin" treeOrder="120"/>
 			</fishingRod>
-			<multimeters treeOrder="140">
-				<itemMultimeter id="thermalfoundation:meter" treeOrder="20"/>
+			<multimeters treeOrder="160">
+				<itemMultimeter id="thermalfoundation:meter" treeOrder="30"/>
 			</multimeters>
 		</tool>
 		<armor treeOrder="30">
@@ -284,17 +284,17 @@
 	<block treeOrder="20">
 		<naturalBlock treeOrder="10">
 			<oreBlock treeOrder="90">
-				<oreEnergizedNetherrack treeOrder="500">
+				<oreEnergizedNetherrack treeOrder="510">
 					<itemEnergizedNetherrack id="thermalfoundation:ore_fluid" damage="3" treeOrder="10"/>
 				</oreEnergizedNetherrack>
-				<itemDestabilizedRedstone id="thermalfoundation:fluidredstone" treeOrder="540"/>
-				<itemDestabilizedRedstoneOre id="thermalfoundation:ore_fluid" damage="2" treeOrder="550"/>
-				<oreOil treeOrder="1450">
+				<itemDestabilizedRedstone id="thermalfoundation:fluidredstone" treeOrder="550"/>
+				<itemDestabilizedRedstoneOre id="thermalfoundation:ore_fluid" damage="2" treeOrder="560"/>
+				<oreOil treeOrder="1460">
 					<itemOilSand id="thermalfoundation:ore_fluid" damage="5" treeOrder="10"/>
 					<itemOilSand id="thermalfoundation:ore_fluid" damage="0" treeOrder="20"/>
 					<itemOilShale id="thermalfoundation:ore_fluid" damage="1" treeOrder="30"/>
 				</oreOil>
-				<oreResonantEndStone treeOrder="1690">
+				<oreResonantEndStone treeOrder="1700">
 					<itemResonantEndStone id="thermalfoundation:ore_fluid" damage="4" treeOrder="10"/>
 				</oreResonantEndStone>
 			</oreBlock>
@@ -341,12 +341,12 @@
 	<resources treeOrder="30">
 		<miningResources treeOrder="10">
 			<dust treeOrder="40">
-				<itemManaDust id="thermalfoundation:material" damage="516" treeOrder="1190"/>
-				<itemCompressedSawdust id="thermalfoundation:material" damage="801" treeOrder="1660"/>
+				<itemManaDust id="thermalfoundation:material" damage="516" treeOrder="1210"/>
+				<itemCompressedSawdust id="thermalfoundation:material" damage="801" treeOrder="1680"/>
 			</dust>
 		</miningResources>
 		<huntingResources treeOrder="20">
-			<slimyItems treeOrder="160">
+			<slimyItems treeOrder="180">
 				<itemRosin id="thermalfoundation:material" damage="832" treeOrder="30"/>
 				<itemTar id="thermalfoundation:material" damage="833" treeOrder="40"/>
 			</slimyItems>
@@ -355,13 +355,13 @@
 	<item treeOrder="40">
 		<utility treeOrder="10">
 			<readableBooks treeOrder="90">
-				<itemForgeLexicon id="thermalfoundation:lexicon" treeOrder="360"/>
-				<itemForgeLexicon id="thermalfoundation:tome_lexicon" treeOrder="370"/>
+				<itemForgeLexicon id="thermalfoundation:lexicon" treeOrder="370"/>
+				<itemForgeLexicon id="thermalfoundation:tome_lexicon" treeOrder="380"/>
 			</readableBooks>
 			<experienceBook treeOrder="100">
 				<itemTomeofKnowledge id="thermalfoundation:tome_experience" treeOrder="20"/>
 			</experienceBook>
-			<horseArmor treeOrder="250">
+			<horseArmor treeOrder="260">
 				<itemAluminumHorseArmor id="thermalfoundation:horse_armor_aluminum" treeOrder="40"/>
 				<itemBronzeHorseArmor id="thermalfoundation:horse_armor_bronze" treeOrder="50"/>
 				<itemConstantanHorseArmor id="thermalfoundation:horse_armor_constantan" treeOrder="60"/>
@@ -378,13 +378,13 @@
 		</utility>
 		<fluidPortableStorage treeOrder="20">
 			<bucket treeOrder="10">
-				<itemthermalfoundation_bucket id="thermalfoundation:bucket" treeOrder="110"/>
+				<itemthermalfoundation_bucket id="thermalfoundation:bucket" treeOrder="120"/>
 			</bucket>
 		</fluidPortableStorage>
-		<patterns treeOrder="90">
-			<itemRedprint id="thermalfoundation:diagram_redprint" treeOrder="50"/>
+		<patterns treeOrder="100">
+			<itemRedprint id="thermalfoundation:diagram_redprint" treeOrder="70"/>
 		</patterns>
-		<parts treeOrder="110">
+		<parts treeOrder="120">
 			<mechanicalParts treeOrder="10">
 				<coils treeOrder="80">
 					<itemRedstoneReceptionCoil id="thermalfoundation:material" damage="513" treeOrder="10"/>
@@ -397,19 +397,19 @@
 				<otherParts treeOrder="100">
 					<itemToolCasing id="thermalfoundation:material" damage="640" treeOrder="40"/>
 					<itemDrillHead id="thermalfoundation:material" damage="656" treeOrder="60"/>
-					<itemSawBlade id="thermalfoundation:material" damage="657" treeOrder="70"/>
-					<itemSignalumSecurityLock id="thermalfoundation:security" treeOrder="80"/>
+					<itemSawBlade id="thermalfoundation:material" damage="657" treeOrder="120"/>
+					<itemSignalumSecurityLock id="thermalfoundation:security" treeOrder="130"/>
 				</otherParts>
 			</mechanicalParts>
 		</parts>
-		<food treeOrder="150">
+		<food treeOrder="160">
 			<hunting treeOrder="60">
 				<bait treeOrder="20">
 					<itemAqua-Chow id="thermalfoundation:bait" treeOrder="110"/>
 				</bait>
 			</hunting>
 		</food>
-		<plant treeOrder="160">
+		<plant treeOrder="170">
 			<fertilizer treeOrder="80">
 				<fertilizerDict oreDictName="fertilizer" treeOrder="30">
 					<itemPhyto-Gro id="thermalfoundation:fertilizer" treeOrder="10"/>

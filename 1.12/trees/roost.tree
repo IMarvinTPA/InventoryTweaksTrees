@@ -43,10 +43,10 @@
 	</block>
 	<item treeOrder="40">
 		<utility treeOrder="10">
-			<spawnerEggs treeOrder="200">
+			<spawnerEggs treeOrder="210">
 				<itemChicken id="roost:chicken" treeOrder="860"/>
 			</spawnerEggs>
-			<mobHolder treeOrder="240">
+			<mobHolder treeOrder="250">
 				<itemChickenCatcher id="roost:catcher" treeOrder="110"/>
 			</mobHolder>
 		</utility>

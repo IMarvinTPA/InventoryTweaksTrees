@@ -30,28 +30,28 @@
 		<armor treeOrder="30">
 			<helmet class="ItemArmor" data="{ArmorType : &quot;head&quot;}" treeOrder="20">
 				<helmetUnsorted treeOrder="60">
-					<itemBronzeHelmet id="contenttweaker:bronze_head" treeOrder="70"/>
-					<itemCopperHelmet id="contenttweaker:copper_head" treeOrder="90"/>
+					<itemBronzeHelmet id="contenttweaker:bronze_head" treeOrder="80"/>
+					<itemCopperHelmet id="contenttweaker:copper_head" treeOrder="100"/>
 				</helmetUnsorted>
 			</helmet>
 			<chestplate class="ItemArmor" data="{ArmorType:&quot;chest&quot;}" treeOrder="30">
 				<chestplateArmor treeOrder="20">
 					<chestplateUnsorted treeOrder="120">
-						<itemBronzeChestplate id="contenttweaker:bronze_chest" treeOrder="70"/>
-						<itemCopperChestplate id="contenttweaker:copper_chest" treeOrder="100"/>
+						<itemBronzeChestplate id="contenttweaker:bronze_chest" treeOrder="80"/>
+						<itemCopperChestplate id="contenttweaker:copper_chest" treeOrder="110"/>
 					</chestplateUnsorted>
 				</chestplateArmor>
 			</chestplate>
 			<leggings class="ItemArmor" data="{ArmorType:&quot;legs&quot;}" treeOrder="40">
 				<leggingsUnsorted treeOrder="100">
-					<itemBronzeLeggings id="contenttweaker:bronze_legs" treeOrder="70"/>
-					<itemCopperLeggings id="contenttweaker:copper_legs" treeOrder="90"/>
+					<itemBronzeLeggings id="contenttweaker:bronze_legs" treeOrder="80"/>
+					<itemCopperLeggings id="contenttweaker:copper_legs" treeOrder="100"/>
 				</leggingsUnsorted>
 			</leggings>
 			<boots class="ItemArmor" data="{ArmorType:&quot;feet&quot;}" treeOrder="50">
 				<bootsUnsorted treeOrder="70">
-					<itemBronzeBoots id="contenttweaker:bronze_feet" treeOrder="100"/>
-					<itemCopperBoots id="contenttweaker:copper_feet" treeOrder="120"/>
+					<itemBronzeBoots id="contenttweaker:bronze_feet" treeOrder="110"/>
+					<itemCopperBoots id="contenttweaker:copper_feet" treeOrder="130"/>
 				</bootsUnsorted>
 			</boots>
 		</armor>

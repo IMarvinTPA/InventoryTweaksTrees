@@ -28,13 +28,13 @@
 <stuff treeVersion="1.12.2">
 	<equipment treeOrder="10">
 		<tool treeOrder="20">
-			<multimeters treeOrder="140">
-				<itemMultimeter id="projred|core:projectred.core.wiredebugger" treeOrder="30"/>
+			<multimeters treeOrder="160">
+				<itemMultimeter id="projred|core:projectred.core.wiredebugger" treeOrder="40"/>
 			</multimeters>
 		</tool>
 	</equipment>
 	<item treeOrder="40">
-		<parts treeOrder="110">
+		<parts treeOrder="120">
 			<mechanicalParts treeOrder="10">
 				<coils treeOrder="80">
 					<itemCopperCoil id="projred|core:projectred.core.part" damage="16" treeOrder="40"/>

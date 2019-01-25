@@ -29,7 +29,7 @@
 	<item treeOrder="40">
 		<utility treeOrder="10">
 			<readableBooks treeOrder="90">
-				<itemYoyosandYou id="yoyos:book" treeOrder="620"/>
+				<itemYoyosandYou id="yoyos:book" treeOrder="640"/>
 			</readableBooks>
 		</utility>
 	</item>

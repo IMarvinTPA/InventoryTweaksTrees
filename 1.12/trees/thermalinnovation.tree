@@ -33,13 +33,13 @@
 			</quiver>
 		</weapon>
 		<tool treeOrder="20">
-			<magnets treeOrder="280">
+			<magnets treeOrder="310">
 				<itemFluxomagnetBasic id="thermalinnovation:magnet" treeOrder="30"/>
 			</magnets>
 		</tool>
 	</equipment>
 	<item treeOrder="40">
-		<syringes treeOrder="270">
+		<syringes treeOrder="280">
 			<itemHypoinfuserBasic id="thermalinnovation:injector" treeOrder="70"/>
 		</syringes>
 	</item>

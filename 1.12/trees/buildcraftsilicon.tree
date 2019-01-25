@@ -37,10 +37,10 @@
 		<mechanism treeOrder="60">
 			<machines treeOrder="380">
 				<poweredCrafting treeOrder="10">
-					<itemLaser id="buildcraftsilicon:laser" treeOrder="110"/>
-					<itemAdvancedCraftingTable id="buildcraftsilicon:advanced_crafting_table" treeOrder="120"/>
-					<itemAssemblyTable id="buildcraftsilicon:assembly_table" treeOrder="130"/>
-					<itemIntegrationTable id="buildcraftsilicon:integration_table" treeOrder="140"/>
+					<itemLaser id="buildcraftsilicon:laser" treeOrder="120"/>
+					<itemAdvancedCraftingTable id="buildcraftsilicon:advanced_crafting_table" treeOrder="130"/>
+					<itemAssemblyTable id="buildcraftsilicon:assembly_table" treeOrder="140"/>
+					<itemIntegrationTable id="buildcraftsilicon:integration_table" treeOrder="150"/>
 				</poweredCrafting>
 			</machines>
 			<machineupgrades treeOrder="390">
@@ -56,7 +56,7 @@
 		</mechanism>
 	</block>
 	<item treeOrder="40">
-		<parts treeOrder="110">
+		<parts treeOrder="120">
 			<mechanicalParts treeOrder="10">
 				<chip treeOrder="10">
 					<itemRedstoneChipset id="buildcraftsilicon:redstone_chipset" damage="0" treeOrder="20"/>

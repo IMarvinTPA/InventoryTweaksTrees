@@ -38,10 +38,10 @@
 					</crook>
 				</otherFarmingTools>
 			</farmingTool>
-			<wands treeOrder="160">
+			<wands treeOrder="180">
 				<itemBatZapper id="excompressum:bat_zapper" treeOrder="440"/>
 			</wands>
-			<crushingTools treeOrder="200">
+			<crushingTools treeOrder="230">
 				<itemChickenStick id="excompressum:chicken_stick" treeOrder="10"/>
 				<crushingHammers mergeChildren="true" treeOrder="20">
 					<itemCompressedDiamondHammer id="excompressum:compressed_hammer_diamond" treeOrder="20"/>
@@ -93,7 +93,7 @@
 					<compressedNetherrack treeOrder="20">
 						<itemCompressedNetherrack id="excompressum:compressed_block" damage="9" treeOrder="20"/>
 					</compressedNetherrack>
-					<itemCompressedNetherGravel id="excompressum:compressed_block" damage="6" treeOrder="130"/>
+					<itemCompressedNetherGravel id="excompressum:compressed_block" damage="6" treeOrder="150"/>
 				</netherrack>
 				<soulSand treeOrder="30">
 					<itemCompressedSoulSand id="excompressum:compressed_block" damage="8" treeOrder="40"/>
@@ -111,7 +111,7 @@
 		</manufacturedBlock>
 		<mechanism treeOrder="60">
 			<machines treeOrder="380">
-				<randomMachines treeOrder="200">
+				<randomMachines treeOrder="210">
 					<itemAutoSieve id="excompressum:auto_sieve" treeOrder="310"/>
 					<itemAutoHeavySieve id="excompressum:auto_heavy_sieve" treeOrder="320"/>
 					<itemAutoHammer id="excompressum:auto_hammer" treeOrder="330"/>
@@ -127,28 +127,28 @@
 			<tinyDust treeOrder="20">
 				<itemUncompressedCoal id="excompressum:uncompressed_coal" treeOrder="160"/>
 			</tinyDust>
-			<oreBlock treeOrder="110">
-				<itemCompressedFlint id="excompressum:compressed_block" damage="5" treeOrder="860"/>
+			<oreBlock treeOrder="120">
+				<itemCompressedFlint id="excompressum:compressed_block" damage="5" treeOrder="870"/>
 			</oreBlock>
 		</miningResources>
 	</resources>
 	<item treeOrder="40">
-		<parts treeOrder="110">
+		<parts treeOrder="120">
 			<mechanicalParts treeOrder="10">
 				<plates treeOrder="40">
-					<itemUglySteelPlating id="excompressum:ugly_steel_plating" treeOrder="790"/>
+					<itemUglySteelPlating id="excompressum:ugly_steel_plating" treeOrder="800"/>
 				</plates>
 			</mechanicalParts>
 		</parts>
-		<food treeOrder="150">
+		<food treeOrder="160">
 			<hunting treeOrder="60">
 				<bait treeOrder="20">
 					<itemWolfBait id="excompressum:bait" treeOrder="100"/>
 				</bait>
 			</hunting>
 		</food>
-		<magical treeOrder="280">
-			<botania treeOrder="40">
+		<magical treeOrder="310">
+			<botania treeOrder="50">
 				<botaniaMisc treeOrder="60">
 					<itemManaSieve id="excompressum:mana_sieve" treeOrder="110"/>
 				</botaniaMisc>

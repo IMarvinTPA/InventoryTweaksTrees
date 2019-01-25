@@ -29,7 +29,7 @@
 	<item treeOrder="40">
 		<utility treeOrder="10">
 			<readableBooks treeOrder="90">
-				<itemTheViesCraftvol.1 id="vc:guidebook_main" treeOrder="610"/>
+				<itemTheViesCraftvol.1 id="vc:guidebook_main" treeOrder="630"/>
 			</readableBooks>
 		</utility>
 	</item>

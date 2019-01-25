@@ -37,7 +37,7 @@
 		</mechanism>
 	</block>
 	<item treeOrder="40">
-		<experienceStorage treeOrder="60">
+		<experienceStorage treeOrder="70">
 			<itemMonolithofExperience id="darkutils:monolith" treeOrder="30"/>
 		</experienceStorage>
 	</item>

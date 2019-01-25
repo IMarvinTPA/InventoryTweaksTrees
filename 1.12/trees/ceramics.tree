@@ -36,28 +36,28 @@
 		<armor treeOrder="30">
 			<helmet class="ItemArmor" data="{ArmorType : &quot;head&quot;}" treeOrder="20">
 				<helmetUnsorted treeOrder="60">
-					<itemClayHelmet id="ceramics:clay_helmet" treeOrder="80"/>
-					<itemUnfiredClayHelmet id="ceramics:clay_helmet_raw" treeOrder="640"/>
+					<itemClayHelmet id="ceramics:clay_helmet" treeOrder="90"/>
+					<itemUnfiredClayHelmet id="ceramics:clay_helmet_raw" treeOrder="650"/>
 				</helmetUnsorted>
 			</helmet>
 			<chestplate class="ItemArmor" data="{ArmorType:&quot;chest&quot;}" treeOrder="30">
 				<chestplateArmor treeOrder="20">
 					<chestplateUnsorted treeOrder="120">
-						<itemClayChestplate id="ceramics:clay_chestplate" treeOrder="90"/>
-						<itemUnfiredClayChestplate id="ceramics:clay_chestplate_raw" treeOrder="690"/>
+						<itemClayChestplate id="ceramics:clay_chestplate" treeOrder="100"/>
+						<itemUnfiredClayChestplate id="ceramics:clay_chestplate_raw" treeOrder="700"/>
 					</chestplateUnsorted>
 				</chestplateArmor>
 			</chestplate>
 			<leggings class="ItemArmor" data="{ArmorType:&quot;legs&quot;}" treeOrder="40">
 				<leggingsUnsorted treeOrder="100">
-					<itemClayLeggings id="ceramics:clay_leggings" treeOrder="80"/>
-					<itemUnfiredClayLeggings id="ceramics:clay_leggings_raw" treeOrder="620"/>
+					<itemClayLeggings id="ceramics:clay_leggings" treeOrder="90"/>
+					<itemUnfiredClayLeggings id="ceramics:clay_leggings_raw" treeOrder="630"/>
 				</leggingsUnsorted>
 			</leggings>
 			<boots class="ItemArmor" data="{ArmorType:&quot;feet&quot;}" treeOrder="50">
 				<bootsUnsorted treeOrder="70">
-					<itemClayBoots id="ceramics:clay_boots" treeOrder="110"/>
-					<itemUnfiredClayBoots id="ceramics:clay_boots_raw" treeOrder="700"/>
+					<itemClayBoots id="ceramics:clay_boots" treeOrder="120"/>
+					<itemUnfiredClayBoots id="ceramics:clay_boots_raw" treeOrder="710"/>
 				</bootsUnsorted>
 			</boots>
 		</armor>
@@ -94,7 +94,7 @@
 					</otherStairs>
 				</stairs>
 				<slabs treeOrder="110">
-					<slabClay treeOrder="230">
+					<slabClay treeOrder="270">
 						<itemPorcelainBricksSlab id="ceramics:clay_slab" treeOrder="40"/>
 					</slabClay>
 				</slabs>
@@ -117,7 +117,7 @@
 	</block>
 	<resources treeOrder="30">
 		<miningResources treeOrder="10">
-			<bricks treeOrder="190">
+			<bricks treeOrder="200">
 				<clayBrick id="brick" treeOrder="20">
 					<itemPorcelainBrick id="ceramics:unfired_clay" damage="5" treeOrder="10"/>
 				</clayBrick>
@@ -129,7 +129,7 @@
 			<bucket treeOrder="10">
 				<itemUnfiredClayBucket id="ceramics:unfired_clay" damage="0" treeOrder="30"/>
 				<itemUnfiredClayBucket id="ceramics:clay_bucket_block" treeOrder="40"/>
-				<itemClayBucket id="ceramics:clay_bucket" treeOrder="480"/>
+				<itemClayBucket id="ceramics:clay_bucket" treeOrder="490"/>
 			</bucket>
 		</fluidPortableStorage>
 		<fluidStorage treeOrder="50">

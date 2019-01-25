@@ -34,14 +34,14 @@
 			<energyMovers treeOrder="120">
 				<itemFluxTransfuser id="thermalexpansion:transfuser" treeOrder="10"/>
 			</energyMovers>
-			<wrench class="Item" data="{ToolClass : &quot;wrench&quot;}" treeOrder="130">
+			<wrench class="Item" data="{ToolClass : &quot;wrench&quot;}" mergeChildren="true" treeOrder="130">
 				<itemthermalexpansion_tool.battleWrenchInvar id="thermalexpansion:tool.battlewrenchinvar" treeOrder="20"/>
 				<itemCrescentHammer id="thermalexpansion:wrench" treeOrder="50"/>
 			</wrench>
-			<debugTools treeOrder="170">
+			<debugTools treeOrder="200">
 				<itemDebugger id="thermalexpansion:meter" damage="1" treeOrder="40"/>
 			</debugTools>
-			<thermalTools treeOrder="300">
+			<thermalTools treeOrder="330">
 				<itemFluxChiller id="thermalexpansion:chiller" treeOrder="10"/>
 				<itemFluxIgniter id="thermalexpansion:igniter" treeOrder="20"/>
 			</thermalTools>
@@ -50,10 +50,10 @@
 	<block treeOrder="20">
 		<mechanism treeOrder="60">
 			<lighting treeOrder="30">
-				<decorativeLights treeOrder="100">
-					<itemGlowstoneIlluminator id="thermalexpansion:light" treeOrder="50"/>
-					<itemLumiumLamp id="thermalexpansion:light" treeOrder="60"/>
-					<itemRadiantLumiumLamp id="thermalexpansion:light" treeOrder="70"/>
+				<decorativeLights treeOrder="110">
+					<itemGlowstoneIlluminator id="thermalexpansion:light" treeOrder="70"/>
+					<itemLumiumLamp id="thermalexpansion:light" treeOrder="80"/>
+					<itemRadiantLumiumLamp id="thermalexpansion:light" treeOrder="90"/>
 				</decorativeLights>
 			</lighting>
 			<pressurePlates treeOrder="60">
@@ -66,13 +66,13 @@
 					<itemItemAllocatorBasic id="thermalexpansion:device" damage="5" treeOrder="200"/>
 					<itemFluidAllocatorBasic id="thermalexpansion:device" damage="6" treeOrder="210"/>
 				</groundItemCollector>
-				<conveyerBelts treeOrder="100">
-					<itemImpulsePlate id="thermalexpansion:plate" damage="2" treeOrder="10"/>
+				<conveyerBelts treeOrder="120">
+					<itemImpulsePlate id="thermalexpansion:plate" damage="2" treeOrder="20"/>
 				</conveyerBelts>
-				<fans treeOrder="110">
+				<fans treeOrder="130">
 					<itemExcursionPlate id="thermalexpansion:plate" damage="5" treeOrder="10"/>
 				</fans>
-				<transDimensionalTransfer treeOrder="120">
+				<transDimensionalTransfer treeOrder="140">
 					<itemTesseract id="thermalexpansion:tesseract" treeOrder="10"/>
 					<itemTesseractFrameEmpty id="thermalexpansion:frame" damage="10" treeOrder="20"/>
 					<itemTesseractFrameFull id="thermalexpansion:frame" damage="11" treeOrder="30"/>
@@ -103,9 +103,9 @@
 			</generators>
 			<machines treeOrder="380">
 				<poweredCrafting treeOrder="10">
-					<itemSequentialFabricatorBasic id="thermalexpansion:machine" damage="11" treeOrder="30"/>
-					<itemFactorizerBasic id="thermalexpansion:device" damage="10" treeOrder="40"/>
-					<itemCompactorBasic id="thermalexpansion:machine" damage="5" treeOrder="50"/>
+					<itemSequentialFabricatorBasic id="thermalexpansion:machine" damage="11" treeOrder="40"/>
+					<itemFactorizerBasic id="thermalexpansion:device" damage="10" treeOrder="50"/>
+					<itemCompactorBasic id="thermalexpansion:machine" damage="5" treeOrder="60"/>
 				</poweredCrafting>
 				<poweredFurnaces treeOrder="20">
 					<itemInductionSmelterResonant id="thermalexpansion:machine" damage="3" treeOrder="60"/>
@@ -113,17 +113,17 @@
 				</poweredFurnaces>
 				<poweredGrinders treeOrder="30">
 					<itemPulverizerResonant id="thermalexpansion:machine" damage="1" treeOrder="50"/>
-					<itemSawmillResonant id="thermalexpansion:machine" damage="2" treeOrder="70"/>
+					<itemSawmillResonant id="thermalexpansion:machine" damage="2" treeOrder="80"/>
 				</poweredGrinders>
 				<poweredFarming treeOrder="40">
-					<itemArborealExtractorBasic id="thermalexpansion:device" damage="3" treeOrder="80"/>
-					<itemPhytogenicInsolatorBasic id="thermalexpansion:machine" damage="4" treeOrder="90"/>
+					<itemArborealExtractorBasic id="thermalexpansion:device" damage="3" treeOrder="90"/>
+					<itemPhytogenicInsolatorBasic id="thermalexpansion:machine" damage="4" treeOrder="100"/>
 				</poweredFarming>
 				<poweredFishing treeOrder="60">
 					<itemAquaticEntanglerBasic id="thermalexpansion:device" damage="4" treeOrder="20"/>
 				</poweredFishing>
 				<mobKillers treeOrder="80">
-					<itemCreatureEncaptulatorBasic id="thermalexpansion:device" damage="11" treeOrder="170"/>
+					<itemCreatureEncaptulatorBasic id="thermalexpansion:device" damage="11" treeOrder="180"/>
 				</mobKillers>
 				<poweredEnchantment treeOrder="90">
 					<itemArcaneEnsorcellatorBasic id="thermalexpansion:machine" damage="13" treeOrder="40"/>
@@ -140,8 +140,8 @@
 					<itemGlacialPrecipitatorBasic id="thermalexpansion:machine" damage="14" treeOrder="30"/>
 				</cobbleCreators>
 				<poweredMining treeOrder="130">
-					<itemGlacialPrecipitatorBasic id="thermalexpansion:machine" damage="14" treeOrder="60"/>
-					<itemIgneousExtruderBasic id="thermalexpansion:machine" damage="15" treeOrder="70"/>
+					<itemGlacialPrecipitatorBasic id="thermalexpansion:machine" damage="14" treeOrder="70"/>
+					<itemIgneousExtruderBasic id="thermalexpansion:machine" damage="15" treeOrder="80"/>
 				</poweredMining>
 				<poweredFluids treeOrder="140">
 					<itemAqueousAccumulatorBasic id="thermalexpansion:device" damage="0" treeOrder="40"/>
@@ -150,13 +150,13 @@
 					<itemFractionatingStillBasic id="thermalexpansion:machine" damage="7" treeOrder="80"/>
 					<itemThermalMediatorBasic id="thermalexpansion:device" damage="2" treeOrder="90"/>
 				</poweredFluids>
-				<poweredDroppers treeOrder="150">
-					<itemDecoctiveDiffuserBasic id="thermalexpansion:device" damage="9" treeOrder="90"/>
+				<poweredDroppers treeOrder="160">
+					<itemDecoctiveDiffuserBasic id="thermalexpansion:device" damage="9" treeOrder="100"/>
 				</poweredDroppers>
-				<randomMachines treeOrder="200">
+				<randomMachines treeOrder="210">
 					<itemCentrifugalSeparatorBasic id="thermalexpansion:machine" damage="10" treeOrder="50"/>
 				</randomMachines>
-				<remoteAccess treeOrder="220">
+				<remoteAccess treeOrder="230">
 					<itemTeleportPlate id="thermalexpansion:plate" damage="6" treeOrder="50"/>
 					<itemTranslocationPlate id="thermalexpansion:plate" damage="3" treeOrder="60"/>
 				</remoteAccess>
@@ -173,13 +173,13 @@
 			<storage treeOrder="30">
 				<chests treeOrder="10">
 					<strongBox id="thermalexpansion:strongbox" treeOrder="280"/>
-					<itemthermalexpansion_Strongbox id="thermalexpansion:strongbox" treeOrder="370"/>
+					<itemthermalexpansion_Strongbox id="thermalexpansion:strongbox" treeOrder="380"/>
 				</chests>
 				<barrels treeOrder="40">
 					<itemthermalexpansion_Cache id="thermalexpansion:cache" treeOrder="30"/>
 				</barrels>
 				<portableStorage treeOrder="90">
-					<itemSatchel id="thermalexpansion:satchel" treeOrder="50"/>
+					<itemSatchel id="thermalexpansion:satchel" treeOrder="60"/>
 				</portableStorage>
 				<voidStorage treeOrder="110">
 					<voidBlocks treeOrder="10">
@@ -189,11 +189,11 @@
 				<powerStorage treeOrder="120">
 					<itemCreativeEnergyCell id="thermalexpansion:cell" treeOrder="40"/>
 					<itemCreativeFluxCapacitor id="thermalexpansion:capacitor" treeOrder="90"/>
-					<itemEnergeticInfuserBasic id="thermalexpansion:machine" damage="9" treeOrder="220"/>
-					<itemChargePlate id="thermalexpansion:plate" damage="4" treeOrder="230"/>
+					<itemEnergeticInfuserBasic id="thermalexpansion:machine" damage="9" treeOrder="240"/>
+					<itemChargePlate id="thermalexpansion:plate" damage="4" treeOrder="250"/>
 				</powerStorage>
 			</storage>
-			<mobHolder treeOrder="240">
+			<mobHolder treeOrder="250">
 				<itemMorbEmpty id="thermalexpansion:morb" treeOrder="100"/>
 			</mobHolder>
 		</utility>
@@ -208,13 +208,13 @@
 		</fluidPortableStorage>
 		<fluidStorage treeOrder="50">
 			<fluidTanks treeOrder="30">
-				<itemReservoirBasic id="thermalexpansion:reservoir" treeOrder="100"/>
+				<itemReservoirBasic id="thermalexpansion:reservoir" treeOrder="110"/>
 			</fluidTanks>
 		</fluidStorage>
-		<patterns treeOrder="90">
-			<itemSchematic id="thermalexpansion:diagram" treeOrder="40"/>
+		<patterns treeOrder="100">
+			<itemSchematic id="thermalexpansion:diagram" treeOrder="50"/>
 		</patterns>
-		<parts treeOrder="110">
+		<parts treeOrder="120">
 			<mechanicalParts treeOrder="10">
 				<frames treeOrder="110">
 					<itemthermalexpansion_Frame id="thermalexpansion:frame" treeOrder="80"/>

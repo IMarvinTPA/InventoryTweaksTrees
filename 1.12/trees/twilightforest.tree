@@ -44,70 +44,70 @@
 			</miningTool>
 			<diggingTool treeOrder="30">
 				<shovel class="Item" data="{ToolClass : &quot;shovel&quot;}" mergeChildren="true" treeOrder="20">
-					<itemIronwoodShovel id="twilightforest:ironwood_shovel" treeOrder="1190"/>
-					<itemSteeleafShovel id="twilightforest:steeleaf_shovel" treeOrder="1200"/>
+					<itemIronwoodShovel id="twilightforest:ironwood_shovel" treeOrder="1210"/>
+					<itemSteeleafShovel id="twilightforest:steeleaf_shovel" treeOrder="1220"/>
 				</shovel>
 			</diggingTool>
 			<choppingTool treeOrder="40">
 				<axe class="Item" data="{ToolClass : &quot;axe&quot;}" mergeChildren="true" treeOrder="20">
-					<itemIronwoodAxe id="twilightforest:ironwood_axe" treeOrder="1130"/>
-					<itemKnightlyAxe id="twilightforest:knightmetal_axe" treeOrder="1140"/>
-					<itemMinotaurAxe id="twilightforest:minotaur_axe" treeOrder="1150"/>
-					<itemSteeleafAxe id="twilightforest:steeleaf_axe" treeOrder="1160"/>
+					<itemIronwoodAxe id="twilightforest:ironwood_axe" treeOrder="1150"/>
+					<itemKnightlyAxe id="twilightforest:knightmetal_axe" treeOrder="1160"/>
+					<itemMinotaurAxe id="twilightforest:minotaur_axe" treeOrder="1170"/>
+					<itemSteeleafAxe id="twilightforest:steeleaf_axe" treeOrder="1180"/>
 				</axe>
 			</choppingTool>
 			<farmingTool treeOrder="50">
 				<hoe class="Item" data="{ToolClass : &quot;hoe&quot;}" mergeChildren="true" treeOrder="50">
-					<itemIronwoodHoe id="twilightforest:ironwood_hoe" treeOrder="1020"/>
-					<itemSteeleafHoe id="twilightforest:steeleaf_hoe" treeOrder="1030"/>
+					<itemIronwoodHoe id="twilightforest:ironwood_hoe" treeOrder="1030"/>
+					<itemSteeleafHoe id="twilightforest:steeleaf_hoe" treeOrder="1040"/>
 				</hoe>
 			</farmingTool>
 		</tool>
 		<armor treeOrder="30">
 			<helmet class="ItemArmor" data="{ArmorType : &quot;head&quot;}" treeOrder="20">
 				<helmetUnsorted treeOrder="60">
-					<itemArcticHood id="twilightforest:arctic_helmet" treeOrder="20"/>
-					<itemFieryHelm id="twilightforest:fiery_helmet" treeOrder="210"/>
-					<itemIronwoodHelm id="twilightforest:ironwood_helmet" treeOrder="260"/>
-					<itemKnightlyHelm id="twilightforest:knightmetal_helmet" treeOrder="270"/>
-					<itemPhantomHelm id="twilightforest:phantom_helmet" treeOrder="380"/>
-					<itemSteeleafHelm id="twilightforest:steeleaf_helmet" treeOrder="500"/>
-					<itemYetiHornedHelm id="twilightforest:yeti_helmet" treeOrder="710"/>
+					<itemArcticHood id="twilightforest:arctic_helmet" treeOrder="30"/>
+					<itemFieryHelm id="twilightforest:fiery_helmet" treeOrder="220"/>
+					<itemIronwoodHelm id="twilightforest:ironwood_helmet" treeOrder="270"/>
+					<itemKnightlyHelm id="twilightforest:knightmetal_helmet" treeOrder="280"/>
+					<itemPhantomHelm id="twilightforest:phantom_helmet" treeOrder="390"/>
+					<itemSteeleafHelm id="twilightforest:steeleaf_helmet" treeOrder="510"/>
+					<itemYetiHornedHelm id="twilightforest:yeti_helmet" treeOrder="720"/>
 				</helmetUnsorted>
 			</helmet>
 			<chestplate class="ItemArmor" data="{ArmorType:&quot;chest&quot;}" treeOrder="30">
 				<chestplateArmor treeOrder="20">
 					<chestplateUnsorted treeOrder="120">
-						<itemArcticJacket id="twilightforest:arctic_chestplate" treeOrder="20"/>
-						<itemFieryPlate id="twilightforest:fiery_chestplate" treeOrder="200"/>
-						<itemIronwoodPlate id="twilightforest:ironwood_chestplate" treeOrder="250"/>
-						<itemKnightlyPlate id="twilightforest:knightmetal_chestplate" treeOrder="270"/>
-						<itemNagaScaleTunic id="twilightforest:naga_chestplate" treeOrder="330"/>
-						<itemPhantomPlate id="twilightforest:phantom_chestplate" treeOrder="390"/>
-						<itemSteeleafPlate id="twilightforest:steeleaf_chestplate" treeOrder="510"/>
-						<itemYetiJacket id="twilightforest:yeti_chestplate" treeOrder="740"/>
+						<itemArcticJacket id="twilightforest:arctic_chestplate" treeOrder="30"/>
+						<itemFieryPlate id="twilightforest:fiery_chestplate" treeOrder="210"/>
+						<itemIronwoodPlate id="twilightforest:ironwood_chestplate" treeOrder="260"/>
+						<itemKnightlyPlate id="twilightforest:knightmetal_chestplate" treeOrder="280"/>
+						<itemNagaScaleTunic id="twilightforest:naga_chestplate" treeOrder="340"/>
+						<itemPhantomPlate id="twilightforest:phantom_chestplate" treeOrder="400"/>
+						<itemSteeleafPlate id="twilightforest:steeleaf_chestplate" treeOrder="520"/>
+						<itemYetiJacket id="twilightforest:yeti_chestplate" treeOrder="750"/>
 					</chestplateUnsorted>
 				</chestplateArmor>
 			</chestplate>
 			<leggings class="ItemArmor" data="{ArmorType:&quot;legs&quot;}" treeOrder="40">
 				<leggingsUnsorted treeOrder="100">
-					<itemArcticLeggings id="twilightforest:arctic_leggings" treeOrder="20"/>
-					<itemFieryLegs id="twilightforest:fiery_leggings" treeOrder="210"/>
-					<itemIronwoodLegs id="twilightforest:ironwood_leggings" treeOrder="260"/>
-					<itemKnightlyGreaves id="twilightforest:knightmetal_leggings" treeOrder="270"/>
-					<itemNagaScaleLeggings id="twilightforest:naga_leggings" treeOrder="330"/>
-					<itemSteeleafLegs id="twilightforest:steeleaf_leggings" treeOrder="480"/>
-					<itemYetiLeggings id="twilightforest:yeti_leggings" treeOrder="670"/>
+					<itemArcticLeggings id="twilightforest:arctic_leggings" treeOrder="30"/>
+					<itemFieryLegs id="twilightforest:fiery_leggings" treeOrder="220"/>
+					<itemIronwoodLegs id="twilightforest:ironwood_leggings" treeOrder="270"/>
+					<itemKnightlyGreaves id="twilightforest:knightmetal_leggings" treeOrder="280"/>
+					<itemNagaScaleLeggings id="twilightforest:naga_leggings" treeOrder="340"/>
+					<itemSteeleafLegs id="twilightforest:steeleaf_leggings" treeOrder="490"/>
+					<itemYetiLeggings id="twilightforest:yeti_leggings" treeOrder="680"/>
 				</leggingsUnsorted>
 			</leggings>
 			<boots class="ItemArmor" data="{ArmorType:&quot;feet&quot;}" treeOrder="50">
 				<bootsUnsorted treeOrder="70">
-					<itemArcticBoots id="twilightforest:arctic_boots" treeOrder="20"/>
-					<itemFieryBoots id="twilightforest:fiery_boots" treeOrder="240"/>
-					<itemIronwoodBoots id="twilightforest:ironwood_boots" treeOrder="290"/>
-					<itemKnightlyBoots id="twilightforest:knightmetal_boots" treeOrder="300"/>
-					<itemSteeleafBoots id="twilightforest:steeleaf_boots" treeOrder="520"/>
-					<itemYetiBoots id="twilightforest:yeti_boots" treeOrder="760"/>
+					<itemArcticBoots id="twilightforest:arctic_boots" treeOrder="30"/>
+					<itemFieryBoots id="twilightforest:fiery_boots" treeOrder="250"/>
+					<itemIronwoodBoots id="twilightforest:ironwood_boots" treeOrder="300"/>
+					<itemKnightlyBoots id="twilightforest:knightmetal_boots" treeOrder="310"/>
+					<itemSteeleafBoots id="twilightforest:steeleaf_boots" treeOrder="530"/>
+					<itemYetiBoots id="twilightforest:yeti_boots" treeOrder="770"/>
 				</bootsUnsorted>
 			</boots>
 		</armor>
@@ -132,7 +132,7 @@
 		<mechanism treeOrder="60">
 			<basicCrafting treeOrder="360">
 				<craftingTables treeOrder="10">
-					<itemUncraftingTable id="twilightforest:uncrafting_table" treeOrder="190"/>
+					<itemUncraftingTable id="twilightforest:uncrafting_table" treeOrder="220"/>
 				</craftingTables>
 			</basicCrafting>
 		</mechanism>

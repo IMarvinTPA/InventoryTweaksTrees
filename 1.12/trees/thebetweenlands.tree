@@ -49,18 +49,18 @@
 			</miningTool>
 			<diggingTool treeOrder="30">
 				<shovel class="Item" data="{ToolClass : &quot;shovel&quot;}" mergeChildren="true" treeOrder="20">
-					<itemBoneShovel id="thebetweenlands:bone_shovel" treeOrder="1150"/>
-					<itemOctineShovel id="thebetweenlands:octine_shovel" treeOrder="1160"/>
-					<itemValoniteShovel id="thebetweenlands:valonite_shovel" treeOrder="1170"/>
-					<itemWeedwoodShovel id="thebetweenlands:weedwood_shovel" treeOrder="1180"/>
+					<itemBoneShovel id="thebetweenlands:bone_shovel" treeOrder="1170"/>
+					<itemOctineShovel id="thebetweenlands:octine_shovel" treeOrder="1180"/>
+					<itemValoniteShovel id="thebetweenlands:valonite_shovel" treeOrder="1190"/>
+					<itemWeedwoodShovel id="thebetweenlands:weedwood_shovel" treeOrder="1200"/>
 				</shovel>
 			</diggingTool>
 			<choppingTool treeOrder="40">
 				<axe class="Item" data="{ToolClass : &quot;axe&quot;}" mergeChildren="true" treeOrder="20">
-					<itemBoneAxe id="thebetweenlands:bone_axe" treeOrder="1090"/>
-					<itemOctineAxe id="thebetweenlands:octine_axe" treeOrder="1100"/>
-					<itemValoniteAxe id="thebetweenlands:valonite_axe" treeOrder="1110"/>
-					<itemWeedwoodAxe id="thebetweenlands:weedwood_axe" treeOrder="1120"/>
+					<itemBoneAxe id="thebetweenlands:bone_axe" treeOrder="1110"/>
+					<itemOctineAxe id="thebetweenlands:octine_axe" treeOrder="1120"/>
+					<itemValoniteAxe id="thebetweenlands:valonite_axe" treeOrder="1130"/>
+					<itemWeedwoodAxe id="thebetweenlands:weedwood_axe" treeOrder="1140"/>
 				</axe>
 			</choppingTool>
 			<farmingTool treeOrder="50">
@@ -72,38 +72,38 @@
 		<armor treeOrder="30">
 			<helmet class="ItemArmor" data="{ArmorType : &quot;head&quot;}" treeOrder="20">
 				<helmetUnsorted treeOrder="60">
-					<itemBoneHelmet id="thebetweenlands:bone_helmet" treeOrder="60"/>
-					<itemLurkerSkinHelmet id="thebetweenlands:lurker_skin_helmet" treeOrder="300"/>
-					<itemSyrmoriteHelmet id="thebetweenlands:syrmorite_helmet" treeOrder="530"/>
-					<itemValoniteHelmet id="thebetweenlands:valonite_helmet" treeOrder="650"/>
+					<itemBoneHelmet id="thebetweenlands:bone_helmet" treeOrder="70"/>
+					<itemLurkerSkinHelmet id="thebetweenlands:lurker_skin_helmet" treeOrder="310"/>
+					<itemSyrmoriteHelmet id="thebetweenlands:syrmorite_helmet" treeOrder="540"/>
+					<itemValoniteHelmet id="thebetweenlands:valonite_helmet" treeOrder="660"/>
 				</helmetUnsorted>
 			</helmet>
 			<chestplate class="ItemArmor" data="{ArmorType:&quot;chest&quot;}" treeOrder="30">
 				<chestplateArmor treeOrder="20">
 					<chestplateUnsorted treeOrder="120">
-						<itemBoneChestplate id="thebetweenlands:bone_chestplate" treeOrder="60"/>
-						<itemLurkerSkinChestplate id="thebetweenlands:lurker_skin_chestplate" treeOrder="300"/>
-						<itemSyrmoriteChestplate id="thebetweenlands:syrmorite_chestplate" treeOrder="540"/>
-						<itemValoniteChestplate id="thebetweenlands:valonite_chestplate" treeOrder="700"/>
+						<itemBoneChestplate id="thebetweenlands:bone_chestplate" treeOrder="70"/>
+						<itemLurkerSkinChestplate id="thebetweenlands:lurker_skin_chestplate" treeOrder="310"/>
+						<itemSyrmoriteChestplate id="thebetweenlands:syrmorite_chestplate" treeOrder="550"/>
+						<itemValoniteChestplate id="thebetweenlands:valonite_chestplate" treeOrder="710"/>
 					</chestplateUnsorted>
 				</chestplateArmor>
 			</chestplate>
 			<leggings class="ItemArmor" data="{ArmorType:&quot;legs&quot;}" treeOrder="40">
 				<leggingsUnsorted treeOrder="100">
-					<itemBoneLeggings id="thebetweenlands:bone_leggings" treeOrder="60"/>
-					<itemLurkerSkinLeggings id="thebetweenlands:lurker_skin_leggings" treeOrder="300"/>
-					<itemSyrmoriteLeggings id="thebetweenlands:syrmorite_leggings" treeOrder="510"/>
-					<itemValoniteLeggings id="thebetweenlands:valonite_leggings" treeOrder="630"/>
+					<itemBoneLeggings id="thebetweenlands:bone_leggings" treeOrder="70"/>
+					<itemLurkerSkinLeggings id="thebetweenlands:lurker_skin_leggings" treeOrder="310"/>
+					<itemSyrmoriteLeggings id="thebetweenlands:syrmorite_leggings" treeOrder="520"/>
+					<itemValoniteLeggings id="thebetweenlands:valonite_leggings" treeOrder="640"/>
 				</leggingsUnsorted>
 			</leggings>
 			<boots class="ItemArmor" data="{ArmorType:&quot;feet&quot;}" treeOrder="50">
 				<bootsUnsorted treeOrder="70">
-					<itemBoneBoots id="thebetweenlands:bone_boots" treeOrder="60"/>
-					<itemBootsoftheMarshRunner id="thebetweenlands:marsh_runner_boots" treeOrder="90"/>
-					<itemLurkerSkinBoots id="thebetweenlands:lurker_skin_boots" treeOrder="330"/>
-					<itemRubberBoots id="thebetweenlands:rubber_boots" treeOrder="480"/>
-					<itemSyrmoriteBoots id="thebetweenlands:syrmorite_boots" treeOrder="550"/>
-					<itemValoniteBoots id="thebetweenlands:valonite_boots" treeOrder="710"/>
+					<itemBoneBoots id="thebetweenlands:bone_boots" treeOrder="70"/>
+					<itemBootsoftheMarshRunner id="thebetweenlands:marsh_runner_boots" treeOrder="100"/>
+					<itemLurkerSkinBoots id="thebetweenlands:lurker_skin_boots" treeOrder="340"/>
+					<itemRubberBoots id="thebetweenlands:rubber_boots" treeOrder="490"/>
+					<itemSyrmoriteBoots id="thebetweenlands:syrmorite_boots" treeOrder="560"/>
+					<itemValoniteBoots id="thebetweenlands:valonite_boots" treeOrder="720"/>
 				</bootsUnsorted>
 			</boots>
 		</armor>
@@ -163,30 +163,30 @@
 	<item treeOrder="40">
 		<utility treeOrder="10">
 			<readableBooks treeOrder="90">
-				<itemHerbloreBook id="thebetweenlands:manual_hl" treeOrder="460"/>
+				<itemHerbloreBook id="thebetweenlands:manual_hl" treeOrder="480"/>
 			</readableBooks>
 		</utility>
 		<fluidPortableStorage treeOrder="20">
 			<bucket treeOrder="10">
-				<itemPlantTonic id="thebetweenlands:bl_bucket_plant_tonic" treeOrder="500"/>
 				<itemPlantTonic id="thebetweenlands:bl_bucket_plant_tonic" treeOrder="510"/>
-				<itemSyrmoriteBucket id="thebetweenlands:bl_bucket" treeOrder="520"/>
-				<itemSyrmoriteBucketRubber id="thebetweenlands:bl_bucket_rubber" treeOrder="530"/>
-				<itemSyrmoriteBucketStagnantWater id="thebetweenlands:bl_bucket" treeOrder="540"/>
-				<itemSyrmoriteBucketSwampWater id="thebetweenlands:bl_bucket" treeOrder="550"/>
-				<itemSyrmoriteBucketTar id="thebetweenlands:bl_bucket" treeOrder="560"/>
-				<itemSyrmoriteBucketwithSolidRubber id="thebetweenlands:syrmorite_bucket_solid_rubber" treeOrder="570"/>
-				<itemWeedwoodBucket id="thebetweenlands:bl_bucket" treeOrder="580"/>
-				<itemWeedwoodBucketRubber id="thebetweenlands:bl_bucket_rubber" treeOrder="590"/>
-				<itemWeedwoodBucketStagnantWater id="thebetweenlands:bl_bucket" treeOrder="600"/>
-				<itemWeedwoodBucketSwampWater id="thebetweenlands:bl_bucket" treeOrder="610"/>
-				<itemWeedwoodBucketTar id="thebetweenlands:bl_bucket" treeOrder="620"/>
+				<itemPlantTonic id="thebetweenlands:bl_bucket_plant_tonic" treeOrder="520"/>
+				<itemSyrmoriteBucket id="thebetweenlands:bl_bucket" treeOrder="530"/>
+				<itemSyrmoriteBucketRubber id="thebetweenlands:bl_bucket_rubber" treeOrder="540"/>
+				<itemSyrmoriteBucketStagnantWater id="thebetweenlands:bl_bucket" treeOrder="550"/>
+				<itemSyrmoriteBucketSwampWater id="thebetweenlands:bl_bucket" treeOrder="560"/>
+				<itemSyrmoriteBucketTar id="thebetweenlands:bl_bucket" treeOrder="570"/>
+				<itemSyrmoriteBucketwithSolidRubber id="thebetweenlands:syrmorite_bucket_solid_rubber" treeOrder="580"/>
+				<itemWeedwoodBucket id="thebetweenlands:bl_bucket" treeOrder="590"/>
+				<itemWeedwoodBucketRubber id="thebetweenlands:bl_bucket_rubber" treeOrder="600"/>
+				<itemWeedwoodBucketStagnantWater id="thebetweenlands:bl_bucket" treeOrder="610"/>
+				<itemWeedwoodBucketSwampWater id="thebetweenlands:bl_bucket" treeOrder="620"/>
+				<itemWeedwoodBucketTar id="thebetweenlands:bl_bucket" treeOrder="630"/>
 			</bucket>
 		</fluidPortableStorage>
-		<decoration treeOrder="120">
+		<decoration treeOrder="130">
 			<itemMudBrickFlowerPot id="thebetweenlands:mud_flower_pot" treeOrder="250"/>
 		</decoration>
-		<plant treeOrder="160">
+		<plant treeOrder="170">
 			<flower treeOrder="10">
 				<flowerDecorative treeOrder="200">
 					<itemBladderwortFlower id="thebetweenlands:items_plant_drop" damage="40" treeOrder="100"/>

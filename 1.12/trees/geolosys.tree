@@ -29,7 +29,7 @@
 	<item treeOrder="40">
 		<utility treeOrder="10">
 			<readableBooks treeOrder="90">
-				<itemFieldManual id="geolosys:field_manual" treeOrder="390"/>
+				<itemFieldManual id="geolosys:field_manual" treeOrder="410"/>
 			</readableBooks>
 		</utility>
 	</item>

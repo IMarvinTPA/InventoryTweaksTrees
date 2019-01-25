@@ -81,20 +81,20 @@
 			</miningTool>
 			<diggingTool treeOrder="30">
 				<shovel class="Item" data="{ToolClass : &quot;shovel&quot;}" mergeChildren="true" treeOrder="20">
-					<itemBloodwoodShovel id="natura:natura.shovel.bloodwood" treeOrder="50"/>
-					<itemDarkwoodShovel id="natura:natura.shovel.darkwood" treeOrder="140"/>
-					<itemFusewoodShovel id="natura:natura.shovel.fusewood" treeOrder="300"/>
-					<itemGhostwoodShovel id="natura:natura.shovel.ghostwood" treeOrder="310"/>
-					<itemQuartzShovel id="natura:natura.shovel.netherquartz" treeOrder="460"/>
+					<itemBloodwoodShovel id="natura:natura.shovel.bloodwood" treeOrder="70"/>
+					<itemDarkwoodShovel id="natura:natura.shovel.darkwood" treeOrder="160"/>
+					<itemFusewoodShovel id="natura:natura.shovel.fusewood" treeOrder="320"/>
+					<itemGhostwoodShovel id="natura:natura.shovel.ghostwood" treeOrder="330"/>
+					<itemQuartzShovel id="natura:natura.shovel.netherquartz" treeOrder="480"/>
 				</shovel>
 			</diggingTool>
 			<choppingTool treeOrder="40">
 				<axe class="Item" data="{ToolClass : &quot;axe&quot;}" mergeChildren="true" treeOrder="20">
-					<itemBloodwoodHatchet id="natura:natura.axe.bloodwood" treeOrder="120"/>
-					<itemDarkwoodHatchet id="natura:natura.axe.darkwood" treeOrder="210"/>
-					<itemFusewoodHatchet id="natura:natura.axe.fusewood" treeOrder="350"/>
-					<itemGhostwoodHatchet id="natura:natura.axe.ghostwood" treeOrder="360"/>
-					<itemQuartzHatchet id="natura:natura.axe.netherquartz" treeOrder="530"/>
+					<itemBloodwoodHatchet id="natura:natura.axe.bloodwood" treeOrder="140"/>
+					<itemDarkwoodHatchet id="natura:natura.axe.darkwood" treeOrder="230"/>
+					<itemFusewoodHatchet id="natura:natura.axe.fusewood" treeOrder="370"/>
+					<itemGhostwoodHatchet id="natura:natura.axe.ghostwood" treeOrder="380"/>
+					<itemQuartzHatchet id="natura:natura.axe.netherquartz" treeOrder="550"/>
 				</axe>
 			</choppingTool>
 			<farmingTool treeOrder="50">
@@ -329,14 +329,14 @@
 	<resources treeOrder="30">
 		<miningResources treeOrder="10">
 			<dust treeOrder="40">
-				<itemSulfur id="natura:barleyfood" damage="4" treeOrder="1850"/>
+				<itemSulfur id="natura:barleyfood" damage="4" treeOrder="1870"/>
 			</dust>
 		</miningResources>
 		<huntingResources treeOrder="20">
-			<leather id="leather" treeOrder="20">
+			<leather id="leather" treeOrder="40">
 				<itemImpLeather id="natura:barleyfood" damage="6" treeOrder="40"/>
 			</leather>
-			<string id="string" treeOrder="90">
+			<string id="string" treeOrder="110">
 				<itemFlamestring id="natura:materials" damage="7" treeOrder="20"/>
 			</string>
 		</huntingResources>
@@ -353,22 +353,22 @@
 			<beds treeOrder="80">
 				<obelisk id="natura:obelisk" treeOrder="20"/>
 			</beds>
-			<bowl treeOrder="140">
+			<bowl treeOrder="150">
 				<naturaBowl id="natura:natura.emptybowl" treeOrder="20"/>
 			</bowl>
-			<spawnerEggs treeOrder="200">
+			<spawnerEggs treeOrder="210">
 				<itemSpawnBabyHeatscarSpider id="natura:natura.spawnegg" damage="3" treeOrder="540"/>
 				<itemSpawnHeatscarSpider id="natura:natura.spawnegg" damage="1" treeOrder="550"/>
 				<itemSpawnImp id="natura:natura.spawnegg" damage="0" treeOrder="560"/>
 				<itemSpawnNitroCreeper id="natura:natura.spawnegg" damage="2" treeOrder="570"/>
 			</spawnerEggs>
 		</utility>
-		<parts treeOrder="110">
+		<parts treeOrder="120">
 			<tinkerParts treeOrder="20">
 				<itemGhostwoodFletching id="natura:barleyfood" damage="5" treeOrder="760"/>
 			</tinkerParts>
 		</parts>
-		<decoration treeOrder="120">
+		<decoration treeOrder="130">
 			<obelisk id="natura:obelisk" treeOrder="20"/>
 			<door treeOrder="40">
 				<itemBloodwoodDoor2 id="natura:redwooddooritem" damage="5" treeOrder="90"/>
@@ -383,11 +383,11 @@
 				<itemNaturaBookshelf id="natura:natura.bookshelf" treeOrder="40"/>
 			</bookShelf>
 		</decoration>
-		<food treeOrder="150">
+		<food treeOrder="160">
 			<edibleFood treeOrder="10">
 				<preparedFood treeOrder="30">
 					<soup treeOrder="150">
-						<itemNatura_natura.stewbowl id="natura:natura.stewbowl" treeOrder="120"/>
+						<itemNatura_natura.stewbowl id="natura:natura.stewbowl" treeOrder="130"/>
 					</soup>
 					<salad treeOrder="180">
 						<itemBerryMedley id="natura:berrymedley" treeOrder="20"/>
@@ -406,7 +406,7 @@
 				</fruit>
 				<drink treeOrder="120">
 					<juice treeOrder="10">
-						<itemCactusJuice id="natura:waterdrop" treeOrder="10"/>
+						<itemCactusJuice id="natura:waterdrop" treeOrder="100"/>
 					</juice>
 				</drink>
 				<rawFood treeOrder="130">
@@ -422,7 +422,7 @@
 				</rawFood>
 			</edibleFood>
 		</food>
-		<plant treeOrder="160">
+		<plant treeOrder="170">
 			<flower treeOrder="10">
 				<flowerBlue treeOrder="130">
 					<itemBluebells id="natura:bluebells_flower" treeOrder="20"/>
@@ -445,15 +445,15 @@
 			</seedlings>
 			<itemSaguaroCactus id="natura:saguaro" treeOrder="160"/>
 			<groundCover treeOrder="220">
-				<bushes treeOrder="100">
+				<bushes treeOrder="110">
 					<itemBlackberryBush id="natura:berrybush" damage="14" treeOrder="10"/>
-					<itemBlueberryBush id="natura:berrybush" damage="13" treeOrder="20"/>
-					<itemMaloberryBush id="natura:berrybush" damage="15" treeOrder="30"/>
-					<itemRaspberryBush id="natura:berrybush" damage="12" treeOrder="40"/>
-					<itemBlightberryBush id="natura:netherberrybush" damage="12" treeOrder="50"/>
+					<itemBlightberryBush id="natura:netherberrybush" damage="12" treeOrder="30"/>
+					<itemBlueberryBush id="natura:berrybush" damage="13" treeOrder="40"/>
 					<itemDuskberryBush id="natura:netherberrybush" damage="13" treeOrder="60"/>
-					<itemSkyberryBush id="natura:netherberrybush" damage="14" treeOrder="70"/>
-					<itemStingberryBush id="natura:netherberrybush" damage="15" treeOrder="80"/>
+					<itemMaloberryBush id="natura:berrybush" damage="15" treeOrder="70"/>
+					<itemRaspberryBush id="natura:berrybush" damage="12" treeOrder="90"/>
+					<itemSkyberryBush id="natura:netherberrybush" damage="14" treeOrder="110"/>
+					<itemStingberryBush id="natura:netherberrybush" damage="15" treeOrder="120"/>
 				</bushes>
 			</groundCover>
 		</plant>

@@ -47,7 +47,7 @@
 	</equipment>
 	<resources treeOrder="30">
 		<huntingResources treeOrder="20">
-			<string id="string" treeOrder="90">
+			<string id="string" treeOrder="110">
 				<itemGoldenString id="evilcraft:golden_string" treeOrder="30"/>
 			</string>
 		</huntingResources>

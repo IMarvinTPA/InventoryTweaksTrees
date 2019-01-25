@@ -42,7 +42,7 @@
 			</meleeWeapon>
 		</weapon>
 		<tool treeOrder="20">
-			<keys treeOrder="210">
+			<keys treeOrder="240">
 				<itemSpectreKey id="randomthings:spectrekey" treeOrder="60"/>
 				<itemOpSpectreKey id="randomthings:opspectrekey" treeOrder="70"/>
 			</keys>
@@ -88,7 +88,7 @@
 		<mechanism treeOrder="60">
 			<lighting treeOrder="30">
 				<torch treeOrder="10">
-					<itemPeaceCandle id="randomthings:peacecandle" treeOrder="250"/>
+					<itemPeaceCandle id="randomthings:peacecandle" treeOrder="260"/>
 				</torch>
 			</lighting>
 			<lever treeOrder="50">
@@ -101,10 +101,10 @@
 				</groundItemCollector>
 			</resourceTransfer>
 			<machines treeOrder="380">
-				<decorationMachines treeOrder="180">
+				<decorationMachines treeOrder="190">
 					<itemDyeingMachine id="randomthings:dyeingmachine" damage="0" treeOrder="50"/>
 				</decorationMachines>
-				<randomMachines treeOrder="200">
+				<randomMachines treeOrder="210">
 					<itemBiomePainter id="randomthings:biomepainter" treeOrder="80"/>
 				</randomMachines>
 			</machines>
@@ -112,12 +112,12 @@
 	</block>
 	<resources treeOrder="30">
 		<miningResources treeOrder="10">
-			<ingot treeOrder="120">
-				<itemSpectreIngot id="randomthings:ingredient" damage="3" treeOrder="1970"/>
+			<ingot treeOrder="130">
+				<itemSpectreIngot id="randomthings:ingredient" damage="3" treeOrder="2000"/>
 			</ingot>
 		</miningResources>
 		<huntingResources treeOrder="20">
-			<string id="string" treeOrder="90">
+			<string id="string" treeOrder="110">
 				<itemSpectreString id="randomthings:ingredient" damage="12" treeOrder="70"/>
 			</string>
 		</huntingResources>
@@ -128,10 +128,10 @@
 				<itemBlazeandSteel id="randomthings:blazeandsteel" treeOrder="30"/>
 			</flintAndSteel>
 		</utility>
-		<experienceStorage treeOrder="60">
+		<experienceStorage treeOrder="70">
 			<itemExperienceImbue id="randomthings:imbue" treeOrder="60"/>
 		</experienceStorage>
-		<parts treeOrder="110">
+		<parts treeOrder="120">
 			<tinkerParts treeOrder="20">
 				<itemObsidianStick id="randomthings:ingredient" damage="1" treeOrder="720"/>
 			</tinkerParts>

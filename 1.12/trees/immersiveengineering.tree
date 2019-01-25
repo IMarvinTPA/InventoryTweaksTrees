@@ -37,45 +37,87 @@
 					</sword>
 				</sword>
 			</meleeWeapon>
+			<munition treeOrder="20">
+				<gun treeOrder="20">
+					<itemRailgun id="immersiveengineering:railgun" treeOrder="30"/>
+					<itemRevolver id="immersiveengineering:revolver" treeOrder="60"/>
+				</gun>
+			</munition>
+			<bullets treeOrder="60">
+				<itemEmptyCasing id="immersiveengineering:bullet" treeOrder="150"/>
+			</bullets>
+			<itemChemicalThrower id="immersiveengineering:chemthrower" treeOrder="90"/>
 		</weapon>
+		<tool treeOrder="20">
+			<paxel mergeChildren="true" treeOrder="10">
+				<miningTool treeOrder="10">
+					<diggingTool treeOrder="10">
+						<choppingTool treeOrder="10">
+							<farmingTool treeOrder="10">
+								<itemMiningDrill id="immersiveengineering:drill" treeOrder="90"/>
+							</farmingTool>
+						</choppingTool>
+					</diggingTool>
+				</miningTool>
+			</paxel>
+			<wireCutters treeOrder="140">
+				<itemEngineersWireCutters id="immersiveengineering:tool" damage="1" treeOrder="10"/>
+			</wireCutters>
+			<craftingHammers treeOrder="150">
+				<itemEngineersHammer id="immersiveengineering:tool" damage="0" treeOrder="10"/>
+			</craftingHammers>
+			<multimeters treeOrder="160">
+				<itemEngineersVoltmeter id="immersiveengineering:tool" damage="2" treeOrder="50"/>
+			</multimeters>
+			<teleport treeOrder="320">
+				<itemEngineersSkyhook id="immersiveengineering:skyhook" treeOrder="50"/>
+			</teleport>
+		</tool>
 		<armor treeOrder="30">
 			<helmet class="ItemArmor" data="{ArmorType : &quot;head&quot;}" treeOrder="20">
 				<helmetUnsorted treeOrder="60">
-					<itemFaradayHelmet id="immersiveengineering:faraday_suit_head" treeOrder="200"/>
+					<itemFaradayHelmet id="immersiveengineering:faraday_suit_head" treeOrder="210"/>
 				</helmetUnsorted>
 			</helmet>
 			<chestplate class="ItemArmor" data="{ArmorType:&quot;chest&quot;}" treeOrder="30">
 				<chestplateArmor treeOrder="20">
 					<chestplateUnsorted treeOrder="120">
-						<itemFaradayChestplate id="immersiveengineering:faraday_suit_chest" treeOrder="190"/>
+						<itemFaradayChestplate id="immersiveengineering:faraday_suit_chest" treeOrder="200"/>
 					</chestplateUnsorted>
 				</chestplateArmor>
 			</chestplate>
 			<leggings class="ItemArmor" data="{ArmorType:&quot;legs&quot;}" treeOrder="40">
 				<leggingsUnsorted treeOrder="100">
-					<itemFaradayLeggings id="immersiveengineering:faraday_suit_legs" treeOrder="200"/>
+					<itemFaradayLeggings id="immersiveengineering:faraday_suit_legs" treeOrder="210"/>
 				</leggingsUnsorted>
 			</leggings>
 			<boots class="ItemArmor" data="{ArmorType:&quot;feet&quot;}" treeOrder="50">
 				<bootsUnsorted treeOrder="70">
-					<itemFaradayBoots id="immersiveengineering:faraday_suit_feet" treeOrder="230"/>
+					<itemFaradayBoots id="immersiveengineering:faraday_suit_feet" treeOrder="240"/>
 				</bootsUnsorted>
 			</boots>
 		</armor>
 	</equipment>
 	<block treeOrder="20">
 		<manufacturedBlock treeOrder="50">
+			<ladder treeOrder="10">
+				<itemMetalLadder id="immersiveengineering:metal_ladder" treeOrder="40"/>
+			</ladder>
 			<constructionBlock treeOrder="70">
+				<roads treeOrder="70">
+					<itemLeadedConcrete id="immersiveengineering:stone_decoration" damage="7" treeOrder="60"/>
+					<itemHempcrete id="immersiveengineering:stone_decoration" damage="4" treeOrder="70"/>
+				</roads>
 				<constructionUtility treeOrder="90">
-					<itemScaffoldCoveredLadder id="immersiveengineering:metal_ladder" damage="2" treeOrder="90"/>
-					<itemScaffoldCoveredLadder id="immersiveengineering:metal_ladder" damage="1" treeOrder="100"/>
-					<itemSteelScaffoldingSlab id="immersiveengineering:metal_decoration1_slab" treeOrder="110"/>
-					<itemAluminiumScaffoldingStairs id="immersiveengineering:aluminum_scaffolding_stairs1" treeOrder="120"/>
-					<itemAluminiumScaffoldingStairs id="immersiveengineering:aluminum_scaffolding_stairs0" treeOrder="130"/>
-					<itemAluminiumScaffoldingStairs id="immersiveengineering:aluminum_scaffolding_stairs2" treeOrder="140"/>
-					<itemSteelScaffoldingStairs id="immersiveengineering:steel_scaffolding_stairs2" treeOrder="150"/>
-					<itemSteelScaffoldingStairs id="immersiveengineering:steel_scaffolding_stairs1" treeOrder="160"/>
-					<itemSteelScaffoldingStairs id="immersiveengineering:steel_scaffolding_stairs0" treeOrder="170"/>
+					<itemScaffoldCoveredLadder id="immersiveengineering:metal_ladder" damage="2" treeOrder="110"/>
+					<itemScaffoldCoveredLadder id="immersiveengineering:metal_ladder" damage="1" treeOrder="120"/>
+					<itemSteelScaffoldingSlab id="immersiveengineering:metal_decoration1_slab" treeOrder="130"/>
+					<itemAluminiumScaffoldingStairs id="immersiveengineering:aluminum_scaffolding_stairs1" treeOrder="140"/>
+					<itemAluminiumScaffoldingStairs id="immersiveengineering:aluminum_scaffolding_stairs0" treeOrder="150"/>
+					<itemAluminiumScaffoldingStairs id="immersiveengineering:aluminum_scaffolding_stairs2" treeOrder="160"/>
+					<itemSteelScaffoldingStairs id="immersiveengineering:steel_scaffolding_stairs2" treeOrder="170"/>
+					<itemSteelScaffoldingStairs id="immersiveengineering:steel_scaffolding_stairs1" treeOrder="180"/>
+					<itemSteelScaffoldingStairs id="immersiveengineering:steel_scaffolding_stairs0" treeOrder="190"/>
 				</constructionUtility>
 				<stairs treeOrder="100">
 					<otherStairs treeOrder="40">
@@ -94,10 +136,11 @@
 							<itemTreatedWoodSlab id="immersiveengineering:treatedwoodslab" treeOrder="10"/>
 						</slabTreatedWoodDict>
 					</woodenSlabs>
-					<slabCokeBrick treeOrder="310">
-						<itemCokeBrickSlab id="immersiveengineering:stonedecorationslab" treeOrder="10"/>
-					</slabCokeBrick>
-					<metalSlabs oreDictName="slabAluminum" treeOrder="330">
+					<itemConcreteSlab id="immersiveengineering:stone_decoration_slab" damage="5" treeOrder="220"/>
+					<itemConcreteTileSlab id="immersiveengineering:stone_decoration_slab" damage="6" treeOrder="230"/>
+					<itemLeadedConcreteSlab id="immersiveengineering:stone_decoration_slab" damage="7" treeOrder="240"/>
+					<itemHempcreteSlab id="immersiveengineering:stone_decoration_slab" damage="4" treeOrder="250"/>
+					<metalSlabs oreDictName="slabAluminum" treeOrder="360">
 						<slabUraniumDict oreDictName="slabUranium" treeOrder="200">
 							<itemUraniumSlab id="immersiveengineering:storageslab" treeOrder="10"/>
 						</slabUraniumDict>
@@ -106,6 +149,35 @@
 			</constructionBlock>
 		</manufacturedBlock>
 		<mechanism treeOrder="60">
+			<lighting treeOrder="30">
+				<itemFloodlight id="immersiveengineering:metal_device1" damage="9" treeOrder="100"/>
+				<decorativeLights treeOrder="110">
+					<itemLantern id="immersiveengineering:metal_decoration2" damage="4" treeOrder="50"/>
+					<itemPoweredLantern id="immersiveengineering:metal_device1" damage="4" treeOrder="60"/>
+				</decorativeLights>
+			</lighting>
+			<doors treeOrder="80">
+				<itemStripCurtain id="immersiveengineering:cloth_device" damage="2" treeOrder="300"/>
+			</doors>
+			<resourceTransfer treeOrder="300">
+				<iePipes treeOrder="100">
+					<itemInsulatingGlass id="immersiveengineering:stone_decoration" damage="8" treeOrder="10"/>
+					<itemLVWireCoil id="immersiveengineering:wirecoil" treeOrder="20"/>
+					<itemLVWireConnector id="immersiveengineering:connector" treeOrder="30"/>
+					<itemFluidPipe id="immersiveengineering:metal_device1" damage="6" treeOrder="40"/>
+					<itemWoodenPost id="immersiveengineering:wooden_device1" damage="3" treeOrder="50"/>
+					<itemAluminiumPost id="immersiveengineering:metal_decoration2" damage="2" treeOrder="60"/>
+					<itemSteelPost id="immersiveengineering:metal_decoration2" damage="0" treeOrder="70"/>
+					<itemWoodenWallmount id="immersiveengineering:wooden_device1" damage="4" treeOrder="80"/>
+					<itemAluminiumWallmount id="immersiveengineering:metal_decoration2" damage="3" treeOrder="90"/>
+					<itemSteelWallmount id="immersiveengineering:metal_decoration2" damage="1" treeOrder="100"/>
+					<itemAluminiumStructuralArm id="immersiveengineering:metal_decoration2" damage="8" treeOrder="110"/>
+					<itemSteelStructuralArm id="immersiveengineering:metal_decoration2" damage="7" treeOrder="120"/>
+				</iePipes>
+				<conveyerBelts treeOrder="120">
+					<itemtile.immersiveengineering.conveyor..name id="immersiveengineering:conveyor" treeOrder="10"/>
+				</conveyerBelts>
+			</resourceTransfer>
 			<basicCrafting treeOrder="360">
 				<furnaces treeOrder="30">
 					<cokeOvens treeOrder="50">
@@ -117,29 +189,147 @@
 						<itemBlastBrickSlab id="immersiveengineering:stone_decoration_slab" damage="1" treeOrder="30"/>
 						<itemReinforcedBlastBrick id="immersiveengineering:stone_decoration" damage="2" treeOrder="40"/>
 						<itemReinforcedBlastBrickSlab id="immersiveengineering:stone_decoration_slab" damage="2" treeOrder="50"/>
+						<itemBlastFurnacePreheater id="immersiveengineering:metal_device1" damage="0" treeOrder="60"/>
 					</blastFurnaces>
+					<kilnOven treeOrder="70">
+						<itemKilnBrick id="immersiveengineering:stone_decoration" damage="10" treeOrder="10"/>
+						<itemKilnBrickSlab id="immersiveengineering:stone_decoration_slab" damage="10" treeOrder="20"/>
+					</kilnOven>
 				</furnaces>
 			</basicCrafting>
+			<generators treeOrder="370">
+				<weirdGenerators treeOrder="80">
+					<itemKineticDynamo id="immersiveengineering:metal_device1" damage="2" treeOrder="170"/>
+					<itemThermoelectricGenerator id="immersiveengineering:metal_device1" damage="3" treeOrder="180"/>
+				</weirdGenerators>
+			</generators>
+			<machines treeOrder="380">
+				<poweredFarming treeOrder="40">
+					<itemGardenCloche id="immersiveengineering:metal_device1" damage="13" treeOrder="110"/>
+				</poweredFarming>
+				<mobKillers treeOrder="80">
+					<itemRazorWire id="immersiveengineering:metal_decoration2" damage="5" treeOrder="30"/>
+					<itemGunTurret id="immersiveengineering:metal_device1" damage="11" treeOrder="190"/>
+					<itemChemthrowerTurret id="immersiveengineering:metal_device1" damage="10" treeOrder="200"/>
+					<itemTeslaCoil id="immersiveengineering:metal_device1" damage="8" treeOrder="210"/>
+				</mobKillers>
+				<poweredMining treeOrder="130">
+					<itemCoreSampleDrill id="immersiveengineering:metal_device1" damage="7" treeOrder="130"/>
+				</poweredMining>
+				<poweredFluids treeOrder="140">
+					<itemFluidPump id="immersiveengineering:metal_device0" damage="5" treeOrder="190"/>
+				</poweredFluids>
+			</machines>
 		</mechanism>
 	</block>
 	<item treeOrder="40">
 		<utility treeOrder="10">
 			<storage treeOrder="30">
 				<chests treeOrder="10">
-					<itemWoodenStorageCrate id="immersiveengineering:wooden_device0" treeOrder="480"/>
-					<itemReinforcedStorageCrate id="immersiveengineering:wooden_device0" treeOrder="490"/>
+					<itemWoodenStorageCrate id="immersiveengineering:wooden_device0" treeOrder="490"/>
+					<itemReinforcedStorageCrate id="immersiveengineering:wooden_device0" treeOrder="500"/>
 				</chests>
+				<portableStorage treeOrder="90">
+					<itemEngineersToolbox id="immersiveengineering:toolbox" treeOrder="20"/>
+				</portableStorage>
 				<powerStorage treeOrder="120">
 					<itemLVCapacitor id="immersiveengineering:metal_device0" damage="0" treeOrder="50"/>
 					<itemMVCapacitor id="immersiveengineering:metal_device0" damage="1" treeOrder="60"/>
 					<itemHVCapacitor id="immersiveengineering:metal_device0" damage="2" treeOrder="70"/>
 					<itemCreativeCapacitor id="immersiveengineering:metal_device0" damage="3" treeOrder="80"/>
-					<itemCapacitorBackpack id="immersiveengineering:powerpack" treeOrder="290"/>
+					<itemChargingStation id="immersiveengineering:metal_device1" damage="5" treeOrder="160"/>
+					<itemCapacitorBackpack id="immersiveengineering:powerpack" treeOrder="310"/>
 				</powerStorage>
 			</storage>
 			<readableBooks treeOrder="90">
-				<itemEngineersManual id="immersiveengineering:tool" damage="3" treeOrder="480"/>
+				<itemEngineersManual id="immersiveengineering:tool" damage="3" treeOrder="500"/>
 			</readableBooks>
+			<itemCoreSample id="immersiveengineering:coresample" treeOrder="120"/>
 		</utility>
+		<fluidPortableStorage treeOrder="20">
+			<itemJerrycan id="immersiveengineering:jerrycan" treeOrder="110"/>
+		</fluidPortableStorage>
+		<fluidStorage treeOrder="50">
+			<fluidTanks treeOrder="30">
+				<itemMetalBarrel id="immersiveengineering:metal_device0" damage="4" treeOrder="100"/>
+			</fluidTanks>
+		</fluidStorage>
+		<patterns treeOrder="100">
+			<itemEngineersBlueprint id="immersiveengineering:blueprint" treeOrder="20"/>
+			<itemMetalPressMold_Plate id="immersiveengineering:mold" treeOrder="130"/>
+		</patterns>
+		<parts treeOrder="120">
+			<mechanicalParts treeOrder="10">
+				<chip treeOrder="10">
+					<itemCircuitBoard id="immersiveengineering:material" damage="27" treeOrder="210"/>
+				</chip>
+				<rods oreDictName="rod" treeOrder="20">
+					<itemGraphiteElectrode id="immersiveengineering:graphite_electrode" treeOrder="330"/>
+				</rods>
+				<coils treeOrder="80">
+					<itemCopperCoilBlock id="immersiveengineering:metal_decoration0" damage="0" treeOrder="130"/>
+					<itemElectrumCoilBlock id="immersiveengineering:metal_decoration0" damage="1" treeOrder="140"/>
+					<itemHigh-VoltageCoilBlock id="immersiveengineering:metal_decoration0" damage="2" treeOrder="150"/>
+				</coils>
+				<otherParts treeOrder="100">
+					<itemSteelDrillHead id="immersiveengineering:drillhead" treeOrder="70"/>
+					<itemAdditionalAugers id="immersiveengineering:toolupgrade" damage="2" treeOrder="80"/>
+					<itemAdvancedLubricationSystem id="immersiveengineering:toolupgrade" damage="1" treeOrder="90"/>
+					<itemLargeTank id="immersiveengineering:toolupgrade" damage="3" treeOrder="100"/>
+					<itemPressurizedAirTank id="immersiveengineering:toolupgrade" damage="0" treeOrder="110"/>
+					<itemIronMechanicalComponent id="immersiveengineering:material" damage="8" treeOrder="370"/>
+					<itemSteelMechanicalComponent id="immersiveengineering:material" damage="9" treeOrder="380"/>
+					<itemExternalHeater id="immersiveengineering:metal_device1" damage="1" treeOrder="390"/>
+					<itemGeneratorBlock id="immersiveengineering:metal_decoration0" damage="6" treeOrder="400"/>
+					<itemLightEngineeringBlock id="immersiveengineering:metal_decoration0" damage="4" treeOrder="410"/>
+					<itemHeavyEngineeringBlock id="immersiveengineering:metal_decoration0" damage="5" treeOrder="420"/>
+					<itemRedstoneEngineeringBlock id="immersiveengineering:metal_decoration0" damage="3" treeOrder="430"/>
+					<itemRadiatorBlock id="immersiveengineering:metal_decoration0" damage="7" treeOrder="440"/>
+					<itemFluidOutlet id="immersiveengineering:metal_device0" damage="6" treeOrder="450"/>
+					<itemFlashbulb id="immersiveengineering:toolupgrade" damage="10" treeOrder="460"/>
+					<itemMagneticGlove id="immersiveengineering:toolupgrade" damage="12" treeOrder="470"/>
+					<itemShockEmitters id="immersiveengineering:toolupgrade" damage="11" treeOrder="480"/>
+					<itemFluorescentTube id="immersiveengineering:fluorescent_tube" damage="0" treeOrder="490"/>
+					<itemWaterWheel id="immersiveengineering:wooden_device1" damage="0" treeOrder="500"/>
+					<itemWaterwheelSegment id="immersiveengineering:material" damage="10" treeOrder="510"/>
+					<itemWindmill id="immersiveengineering:wooden_device1" damage="1" treeOrder="520"/>
+					<itemWindmillBlade id="immersiveengineering:material" damage="11" treeOrder="530"/>
+					<itemWindmillSail id="immersiveengineering:material" damage="12" treeOrder="540"/>
+				</otherParts>
+				<gunParts treeOrder="170">
+					<revolver treeOrder="10">
+						<itemAmplifierElectronTubes id="immersiveengineering:toolupgrade" damage="6" treeOrder="10"/>
+						<itemBayonet id="immersiveengineering:toolupgrade" damage="4" treeOrder="20"/>
+						<itemExtendedMagazine id="immersiveengineering:toolupgrade" damage="5" treeOrder="30"/>
+						<itemRevolverBarrel id="immersiveengineering:material" damage="14" treeOrder="40"/>
+						<itemRevolverDrum id="immersiveengineering:material" damage="15" treeOrder="50"/>
+						<itemRevolverHammer id="immersiveengineering:material" damage="16" treeOrder="60"/>
+						<itemRevolverSpeedloader id="immersiveengineering:speedloader" damage="0" treeOrder="70"/>
+						<itemWoodenGrip id="immersiveengineering:material" damage="13" treeOrder="80"/>
+					</revolver>
+					<railgunParts treeOrder="20">
+						<itemAdditionalCapacitors id="immersiveengineering:toolupgrade" damage="9" treeOrder="10"/>
+						<itemPrecisionScope id="immersiveengineering:toolupgrade" damage="8" treeOrder="20"/>
+					</railgunParts>
+					<chemicalThrowerParts treeOrder="30">
+						<itemFocusedNozzle id="immersiveengineering:toolupgrade" damage="7" treeOrder="10"/>
+						<itemMultitank id="immersiveengineering:toolupgrade" damage="13" treeOrder="20"/>
+					</chemicalThrowerParts>
+				</gunParts>
+			</mechanicalParts>
+		</parts>
+		<decoration treeOrder="130">
+			<itemBalloon id="immersiveengineering:cloth_device" damage="1" treeOrder="500"/>
+			<itemJumpCushion id="immersiveengineering:cloth_device" damage="0" treeOrder="510"/>
+			<shaders treeOrder="530">
+				<itemCommonShaderGrabbag id="immersiveengineering:shader_bag" treeOrder="10"/>
+				<itemShader id="immersiveengineering:shader" treeOrder="20"/>
+			</shaders>
+		</decoration>
+		<plant treeOrder="170">
+			<seed treeOrder="60">
+				<itemIndustrialHempSeeds id="immersiveengineering:seed" treeOrder="590"/>
+			</seed>
+		</plant>
 	</item>
 </stuff>

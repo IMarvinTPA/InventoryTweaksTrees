@@ -38,7 +38,7 @@
 					</upgrades>
 				</digitalstorage>
 				<portableStorage treeOrder="90">
-					<itemWirelessCraftingTerminal id="wct:wct" treeOrder="320"/>
+					<itemWirelessCraftingTerminal id="wct:wct" treeOrder="350"/>
 				</portableStorage>
 			</storage>
 		</utility>

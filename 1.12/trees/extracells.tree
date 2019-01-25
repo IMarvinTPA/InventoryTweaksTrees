@@ -91,7 +91,7 @@
 							<itemMEFluidAutoFiller id="extracells:fluidfiller" treeOrder="20"/>
 						</otherInterfaces>
 					</interfaces>
-					<parts treeOrder="50">
+					<digitalStorageParts treeOrder="50">
 						<meStorageHousing treeOrder="50">
 							<itemAdvancedStorageHousing id="extracells:storage.casing" damage="0" treeOrder="20"/>
 							<itemFluidStorageHousing id="extracells:storage.casing" damage="1" treeOrder="30"/>
@@ -125,7 +125,7 @@
 							<item1024kMEGasStorageComponent id="extracells:storage.component" damage="16" treeOrder="70"/>
 							<item4096kMEGasStorageComponent id="extracells:storage.component" damage="17" treeOrder="80"/>
 						</meGasStorageComponents>
-					</parts>
+					</digitalStorageParts>
 					<storagecells treeOrder="60">
 						<meStorageCells treeOrder="10">
 							<addon treeOrder="20">
@@ -164,24 +164,24 @@
 					</machines>
 				</digitalstorage>
 				<portableStorage treeOrder="90">
-					<itemWirelessUniversalTerminal id="extracells:terminal.universal.wireless" damage="0" treeOrder="290"/>
-					<itemWirelessFluidTerminal id="extracells:terminal.fluid.wireless" damage="0" treeOrder="330"/>
-					<itemWirelessGasTerminal id="extracells:terminal.gas.wireless" damage="0" treeOrder="340"/>
-					<itemMEPortableFluidStorage id="extracells:storage.fluid.portable" damage="0" treeOrder="370"/>
-					<itemMEPortableGasStorage id="extracells:storage.gas.portable" damage="0" treeOrder="380"/>
+					<itemWirelessUniversalTerminal id="extracells:terminal.universal.wireless" damage="0" treeOrder="320"/>
+					<itemWirelessFluidTerminal id="extracells:terminal.fluid.wireless" damage="0" treeOrder="360"/>
+					<itemWirelessGasTerminal id="extracells:terminal.gas.wireless" damage="0" treeOrder="370"/>
+					<itemMEPortableFluidStorage id="extracells:storage.fluid.portable" damage="0" treeOrder="400"/>
+					<itemMEPortableGasStorage id="extracells:storage.gas.portable" damage="0" treeOrder="410"/>
 				</portableStorage>
 			</storage>
 		</utility>
 		<fluidStorage treeOrder="50">
 			<fluidTanks treeOrder="30">
-				<itemCertusQuartzTank id="extracells:certustank" treeOrder="120"/>
+				<itemCertusQuartzTank id="extracells:certustank" treeOrder="130"/>
 			</fluidTanks>
 			<fluidCells treeOrder="60">
 				<itemMEFluidPattern id="extracells:pattern.fluid" treeOrder="30"/>
 			</fluidCells>
 		</fluidStorage>
-		<decoration treeOrder="120">
-			<itemWalrus id="extracells:walrus" treeOrder="480"/>
+		<decoration treeOrder="130">
+			<itemWalrus id="extracells:walrus" treeOrder="520"/>
 		</decoration>
 	</item>
 </stuff>

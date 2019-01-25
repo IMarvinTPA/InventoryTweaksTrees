@@ -29,16 +29,16 @@
 	<equipment treeOrder="10">
 		<weapon treeOrder="10">
 			<munition treeOrder="20">
-				<itemBallOMoss id="chisel:ballomoss" treeOrder="80"/>
-				<itemCloudInABottle id="chisel:cloudinabottle" treeOrder="90"/>
-				<itemSmashingRock id="chisel:smashingrock" treeOrder="100"/>
+				<itemBallOMoss id="chisel:ballomoss" treeOrder="90"/>
+				<itemCloudInABottle id="chisel:cloudinabottle" treeOrder="100"/>
+				<itemSmashingRock id="chisel:smashingrock" treeOrder="110"/>
 			</munition>
 		</weapon>
 		<tool treeOrder="20">
-			<wands treeOrder="160">
-				<itemEnderOffsetWand id="chisel:offsettool" treeOrder="200"/>
+			<wands treeOrder="180">
+				<itemEnderOffsetWand id="chisel:offsettool" treeOrder="210"/>
 			</wands>
-			<chisel treeOrder="180">
+			<chisel treeOrder="210">
 				<itemiChisel id="chisel:chisel_hitech" treeOrder="10"/>
 				<itemDiamondChisel id="chisel:chisel_diamond" treeOrder="20"/>
 				<itemDiamondChisel id="chisel:diamondchisel" treeOrder="30"/>
@@ -78,7 +78,7 @@
 				</dirtDict>
 			</dirts>
 			<sands treeOrder="50">
-				<sandstone treeOrder="20">
+				<sandstone treeOrder="30">
 					<itemSandstone id="chisel:sandstone" treeOrder="50"/>
 					<itemSandstone2 id="chisel:sandstone2" treeOrder="60"/>
 					<itemSandstoneScribbles id="chisel:sandstone_scribbles" treeOrder="70"/>
@@ -87,10 +87,10 @@
 			</sands>
 			<netherBlock treeOrder="80">
 				<glowstoneBlock treeOrder="10">
-					<itemGlowstone id="chisel:glowstone" treeOrder="40"/>
+					<itemGlowstone id="chisel:glowstone" treeOrder="50"/>
 				</glowstoneBlock>
 				<netherrack treeOrder="20">
-					<itemNetherrack id="chisel:netherrack" treeOrder="100"/>
+					<itemNetherrack id="chisel:netherrack" treeOrder="120"/>
 				</netherrack>
 			</netherBlock>
 			<ice treeOrder="190">
@@ -99,7 +99,7 @@
 				<itemPackedIce id="chisel:packedice" treeOrder="70"/>
 				<itemPackedIcePillar id="chisel:packedice_pillar" treeOrder="80"/>
 			</ice>
-			<obsidian treeOrder="280">
+			<obsidian treeOrder="290">
 				<itemObsidian id="chisel:obsidian" treeOrder="30"/>
 			</obsidian>
 		</naturalBlock>
@@ -249,7 +249,7 @@
 					<itemIronBars id="chisel:ironpane" treeOrder="30"/>
 				</ironBars>
 				<roads treeOrder="70">
-					<itemRoadLines id="chisel:road_line" treeOrder="110"/>
+					<itemRoadLines id="chisel:road_line" treeOrder="140"/>
 				</roads>
 				<decorativeblocks treeOrder="80">
 					<concrete treeOrder="10">
@@ -376,16 +376,16 @@
 		<mechanism treeOrder="60">
 			<lighting treeOrder="30">
 				<torch treeOrder="10">
-					<itemTorch id="chisel:torch1" treeOrder="260"/>
-					<itemTorch id="chisel:torch2" treeOrder="270"/>
-					<itemTorch id="chisel:torch3" treeOrder="280"/>
-					<itemTorch id="chisel:torch4" treeOrder="290"/>
-					<itemTorch id="chisel:torch5" treeOrder="300"/>
-					<itemTorch id="chisel:torch6" treeOrder="310"/>
-					<itemTorch id="chisel:torch7" treeOrder="320"/>
-					<itemTorch id="chisel:torch8" treeOrder="330"/>
-					<itemTorch id="chisel:torch9" treeOrder="340"/>
-					<itemTorch id="chisel:torch10" treeOrder="350"/>
+					<itemTorch id="chisel:torch1" treeOrder="270"/>
+					<itemTorch id="chisel:torch2" treeOrder="280"/>
+					<itemTorch id="chisel:torch3" treeOrder="290"/>
+					<itemTorch id="chisel:torch4" treeOrder="300"/>
+					<itemTorch id="chisel:torch5" treeOrder="310"/>
+					<itemTorch id="chisel:torch6" treeOrder="320"/>
+					<itemTorch id="chisel:torch7" treeOrder="330"/>
+					<itemTorch id="chisel:torch8" treeOrder="340"/>
+					<itemTorch id="chisel:torch9" treeOrder="350"/>
+					<itemTorch id="chisel:torch10" treeOrder="360"/>
 				</torch>
 				<jackOLantern treeOrder="20">
 					<itemJackoLantern1 id="chisel:jackolantern1" treeOrder="20"/>
@@ -408,7 +408,7 @@
 			</lighting>
 			<itemRedstoneBlock id="chisel:redstone_block" treeOrder="260"/>
 			<machines treeOrder="380">
-				<decorationMachines treeOrder="180">
+				<decorationMachines treeOrder="190">
 					<itemAutoChisel id="chisel:autochisel" treeOrder="10"/>
 					<itemAutoChisel id="chisel:auto_chisel" treeOrder="20"/>
 				</decorationMachines>
@@ -420,40 +420,40 @@
 	</block>
 	<resources treeOrder="30">
 		<miningResources treeOrder="10">
-			<oreBlock treeOrder="110">
-				<itemEmeraldBlock id="chisel:emerald_block" treeOrder="690"/>
-				<blockGoldDict oreDictName="blockGold" treeOrder="930">
+			<oreBlock treeOrder="120">
+				<itemEmeraldBlock id="chisel:emerald_block" treeOrder="700"/>
+				<blockGoldDict oreDictName="blockGold" treeOrder="940">
 					<itemGoldBlock id="chisel:gold_block" treeOrder="10"/>
 					<itemBlockofGold id="chisel:gold2" treeOrder="20"/>
 				</blockGoldDict>
-				<blockIronDict oreDictName="blockIron" treeOrder="1120">
+				<blockIronDict oreDictName="blockIron" treeOrder="1130">
 					<itemIronBlock id="chisel:iron_block" treeOrder="10"/>
 					<itemBlockofIron id="chisel:iron2" treeOrder="20"/>
 				</blockIronDict>
-				<itemLapisBlock id="chisel:lapis_block" treeOrder="1190"/>
-				<blockLeadDict oreDictName="blockLead" treeOrder="1200">
+				<itemLapisBlock id="chisel:lapis_block" treeOrder="1200"/>
+				<blockLeadDict oreDictName="blockLead" treeOrder="1210">
 					<itemBlockofLead id="chisel:leadblock" treeOrder="10"/>
 				</blockLeadDict>
-				<blockObsidianDict oreDictName="blockObsidian" mergeChildren="true" treeOrder="1500">
+				<blockObsidianDict oreDictName="blockObsidian" mergeChildren="true" treeOrder="1510">
 					<itemObsidian id="chisel:obsidian" treeOrder="10"/>
 					<itemObsidianSnakestone id="chisel:obsidian_snakestone" treeOrder="20"/>
 				</blockObsidianDict>
-				<blockSilverDict oreDictName="blockSilver" treeOrder="1890">
+				<blockSilverDict oreDictName="blockSilver" treeOrder="1910">
 					<itemBlockofSilver id="chisel:silverblock" treeOrder="10"/>
 				</blockSilverDict>
-				<blockSteelDict oreDictName="blockSteel" treeOrder="2000">
+				<blockSteelDict oreDictName="blockSteel" treeOrder="2020">
 					<itemBlockofSteel id="chisel:steelblock" treeOrder="10"/>
 				</blockSteelDict>
-				<blockTallow treeOrder="2130">
+				<blockTallow treeOrder="2150">
 					<itemBlockofTallow id="chisel:tallow" treeOrder="20"/>
 				</blockTallow>
-				<blockThaumium treeOrder="2190">
+				<blockThaumium treeOrder="2210">
 					<itemThaumiumBlock id="chisel:thaumium" treeOrder="20"/>
 				</blockThaumium>
-				<blockTinDict oreDictName="blockTin" treeOrder="2200">
+				<blockTinDict oreDictName="blockTin" treeOrder="2220">
 					<itemBlockofTin id="chisel:tinblock" treeOrder="10"/>
 				</blockTinDict>
-				<blockUraniumDict oreDictName="blockUranium" treeOrder="2290">
+				<blockUraniumDict oreDictName="blockUranium" treeOrder="2310">
 					<itemBlockofUranium id="chisel:uraniumblock" treeOrder="10"/>
 				</blockUraniumDict>
 			</oreBlock>
@@ -470,12 +470,12 @@
 				<itemBeacon id="chisel:beacon" treeOrder="20"/>
 			</beacons>
 		</utility>
-		<decoration treeOrder="120">
+		<decoration treeOrder="130">
 			<bookShelf treeOrder="220">
 				<itemChiselBookshelf id="chisel:bookshelf" treeOrder="30"/>
 			</bookShelf>
 		</decoration>
-		<food treeOrder="150">
+		<food treeOrder="160">
 			<edibleFood treeOrder="10">
 				<rawFood treeOrder="130">
 					<veggie treeOrder="40">
@@ -499,7 +499,7 @@
 				</rawFood>
 			</edibleFood>
 		</food>
-		<plant treeOrder="160">
+		<plant treeOrder="170">
 			<leaves id="leaves" treeOrder="30">
 				<itemChiselLeaves id="chisel:leaves" treeOrder="110"/>
 			</leaves>

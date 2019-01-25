@@ -40,13 +40,13 @@
 			<bucket treeOrder="10">
 				<itemIguanaTweakstconstruct_clayBucketUnfired id="iguanatweakstconstruct:claybucketunfired" treeOrder="20"/>
 				<itemIguanaTweakstconstruct_clayBucketFired id="iguanatweakstconstruct:claybucketfired" treeOrder="50"/>
-				<itemIguanaTweakstconstruct_clayBucketWater id="iguanatweakstconstruct:claybucketwater" treeOrder="70"/>
-				<itemIguanaTweakstconstruct_clayBucketLava id="iguanatweakstconstruct:claybucketlava" treeOrder="90"/>
-				<itemIguanaTweakstconstruct_clayBucketsTinkers id="iguanatweakstconstruct:claybucketstinkers" treeOrder="380"/>
+				<itemIguanaTweakstconstruct_clayBucketWater id="iguanatweakstconstruct:claybucketwater" treeOrder="80"/>
+				<itemIguanaTweakstconstruct_clayBucketLava id="iguanatweakstconstruct:claybucketlava" treeOrder="100"/>
+				<itemIguanaTweakstconstruct_clayBucketsTinkers id="iguanatweakstconstruct:claybucketstinkers" treeOrder="390"/>
 			</bucket>
 		</fluidPortableStorage>
-		<decoration treeOrder="120">
-			<head treeOrder="420">
+		<decoration treeOrder="130">
+			<head treeOrder="430">
 				<itemITEndermanHead id="iguanatweakstconstruct:skullitem" damage="0" treeOrder="90"/>
 				<itemBlazeHead id="iguanatweakstconstruct:skullitem" damage="2" treeOrder="250"/>
 				<itemBlizzHead id="iguanatweakstconstruct:skullitem" damage="3" treeOrder="290"/>

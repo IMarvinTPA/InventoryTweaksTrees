@@ -47,10 +47,13 @@
 				<itemElementiumShears id="botania:elementiumshears" treeOrder="150"/>
 				<itemManasteelShears id="botania:manasteelshears" treeOrder="160"/>
 			</shears>
-			<wands treeOrder="160">
+			<wands treeOrder="180">
 				<itemWandoftheForest id="botania:twigwand" treeOrder="430"/>
 			</wands>
-			<magnets treeOrder="280">
+			<exchangeBlockTools mergeChildren="true" treeOrder="190">
+				<itemRodoftheShiftingCrust id="botania:exchangerod" treeOrder="20"/>
+			</exchangeBlockTools>
+			<magnets treeOrder="310">
 				<itemRingofMagnetization id="botania:magnetring" treeOrder="40"/>
 				<itemGreaterRingofMagnetization id="botania:magnetringgreater" treeOrder="50"/>
 			</magnets>
@@ -91,7 +94,7 @@
 	</equipment>
 	<resources treeOrder="30">
 		<huntingResources treeOrder="20">
-			<string id="string" treeOrder="90">
+			<string id="string" treeOrder="110">
 				<itemRedString id="botania:manaresource" damage="12" treeOrder="40"/>
 				<itemManaInfusedString id="botania:manaresource" damage="16" treeOrder="50"/>
 			</string>

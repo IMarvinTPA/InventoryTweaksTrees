@@ -32,7 +32,7 @@
 				<itemFoodJournal id="spiceoflife:bookfoodjournal" treeOrder="110"/>
 			</readableBooks>
 		</utility>
-		<food treeOrder="150">
+		<food treeOrder="160">
 			<edibleFood treeOrder="10">
 				<itemLunchBox id="spiceoflife:lunchbox" treeOrder="10"/>
 				<itemLunchBag id="spiceoflife:lunchbag" treeOrder="20"/>

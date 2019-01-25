@@ -29,7 +29,7 @@
 	<equipment treeOrder="10">
 		<weapon treeOrder="10">
 			<munition treeOrder="20">
-				<scepters treeOrder="120">
+				<scepters treeOrder="130">
 					<itemPoisonRayScepter id="swampmobs:poisonrayscepter" treeOrder="210"/>
 					<itemVenomShotScepter id="swampmobs:venomshotscepter" treeOrder="220"/>
 				</scepters>
@@ -38,7 +38,7 @@
 	</equipment>
 	<item treeOrder="40">
 		<utility treeOrder="10">
-			<spawnerEggs treeOrder="200">
+			<spawnerEggs treeOrder="210">
 				<itemSpawnAspid id="swampmobs:swampegg" damage="5" treeOrder="750"/>
 				<itemSpawnDweller id="swampmobs:swampegg" damage="1" treeOrder="760"/>
 				<itemSpawnEttin id="swampmobs:swampegg" damage="2" treeOrder="770"/>
@@ -48,7 +48,7 @@
 				<itemSpawnRemobra id="swampmobs:swampegg" damage="6" treeOrder="810"/>
 			</spawnerEggs>
 		</utility>
-		<food treeOrder="150">
+		<food treeOrder="160">
 			<edibleFood treeOrder="10">
 				<cookedFood treeOrder="50">
 					<itemswampmobs_aspidmeatcooked id="swampmobs:aspidmeatcooked" treeOrder="200"/>

@@ -48,23 +48,23 @@
 			</miningTool>
 			<diggingTool treeOrder="30">
 				<shovel class="Item" data="{ToolClass : &quot;shovel&quot;}" mergeChildren="true" treeOrder="20">
-					<itemSteelShovel id="railcraft:tool.steel.shovel" treeOrder="650"/>
+					<itemSteelShovel id="railcraft:tool.steel.shovel" treeOrder="670"/>
 				</shovel>
 			</diggingTool>
 			<choppingTool treeOrder="40">
 				<axe class="Item" data="{ToolClass : &quot;axe&quot;}" mergeChildren="true" treeOrder="20">
-					<itemSteelAxe id="railcraft:tool.steel.axe" treeOrder="650"/>
+					<itemSteelAxe id="railcraft:tool.steel.axe" treeOrder="670"/>
 				</axe>
 			</choppingTool>
 			<farmingTool treeOrder="50">
 				<hoe class="Item" data="{ToolClass : &quot;hoe&quot;}" mergeChildren="true" treeOrder="50">
-					<itemSteelHoe id="railcraft:tool.steel.hoe" treeOrder="580"/>
+					<itemSteelHoe id="railcraft:tool.steel.hoe" treeOrder="590"/>
 				</hoe>
 			</farmingTool>
 			<shears class="Item" data="{ToolClass : &quot;shears&quot;}" mergeChildren="true" treeOrder="60">
 				<itemSteelShears id="railcraft:tool.steel.shears" treeOrder="130"/>
 			</shears>
-			<crowbars treeOrder="270">
+			<crowbars treeOrder="300">
 				<itemReinforcedCrowbar id="railcraft:tool.crowbar.reinforced" treeOrder="10"/>
 				<itemThaumiumCrowbar id="railcraft:tool.crowbar.magic" treeOrder="20"/>
 				<itemVoidmetalCrowbar id="railcraft:tool.crowbar.void" treeOrder="30"/>
@@ -118,7 +118,7 @@
 			</stoneWall>
 			<constructionBlock treeOrder="70">
 				<roads treeOrder="70">
-					<itemBlockofConcrete id="railcraft:cube" damage="1" treeOrder="70"/>
+					<itemBlockofConcrete id="railcraft:cube" damage="1" treeOrder="90"/>
 				</roads>
 				<stairs treeOrder="100">
 					<otherStairs treeOrder="40">
@@ -217,18 +217,18 @@
 				</steamGenerators>
 				<steamProducers treeOrder="150">
 					<itemAdminSteamProducer id="railcraft:machine.epsilon" damage="2" treeOrder="10"/>
-					<itemLowPressureBoilerTank id="railcraft:machine.beta" damage="3" treeOrder="30"/>
-					<itemHighPressureBoilerTank id="railcraft:machine.beta" damage="4" treeOrder="40"/>
-					<itemSolidFueledBoilerFirebox id="railcraft:machine.beta" damage="5" treeOrder="50"/>
-					<itemLiquidFueledBoilerFirebox id="railcraft:machine.beta" damage="6" treeOrder="60"/>
+					<itemLowPressureBoilerTank id="railcraft:machine.beta" damage="3" treeOrder="50"/>
+					<itemHighPressureBoilerTank id="railcraft:machine.beta" damage="4" treeOrder="60"/>
+					<itemSolidFueledBoilerFirebox id="railcraft:machine.beta" damage="5" treeOrder="70"/>
+					<itemLiquidFueledBoilerFirebox id="railcraft:machine.beta" damage="6" treeOrder="80"/>
 				</steamProducers>
 			</generators>
 			<machines treeOrder="380">
 				<poweredFurnaces treeOrder="20">
-					<itemSteamOven id="railcraft:machine.alpha" damage="3" treeOrder="80"/>
+					<itemSteamOven id="railcraft:machine.alpha" damage="3" treeOrder="90"/>
 				</poweredFurnaces>
 				<poweredGrinders treeOrder="30">
-					<itemRockCrusher id="railcraft:machine.alpha" damage="15" treeOrder="60"/>
+					<itemRockCrusher id="railcraft:machine.alpha" damage="15" treeOrder="70"/>
 				</poweredGrinders>
 				<poweredRanching treeOrder="50">
 					<feeders treeOrder="80">
@@ -236,17 +236,17 @@
 					</feeders>
 				</poweredRanching>
 				<mobKillers treeOrder="80">
-					<itemAutomatedSteamTrap id="railcraft:machine.alpha" damage="10" treeOrder="150"/>
-					<itemManualSteamTrap id="railcraft:machine.alpha" damage="9" treeOrder="160"/>
+					<itemAutomatedSteamTrap id="railcraft:machine.alpha" damage="10" treeOrder="160"/>
+					<itemManualSteamTrap id="railcraft:machine.alpha" damage="9" treeOrder="170"/>
 				</mobKillers>
-				<chunkLoaders treeOrder="170">
+				<chunkLoaders treeOrder="180">
 					<itemAdminAnchor id="railcraft:machine.alpha" damage="4" treeOrder="20"/>
 					<itemPassiveAnchor id="railcraft:machine.alpha" damage="13" treeOrder="30"/>
 					<itemPersonalAnchor id="railcraft:machine.alpha" damage="2" treeOrder="40"/>
 					<itemWorldAnchor id="railcraft:machine.alpha" damage="0" treeOrder="50"/>
 					<itemAnchorSentinel id="railcraft:machine.beta" damage="10" treeOrder="60"/>
 				</chunkLoaders>
-				<randomMachines treeOrder="200">
+				<randomMachines treeOrder="210">
 					<itemRollingMachine id="railcraft:machine.alpha" damage="8" treeOrder="60"/>
 					<itemEngravingBench id="railcraft:machine.epsilon" damage="5" treeOrder="70"/>
 				</randomMachines>
@@ -257,7 +257,7 @@
 		<utility treeOrder="10">
 			<storage treeOrder="30">
 				<chests treeOrder="10">
-					<itemMetalsChest id="railcraft:machine.beta" damage="12" treeOrder="290"/>
+					<itemMetalsChest id="railcraft:machine.beta" damage="12" treeOrder="300"/>
 				</chests>
 				<voidStorage treeOrder="110">
 					<voidBlocks treeOrder="10">
@@ -268,7 +268,7 @@
 		</utility>
 		<fluidPortableStorage treeOrder="20">
 			<bucket treeOrder="10">
-				<itemrailcraft_fluid.creosote.bucket id="railcraft:fluid.creosote.bucket" treeOrder="180"/>
+				<itemrailcraft_fluid.creosote.bucket id="railcraft:fluid.creosote.bucket" treeOrder="190"/>
 			</bucket>
 		</fluidPortableStorage>
 		<fluidStorage treeOrder="50">
@@ -282,7 +282,7 @@
 				<itemWaterTankSiding id="railcraft:machine.alpha" damage="14" treeOrder="70"/>
 			</fluidMultiBlockTanks>
 		</fluidStorage>
-		<vehicle treeOrder="80">
+		<vehicle treeOrder="90">
 			<minecarts treeOrder="20">
 				<itemPerpetuumLocomotive id="railcraft:cart.loco.creative" treeOrder="30"/>
 				<itemElectricLocomotive id="railcraft:cart.loco.electric" treeOrder="40"/>
@@ -305,7 +305,7 @@
 				<itemWorkCart id="railcraft:cart.work" damage="0" treeOrder="270"/>
 			</minecarts>
 		</vehicle>
-		<parts treeOrder="110">
+		<parts treeOrder="120">
 			<mechanicalParts treeOrder="10">
 				<gear treeOrder="60">
 					<gearGoldPlateItem id="railcraft:part.gear" damage="0" treeOrder="290"/>

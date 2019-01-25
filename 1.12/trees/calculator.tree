@@ -82,28 +82,28 @@
 			</miningTool>
 			<diggingTool treeOrder="30">
 				<shovel class="Item" data="{ToolClass : &quot;shovel&quot;}" mergeChildren="true" treeOrder="20">
-					<itemElectricShovel id="calculator:electricshovel" treeOrder="170"/>
-					<itemEndForgedShovel id="calculator:endforgedshovel" treeOrder="210"/>
-					<itemEnrichedGoldShovel id="calculator:enrichedgoldshovel" treeOrder="230"/>
-					<itemFireDiamondShovel id="calculator:firediamondshovel" treeOrder="260"/>
-					<itemFlawlessDiamondShovel id="calculator:flawlessdiamondshovel" treeOrder="270"/>
-					<itemRedstoneShovel id="calculator:redstoneshovel" treeOrder="470"/>
-					<itemReinforcedIronShovel id="calculator:reinforcedironshovel" treeOrder="480"/>
-					<itemReinforcedShovel id="calculator:reinforcedshovel" treeOrder="490"/>
-					<itemWeakenedDiamondShovel id="calculator:weakeneddiamondshovel" treeOrder="710"/>
+					<itemElectricShovel id="calculator:electricshovel" treeOrder="190"/>
+					<itemEndForgedShovel id="calculator:endforgedshovel" treeOrder="230"/>
+					<itemEnrichedGoldShovel id="calculator:enrichedgoldshovel" treeOrder="250"/>
+					<itemFireDiamondShovel id="calculator:firediamondshovel" treeOrder="280"/>
+					<itemFlawlessDiamondShovel id="calculator:flawlessdiamondshovel" treeOrder="290"/>
+					<itemRedstoneShovel id="calculator:redstoneshovel" treeOrder="490"/>
+					<itemReinforcedIronShovel id="calculator:reinforcedironshovel" treeOrder="500"/>
+					<itemReinforcedShovel id="calculator:reinforcedshovel" treeOrder="510"/>
+					<itemWeakenedDiamondShovel id="calculator:weakeneddiamondshovel" treeOrder="730"/>
 				</shovel>
 			</diggingTool>
 			<choppingTool treeOrder="40">
 				<axe class="Item" data="{ToolClass : &quot;axe&quot;}" mergeChildren="true" treeOrder="20">
-					<itemElectricAxe id="calculator:electricaxe" treeOrder="240"/>
-					<itemEndForgedAxe id="calculator:endforgedaxe" treeOrder="280"/>
-					<itemEnrichedGoldAxe id="calculator:enrichedgoldaxe" treeOrder="300"/>
-					<itemFireDiamondAxe id="calculator:firediamondaxe" treeOrder="320"/>
-					<itemFlawlessDiamondAxe id="calculator:flawlessdiamondaxe" treeOrder="330"/>
-					<itemRedstoneAxe id="calculator:redstoneaxe" treeOrder="540"/>
-					<itemReinforcedAxe id="calculator:reinforcedaxe" treeOrder="550"/>
-					<itemReinforcedIronAxe id="calculator:reinforcedironaxe" treeOrder="560"/>
-					<itemWeakenedDiamondAxe id="calculator:weakeneddiamondaxe" treeOrder="700"/>
+					<itemElectricAxe id="calculator:electricaxe" treeOrder="260"/>
+					<itemEndForgedAxe id="calculator:endforgedaxe" treeOrder="300"/>
+					<itemEnrichedGoldAxe id="calculator:enrichedgoldaxe" treeOrder="320"/>
+					<itemFireDiamondAxe id="calculator:firediamondaxe" treeOrder="340"/>
+					<itemFlawlessDiamondAxe id="calculator:flawlessdiamondaxe" treeOrder="350"/>
+					<itemRedstoneAxe id="calculator:redstoneaxe" treeOrder="560"/>
+					<itemReinforcedAxe id="calculator:reinforcedaxe" treeOrder="570"/>
+					<itemReinforcedIronAxe id="calculator:reinforcedironaxe" treeOrder="580"/>
+					<itemWeakenedDiamondAxe id="calculator:weakeneddiamondaxe" treeOrder="720"/>
 				</axe>
 			</choppingTool>
 			<farmingTool treeOrder="50">
@@ -111,15 +111,15 @@
 					<itemSickle id="calculator:sickle" treeOrder="240"/>
 				</sickle>
 				<hoe class="Item" data="{ToolClass : &quot;hoe&quot;}" mergeChildren="true" treeOrder="50">
-					<itemElectricHoe id="calculator:electrichoe" treeOrder="150"/>
-					<itemEndForgedHoe id="calculator:endforgedhoe" treeOrder="200"/>
-					<itemEnrichedGoldHoe id="calculator:enrichedgoldhoe" treeOrder="220"/>
-					<itemFireDiamondHoe id="calculator:firediamondhoe" treeOrder="240"/>
-					<itemFlawlessDiamondHoe id="calculator:flawlessdiamondhoe" treeOrder="250"/>
-					<itemRedstoneHoe id="calculator:redstonehoe" treeOrder="460"/>
-					<itemReinforcedHoe id="calculator:reinforcedhoe" treeOrder="470"/>
-					<itemReinforcedIronHoe id="calculator:reinforcedironhoe" treeOrder="480"/>
-					<itemWeakenedDiamondHoe id="calculator:weakeneddiamondhoe" treeOrder="630"/>
+					<itemElectricHoe id="calculator:electrichoe" treeOrder="160"/>
+					<itemEndForgedHoe id="calculator:endforgedhoe" treeOrder="210"/>
+					<itemEnrichedGoldHoe id="calculator:enrichedgoldhoe" treeOrder="230"/>
+					<itemFireDiamondHoe id="calculator:firediamondhoe" treeOrder="250"/>
+					<itemFlawlessDiamondHoe id="calculator:flawlessdiamondhoe" treeOrder="260"/>
+					<itemRedstoneHoe id="calculator:redstonehoe" treeOrder="470"/>
+					<itemReinforcedHoe id="calculator:reinforcedhoe" treeOrder="480"/>
+					<itemReinforcedIronHoe id="calculator:reinforcedironhoe" treeOrder="490"/>
+					<itemWeakenedDiamondHoe id="calculator:weakeneddiamondhoe" treeOrder="640"/>
 				</hoe>
 			</farmingTool>
 		</tool>

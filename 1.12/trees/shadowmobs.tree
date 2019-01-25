@@ -29,11 +29,11 @@
 	<equipment treeOrder="10">
 		<weapon treeOrder="10">
 			<munition treeOrder="20">
-				<thrownMunitions treeOrder="70">
+				<thrownMunitions treeOrder="80">
 					<itemBloodleechCharge id="shadowmobs:bloodleechcharge" treeOrder="230"/>
 					<itemSpectralBoltCharge id="shadowmobs:spectralboltcharge" treeOrder="240"/>
 				</thrownMunitions>
-				<scepters treeOrder="120">
+				<scepters treeOrder="130">
 					<itemBloodleechScepter id="shadowmobs:bloodleechscepter" treeOrder="190"/>
 					<itemSpectralBoltScepter id="shadowmobs:spectralboltscepter" treeOrder="200"/>
 				</scepters>
@@ -42,7 +42,7 @@
 	</equipment>
 	<item treeOrder="40">
 		<utility treeOrder="10">
-			<spawnerEggs treeOrder="200">
+			<spawnerEggs treeOrder="210">
 				<itemSpawnChupacabra id="shadowmobs:shadowegg" damage="4" treeOrder="690"/>
 				<itemSpawnEpion id="shadowmobs:shadowegg" damage="2" treeOrder="700"/>
 				<itemSpawnGeist id="shadowmobs:shadowegg" damage="3" treeOrder="710"/>
@@ -51,7 +51,7 @@
 				<itemSpawnShade id="shadowmobs:shadowegg" damage="5" treeOrder="740"/>
 			</spawnerEggs>
 		</utility>
-		<food treeOrder="150">
+		<food treeOrder="160">
 			<edibleFood treeOrder="10">
 				<cookedFood treeOrder="50">
 					<itemshadowmobs_chupacabrameatcooked id="shadowmobs:chupacabrameatcooked" treeOrder="220"/>

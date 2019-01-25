@@ -48,15 +48,15 @@
 			</miningTool>
 			<diggingTool treeOrder="30">
 				<shovel class="Item" data="{ToolClass : &quot;shovel&quot;}" mergeChildren="true" treeOrder="20">
-					<itemBoundShovel id="awwayoftime:boundshovel" treeOrder="60"/>
+					<itemBoundShovel id="awwayoftime:boundshovel" treeOrder="80"/>
 				</shovel>
 			</diggingTool>
 			<choppingTool treeOrder="40">
 				<axe class="Item" data="{ToolClass : &quot;axe&quot;}" mergeChildren="true" treeOrder="20">
-					<itemBoundAxe id="awwayoftime:boundaxe" treeOrder="130"/>
+					<itemBoundAxe id="awwayoftime:boundaxe" treeOrder="150"/>
 				</axe>
 			</choppingTool>
-			<keys treeOrder="210">
+			<keys treeOrder="240">
 				<itemKeyofBinding id="awwayoftime:itemkeyofdiablo" treeOrder="40"/>
 			</keys>
 		</tool>
@@ -125,13 +125,13 @@
 		<utility treeOrder="10">
 			<storage treeOrder="30">
 				<chests treeOrder="10">
-					<itemAWWayofTime_blockDemonChest id="awwayoftime:blockdemonchest" treeOrder="300"/>
+					<itemAWWayofTime_blockDemonChest id="awwayoftime:blockdemonchest" treeOrder="310"/>
 				</chests>
 			</storage>
 		</utility>
 		<fluidPortableStorage treeOrder="20">
 			<bucket treeOrder="10">
-				<itemAWWayofTime_bucketLife id="awwayoftime:bucketlife" treeOrder="140"/>
+				<itemAWWayofTime_bucketLife id="awwayoftime:bucketlife" treeOrder="150"/>
 			</bucket>
 		</fluidPortableStorage>
 	</item>

@@ -28,7 +28,7 @@
 <stuff treeVersion="1.12.2">
 	<equipment treeOrder="10">
 		<tool treeOrder="20">
-			<crushingTools treeOrder="200">
+			<crushingTools treeOrder="230">
 				<crushingHammers mergeChildren="true" treeOrder="20">
 					<itemDiamondHammer id="exnihilocreatio:hammer_diamond" treeOrder="10"/>
 					<itemGoldHammer id="exnihilocreatio:hammer_gold" treeOrder="90"/>
@@ -72,7 +72,7 @@
 		</manufacturedBlock>
 		<mechanism treeOrder="60">
 			<machines treeOrder="380">
-				<randomMachines treeOrder="200">
+				<randomMachines treeOrder="210">
 					<itemAutoSifter id="exnihilocreatio:block_auto_sifter" treeOrder="300"/>
 				</randomMachines>
 			</machines>
@@ -87,12 +87,12 @@
 	</resources>
 	<item treeOrder="40">
 		<utility treeOrder="10">
-			<spawnerDolls treeOrder="210">
+			<spawnerDolls treeOrder="220">
 				<itemPorcelainDoll id="exnihilocreatio:item_material" damage="5" treeOrder="10"/>
 				<itemBlazingDoll id="exnihilocreatio:item_doll" treeOrder="20"/>
 			</spawnerDolls>
 		</utility>
-		<food treeOrder="150">
+		<food treeOrder="160">
 			<edibleFood treeOrder="10">
 				<cookedFood treeOrder="50">
 					<itemCookedSilkworm id="exnihilocreatio:item_cooked_silkworm" damage="0" treeOrder="440"/>
@@ -104,12 +104,12 @@
 				</rawFood>
 			</edibleFood>
 			<unedibleFood treeOrder="50">
-				<cakes treeOrder="130">
+				<cakes treeOrder="240">
 					<itemEndCake id="exnihilocreatio:block_end_cake" treeOrder="350"/>
 				</cakes>
 			</unedibleFood>
 		</food>
-		<plant treeOrder="160">
+		<plant treeOrder="170">
 			<leaves id="leaves" treeOrder="30">
 				<itemInfestedLeaves id="exnihilocreatio:block_infested_leaves" treeOrder="120"/>
 				<itemInfestedLeaves id="exnihilocreatio:block_infesting_leaves" treeOrder="130"/>

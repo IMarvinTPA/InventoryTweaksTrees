@@ -54,11 +54,11 @@
 					</ObsidianLevel>
 				</pickaxe>
 			</miningTool>
-			<keys treeOrder="210">
+			<keys treeOrder="240">
 				<itemRowanDoorKey id="witchery:ingredient" damage="54" treeOrder="20"/>
 				<itemRowanKeyring id="witchery:ingredient" damage="84" treeOrder="140"/>
 			</keys>
-			<instrument treeOrder="310">
+			<instrument treeOrder="340">
 				<compass treeOrder="10">
 					<itemPlayerCompass id="witchery:playercompass" treeOrder="60"/>
 					<itemPoppetShelfCompass id="witchery:shelfcompass" treeOrder="70"/>
@@ -135,8 +135,8 @@
 		</naturalBlock>
 		<manufacturedBlock treeOrder="50">
 			<ladder treeOrder="10">
-				<itemWitchsLadder id="witchery:witchsladder" treeOrder="70"/>
-				<itemWitchsLadderShrieking id="witchery:witchsladder" treeOrder="80"/>
+				<itemWitchsLadder id="witchery:witchsladder" treeOrder="80"/>
+				<itemWitchsLadderShrieking id="witchery:witchsladder" treeOrder="90"/>
 			</ladder>
 			<fence treeOrder="20">
 				<itemIceFence id="witchery:icefence" treeOrder="40"/>
@@ -176,12 +176,12 @@
 	<resources treeOrder="30">
 		<miningResources treeOrder="10">
 			<dust treeOrder="40">
-				<dustKoboldite id="witchery:ingredient" damage="148" treeOrder="1020"/>
+				<dustKoboldite id="witchery:ingredient" damage="148" treeOrder="1040"/>
 			</dust>
-			<ingot treeOrder="120">
-				<ingotKoboldite id="witchery:ingredient" damage="150" treeOrder="1290"/>
+			<ingot treeOrder="130">
+				<ingotKoboldite id="witchery:ingredient" damage="150" treeOrder="1300"/>
 			</ingot>
-			<nugget treeOrder="130">
+			<nugget treeOrder="140">
 				<nuggetKoboldite id="witchery:ingredient" damage="149" treeOrder="710"/>
 			</nugget>
 		</miningResources>
@@ -190,8 +190,8 @@
 		<utility treeOrder="10">
 			<storage treeOrder="30">
 				<chests treeOrder="10">
-					<itemLeechChest id="witchery:leechchest" treeOrder="340"/>
-					<itemwitchery_refillingchest id="witchery:refillingchest" treeOrder="350"/>
+					<itemLeechChest id="witchery:leechchest" treeOrder="350"/>
+					<itemwitchery_refillingchest id="witchery:refillingchest" treeOrder="360"/>
 				</chests>
 			</storage>
 			<beds treeOrder="80">
@@ -200,45 +200,45 @@
 			<readableBooks treeOrder="90">
 				<itemBookofBiomes id="witchery:ingredient" damage="106" treeOrder="60"/>
 				<itemBookofBiomesExtendedEdition id="witchery:bookbiomes2" damage="0" treeOrder="70"/>
-				<itemWitchcraft_BrewsInfusions id="witchery:ingredient" damage="49" treeOrder="260"/>
-				<itemWitchcraft_CircleMagic id="witchery:ingredient" damage="48" treeOrder="270"/>
-				<itemWitchcraft_CollectingFumes id="witchery:ingredient" damage="46" treeOrder="280"/>
-				<itemWitchcraft_ConjurationFetishes id="witchery:ingredient" damage="127" treeOrder="290"/>
-				<itemWitchcraft_Distilling id="witchery:ingredient" damage="47" treeOrder="300"/>
-				<itemWitchcraft_Herbology id="witchery:ingredient" damage="81" treeOrder="310"/>
-				<itemWitchcraft_Symbology id="witchery:ingredient" damage="107" treeOrder="320"/>
-				<itemWitchesBrews id="witchery:cauldronbook" treeOrder="330"/>
-				<itemObservationsofanImmortal id="witchery:vampirebook" treeOrder="350"/>
+				<itemWitchcraft_BrewsInfusions id="witchery:ingredient" damage="49" treeOrder="270"/>
+				<itemWitchcraft_CircleMagic id="witchery:ingredient" damage="48" treeOrder="280"/>
+				<itemWitchcraft_CollectingFumes id="witchery:ingredient" damage="46" treeOrder="290"/>
+				<itemWitchcraft_ConjurationFetishes id="witchery:ingredient" damage="127" treeOrder="300"/>
+				<itemWitchcraft_Distilling id="witchery:ingredient" damage="47" treeOrder="310"/>
+				<itemWitchcraft_Herbology id="witchery:ingredient" damage="81" treeOrder="320"/>
+				<itemWitchcraft_Symbology id="witchery:ingredient" damage="107" treeOrder="330"/>
+				<itemWitchesBrews id="witchery:cauldronbook" treeOrder="340"/>
+				<itemObservationsofanImmortal id="witchery:vampirebook" treeOrder="360"/>
 			</readableBooks>
 		</utility>
 		<fluidPortableStorage treeOrder="20">
 			<bucket treeOrder="10">
-				<itemwitchery_buckethollowtears id="witchery:buckethollowtears" treeOrder="230"/>
-				<itemwitchery_bucketspirit id="witchery:bucketspirit" treeOrder="360"/>
+				<itemwitchery_buckethollowtears id="witchery:buckethollowtears" treeOrder="240"/>
+				<itemwitchery_bucketspirit id="witchery:bucketspirit" treeOrder="370"/>
 			</bucket>
 		</fluidPortableStorage>
-		<instrument treeOrder="70">
+		<instrument treeOrder="80">
 			<itemPlayerCompass id="witchery:playercompass" treeOrder="70"/>
 			<itemPoppetShelfCompass id="witchery:shelfcompass" treeOrder="80"/>
 		</instrument>
-		<decoration treeOrder="120">
+		<decoration treeOrder="130">
 			<coffin id="witchery:coffin" treeOrder="30"/>
 			<door treeOrder="40">
 				<itemAlderWoodDoor id="witchery:ingredient" damage="53" treeOrder="70"/>
 				<itemIceDoor id="witchery:ingredient" damage="152" treeOrder="130"/>
 				<itemRowanWoodDoor id="witchery:ingredient" damage="52" treeOrder="160"/>
 			</door>
-			<head treeOrder="420">
+			<head treeOrder="430">
 				<itemAlluringSkull id="witchery:alluringskull" damage="0" treeOrder="10"/>
 				<itemBinkysSkull id="witchery:ingredient" damage="129" treeOrder="130"/>
 			</head>
 		</decoration>
-		<food treeOrder="150">
+		<food treeOrder="160">
 			<edibleFood treeOrder="10">
 				<preparedFood treeOrder="30">
 					<soup treeOrder="150">
-						<itemwitchery_stew id="witchery:stew" treeOrder="190"/>
-						<itemwitchery_stewraw id="witchery:stewraw" treeOrder="200"/>
+						<itemwitchery_stew id="witchery:stew" treeOrder="200"/>
+						<itemwitchery_stewraw id="witchery:stewraw" treeOrder="210"/>
 					</soup>
 				</preparedFood>
 				<cookedFood treeOrder="50">

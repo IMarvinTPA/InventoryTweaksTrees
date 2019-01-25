@@ -49,7 +49,7 @@
 		</manufacturedBlock>
 	</block>
 	<item treeOrder="40">
-		<parts treeOrder="110">
+		<parts treeOrder="120">
 			<deocrationParts treeOrder="30">
 				<itemBentSpindle id="missing_pieces:bent_spindle" treeOrder="10"/>
 				<itemFlatSpindle id="missing_pieces:flat_spindle" treeOrder="20"/>
@@ -57,8 +57,8 @@
 				<itemTallSpindle id="missing_pieces:tall_spindle" treeOrder="40"/>
 			</deocrationParts>
 		</parts>
-		<decoration treeOrder="120">
-			<seating treeOrder="350">
+		<decoration treeOrder="130">
+			<seating treeOrder="360">
 				<seats treeOrder="10">
 					<itemAcaciaChair id="missing_pieces:acacia_chair" treeOrder="40"/>
 					<itemAmaranthChair id="missing_pieces:amaranth_chair" treeOrder="50"/>
@@ -80,7 +80,7 @@
 					<itemWillowChair id="missing_pieces:willow_chair" treeOrder="210"/>
 				</seats>
 			</seating>
-			<shelf treeOrder="380">
+			<shelf treeOrder="390">
 				<itemAcaciaShelf id="missing_pieces:acacia_shelf" treeOrder="350"/>
 				<itemAmaranthShelf id="missing_pieces:amaranth_shelf" treeOrder="360"/>
 				<itemBirchShelf id="missing_pieces:birch_shelf" treeOrder="370"/>

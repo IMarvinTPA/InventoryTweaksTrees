@@ -28,7 +28,7 @@
 <stuff treeVersion="1.12.2">
 	<equipment treeOrder="10">
 		<tool treeOrder="20">
-			<wrench class="Item" data="{ToolClass : &quot;wrench&quot;}" treeOrder="130">
+			<wrench class="Item" data="{ToolClass : &quot;wrench&quot;}" mergeChildren="true" treeOrder="130">
 				<itemBigMetalBar id="openblocks:wrench" treeOrder="140"/>
 			</wrench>
 		</tool>
@@ -48,8 +48,8 @@
 	<block treeOrder="20">
 		<manufacturedBlock treeOrder="50">
 			<ladder treeOrder="10">
-				<itemJadedLadder id="openblocks:ladder" treeOrder="40"/>
-				<itemRopeLadder id="openblocks:ropeladder" treeOrder="50"/>
+				<itemJadedLadder id="openblocks:ladder" treeOrder="50"/>
+				<itemRopeLadder id="openblocks:ropeladder" treeOrder="60"/>
 			</ladder>
 			<constructionBlock treeOrder="70">
 				<constructionUtility treeOrder="90">
@@ -72,10 +72,10 @@
 				</anvils>
 			</basicCrafting>
 			<machines treeOrder="380">
-				<decorationMachines treeOrder="180">
+				<decorationMachines treeOrder="190">
 					<itemPaintMixer id="openblocks:paintmixer" treeOrder="70"/>
 				</decorationMachines>
-				<remoteAccess treeOrder="220">
+				<remoteAccess treeOrder="230">
 					<itemElevator id="openblocks:elevator" treeOrder="30"/>
 					<itemRotatingElevator id="openblocks:elevator_rotating" treeOrder="40"/>
 				</remoteAccess>
@@ -106,12 +106,12 @@
 				<itemSleepingBag id="openblocks:sleepingbag" treeOrder="40"/>
 			</beds>
 			<readableBooks treeOrder="90">
-				<itemWorldDominationwithOpenBlocks id="openblocks:infobook" treeOrder="250"/>
+				<itemWorldDominationwithOpenBlocks id="openblocks:infobook" treeOrder="260"/>
 			</readableBooks>
 		</utility>
 		<fluidPortableStorage treeOrder="20">
 			<bucket treeOrder="10">
-				<itemOpenBlocks_filledbucket id="openblocks:filledbucket" treeOrder="370"/>
+				<itemOpenBlocks_filledbucket id="openblocks:filledbucket" treeOrder="380"/>
 			</bucket>
 		</fluidPortableStorage>
 		<fluidStorage treeOrder="50">
@@ -119,7 +119,7 @@
 				<itemOpenTank id="openblocks:tank" treeOrder="10"/>
 			</fluidTanks>
 		</fluidStorage>
-		<food treeOrder="150">
+		<food treeOrder="160">
 			<edibleFood treeOrder="10">
 				<dessert treeOrder="100">
 					<chocolate treeOrder="40">
@@ -133,7 +133,7 @@
 				</traps>
 			</hunting>
 		</food>
-		<plant treeOrder="160">
+		<plant treeOrder="170">
 			<irrigation treeOrder="110">
 				<itemSprinkler id="openblocks:sprinkler" treeOrder="20"/>
 			</irrigation>

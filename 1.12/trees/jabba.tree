@@ -33,7 +33,7 @@
 				<itemDiamondDolly id="jabba:moverdiamond" treeOrder="20"/>
 				<itemDolly id="jabba:mover" treeOrder="30"/>
 			</blockMovers>
-			<wrench class="Item" data="{ToolClass : &quot;wrench&quot;}" treeOrder="130">
+			<wrench class="Item" data="{ToolClass : &quot;wrench&quot;}" mergeChildren="true" treeOrder="130">
 				<itemJABBA_hammer id="jabba:hammer" treeOrder="170"/>
 			</wrench>
 		</tool>

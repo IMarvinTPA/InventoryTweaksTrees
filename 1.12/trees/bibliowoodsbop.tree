@@ -41,7 +41,7 @@
 		</mechanism>
 	</block>
 	<item treeOrder="40">
-		<decoration treeOrder="120">
+		<decoration treeOrder="130">
 			<itemCherryPaintingFrame id="bibliowoodsbop:bibliowoodpaintingt0" treeOrder="160"/>
 			<itemCherryPaintingFrame id="bibliowoodsbop:bibliowoodpaintingt1" treeOrder="170"/>
 			<itemCherryPaintingFrame id="bibliowoodsbop:bibliowoodpaintingt2" treeOrder="180"/>
@@ -66,16 +66,16 @@
 				<itemSacredOakBookcase id="bibliowoodsbop:bibliowoodbookcase" damage="0" treeOrder="340"/>
 				<itemWillowBoPBookcase id="bibliowoodsbop:bibliowoodbookcase" damage="12" treeOrder="400"/>
 			</bookcase>
-			<clocks treeOrder="300">
+			<clocks treeOrder="310">
 				<itemCherryClock id="bibliowoodsbop:bibliowoodclock" treeOrder="30"/>
 			</clocks>
-			<desks treeOrder="330">
+			<desks treeOrder="340">
 				<itemCherryDesk id="bibliowoodsbop:bibliowooddesk" treeOrder="20"/>
 			</desks>
-			<tables treeOrder="340">
+			<tables treeOrder="350">
 				<itemCherryTable id="bibliowoodsbop:bibliowoodtable" treeOrder="20"/>
 			</tables>
-			<seating treeOrder="350">
+			<seating treeOrder="360">
 				<seats treeOrder="10">
 					<itemCherrySeat id="bibliowoodsbop:bibliowoodseat" treeOrder="20"/>
 				</seats>
@@ -87,16 +87,16 @@
 					<itemCherrySeatBack id="bibliowoodsbop:seatback5" treeOrder="110"/>
 				</seatbacks>
 			</seating>
-			<case treeOrder="360">
+			<case treeOrder="370">
 				<itemCherryMapFrame id="bibliowoodsbop:bibliowoodmapframe" treeOrder="50"/>
 				<itemBoPLabel id="bibliowoodsbop:bibliowoodlabel" treeOrder="80"/>
 				<itemCherryCase id="bibliowoodsbop:bibliowoodcase" treeOrder="110"/>
 				<itemBoPBookcase id="bibliowoodsbop:bibliowoodbookcase" treeOrder="120"/>
 			</case>
-			<toolRack treeOrder="370">
+			<toolRack treeOrder="380">
 				<itemBoPToolRack id="bibliowoodsbop:bibliowoodrack" treeOrder="20"/>
 			</toolRack>
-			<shelf treeOrder="380">
+			<shelf treeOrder="390">
 				<itemCherryShelf id="bibliowoodsbop:bibliowoodshelf" damage="1" treeOrder="50"/>
 				<itemDarkShelf id="bibliowoodsbop:bibliowoodshelf" damage="2" treeOrder="70"/>
 				<itemEtherealShelf id="bibliowoodsbop:bibliowoodshelf" damage="5" treeOrder="90"/>
@@ -112,7 +112,7 @@
 				<itemSacredOakShelf id="bibliowoodsbop:bibliowoodshelf" damage="0" treeOrder="280"/>
 				<itemWillowBoPShelf id="bibliowoodsbop:bibliowoodshelf" damage="12" treeOrder="330"/>
 			</shelf>
-			<potionShelf treeOrder="390">
+			<potionShelf treeOrder="400">
 				<itemCherryPotionShelf id="bibliowoodsbop:bibliowoodpotshelf" damage="1" treeOrder="50"/>
 				<itemDarkPotionShelf id="bibliowoodsbop:bibliowoodpotshelf" damage="2" treeOrder="70"/>
 				<itemEtherealPotionShelf id="bibliowoodsbop:bibliowoodpotshelf" damage="5" treeOrder="90"/>

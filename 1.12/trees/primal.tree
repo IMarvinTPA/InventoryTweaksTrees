@@ -46,22 +46,22 @@
 			</miningTool>
 			<diggingTool treeOrder="30">
 				<shovel class="Item" data="{ToolClass : &quot;shovel&quot;}" mergeChildren="true" treeOrder="20">
-					<itemDiamondShovel id="primal:diamond_shovel" treeOrder="1080"/>
-					<itemEmeraldShovel id="primal:emerald_shovel" treeOrder="1090"/>
-					<itemFlintShovel id="primal:flint_shovel" treeOrder="1100"/>
-					<itemObsidianShovel id="primal:obsidian_shovel" treeOrder="1110"/>
-					<itemOpalShovel id="primal:opal_shovel" treeOrder="1120"/>
-					<itemQuartzShovel id="primal:quartz_shovel" treeOrder="1130"/>
+					<itemDiamondShovel id="primal:diamond_shovel" treeOrder="1100"/>
+					<itemEmeraldShovel id="primal:emerald_shovel" treeOrder="1110"/>
+					<itemFlintShovel id="primal:flint_shovel" treeOrder="1120"/>
+					<itemObsidianShovel id="primal:obsidian_shovel" treeOrder="1130"/>
+					<itemOpalShovel id="primal:opal_shovel" treeOrder="1140"/>
+					<itemQuartzShovel id="primal:quartz_shovel" treeOrder="1150"/>
 				</shovel>
 			</diggingTool>
 			<farmingTool treeOrder="50">
 				<hoe class="Item" data="{ToolClass : &quot;hoe&quot;}" mergeChildren="true" treeOrder="50">
-					<itemDiamondHoe id="primal:diamond_hoe" treeOrder="960"/>
-					<itemEmeraldHoe id="primal:emerald_hoe" treeOrder="970"/>
-					<itemFlintHoe id="primal:flint_hoe" treeOrder="980"/>
-					<itemObsidianHoe id="primal:obsidian_hoe" treeOrder="990"/>
-					<itemOpalHoe id="primal:opal_hoe" treeOrder="1000"/>
-					<itemQuartzHoe id="primal:quartz_hoe" treeOrder="1010"/>
+					<itemDiamondHoe id="primal:diamond_hoe" treeOrder="970"/>
+					<itemEmeraldHoe id="primal:emerald_hoe" treeOrder="980"/>
+					<itemFlintHoe id="primal:flint_hoe" treeOrder="990"/>
+					<itemObsidianHoe id="primal:obsidian_hoe" treeOrder="1000"/>
+					<itemOpalHoe id="primal:opal_hoe" treeOrder="1010"/>
+					<itemQuartzHoe id="primal:quartz_hoe" treeOrder="1020"/>
 				</hoe>
 			</farmingTool>
 			<fishingRod class="Item" data="{ToolClass : &quot;fishingrod&quot;}" treeOrder="70">
@@ -71,9 +71,9 @@
 		<armor treeOrder="30">
 			<helmet class="ItemArmor" data="{ArmorType : &quot;head&quot;}" treeOrder="20">
 				<helmetUnsorted treeOrder="60">
-					<itemObsidianHelm id="primal:armor_obsidian_head" treeOrder="330"/>
-					<itemOvisHead id="primal:armor_ovis_head" treeOrder="350"/>
-					<itemWolfHood id="primal:armor_wolf_head" treeOrder="690"/>
+					<itemObsidianHelm id="primal:armor_obsidian_head" treeOrder="340"/>
+					<itemOvisHead id="primal:armor_ovis_head" treeOrder="360"/>
+					<itemWolfHood id="primal:armor_wolf_head" treeOrder="700"/>
 				</helmetUnsorted>
 				<eyeGlasses treeOrder="90">
 					<itemObsidianGoggles id="primal:armor_obsidian_goggles" treeOrder="130"/>
@@ -82,24 +82,24 @@
 			<chestplate class="ItemArmor" data="{ArmorType:&quot;chest&quot;}" treeOrder="30">
 				<chestplateArmor treeOrder="20">
 					<chestplateUnsorted treeOrder="120">
-						<itemObsidianChest id="primal:armor_obsidian_body" treeOrder="340"/>
-						<itemOvisChest id="primal:armor_ovis_body" treeOrder="360"/>
-						<itemWolfChest id="primal:armor_wolf_body" treeOrder="720"/>
+						<itemObsidianChest id="primal:armor_obsidian_body" treeOrder="350"/>
+						<itemOvisChest id="primal:armor_ovis_body" treeOrder="370"/>
+						<itemWolfChest id="primal:armor_wolf_body" treeOrder="730"/>
 					</chestplateUnsorted>
 				</chestplateArmor>
 			</chestplate>
 			<leggings class="ItemArmor" data="{ArmorType:&quot;legs&quot;}" treeOrder="40">
 				<leggingsUnsorted treeOrder="100">
-					<itemObsidianLeggings id="primal:armor_obsidian_legs" treeOrder="340"/>
-					<itemOvisLeggings id="primal:armor_ovis_legs" treeOrder="360"/>
-					<itemWolfLeggings id="primal:armor_wolf_legs" treeOrder="650"/>
+					<itemObsidianLeggings id="primal:armor_obsidian_legs" treeOrder="350"/>
+					<itemOvisLeggings id="primal:armor_ovis_legs" treeOrder="370"/>
+					<itemWolfLeggings id="primal:armor_wolf_legs" treeOrder="660"/>
 				</leggingsUnsorted>
 			</leggings>
 			<boots class="ItemArmor" data="{ArmorType:&quot;feet&quot;}" treeOrder="50">
 				<bootsUnsorted treeOrder="70">
-					<itemObsidianBoots id="primal:armor_obsidian_feet" treeOrder="360"/>
-					<itemOvisBoots id="primal:armor_ovis_feet" treeOrder="380"/>
-					<itemWolfBoots id="primal:armor_wolf_feet" treeOrder="740"/>
+					<itemObsidianBoots id="primal:armor_obsidian_feet" treeOrder="370"/>
+					<itemOvisBoots id="primal:armor_ovis_feet" treeOrder="390"/>
+					<itemWolfBoots id="primal:armor_wolf_feet" treeOrder="750"/>
 				</bootsUnsorted>
 			</boots>
 		</armor>
@@ -137,7 +137,7 @@
 		<utility treeOrder="10">
 			<storage treeOrder="30">
 				<chests treeOrder="10">
-					<itemOakStorageCrate id="primal:storage_crate" treeOrder="440"/>
+					<itemOakStorageCrate id="primal:storage_crate" treeOrder="450"/>
 				</chests>
 			</storage>
 		</utility>

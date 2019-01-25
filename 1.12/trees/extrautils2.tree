@@ -51,12 +51,12 @@
 			</miningTool>
 			<diggingTool treeOrder="30">
 				<shovel class="Item" data="{ToolClass : &quot;shovel&quot;}" mergeChildren="true" treeOrder="20">
-					<itemErosionShovel id="extrautils2:erosionshovel" treeOrder="240"/>
+					<itemErosionShovel id="extrautils2:erosionshovel" treeOrder="260"/>
 				</shovel>
 			</diggingTool>
 			<choppingTool treeOrder="40">
 				<axe class="Item" data="{ToolClass : &quot;axe&quot;}" mergeChildren="true" treeOrder="20">
-					<itemHealingAxe id="extrautils2:defoliageaxe" treeOrder="380"/>
+					<itemHealingAxe id="extrautils2:defoliageaxe" treeOrder="400"/>
 				</axe>
 			</choppingTool>
 			<farmingTool treeOrder="50">
@@ -68,7 +68,7 @@
 					<itemWoodenSickle id="extrautils2:sickle_wood" treeOrder="290"/>
 				</sickle>
 				<hoe class="Item" data="{ToolClass : &quot;hoe&quot;}" mergeChildren="true" treeOrder="50">
-					<itemReversingHoe id="extrautils2:temporalhoe" treeOrder="500"/>
+					<itemReversingHoe id="extrautils2:temporalhoe" treeOrder="510"/>
 				</hoe>
 				<otherFarmingTools treeOrder="60">
 					<itemWateringCanEmpty id="extrautils2:watering_can" damage="1" treeOrder="60"/>
@@ -78,7 +78,7 @@
 			<shears class="Item" data="{ToolClass : &quot;shears&quot;}" mergeChildren="true" treeOrder="60">
 				<itemPrecisionShears id="extrautils2:shears" treeOrder="90"/>
 			</shears>
-			<wands treeOrder="160">
+			<wands treeOrder="180">
 				<itemSuperBuildersWand id="extrautils2:creativebuilderswand" treeOrder="40"/>
 				<itemBuildersWand id="extrautils2:itembuilderswand" treeOrder="60"/>
 				<itemCreativeBuildersWand id="extrautils2:itemcreativebuilderswand" treeOrder="70"/>
@@ -200,7 +200,7 @@
 			<grass treeOrder="150">
 				<itemCursedEarth id="extrautils2:cursedearth" damage="0" treeOrder="20"/>
 			</grass>
-			<obsidian treeOrder="280">
+			<obsidian treeOrder="290">
 				<itemColoredObsidian id="extrautils2:color_obsidian" treeOrder="20"/>
 			</obsidian>
 		</naturalBlock>
@@ -222,6 +222,9 @@
 						<itemHeartGlass id="extrautils2:decorativeblock2" damage="8" treeOrder="30"/>
 					</glassBlock>
 				</glass>
+				<constructionUtility treeOrder="90">
+					<itemAngelBlock id="extrautils2:angelblock" treeOrder="70"/>
+				</constructionUtility>
 				<notch treeOrder="170">
 					<itemPipeJacket id="extrautils2:microblocks" damage="0" treeOrder="20"/>
 				</notch>
@@ -233,7 +236,7 @@
 		<mechanism treeOrder="60">
 			<lighting treeOrder="30">
 				<torch treeOrder="10">
-					<itemMagnumTorch id="extrautils2:magnumtorch" treeOrder="360"/>
+					<itemMagnumTorch id="extrautils2:magnumtorch" treeOrder="370"/>
 				</torch>
 				<redstoneLamp treeOrder="50">
 					<itemColoredRedstoneLampWhiteFrequency id="extrautils2:color_redstonelight" damage="0" treeOrder="30"/>
@@ -253,7 +256,7 @@
 					<itemColoredRedstoneLampRedFrequency id="extrautils2:color_redstonelight" damage="14" treeOrder="170"/>
 					<itemColoredRedstoneLampBlackFrequency id="extrautils2:color_redstonelight" damage="15" treeOrder="180"/>
 				</redstoneLamp>
-				<mobWarding id="enderio:blockspawnguard" treeOrder="150">
+				<mobWarding id="enderio:blockspawnguard" treeOrder="160">
 					<itemMagnumTorch id="extrautils2:magnumtorch" treeOrder="10"/>
 				</mobWarding>
 			</lighting>
@@ -269,8 +272,8 @@
 					<itemTransferNodeFluids id="extrautils2:grocket" damage="2" treeOrder="40"/>
 					<itemRetrievalNodeFluids id="extrautils2:grocket" damage="4" treeOrder="50"/>
 				</euPipes>
-				<conveyerBelts treeOrder="100">
-					<itemConveyorBelt id="extrautils2:conveyor" treeOrder="30"/>
+				<conveyerBelts treeOrder="120">
+					<itemConveyorBelt id="extrautils2:conveyor" treeOrder="50"/>
 				</conveyerBelts>
 			</resourceTransfer>
 			<generators treeOrder="370">
@@ -325,18 +328,18 @@
 			</generators>
 			<machines treeOrder="380">
 				<poweredCrafting treeOrder="10">
-					<itemQEDQuantumEnrichmentDevice id="extrautils2:endconstructor" damage="0" treeOrder="90"/>
-					<itemEnder-FluxCrystal id="extrautils2:endconstructor" damage="2" treeOrder="100"/>
+					<itemQEDQuantumEnrichmentDevice id="extrautils2:endconstructor" damage="0" treeOrder="100"/>
+					<itemEnder-FluxCrystal id="extrautils2:endconstructor" damage="2" treeOrder="110"/>
 				</poweredCrafting>
 				<mobKillers treeOrder="80">
-					<itemWoodenSpike id="extrautils2:spike_base_wood" treeOrder="30"/>
-					<itemIronSpike id="extrautils2:spike_base" treeOrder="40"/>
-					<itemGoldenSpike id="extrautils2:spike_base_gold" treeOrder="60"/>
-					<itemDiamondSpike id="extrautils2:spike_base_diamond" treeOrder="70"/>
-					<itemPeacefulTable id="extrautils2:peaceful_table_top" treeOrder="140"/>
+					<itemWoodenSpike id="extrautils2:spike_base_wood" treeOrder="40"/>
+					<itemIronSpike id="extrautils2:spike_base" treeOrder="50"/>
+					<itemGoldenSpike id="extrautils2:spike_base_gold" treeOrder="70"/>
+					<itemDiamondSpike id="extrautils2:spike_base_diamond" treeOrder="80"/>
+					<itemPeacefulTable id="extrautils2:peaceful_table_top" treeOrder="150"/>
 				</mobKillers>
 				<poweredMining treeOrder="130">
-					<itemEnderQuarry id="extrautils2:enderquarry" treeOrder="90"/>
+					<itemEnderQuarry id="extrautils2:enderquarry" treeOrder="100"/>
 				</poweredMining>
 				<poweredFluids treeOrder="140">
 					<itemEnder-ThermicPump id="extrautils2:enderthermicpump" treeOrder="160"/>
@@ -353,7 +356,7 @@
 						<itemUpgradeStack id="extrautils2:ingredients" damage="7" treeOrder="60"/>
 					</euPipeUpgrades>
 				</transportUpgrades>
-				<quarryUpgrades treeOrder="40">
+				<quarryUpgrades treeOrder="50">
 					<itemEnder-Marker id="extrautils2:endmarker" damage="0" treeOrder="20"/>
 					<itemEnderQuarryFortuneIUpgrade id="extrautils2:enderquarryupgrade" damage="3" treeOrder="30"/>
 					<itemEnderQuarryFortuneIIUpgrade id="extrautils2:enderquarryupgrade" damage="4" treeOrder="40"/>
@@ -371,7 +374,7 @@
 	</block>
 	<resources treeOrder="30">
 		<miningResources treeOrder="10">
-			<ingot treeOrder="120">
+			<ingot treeOrder="130">
 				<ingotBedrockium id="extrautils2:bedrockiumingot" treeOrder="230"/>
 			</ingot>
 		</miningResources>
@@ -392,7 +395,7 @@
 					<itemFilingCabinet id="extrautils2:filing" treeOrder="10"/>
 				</cabinets>
 				<portableStorage treeOrder="90">
-					<itemGoldenBagofHolding id="extrautils2:bagofholding" treeOrder="20"/>
+					<itemGoldenBagofHolding id="extrautils2:bagofholding" treeOrder="30"/>
 				</portableStorage>
 				<voidStorage treeOrder="110">
 					<voidBlocks treeOrder="10">
@@ -406,7 +409,7 @@
 			<readableBooks treeOrder="90">
 				<itemextrautils22Manual id="extrautils2:book" treeOrder="90"/>
 			</readableBooks>
-			<mobHolder treeOrder="240">
+			<mobHolder treeOrder="250">
 				<itemGoldenLasso id="extrautils2:golden_lasso" treeOrder="20"/>
 			</mobHolder>
 		</utility>
@@ -419,19 +422,19 @@
 				<itemCreativeDrum id="extrautils2:drum" damage="4" treeOrder="50"/>
 			</fluidDrums>
 		</fluidStorage>
-		<parts treeOrder="110">
+		<parts treeOrder="120">
 			<mechanicalParts treeOrder="10">
 				<coils treeOrder="80">
 					<itemHeatingCoil id="extrautils2:heatingelement" damage="0" treeOrder="80"/>
 				</coils>
 			</mechanicalParts>
 		</parts>
-		<decoration treeOrder="120">
+		<decoration treeOrder="130">
 			<bookShelf treeOrder="220">
 				<itemMagicalWood id="extrautils2:decorativesolidwood" damage="1" treeOrder="50"/>
 			</bookShelf>
 		</decoration>
-		<plant treeOrder="160">
+		<plant treeOrder="170">
 			<seed treeOrder="60">
 				<itemEnder-LilySeeds id="extrautils2:enderlilly" treeOrder="440"/>
 			</seed>

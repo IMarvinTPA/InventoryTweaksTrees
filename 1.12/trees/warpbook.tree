@@ -34,7 +34,7 @@
 	<item treeOrder="40">
 		<utility treeOrder="10">
 			<readableBooks treeOrder="90">
-				<itemWarpBook id="warpbook:warpbook" treeOrder="240"/>
+				<itemWarpBook id="warpbook:warpbook" treeOrder="250"/>
 			</readableBooks>
 		</utility>
 	</item>

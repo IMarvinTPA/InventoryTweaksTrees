@@ -26,10 +26,19 @@
 -->
 <!-- Note: 'stuff' matches everything, even items that don't appear here -->
 <stuff treeVersion="1.12.2">
+	<block treeOrder="20">
+		<mechanism treeOrder="60">
+			<resourceTransfer treeOrder="300">
+				<conveyerBelts treeOrder="120">
+					<itemWhiteConveyorBelt id="industrialforegoing:conveyor" treeOrder="40"/>
+				</conveyerBelts>
+			</resourceTransfer>
+		</mechanism>
+	</block>
 	<item treeOrder="40">
 		<utility treeOrder="10">
 			<readableBooks treeOrder="90">
-				<itemIndustrialForegoingsManual id="industrialforegoing:book_manual" treeOrder="420"/>
+				<itemIndustrialForegoingsManual id="industrialforegoing:book_manual" treeOrder="440"/>
 			</readableBooks>
 		</utility>
 	</item>

@@ -30,7 +30,7 @@
 		<weapon treeOrder="10">
 			<munition treeOrder="20">
 				<gun treeOrder="20">
-					<itemHuntersHandgun id="xreliquary:handgun" treeOrder="40"/>
+					<itemHuntersHandgun id="xreliquary:handgun" treeOrder="50"/>
 				</gun>
 			</munition>
 			<bullets treeOrder="60">
@@ -41,7 +41,7 @@
 		<tool treeOrder="20">
 			<farmingTool treeOrder="50">
 				<hoe class="Item" data="{ToolClass : &quot;hoe&quot;}" mergeChildren="true" treeOrder="50">
-					<itemPhoenixDown id="xreliquary:phoenix_down" treeOrder="450"/>
+					<itemPhoenixDown id="xreliquary:phoenix_down" treeOrder="460"/>
 				</hoe>
 			</farmingTool>
 		</tool>
@@ -57,7 +57,7 @@
 				<torch treeOrder="10">
 					<itemInterdictionTorch id="xreliquary:interdiction_torch" treeOrder="10"/>
 				</torch>
-				<mobWarding id="enderio:blockspawnguard" treeOrder="150">
+				<mobWarding id="enderio:blockspawnguard" treeOrder="160">
 					<itemInterdictionTorch id="xreliquary:interdiction_torch" treeOrder="20"/>
 				</mobWarding>
 			</lighting>
@@ -66,10 +66,10 @@
 	<item treeOrder="40">
 		<utility treeOrder="10">
 			<readableBooks treeOrder="90">
-				<itemTomeofAlkahestry id="xreliquary:alkahest_tome" treeOrder="230"/>
+				<itemTomeofAlkahestry id="xreliquary:alkahest_tome" treeOrder="240"/>
 			</readableBooks>
 		</utility>
-		<food treeOrder="150">
+		<food treeOrder="160">
 			<edibleFood treeOrder="10">
 				<preparedFood treeOrder="30">
 					<breads treeOrder="170">
@@ -78,8 +78,8 @@
 				</preparedFood>
 			</edibleFood>
 		</food>
-		<itemEmptyVial id="xreliquary:condensed_potion" damage="11" treeOrder="230"/>
-		<potion treeOrder="260">
+		<itemEmptyVial id="xreliquary:condensed_potion" damage="11" treeOrder="240"/>
+		<potion treeOrder="270">
 			<drinkablePotion treeOrder="10">
 				<neutralPotion treeOrder="10">
 					<itemVialofOrdinaryWater id="xreliquary:condensed_potion" damage="29" treeOrder="40"/>

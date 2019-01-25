@@ -51,12 +51,12 @@
 			</miningTool>
 			<diggingTool treeOrder="30">
 				<shovel class="Item" data="{ToolClass : &quot;shovel&quot;}" mergeChildren="true" treeOrder="20">
-					<itemSandstoneShovel id="cyclicmagic:sandstone_spade" treeOrder="910"/>
+					<itemSandstoneShovel id="cyclicmagic:sandstone_spade" treeOrder="930"/>
 				</shovel>
 			</diggingTool>
 			<choppingTool treeOrder="40">
 				<axe class="Item" data="{ToolClass : &quot;axe&quot;}" mergeChildren="true" treeOrder="20">
-					<itemSandstoneAxe id="cyclicmagic:sandstone_axe" treeOrder="910"/>
+					<itemSandstoneAxe id="cyclicmagic:sandstone_axe" treeOrder="930"/>
 				</axe>
 			</choppingTool>
 			<farmingTool treeOrder="50">
@@ -66,30 +66,34 @@
 					<itemBrushScythe id="cyclicmagic:tool_harvest_weeds" treeOrder="130"/>
 				</scythe>
 				<hoe class="Item" data="{ToolClass : &quot;hoe&quot;}" mergeChildren="true" treeOrder="50">
-					<itemSandstoneHoe id="cyclicmagic:sandstone_hoe" treeOrder="790"/>
+					<itemSandstoneHoe id="cyclicmagic:sandstone_hoe" treeOrder="800"/>
 				</hoe>
 			</farmingTool>
 			<shears class="Item" data="{ToolClass : &quot;shears&quot;}" mergeChildren="true" treeOrder="60">
 				<itemEnhancedShears id="cyclicmagic:ender_wool" treeOrder="180"/>
 				<itemObsidianShears id="cyclicmagic:shears_obsidian" treeOrder="190"/>
 			</shears>
-			<wrench class="Item" data="{ToolClass : &quot;wrench&quot;}" treeOrder="130">
+			<wrench class="Item" data="{ToolClass : &quot;wrench&quot;}" mergeChildren="true" treeOrder="130">
 				<itemWoodenWrench id="cyclicmagic:tool_rotate" treeOrder="260"/>
 			</wrench>
-			<wands treeOrder="160">
-				<itemCyclicBuildingScepter id="cyclicmagic:cyclic_wand_build" treeOrder="210"/>
-				<itemChaosReaper id="cyclicmagic:wand_hypno" treeOrder="220"/>
-				<itemSpiritSeeker id="cyclicmagic:wand_missile" treeOrder="230"/>
+			<wands treeOrder="180">
+				<itemCyclicBuildingScepter id="cyclicmagic:cyclic_wand_build" treeOrder="220"/>
+				<itemChaosReaper id="cyclicmagic:wand_hypno" treeOrder="230"/>
+				<itemSpiritSeeker id="cyclicmagic:wand_missile" treeOrder="240"/>
 			</wands>
-			<portableCrafting treeOrder="320">
+			<exchangeBlockTools mergeChildren="true" treeOrder="190">
+				<itemGentleExchangeScepter id="cyclicmagic:tool_swap_match" treeOrder="40"/>
+				<itemStandardExchangeScepter id="cyclicmagic:tool_swap" treeOrder="50"/>
+			</exchangeBlockTools>
+			<portableCrafting treeOrder="350">
 				<itemInventoryCraftingTable id="cyclicmagic:crafting_food" treeOrder="20"/>
 			</portableCrafting>
 		</tool>
 		<armor treeOrder="30">
 			<helmet class="ItemArmor" data="{ArmorType : &quot;head&quot;}" treeOrder="20">
 				<helmetUnsorted treeOrder="60">
-					<itemCrystallizedObsidianHelmet id="cyclicmagic:purple_helmet" treeOrder="100"/>
-					<itemVisionHelmet id="cyclicmagic:glowing_helmet" treeOrder="670"/>
+					<itemCrystallizedObsidianHelmet id="cyclicmagic:purple_helmet" treeOrder="110"/>
+					<itemVisionHelmet id="cyclicmagic:glowing_helmet" treeOrder="680"/>
 				</helmetUnsorted>
 			</helmet>
 			<chestplate class="ItemArmor" data="{ArmorType:&quot;chest&quot;}" treeOrder="30">
@@ -98,18 +102,18 @@
 						<itemEmeraldChestplate id="cyclicmagic:emerald_chestplate" treeOrder="100"/>
 					</chestplate8>
 					<chestplateUnsorted treeOrder="120">
-						<itemCrystallizedObsidianChestplate id="cyclicmagic:purple_chestplate" treeOrder="110"/>
+						<itemCrystallizedObsidianChestplate id="cyclicmagic:purple_chestplate" treeOrder="120"/>
 					</chestplateUnsorted>
 				</chestplateArmor>
 			</chestplate>
 			<leggings class="ItemArmor" data="{ArmorType:&quot;legs&quot;}" treeOrder="40">
 				<leggingsUnsorted treeOrder="100">
-					<itemCrystallizedObsidianLeggings id="cyclicmagic:purple_leggings" treeOrder="100"/>
+					<itemCrystallizedObsidianLeggings id="cyclicmagic:purple_leggings" treeOrder="110"/>
 				</leggingsUnsorted>
 			</leggings>
 			<boots class="ItemArmor" data="{ArmorType:&quot;feet&quot;}" treeOrder="50">
 				<bootsUnsorted treeOrder="70">
-					<itemCrystallizedObsidianBoots id="cyclicmagic:purple_boots" treeOrder="130"/>
+					<itemCrystallizedObsidianBoots id="cyclicmagic:purple_boots" treeOrder="140"/>
 				</bootsUnsorted>
 			</boots>
 		</armor>
@@ -125,6 +129,14 @@
 			</constructionBlock>
 		</manufacturedBlock>
 		<mechanism treeOrder="60">
+			<resourceTransfer treeOrder="300">
+				<conveyerBelts treeOrder="120">
+					<itemSlowestConveyorBelt id="cyclicmagic:plate_push_slowest" treeOrder="120"/>
+					<itemSlowConveyorBelt id="cyclicmagic:plate_push_slow" treeOrder="130"/>
+					<itemConveyorBelt id="cyclicmagic:plate_push" treeOrder="140"/>
+					<itemFastConveyorBelt id="cyclicmagic:plate_push_fast" treeOrder="150"/>
+				</conveyerBelts>
+			</resourceTransfer>
 			<machines treeOrder="380">
 				<poweredSpawners treeOrder="70">
 					<itemWaterCandle id="cyclicmagic:water_candle" treeOrder="20"/>
@@ -142,22 +154,22 @@
 				</voidStorage>
 			</storage>
 			<readableBooks treeOrder="90">
-				<itemEnderBook id="cyclicmagic:book_ender" treeOrder="540"/>
+				<itemEnderBook id="cyclicmagic:book_ender" treeOrder="560"/>
 			</readableBooks>
 		</utility>
-		<experienceStorage treeOrder="60">
+		<experienceStorage treeOrder="70">
 			<itemExperiencePylon id="cyclicmagic:exp_pylon" treeOrder="20"/>
 		</experienceStorage>
-		<decoration treeOrder="120">
+		<decoration treeOrder="130">
 			<bookShelf treeOrder="220">
 				<itemEnderBookshelf id="cyclicmagic:block_library" treeOrder="60"/>
 			</bookShelf>
 		</decoration>
-		<food treeOrder="150">
+		<food treeOrder="160">
 			<magicFoods treeOrder="30">
 				<itemAppleofLoftyStature id="cyclicmagic:food_step" treeOrder="10"/>
 				<itemHeartContainer id="cyclicmagic:heart_food" treeOrder="20"/>
-				<itemInventoryUpgrade id="cyclicmagic:inventory_food" treeOrder="30"/>
+				<itemInventoryUpgrade id="cyclicmagic:inventory_food" treeOrder="40"/>
 			</magicFoods>
 		</food>
 	</item>

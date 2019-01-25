@@ -28,7 +28,7 @@
 <stuff treeVersion="1.12.2">
 	<equipment treeOrder="10">
 		<tool treeOrder="20">
-			<chisel treeOrder="180">
+			<chisel treeOrder="210">
 				<itemChisel id="immcraft:chisel" treeOrder="90"/>
 			</chisel>
 		</tool>
@@ -36,12 +36,12 @@
 	<item treeOrder="40">
 		<utility treeOrder="10">
 			<readableBooks treeOrder="90">
-				<itemImmersiveCraftManual id="immcraft:manual" treeOrder="410"/>
-				<itemDummyBook id="immcraft:dummybook" treeOrder="570"/>
+				<itemImmersiveCraftManual id="immcraft:manual" treeOrder="430"/>
+				<itemDummyBook id="immcraft:dummybook" treeOrder="590"/>
 			</readableBooks>
 		</utility>
-		<decoration treeOrder="120">
-			<toolRack treeOrder="370">
+		<decoration treeOrder="130">
+			<toolRack treeOrder="380">
 				<itemBookshelf id="immcraft:bookshelf" treeOrder="60"/>
 			</toolRack>
 		</decoration>

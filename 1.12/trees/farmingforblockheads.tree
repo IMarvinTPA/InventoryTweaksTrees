@@ -57,7 +57,7 @@
 		</mechanism>
 	</block>
 	<item treeOrder="40">
-		<plant treeOrder="160">
+		<plant treeOrder="170">
 			<fertilizer treeOrder="80">
 				<fertilizerDict oreDictName="fertilizer" treeOrder="30">
 					<itemRedFertilizer id="farmingforblockheads:fertilizer" treeOrder="70"/>

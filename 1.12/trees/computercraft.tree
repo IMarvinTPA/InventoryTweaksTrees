@@ -37,5 +37,35 @@
 				<itemPrintedBook id="computercraft:printout" damage="2" treeOrder="140"/>
 			</readableBooks>
 		</utility>
+		<digital treeOrder="300">
+			<computerParts treeOrder="10">
+				<itemFloppyDisk id="computercraft:disk" treeOrder="10"/>
+				<itemFloppyDisk id="computercraft:disk_expanded" treeOrder="20"/>
+				<itemFloppyDisk id="computercraft:treasure_disk" treeOrder="30"/>
+				<itemNetworkingCable id="computercraft:cable" treeOrder="40"/>
+			</computerParts>
+			<computers treeOrder="20">
+				<itemComputer id="computercraft:computer" damage="0" treeOrder="10"/>
+				<itemCommandComputer id="computercraft:command_computer" treeOrder="20"/>
+				<itemAdvancedComputer id="computercraft:computer" damage="16384" treeOrder="30"/>
+				<itemPocketComputer id="computercraft:pocket_computer" damage="0" treeOrder="40"/>
+				<itemAdvancedPocketComputer id="computercraft:pocket_computer" damage="1" treeOrder="50"/>
+			</computers>
+			<computerPeripheral treeOrder="30">
+				<itemWiredModem id="computercraft:cable" treeOrder="10"/>
+				<itemWirelessModem id="computercraft:peripheral" damage="1" treeOrder="20"/>
+				<itemEnderModem id="computercraft:advanced_modem" treeOrder="30"/>
+				<itemMonitor id="computercraft:peripheral" damage="2" treeOrder="40"/>
+				<itemAdvancedMonitor id="computercraft:peripheral" damage="4" treeOrder="50"/>
+				<itemDiskDrive id="computercraft:peripheral" damage="0" treeOrder="60"/>
+				<itemPrinter id="computercraft:peripheral" damage="3" treeOrder="70"/>
+				<itemSpeaker id="computercraft:peripheral" damage="5" treeOrder="80"/>
+			</computerPeripheral>
+			<robots treeOrder="40">
+				<itemTurtle id="computercraft:turtle" treeOrder="20"/>
+				<itemCraftyTurtle id="computercraft:turtle_expanded" treeOrder="30"/>
+				<itemAdvancedTurtle id="computercraft:turtle_advanced" treeOrder="40"/>
+			</robots>
+		</digital>
 	</item>
 </stuff>

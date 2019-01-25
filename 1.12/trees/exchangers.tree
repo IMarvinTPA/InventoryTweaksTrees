@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+|=================================================================|
+| INVENTORY TWEAKS Mod - https://inventory-tweaks.readthedocs.org |
+| Tree configuration                                              |
+|=================================================================|
+
+# Q: WHAT IS THIS?
+# A: This file is used to store all the keywords you can use to create item rules, but also to define the items order.
+# You can move/change all that you want, but it's recommended not to delete any default item.
+
+# Q: MY CUSTOM FILE WAS REPLACED =(
+# A: Since a new major version of Minecraft appeared, I silently updated the tree... BUT!
+# I kept a backup of your version in the same directory. Sorry for the trouble, feel free to import your changes in the new file.
+
+# Q: THE FILE IS BROKEN AND I DON'T KNOW WHAT TO DO =(
+# A: Just delete this file, the default tree will be reloaded next time you sort something!
+
+# This is the modded minecraft tree.  There may be a newer version available at
+# https://github.com/IMarvinTPA/inventory-tweaks/tree/develop/src/main/resources/assets/inventorytweaks
+# Help on maintaining and expanding the tree is welcomed, please contact IMarvinTPA.
+
+# CREDITS
+# Thanks to Larandar & Lunaqua for their contributions.
+# IMarvinTPA for the modded tree.
+-->
+<!-- Note: 'stuff' matches everything, even items that don't appear here -->
+<stuff treeVersion="1.12.2">
+	<equipment treeOrder="10">
+		<tool treeOrder="20">
+			<exchangeBlockTools mergeChildren="true" treeOrder="190">
+				<itemAdvancedExchanger id="exchangers:advanced_exchanger" treeOrder="60"/>
+				<itemBasicExchanger id="exchangers:basic_exchanger" treeOrder="70"/>
+				<itemConductiveIronExchanger id="exchangers:conductive_iron_exchanger" treeOrder="80"/>
+				<itemCreativeExchanger id="exchangers:creative_exchanger" treeOrder="90"/>
+				<itemDarkSteelExchanger id="exchangers:dark_steel_exchanger" treeOrder="110"/>
+				<itemDiamondExchanger id="exchangers:diamond_exchanger" treeOrder="120"/>
+				<itemElectricalSteelExchanger id="exchangers:electrical_steel_exchanger" treeOrder="130"/>
+				<itemEliteExchanger id="exchangers:elite_exchanger" treeOrder="140"/>
+				<itemEmeraldExchanger id="exchangers:emerald_exchanger" treeOrder="150"/>
+				<itemEndExchanger id="exchangers:end_exchanger" treeOrder="160"/>
+				<itemEndSteelExchanger id="exchangers:end_steel_exchanger" treeOrder="170"/>
+				<itemEnergeticExchanger id="exchangers:energetic_exchanger" treeOrder="180"/>
+				<itemGoldenExchanger id="exchangers:golden_exchanger" treeOrder="190"/>
+				<itemHardenedExchanger id="exchangers:hardened_exchanger" treeOrder="200"/>
+				<itemHVExchanger id="exchangers:hv_exchanger" treeOrder="210"/>
+				<itemIronExchanger id="exchangers:iron_exchanger" treeOrder="220"/>
+				<itemLeadstoneExchanger id="exchangers:leadstone_exchanger" treeOrder="230"/>
+				<itemLVExchanger id="exchangers:lv_exchanger" treeOrder="240"/>
+				<itemMVExchanger id="exchangers:mv_exchanger" treeOrder="250"/>
+				<itemObsidianExchanger id="exchangers:obsidian_exchanger" treeOrder="260"/>
+				<itemPulsatingIronExchanger id="exchangers:pulsating_iron_exchanger" treeOrder="270"/>
+				<itemReinforcedExchanger id="exchangers:reinforced_exchanger" treeOrder="280"/>
+				<itemResonantExchanger id="exchangers:resonant_exchanger" treeOrder="290"/>
+				<itemSignalumExchanger id="exchangers:signalum_exchanger" treeOrder="300"/>
+				<itemStoneExchanger id="exchangers:stone_exchanger" treeOrder="310"/>
+				<itemTuberousExchanger id="exchangers:tuberous_exchanger" treeOrder="320"/>
+				<itemUltimateExchanger id="exchangers:ultimate_exchanger" treeOrder="330"/>
+				<itemVibrantExchanger id="exchangers:vibrant_exchanger" treeOrder="340"/>
+				<itemWoodenExchanger id="exchangers:wooden_exchanger" treeOrder="350"/>
+			</exchangeBlockTools>
+		</tool>
+	</equipment>
+	<item treeOrder="40">
+		<parts treeOrder="120">
+			<mechanicalParts treeOrder="10">
+				<otherParts treeOrder="100">
+					<itemExchangerCoreTier1 id="exchangers:exchanger_core_tier1" treeOrder="160"/>
+					<itemExchangerCoreTier2 id="exchangers:exchanger_core_tier2" treeOrder="170"/>
+					<itemExchangerCoreTier3 id="exchangers:exchanger_core_tier3" treeOrder="180"/>
+					<itemEnderIOExchangerCoreTier1 id="exchangers:eio_exchanger_core_tier1" treeOrder="190"/>
+					<itemEnderIOExchangerCoreTier2 id="exchangers:eio_exchanger_core_tier2" treeOrder="200"/>
+					<itemEnderIOExchangerCoreTier3 id="exchangers:eio_exchanger_core_tier3" treeOrder="210"/>
+					<itemImmersiveEngineeringExchangerCoreTier1 id="exchangers:ie_exchanger_core_tier1" treeOrder="220"/>
+					<itemImmersiveEngineeringExchangerCoreTier2 id="exchangers:ie_exchanger_core_tier2" treeOrder="230"/>
+					<itemImmersiveEngineeringExchangerCoreTier3 id="exchangers:ie_exchanger_core_tier3" treeOrder="240"/>
+					<itemMekanismExchangerCoreTier1 id="exchangers:mekanism_exchanger_core_tier1" treeOrder="250"/>
+					<itemMekanismExchangerCoreTier2 id="exchangers:mekanism_exchanger_core_tier2" treeOrder="260"/>
+					<itemMekanismExchangerCoreTier3 id="exchangers:mekanism_exchanger_core_tier3" treeOrder="270"/>
+					<itemThermalExpansionExchangerCoreTier1 id="exchangers:te_exchanger_core_tier1" treeOrder="280"/>
+					<itemThermalExpansionExchangerCoreTier2 id="exchangers:te_exchanger_core_tier2" treeOrder="290"/>
+					<itemThermalExpansionExchangerCoreTier3 id="exchangers:te_exchanger_core_tier3" treeOrder="300"/>
+				</otherParts>
+			</mechanicalParts>
+		</parts>
+	</item>
+</stuff>

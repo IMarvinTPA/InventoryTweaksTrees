@@ -31,24 +31,24 @@
 			<saws class="Item" data="{ToolClass : &quot;saw&quot;}" treeOrder="90">
 				<itemFramingSaw id="bibliocraft:framingsaw" treeOrder="10"/>
 			</saws>
-			<debugTools treeOrder="170">
+			<debugTools treeOrder="200">
 				<itemItemStackNameTester id="bibliocraft:testeritem" treeOrder="30"/>
 			</debugTools>
-			<keys treeOrder="210">
+			<keys treeOrder="240">
 				<itemLockandKey id="bibliocraft:bibliocreativelock" treeOrder="30"/>
 			</keys>
-			<clipboards treeOrder="240">
+			<clipboards treeOrder="270">
 				<itemClipboard id="bibliocraft:biblioclipboard" treeOrder="10"/>
 			</clipboards>
-			<bibliocraftTools treeOrder="250">
+			<bibliocraftTools treeOrder="280">
 				<itemScrewGun id="bibliocraft:bibliodrill" treeOrder="10"/>
 				<itemHandDrill id="bibliocraft:handdrill" treeOrder="20"/>
 			</bibliocraftTools>
-			<odometers treeOrder="260">
+			<odometers treeOrder="290">
 				<itemTapeMeasure id="bibliocraft:tapemeasure" treeOrder="10"/>
 				<itemPlumbline id="bibliocraft:plumbline" treeOrder="40"/>
 			</odometers>
-			<instrument treeOrder="310">
+			<instrument treeOrder="340">
 				<compass treeOrder="10">
 					<itemDraftingCompass id="bibliocraft:maptool" treeOrder="20"/>
 					<itemCompass id="bibliocraft:compass" treeOrder="30"/>
@@ -74,7 +74,7 @@
 		</manufacturedBlock>
 		<mechanism treeOrder="60">
 			<lighting treeOrder="30">
-				<decorativeLights treeOrder="100">
+				<decorativeLights treeOrder="110">
 					<itemFancyLamp id="bibliocraft:lampiron" treeOrder="10"/>
 					<itemFancyLamp id="bibliocraft:lampgold" treeOrder="20"/>
 					<itemFancyLantern id="bibliocraft:lanterniron" treeOrder="30"/>
@@ -88,10 +88,10 @@
 				</craftingTables>
 			</basicCrafting>
 			<machines treeOrder="380">
-				<decorationMachines treeOrder="180">
+				<decorationMachines treeOrder="190">
 					<itemBiblioFurniturePaneler id="bibliocraft:furniturepaneler" treeOrder="60"/>
 				</decorationMachines>
-				<documentMachines treeOrder="190">
+				<documentMachines treeOrder="200">
 					<itemPaintingPress id="bibliocraft:bibliopaintpress" treeOrder="10"/>
 					<itemPaintingPress id="bibliocraft:paintingpress" treeOrder="20"/>
 					<itemPrintingPress id="bibliocraft:printingpress" treeOrder="30"/>
@@ -105,7 +105,7 @@
 		<utility treeOrder="10">
 			<storage treeOrder="30">
 				<chests treeOrder="10">
-					<itembibliocraft_tile.BiblioFramedChest id="bibliocraft:framedchest" treeOrder="360"/>
+					<itembibliocraft_tile.BiblioFramedChest id="bibliocraft:framedchest" treeOrder="370"/>
 				</chests>
 				<foodStorage treeOrder="60">
 					<itemCookieJar id="bibliocraft:cookiejar" treeOrder="10"/>
@@ -115,19 +115,19 @@
 			<readableBooks treeOrder="90">
 				<itemAtlas id="bibliocraft:atlasbook" treeOrder="40"/>
 				<itemBigWritingBook id="bibliocraft:bigbook" treeOrder="50"/>
-				<itemEmptyRecipeBook id="bibliocraft:recipebook" treeOrder="160"/>
-				<itemRedstone_VolumeI id="bibliocraft:biblioredbook" treeOrder="170"/>
-				<itemSlottedBook id="bibliocraft:slottedbook" treeOrder="180"/>
-				<itemStockroomCatalog id="bibliocraft:stockroomcatalog" treeOrder="190"/>
+				<itemEmptyRecipeBook id="bibliocraft:recipebook" treeOrder="170"/>
+				<itemRedstone_VolumeI id="bibliocraft:biblioredbook" treeOrder="180"/>
+				<itemSlottedBook id="bibliocraft:slottedbook" treeOrder="190"/>
+				<itemStockroomCatalog id="bibliocraft:stockroomcatalog" treeOrder="200"/>
 			</readableBooks>
 		</utility>
-		<instrument treeOrder="70">
+		<instrument treeOrder="80">
 			<itemDraftingCompass id="bibliocraft:maptool" treeOrder="30"/>
 			<itemEternalCompass id="bibliocraft:deathcompass" treeOrder="40"/>
 			<itemWaypointCompass id="bibliocraft:bibliowaypointcompass" treeOrder="90"/>
 		</instrument>
-		<patterns treeOrder="90">
-			<printingPatterns id="bibliocraft:bibliochase" treeOrder="60">
+		<patterns treeOrder="100">
+			<printingPatterns id="bibliocraft:bibliochase" treeOrder="80">
 				<itemPrintPressChase id="bibliocraft:bibliochase" treeOrder="10"/>
 				<itemEnchantedPlate id="bibliocraft:enchantedplate" treeOrder="20"/>
 				<itemFramingBoard id="bibliocraft:framingboard" treeOrder="30"/>
@@ -137,14 +137,14 @@
 				<itemAtlasPlate id="bibliocraft:atlasplate" treeOrder="70"/>
 			</printingPatterns>
 		</patterns>
-		<parts treeOrder="110">
+		<parts treeOrder="120">
 			<mechanicalParts treeOrder="10">
 				<coils treeOrder="80">
 					<itemTapeMeasureReel id="bibliocraft:tape" treeOrder="100"/>
 				</coils>
 			</mechanicalParts>
 		</parts>
-		<decoration treeOrder="120">
+		<decoration treeOrder="130">
 			<itemBiblioPaintingFrame id="bibliocraft:paintingframeborderless" treeOrder="60"/>
 			<itemBiblioPaintingFrame id="bibliocraft:paintingframefancy" treeOrder="70"/>
 			<itemBiblioPaintingFrame id="bibliocraft:paintingframeflat" treeOrder="80"/>
@@ -173,18 +173,18 @@
 			</bookcase>
 			<itemArmorStand id="bibliocraft:armorstand" treeOrder="270"/>
 			<itemSwordPedestal id="bibliocraft:swordpedestal" treeOrder="280"/>
-			<clocks treeOrder="300">
+			<clocks treeOrder="310">
 				<itemOakClock id="bibliocraft:clock" treeOrder="20"/>
 			</clocks>
-			<itemDeskBell id="bibliocraft:bell" treeOrder="310"/>
-			<itemWhiteTypewriter id="bibliocraft:typewriter" treeOrder="320"/>
-			<desks treeOrder="330">
+			<itemDeskBell id="bibliocraft:bell" treeOrder="320"/>
+			<itemWhiteTypewriter id="bibliocraft:typewriter" treeOrder="330"/>
+			<desks treeOrder="340">
 				<itemOakDesk id="bibliocraft:desk" treeOrder="10"/>
 			</desks>
-			<tables treeOrder="340">
+			<tables treeOrder="350">
 				<itemOakTable id="bibliocraft:table" treeOrder="10"/>
 			</tables>
-			<seating treeOrder="350">
+			<seating treeOrder="360">
 				<seats treeOrder="10">
 					<itemOakSeat id="bibliocraft:seat" treeOrder="10"/>
 				</seats>
@@ -197,15 +197,15 @@
 					<itemOakSeatBack id="bibliocraft:seatback5" treeOrder="60"/>
 				</seatbacks>
 			</seating>
-			<case treeOrder="360">
+			<case treeOrder="370">
 				<itemOakMapFrame id="bibliocraft:mapframe" treeOrder="40"/>
 				<itembibliocraftLabel id="bibliocraft:label" treeOrder="70"/>
 				<itembibliocraftCase id="bibliocraft:case" treeOrder="100"/>
 			</case>
-			<toolRack treeOrder="370">
+			<toolRack treeOrder="380">
 				<itembibliocraftToolRack id="bibliocraft:toolrack" treeOrder="10"/>
 			</toolRack>
-			<shelf treeOrder="380">
+			<shelf treeOrder="390">
 				<itemAcaciaShelf id="bibliocraft:shelf" damage="4" treeOrder="10"/>
 				<itemBirchShelf id="bibliocraft:shelf" damage="2" treeOrder="30"/>
 				<itemDarkOakShelf id="bibliocraft:shelf" damage="5" treeOrder="60"/>
@@ -214,7 +214,7 @@
 				<itemOakShelf id="bibliocraft:shelf" damage="0" treeOrder="230"/>
 				<itemSpruceShelf id="bibliocraft:shelf" damage="1" treeOrder="310"/>
 			</shelf>
-			<potionShelf treeOrder="390">
+			<potionShelf treeOrder="400">
 				<itemAcaciaPotionShelf id="bibliocraft:potionshelf" damage="4" treeOrder="10"/>
 				<itemBirchPotionShelf id="bibliocraft:potionshelf" damage="2" treeOrder="30"/>
 				<itemDarkOakPotionShelf id="bibliocraft:potionshelf" damage="5" treeOrder="60"/>
@@ -223,7 +223,7 @@
 				<itemOakPotionShelf id="bibliocraft:potionshelf" damage="0" treeOrder="230"/>
 				<itemSprucePotionShelf id="bibliocraft:potionshelf" damage="1" treeOrder="310"/>
 			</potionShelf>
-			<musicRack id="bibliocraft:discrack" damage="3" treeOrder="400">
+			<musicRack id="bibliocraft:discrack" damage="3" treeOrder="410">
 				<itemDiscRack id="bibliocraft:discrack" treeOrder="10"/>
 				<itemDiscRack id="bibliocraft:discrack" damage="3" treeOrder="20"/>
 			</musicRack>

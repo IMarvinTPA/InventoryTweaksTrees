@@ -40,12 +40,12 @@
 				</sword>
 			</meleeWeapon>
 			<munition treeOrder="20">
-				<thrownMunitions treeOrder="70">
+				<thrownMunitions treeOrder="80">
 					<itemEmberCharge id="infernomobs:embercharge" treeOrder="150"/>
 					<itemMagmaCharge id="infernomobs:magmacharge" treeOrder="160"/>
 					<itemScorchfireCharge id="infernomobs:scorchfirecharge" treeOrder="170"/>
 				</thrownMunitions>
-				<scepters treeOrder="120">
+				<scepters treeOrder="130">
 					<itemEmberScepter id="infernomobs:emberscepter" treeOrder="130"/>
 					<itemMagmaScepter id="infernomobs:magmascepter" treeOrder="140"/>
 					<itemScorchfireScepter id="infernomobs:scorchfirescepter" treeOrder="150"/>
@@ -55,7 +55,7 @@
 	</equipment>
 	<item treeOrder="40">
 		<utility treeOrder="10">
-			<spawnerEggs treeOrder="200">
+			<spawnerEggs treeOrder="210">
 				<itemSpawnAfrit id="infernomobs:infernoegg" damage="3" treeOrder="350"/>
 				<itemSpawnCephignis id="infernomobs:infernoegg" damage="2" treeOrder="360"/>
 				<itemSpawnCinder id="infernomobs:infernoegg" damage="0" treeOrder="370"/>
@@ -65,10 +65,10 @@
 		</utility>
 		<fluidPortableStorage treeOrder="20">
 			<bucket treeOrder="10">
-				<iteminfernomobs_bucketpurelava id="infernomobs:bucketpurelava" treeOrder="320"/>
+				<iteminfernomobs_bucketpurelava id="infernomobs:bucketpurelava" treeOrder="330"/>
 			</bucket>
 		</fluidPortableStorage>
-		<food treeOrder="150">
+		<food treeOrder="160">
 			<edibleFood treeOrder="10">
 				<preparedFood treeOrder="30">
 					<taco treeOrder="210">

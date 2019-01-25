@@ -29,10 +29,10 @@
 	<equipment treeOrder="10">
 		<weapon treeOrder="10">
 			<munition treeOrder="20">
-				<thrownMunitions treeOrder="70">
+				<thrownMunitions treeOrder="80">
 					<itemAquaPulseCharge id="freshwatermobs:aquapulsecharge" treeOrder="140"/>
 				</thrownMunitions>
-				<scepters treeOrder="120">
+				<scepters treeOrder="130">
 					<itemAquaPulseScepter id="freshwatermobs:aquapulsescepter" treeOrder="120"/>
 				</scepters>
 			</munition>
@@ -40,14 +40,14 @@
 	</equipment>
 	<item treeOrder="40">
 		<utility treeOrder="10">
-			<spawnerEggs treeOrder="200">
+			<spawnerEggs treeOrder="210">
 				<itemSpawnJengu id="freshwatermobs:freshwateregg" damage="0" treeOrder="310"/>
 				<itemSpawnSilex id="freshwatermobs:freshwateregg" damage="3" treeOrder="320"/>
 				<itemSpawnStrider id="freshwatermobs:freshwateregg" damage="2" treeOrder="330"/>
 				<itemSpawnZephyr id="freshwatermobs:freshwateregg" damage="1" treeOrder="340"/>
 			</spawnerEggs>
 		</utility>
-		<food treeOrder="150">
+		<food treeOrder="160">
 			<edibleFood treeOrder="10">
 				<cookedFood treeOrder="50">
 					<itemfreshwatermobs_silexmeatcooked id="freshwatermobs:silexmeatcooked" treeOrder="280"/>

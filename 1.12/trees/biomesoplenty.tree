@@ -54,14 +54,14 @@
 			</miningTool>
 			<diggingTool treeOrder="30">
 				<shovel class="Item" data="{ToolClass : &quot;shovel&quot;}" mergeChildren="true" treeOrder="20">
-					<itemAmethystShovel id="biomesoplenty:shovelamethyst" treeOrder="20"/>
-					<itemMuddyShovel id="biomesoplenty:shovelmud" treeOrder="370"/>
+					<itemAmethystShovel id="biomesoplenty:shovelamethyst" treeOrder="40"/>
+					<itemMuddyShovel id="biomesoplenty:shovelmud" treeOrder="390"/>
 				</shovel>
 			</diggingTool>
 			<choppingTool treeOrder="40">
 				<axe class="Item" data="{ToolClass : &quot;axe&quot;}" mergeChildren="true" treeOrder="20">
-					<itemAmethystAxe id="biomesoplenty:axeamethyst" treeOrder="20"/>
-					<itemMuddyAxe id="biomesoplenty:axemud" treeOrder="430"/>
+					<itemAmethystAxe id="biomesoplenty:axeamethyst" treeOrder="40"/>
+					<itemMuddyAxe id="biomesoplenty:axemud" treeOrder="450"/>
 				</axe>
 			</choppingTool>
 			<farmingTool treeOrder="50">
@@ -75,8 +75,8 @@
 					<itemWoodenScythe id="biomesoplenty:scythewood" treeOrder="100"/>
 				</scythe>
 				<hoe class="Item" data="{ToolClass : &quot;hoe&quot;}" mergeChildren="true" treeOrder="50">
-					<itemAmethystHoe id="biomesoplenty:hoeamethyst" treeOrder="50"/>
-					<itemMuddyHoe id="biomesoplenty:hoemud" treeOrder="360"/>
+					<itemAmethystHoe id="biomesoplenty:hoeamethyst" treeOrder="60"/>
+					<itemMuddyHoe id="biomesoplenty:hoemud" treeOrder="370"/>
 				</hoe>
 			</farmingTool>
 		</tool>
@@ -133,14 +133,14 @@
 			</dirts>
 			<netherBlock treeOrder="80">
 				<netherrack treeOrder="20">
-					<itemOvergrownNetherrack id="biomesoplenty:overgrownnetherrack" treeOrder="80"/>
+					<itemOvergrownNetherrack id="biomesoplenty:overgrownnetherrack" treeOrder="100"/>
 				</netherrack>
 			</netherBlock>
 			<oreBlock treeOrder="90">
 				<oreBiomeEssenceOre treeOrder="190">
 					<oreBiomeEssenceOreItem id="biomesoplenty:biomeblock" damage="0" treeOrder="10"/>
 				</oreBiomeEssenceOre>
-				<oreEnderAmethystOreItem id="biomesoplenty:gemore" damage="0" treeOrder="490"/>
+				<oreEnderAmethystOreItem id="biomesoplenty:gemore" damage="0" treeOrder="500"/>
 			</oreBlock>
 			<grass treeOrder="150">
 				<itemLoamyGrassBlock id="biomesoplenty:newbopgrass" damage="0" treeOrder="60"/>
@@ -160,7 +160,7 @@
 					</otherStairs>
 				</stairs>
 				<slabs treeOrder="110">
-					<doubleSlab treeOrder="350">
+					<doubleSlab treeOrder="380">
 						<woodenDoubleSlabs treeOrder="10">
 							<itemCherryWoodSlab id="biomesoplenty:woodendoubleslab1" treeOrder="60"/>
 							<itemHellbarkWoodSlab id="biomesoplenty:woodendoubleslab2" treeOrder="70"/>
@@ -172,12 +172,12 @@
 	</block>
 	<resources treeOrder="30">
 		<miningResources treeOrder="10">
-			<oreBlock treeOrder="110">
+			<oreBlock treeOrder="120">
 				<blockAmethystDict oreDictName="blockAmethyst" treeOrder="110">
 					<itemBlockofAmethyst id="biomesoplenty:gemore" damage="1" treeOrder="10"/>
 				</blockAmethystDict>
 			</oreBlock>
-			<gem treeOrder="140">
+			<gem treeOrder="150">
 				<gemEnderAmethyst treeOrder="160">
 					<itemEnderAmethyst id="biomesoplenty:gems" damage="0" treeOrder="10"/>
 				</gemEnderAmethyst>
@@ -187,20 +187,20 @@
 	<item treeOrder="40">
 		<fluidPortableStorage treeOrder="20">
 			<bucket treeOrder="10">
-				<itemBiomesOPlenty_bopBucket id="biomesoplenty:bopbucket" treeOrder="120"/>
+				<itemBiomesOPlenty_bopBucket id="biomesoplenty:bopbucket" treeOrder="130"/>
 			</bucket>
 		</fluidPortableStorage>
-		<decoration treeOrder="120">
-			<musicDisc treeOrder="410">
+		<decoration treeOrder="130">
+			<musicDisc treeOrder="420">
 				<itemMusicDisc id="biomesoplenty:record_corruption" treeOrder="130"/>
 				<itemMusicDisc id="biomesoplenty:record_wanderer" treeOrder="140"/>
 			</musicDisc>
-			<musicDisc treeOrder="430">
+			<musicDisc treeOrder="440">
 				<itemMusicDisc id="biomesoplenty:record_corruption" treeOrder="130"/>
 				<itemMusicDisc id="biomesoplenty:record_wanderer" treeOrder="140"/>
 			</musicDisc>
 		</decoration>
-		<food treeOrder="150">
+		<food treeOrder="160">
 			<edibleFood treeOrder="10">
 				<fruit treeOrder="80">
 					<berry treeOrder="10">
@@ -214,7 +214,7 @@
 				</rawFood>
 			</edibleFood>
 		</food>
-		<plant treeOrder="160">
+		<plant treeOrder="170">
 			<flower treeOrder="10">
 				<flowerWhite treeOrder="20">
 					<itemLilyoftheValley id="biomesoplenty:flowers2" damage="1" treeOrder="20"/>

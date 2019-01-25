@@ -40,20 +40,20 @@
 			</miningTool>
 			<diggingTool treeOrder="30">
 				<shovel class="Item" data="{ToolClass : &quot;shovel&quot;}" mergeChildren="true" treeOrder="20">
-					<itemBronzeShovel id="pickletweaks:bronze_shovel" treeOrder="1060"/>
-					<itemCopperShovel id="pickletweaks:copper_shovel" treeOrder="1070"/>
+					<itemBronzeShovel id="pickletweaks:bronze_shovel" treeOrder="1080"/>
+					<itemCopperShovel id="pickletweaks:copper_shovel" treeOrder="1090"/>
 				</shovel>
 			</diggingTool>
 			<choppingTool treeOrder="40">
 				<axe class="Item" data="{ToolClass : &quot;axe&quot;}" mergeChildren="true" treeOrder="20">
-					<itemBronzeAxe id="pickletweaks:bronze_axe" treeOrder="1060"/>
-					<itemCopperAxe id="pickletweaks:copper_axe" treeOrder="1070"/>
+					<itemBronzeAxe id="pickletweaks:bronze_axe" treeOrder="1080"/>
+					<itemCopperAxe id="pickletweaks:copper_axe" treeOrder="1090"/>
 				</axe>
 			</choppingTool>
 			<farmingTool treeOrder="50">
 				<hoe class="Item" data="{ToolClass : &quot;hoe&quot;}" mergeChildren="true" treeOrder="50">
-					<itemBronzeHoe id="pickletweaks:bronze_hoe" treeOrder="940"/>
-					<itemCopperHoe id="pickletweaks:copper_hoe" treeOrder="950"/>
+					<itemBronzeHoe id="pickletweaks:bronze_hoe" treeOrder="950"/>
+					<itemCopperHoe id="pickletweaks:copper_hoe" treeOrder="960"/>
 				</hoe>
 			</farmingTool>
 		</tool>

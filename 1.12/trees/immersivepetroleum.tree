@@ -30,7 +30,7 @@
 		<manufacturedBlock treeOrder="50">
 			<constructionBlock treeOrder="70">
 				<roads treeOrder="70">
-					<itemAsphaltConcrete id="immersivepetroleum:stone_decoration" treeOrder="60"/>
+					<itemAsphaltConcrete id="immersivepetroleum:stone_decoration" treeOrder="80"/>
 				</roads>
 			</constructionBlock>
 		</manufacturedBlock>

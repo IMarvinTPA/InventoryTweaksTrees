@@ -54,18 +54,18 @@
 			</generators>
 			<machines treeOrder="380">
 				<poweredCrafting treeOrder="10">
-					<itemAutoCraftingBench id="projred|expansion:projectred.expansion.machine2" damage="11" treeOrder="150"/>
+					<itemAutoCraftingBench id="projred|expansion:projectred.expansion.machine2" damage="11" treeOrder="160"/>
 				</poweredCrafting>
 				<poweredFurnaces treeOrder="20">
-					<itemInductiveFurnace id="projred|expansion:projectred.expansion.machine1" damage="0" treeOrder="90"/>
+					<itemInductiveFurnace id="projred|expansion:projectred.expansion.machine1" damage="0" treeOrder="100"/>
 				</poweredFurnaces>
 				<poweredMining treeOrder="130">
-					<itemBlockBreaker id="projred|expansion:projectred.expansion.machine2" damage="0" treeOrder="110"/>
+					<itemBlockBreaker id="projred|expansion:projectred.expansion.machine2" damage="0" treeOrder="30"/>
 				</poweredMining>
-				<poweredDroppers treeOrder="150">
-					<itemBlockPlacer id="projred|expansion:projectred.expansion.machine2" damage="2" treeOrder="80"/>
+				<poweredDroppers treeOrder="160">
+					<itemBlockPlacer id="projred|expansion:projectred.expansion.machine2" damage="2" treeOrder="90"/>
 				</poweredDroppers>
-				<randomMachines treeOrder="200">
+				<randomMachines treeOrder="210">
 					<itemBatteryBox id="projred|expansion:projectred.expansion.machine2" damage="5" treeOrder="90"/>
 					<itemChargingBench id="projred|expansion:projectred.expansion.machine2" damage="6" treeOrder="100"/>
 					<itemFilteredImporter id="projred|expansion:projectred.expansion.machine2" damage="3" treeOrder="110"/>

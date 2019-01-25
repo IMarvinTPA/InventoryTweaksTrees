@@ -52,28 +52,28 @@
 		<armor treeOrder="30">
 			<helmet class="ItemArmor" data="{ArmorType : &quot;head&quot;}" treeOrder="20">
 				<helmetUnsorted treeOrder="60">
-					<itemPaperHelmet id="betterwithaddons:helmet_paper" treeOrder="370"/>
-					<itemSamuraiHelmetWIP id="betterwithaddons:helmet_samurai" treeOrder="480"/>
+					<itemPaperHelmet id="betterwithaddons:helmet_paper" treeOrder="380"/>
+					<itemSamuraiHelmetWIP id="betterwithaddons:helmet_samurai" treeOrder="490"/>
 				</helmetUnsorted>
 			</helmet>
 			<chestplate class="ItemArmor" data="{ArmorType:&quot;chest&quot;}" treeOrder="30">
 				<chestplateArmor treeOrder="20">
 					<chestplateUnsorted treeOrder="120">
-						<itemPaperChestplate id="betterwithaddons:chest_paper" treeOrder="380"/>
-						<itemSamuraiChestplateWIP id="betterwithaddons:chest_samurai" treeOrder="490"/>
+						<itemPaperChestplate id="betterwithaddons:chest_paper" treeOrder="390"/>
+						<itemSamuraiChestplateWIP id="betterwithaddons:chest_samurai" treeOrder="500"/>
 					</chestplateUnsorted>
 				</chestplateArmor>
 			</chestplate>
 			<leggings class="ItemArmor" data="{ArmorType:&quot;legs&quot;}" treeOrder="40">
 				<leggingsUnsorted treeOrder="100">
-					<itemPaperLeggings id="betterwithaddons:legs_paper" treeOrder="380"/>
-					<itemSamuraiLeggingsWIP id="betterwithaddons:legs_samurai" treeOrder="460"/>
+					<itemPaperLeggings id="betterwithaddons:legs_paper" treeOrder="390"/>
+					<itemSamuraiLeggingsWIP id="betterwithaddons:legs_samurai" treeOrder="470"/>
 				</leggingsUnsorted>
 			</leggings>
 			<boots class="ItemArmor" data="{ArmorType:&quot;feet&quot;}" treeOrder="50">
 				<bootsUnsorted treeOrder="70">
-					<itemPaperBoots id="betterwithaddons:boots_paper" treeOrder="400"/>
-					<itemSamuraiBootsWIP id="betterwithaddons:boots_samurai" treeOrder="500"/>
+					<itemPaperBoots id="betterwithaddons:boots_paper" treeOrder="410"/>
+					<itemSamuraiBootsWIP id="betterwithaddons:boots_samurai" treeOrder="510"/>
 				</bootsUnsorted>
 			</boots>
 		</armor>
@@ -99,18 +99,18 @@
 	</block>
 	<resources treeOrder="30">
 		<miningResources treeOrder="10">
-			<bricks treeOrder="190">
+			<bricks treeOrder="200">
 				<itemStainedBrick id="betterwithaddons:brick_stained" treeOrder="50"/>
 			</bricks>
 		</miningResources>
 	</resources>
 	<item treeOrder="40">
-		<plant treeOrder="160">
+		<plant treeOrder="170">
 			<seedbag treeOrder="50">
 				<itemBagofSeeds id="betterwithaddons:bag" treeOrder="80"/>
 			</seedbag>
 		</plant>
-		<crates treeOrder="240">
+		<crates treeOrder="250">
 			<itemCratedCacti id="betterwithaddons:crate" damage="13" treeOrder="300"/>
 			<itemCratedCookedChicken id="betterwithaddons:crate" damage="2" treeOrder="430"/>
 			<itemCratedCookedMutton id="betterwithaddons:crate" damage="6" treeOrder="450"/>

@@ -29,10 +29,10 @@
 	<equipment treeOrder="10">
 		<weapon treeOrder="10">
 			<munition treeOrder="20">
-				<thrownMunitions treeOrder="70">
+				<thrownMunitions treeOrder="80">
 					<itemMudshotCharge id="desertmobs:mudshotcharge" treeOrder="120"/>
 				</thrownMunitions>
-				<scepters treeOrder="120">
+				<scepters treeOrder="130">
 					<itemMudshotScepter id="desertmobs:mudshotscepter" treeOrder="100"/>
 				</scepters>
 			</munition>
@@ -48,7 +48,7 @@
 	</equipment>
 	<item treeOrder="40">
 		<utility treeOrder="10">
-			<spawnerEggs treeOrder="200">
+			<spawnerEggs treeOrder="210">
 				<itemSpawnClink id="desertmobs:desertegg" damage="2" treeOrder="170"/>
 				<itemSpawnCrusk id="desertmobs:desertegg" damage="1" treeOrder="180"/>
 				<itemSpawnCryptZombie id="desertmobs:desertegg" damage="0" treeOrder="190"/>
@@ -59,7 +59,7 @@
 				<itemSpawnManticore id="desertmobs:desertegg" damage="7" treeOrder="240"/>
 			</spawnerEggs>
 		</utility>
-		<food treeOrder="150">
+		<food treeOrder="160">
 			<edibleFood treeOrder="10">
 				<cookedFood treeOrder="50">
 					<itemdesertmobs_joustmeatcooked id="desertmobs:joustmeatcooked" treeOrder="250"/>
@@ -71,7 +71,7 @@
 				</rawFood>
 			</edibleFood>
 			<unedibleFood treeOrder="50">
-				<cakes treeOrder="130">
+				<cakes treeOrder="240">
 					<itemdesertmobs_ambercake id="desertmobs:ambercake" treeOrder="140"/>
 				</cakes>
 			</unedibleFood>

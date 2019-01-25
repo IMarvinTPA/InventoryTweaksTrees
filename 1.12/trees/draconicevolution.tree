@@ -56,24 +56,31 @@
 			</miningTool>
 			<diggingTool treeOrder="30">
 				<shovel class="Item" data="{ToolClass : &quot;shovel&quot;}" mergeChildren="true" treeOrder="20">
-					<itemDraconicShovel id="draconicevolution:draconic_shovel" treeOrder="160"/>
-					<itemShoveloftheWyvern id="draconicevolution:wyvern_shovel" treeOrder="620"/>
+					<itemDraconicShovel id="draconicevolution:draconic_shovel" treeOrder="180"/>
+					<itemShoveloftheWyvern id="draconicevolution:wyvern_shovel" treeOrder="640"/>
 				</shovel>
 			</diggingTool>
 			<choppingTool treeOrder="40">
 				<axe class="Item" data="{ToolClass : &quot;axe&quot;}" mergeChildren="true" treeOrder="20">
-					<itemAxeoftheWyvern id="draconicevolution:wyvern_axe" treeOrder="100"/>
-					<itemDraconicAxe id="draconicevolution:draconic_axe" treeOrder="230"/>
+					<itemAxeoftheWyvern id="draconicevolution:wyvern_axe" treeOrder="120"/>
+					<itemDraconicAxe id="draconicevolution:draconic_axe" treeOrder="250"/>
 				</axe>
 			</choppingTool>
 			<farmingTool treeOrder="50">
 				<hoe class="Item" data="{ToolClass : &quot;hoe&quot;}" mergeChildren="true" treeOrder="50">
-					<itemDraconicHoe id="draconicevolution:draconic_hoe" treeOrder="30"/>
+					<itemDraconicHoe id="draconicevolution:draconic_hoe" treeOrder="40"/>
 				</hoe>
 			</farmingTool>
-			<magnets treeOrder="280">
+			<exchangeBlockTools mergeChildren="true" treeOrder="190">
+				<itemCreativeBlockExchanger id="draconicevolution:creative_exchanger" treeOrder="100"/>
+			</exchangeBlockTools>
+			<magnets treeOrder="310">
 				<itemItemDislocator id="draconicevolution:magnet" treeOrder="80"/>
 			</magnets>
+			<teleport treeOrder="320">
+				<itemAdvancedDislocator id="draconicevolution:dislocator_advanced" treeOrder="100"/>
+				<itemDislocator id="draconicevolution:dislocator" treeOrder="110"/>
+			</teleport>
 		</tool>
 	</equipment>
 	<item treeOrder="40">

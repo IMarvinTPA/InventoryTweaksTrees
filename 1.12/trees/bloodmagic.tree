@@ -38,22 +38,22 @@
 			</miningTool>
 			<diggingTool treeOrder="30">
 				<shovel class="Item" data="{ToolClass : &quot;shovel&quot;}" mergeChildren="true" treeOrder="20">
-					<itemBoundShovel id="bloodmagic:bound_shovel" treeOrder="890"/>
-					<itemSentientShovel id="bloodmagic:sentient_shovel" treeOrder="900"/>
+					<itemBoundShovel id="bloodmagic:bound_shovel" treeOrder="910"/>
+					<itemSentientShovel id="bloodmagic:sentient_shovel" treeOrder="920"/>
 				</shovel>
 			</diggingTool>
 			<choppingTool treeOrder="40">
 				<axe class="Item" data="{ToolClass : &quot;axe&quot;}" mergeChildren="true" treeOrder="20">
-					<itemBoundAxe id="bloodmagic:bound_axe" treeOrder="890"/>
-					<itemSentientAxe id="bloodmagic:sentient_axe" treeOrder="900"/>
+					<itemBoundAxe id="bloodmagic:bound_axe" treeOrder="910"/>
+					<itemSentientAxe id="bloodmagic:sentient_axe" treeOrder="920"/>
 				</axe>
 			</choppingTool>
 		</tool>
 		<armor treeOrder="30">
 			<helmet class="ItemArmor" data="{ArmorType : &quot;head&quot;}" treeOrder="20">
 				<helmetUnsorted treeOrder="60">
-					<itemLivingHelmet id="bloodmagic:living_armour_helmet" treeOrder="290"/>
-					<itemSentientHelmet id="bloodmagic:sentient_armour_helmet" treeOrder="490"/>
+					<itemLivingHelmet id="bloodmagic:living_armour_helmet" treeOrder="300"/>
+					<itemSentientHelmet id="bloodmagic:sentient_armour_helmet" treeOrder="500"/>
 				</helmetUnsorted>
 			</helmet>
 			<chestplate class="ItemArmor" data="{ArmorType:&quot;chest&quot;}" treeOrder="30">
@@ -63,21 +63,21 @@
 						<itemLivingChestplate id="bloodmagic:itemlivingarmourchest" treeOrder="60"/>
 					</chestplate8>
 					<chestplateUnsorted treeOrder="120">
-						<itemLivingChestplate id="bloodmagic:living_armour_chest" treeOrder="290"/>
-						<itemSentientChestplate id="bloodmagic:sentient_armour_chest" treeOrder="500"/>
+						<itemLivingChestplate id="bloodmagic:living_armour_chest" treeOrder="300"/>
+						<itemSentientChestplate id="bloodmagic:sentient_armour_chest" treeOrder="510"/>
 					</chestplateUnsorted>
 				</chestplateArmor>
 			</chestplate>
 			<leggings class="ItemArmor" data="{ArmorType:&quot;legs&quot;}" treeOrder="40">
 				<leggingsUnsorted treeOrder="100">
-					<itemLivingLeggings id="bloodmagic:living_armour_leggings" treeOrder="290"/>
-					<itemSentientLeggings id="bloodmagic:sentient_armour_leggings" treeOrder="470"/>
+					<itemLivingLeggings id="bloodmagic:living_armour_leggings" treeOrder="300"/>
+					<itemSentientLeggings id="bloodmagic:sentient_armour_leggings" treeOrder="480"/>
 				</leggingsUnsorted>
 			</leggings>
 			<boots class="ItemArmor" data="{ArmorType:&quot;feet&quot;}" treeOrder="50">
 				<bootsUnsorted treeOrder="70">
-					<itemLivingBoots id="bloodmagic:living_armour_boots" treeOrder="320"/>
-					<itemSentientBoots id="bloodmagic:sentient_armour_boots" treeOrder="510"/>
+					<itemLivingBoots id="bloodmagic:living_armour_boots" treeOrder="330"/>
+					<itemSentientBoots id="bloodmagic:sentient_armour_boots" treeOrder="520"/>
 				</bootsUnsorted>
 			</boots>
 		</armor>
@@ -103,7 +103,7 @@
 	<item treeOrder="40">
 		<utility treeOrder="10">
 			<readableBooks treeOrder="90">
-				<itemInspectorisScandalum id="bloodmagic:sanguine_book" treeOrder="490"/>
+				<itemInspectorisScandalum id="bloodmagic:sanguine_book" treeOrder="510"/>
 			</readableBooks>
 		</utility>
 	</item>

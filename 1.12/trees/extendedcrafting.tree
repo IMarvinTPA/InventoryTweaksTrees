@@ -28,7 +28,7 @@
 <stuff treeVersion="1.12.2">
 	<equipment treeOrder="10">
 		<tool treeOrder="20">
-			<portableCrafting treeOrder="320">
+			<portableCrafting treeOrder="350">
 				<itemHandheldCraftingTable id="extendedcrafting:handheld_table" treeOrder="30"/>
 			</portableCrafting>
 		</tool>
@@ -37,11 +37,11 @@
 		<mechanism treeOrder="60">
 			<basicCrafting treeOrder="360">
 				<craftingTables treeOrder="10">
-					<itemCraftingTable id="extendedcrafting:crafting_table" treeOrder="130"/>
-					<itemAdvancedCraftingTable id="extendedcrafting:table_advanced" treeOrder="140"/>
-					<itemBasicCraftingTable id="extendedcrafting:table_basic" treeOrder="150"/>
-					<itemEliteCraftingTable id="extendedcrafting:table_elite" treeOrder="160"/>
-					<itemUltimateCraftingTable id="extendedcrafting:table_ultimate" treeOrder="170"/>
+					<itemCraftingTable id="extendedcrafting:crafting_table" treeOrder="160"/>
+					<itemBasicCraftingTable id="extendedcrafting:table_basic" treeOrder="170"/>
+					<itemAdvancedCraftingTable id="extendedcrafting:table_advanced" treeOrder="180"/>
+					<itemEliteCraftingTable id="extendedcrafting:table_elite" treeOrder="190"/>
+					<itemUltimateCraftingTable id="extendedcrafting:table_ultimate" treeOrder="200"/>
 				</craftingTables>
 			</basicCrafting>
 		</mechanism>

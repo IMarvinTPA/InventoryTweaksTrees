@@ -34,7 +34,7 @@
 		</manufacturedBlock>
 	</block>
 	<item treeOrder="40">
-		<decoration treeOrder="120">
+		<decoration treeOrder="130">
 			<sign treeOrder="210">
 				<itemFlatSign id="flatsigns:blockflatsign" treeOrder="60"/>
 			</sign>

@@ -40,22 +40,22 @@
 			</miningTool>
 			<diggingTool treeOrder="30">
 				<shovel class="Item" data="{ToolClass : &quot;shovel&quot;}" mergeChildren="true" treeOrder="20">
-					<itemInfusedCrystalShovel id="astralsorcery:itemchargedcrystalshovel" treeOrder="860"/>
-					<itemCrystalShovel id="astralsorcery:itemcrystalshovel" treeOrder="870"/>
+					<itemInfusedCrystalShovel id="astralsorcery:itemchargedcrystalshovel" treeOrder="880"/>
+					<itemCrystalShovel id="astralsorcery:itemcrystalshovel" treeOrder="890"/>
 				</shovel>
 			</diggingTool>
 			<choppingTool treeOrder="40">
 				<axe class="Item" data="{ToolClass : &quot;axe&quot;}" mergeChildren="true" treeOrder="20">
-					<itemInfusedCrystalAxe id="astralsorcery:itemchargedcrystalaxe" treeOrder="850"/>
-					<itemCrystalAxe id="astralsorcery:itemcrystalaxe" treeOrder="860"/>
+					<itemInfusedCrystalAxe id="astralsorcery:itemchargedcrystalaxe" treeOrder="870"/>
+					<itemCrystalAxe id="astralsorcery:itemcrystalaxe" treeOrder="880"/>
 				</axe>
 			</choppingTool>
-			<wands treeOrder="160">
-				<itemFormationWand id="astralsorcery:itemarchitectwand" treeOrder="140"/>
-				<itemConversionWand id="astralsorcery:itemexchangewand" treeOrder="150"/>
-				<itemImpulsionWand id="astralsorcery:itemgrapplewand" treeOrder="160"/>
-				<itemIlluminationWand id="astralsorcery:itemilluminationwand" treeOrder="170"/>
-				<itemResonatingWand id="astralsorcery:itemwand" treeOrder="180"/>
+			<wands treeOrder="180">
+				<itemFormationWand id="astralsorcery:itemarchitectwand" treeOrder="150"/>
+				<itemConversionWand id="astralsorcery:itemexchangewand" treeOrder="160"/>
+				<itemImpulsionWand id="astralsorcery:itemgrapplewand" treeOrder="170"/>
+				<itemIlluminationWand id="astralsorcery:itemilluminationwand" treeOrder="180"/>
+				<itemResonatingWand id="astralsorcery:itemwand" treeOrder="190"/>
 			</wands>
 		</tool>
 	</equipment>
@@ -80,10 +80,10 @@
 	<item treeOrder="40">
 		<utility treeOrder="10">
 			<readableBooks treeOrder="90">
-				<itemAstralTome id="astralsorcery:itemjournal" treeOrder="340"/>
+				<itemAstralTome id="astralsorcery:itemjournal" treeOrder="350"/>
 			</readableBooks>
 		</utility>
-		<plant treeOrder="160">
+		<plant treeOrder="170">
 			<flower treeOrder="10">
 				<flowerDecorative treeOrder="200">
 					<itemFaintAmaranth id="astralsorcery:blockcustomflower" treeOrder="300"/>

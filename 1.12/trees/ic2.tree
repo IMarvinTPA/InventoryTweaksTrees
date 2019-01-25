@@ -44,9 +44,9 @@
 					<diggingTool treeOrder="10">
 						<choppingTool treeOrder="10">
 							<farmingTool treeOrder="10">
-								<itemIridiumDrill id="ic2:iridium_drill" treeOrder="20"/>
-								<itemDiamondDrill id="ic2:diamond_drill" treeOrder="40"/>
-								<itemMiningDrill id="ic2:drill" treeOrder="50"/>
+								<itemIridiumDrill id="ic2:iridium_drill" treeOrder="50"/>
+								<itemDiamondDrill id="ic2:diamond_drill" treeOrder="70"/>
+								<itemMiningDrill id="ic2:drill" treeOrder="80"/>
 							</farmingTool>
 						</choppingTool>
 					</diggingTool>
@@ -61,18 +61,18 @@
 			</miningTool>
 			<diggingTool treeOrder="30">
 				<shovel class="Item" data="{ToolClass : &quot;shovel&quot;}" mergeChildren="true" treeOrder="20">
-					<itemBronzeShovel id="ic2:bronze_shovel" treeOrder="70"/>
+					<itemBronzeShovel id="ic2:bronze_shovel" treeOrder="90"/>
 				</shovel>
 			</diggingTool>
 			<choppingTool treeOrder="40">
 				<axe class="Item" data="{ToolClass : &quot;axe&quot;}" mergeChildren="true" treeOrder="20">
-					<itemBronzeAxe id="ic2:bronze_axe" treeOrder="140"/>
+					<itemBronzeAxe id="ic2:bronze_axe" treeOrder="160"/>
 				</axe>
 			</choppingTool>
 			<farmingTool treeOrder="50">
 				<hoe class="Item" data="{ToolClass : &quot;hoe&quot;}" mergeChildren="true" treeOrder="50">
-					<itemBronzeHoe id="ic2:bronze_hoe" treeOrder="70"/>
-					<itemElectricHoe id="ic2:electric_hoe" treeOrder="160"/>
+					<itemBronzeHoe id="ic2:bronze_hoe" treeOrder="80"/>
+					<itemElectricHoe id="ic2:electric_hoe" treeOrder="170"/>
 				</hoe>
 				<otherFarmingTools treeOrder="60">
 					<treeTap treeOrder="150">
@@ -94,8 +94,8 @@
 	</block>
 	<resources treeOrder="30">
 		<miningResources treeOrder="10">
-			<ingot treeOrder="120">
-				<ingotMixedMetalDict oreDictName="ingotMixedMetal" treeOrder="1470">
+			<ingot treeOrder="130">
+				<ingotMixedMetalDict oreDictName="ingotMixedMetal" treeOrder="1490">
 					<itemMixedMetalIngot id="ic2:ingot" damage="0" treeOrder="10"/>
 				</ingotMixedMetalDict>
 			</ingot>
@@ -107,7 +107,7 @@
 				<itemIC2Cell id="ic2:fluid_cell" treeOrder="10"/>
 			</fluidCells>
 		</fluidStorage>
-		<vehicle treeOrder="80">
+		<vehicle treeOrder="90">
 			<boat id="boat" treeOrder="10">
 				<itemCarbonFiberCanoe id="ic2:boat" treeOrder="60"/>
 				<itemElectricBoat id="ic2:boat" treeOrder="70"/>

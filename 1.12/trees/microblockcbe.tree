@@ -42,7 +42,7 @@
 		<manufacturedBlock treeOrder="50">
 			<constructionBlock treeOrder="70">
 				<slabs treeOrder="110">
-					<MicroBlockSlabs treeOrder="340">
+					<MicroBlockSlabs treeOrder="370">
 						<itemMBSlab id="microblockcbe:microblock" damage="4" treeOrder="10"/>
 						<itemMBHollowSlab id="microblockcbe:microblock" damage="260" treeOrder="20"/>
 					</MicroBlockSlabs>

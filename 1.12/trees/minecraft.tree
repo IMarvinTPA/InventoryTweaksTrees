@@ -52,7 +52,7 @@
 					<bow class="ItemBow" treeOrder="10"/>
 					<woodenBow id="bow" treeOrder="120"/>
 				</bow>
-				<thrownMunitions treeOrder="70">
+				<thrownMunitions treeOrder="80">
 					<snowball id="snowball" treeOrder="10"/>
 					<itemFireCharge id="fire_charge" treeOrder="190"/>
 				</thrownMunitions>
@@ -97,7 +97,7 @@
 					<diggingTool treeOrder="10">
 						<choppingTool treeOrder="10">
 							<farmingTool treeOrder="10">
-								<toolDrillDict oreDictName="toolDrill" treeOrder="10"/>
+								<toolDrillDict oreDictName="toolDrill" treeOrder="40"/>
 							</farmingTool>
 						</choppingTool>
 					</diggingTool>
@@ -125,21 +125,21 @@
 			</miningTool>
 			<diggingTool treeOrder="30">
 				<shovel class="Item" data="{ToolClass : &quot;shovel&quot;}" mergeChildren="true" treeOrder="20">
-					<diamondShovel id="diamond_shovel" treeOrder="560"/>
-					<goldShovel id="golden_shovel" treeOrder="570"/>
-					<ironShovel id="iron_shovel" treeOrder="580"/>
-					<stoneShovel id="stone_shovel" treeOrder="590"/>
-					<woodShovel id="wooden_shovel" treeOrder="600"/>
+					<diamondShovel id="diamond_shovel" treeOrder="580"/>
+					<goldShovel id="golden_shovel" treeOrder="590"/>
+					<ironShovel id="iron_shovel" treeOrder="600"/>
+					<stoneShovel id="stone_shovel" treeOrder="610"/>
+					<woodShovel id="wooden_shovel" treeOrder="620"/>
 				</shovel>
 			</diggingTool>
 			<choppingTool treeOrder="40">
 				<axe class="Item" data="{ToolClass : &quot;axe&quot;}" mergeChildren="true" treeOrder="20">
-					<diamondAxe id="diamond_axe" treeOrder="40"/>
-					<goldAxe id="golden_axe" treeOrder="50"/>
-					<ironAxe id="iron_axe" treeOrder="60"/>
-					<stoneAxe id="stone_axe" treeOrder="70"/>
-					<woodAxe id="wooden_axe" treeOrder="80"/>
-					<toolAxeDict oreDictName="toolAxe" treeOrder="1170"/>
+					<diamondAxe id="diamond_axe" treeOrder="60"/>
+					<goldAxe id="golden_axe" treeOrder="70"/>
+					<ironAxe id="iron_axe" treeOrder="80"/>
+					<stoneAxe id="stone_axe" treeOrder="90"/>
+					<woodAxe id="wooden_axe" treeOrder="100"/>
+					<toolAxeDict oreDictName="toolAxe" treeOrder="1190"/>
 				</axe>
 			</choppingTool>
 			<farmingTool treeOrder="50">
@@ -149,13 +149,13 @@
 					<mattock class="Item" data="{ToolClass : &quot;mattock&quot;}" treeOrder="10"/>
 				</mattock>
 				<hoe class="Item" data="{ToolClass : &quot;hoe&quot;}" mergeChildren="true" treeOrder="50">
-					<hoe class="ItemHoe" treeOrder="10"/>
-					<toolHoeDict oreDictName="toolHoe" treeOrder="20"/>
-					<diamondHoe id="diamond_hoe" treeOrder="270"/>
-					<goldHoe id="golden_hoe" treeOrder="280"/>
-					<ironHoe id="stone_hoe" treeOrder="290"/>
-					<stoneHoe id="iron_hoe" treeOrder="300"/>
-					<woodHoe id="wooden_hoe" treeOrder="310"/>
+					<hoe class="ItemHoe" treeOrder="20"/>
+					<toolHoeDict oreDictName="toolHoe" treeOrder="30"/>
+					<diamondHoe id="diamond_hoe" treeOrder="280"/>
+					<goldHoe id="golden_hoe" treeOrder="290"/>
+					<ironHoe id="stone_hoe" treeOrder="300"/>
+					<stoneHoe id="iron_hoe" treeOrder="310"/>
+					<woodHoe id="wooden_hoe" treeOrder="320"/>
 				</hoe>
 				<otherFarmingTools treeOrder="60">
 					<crook class="Item" data="{ToolClass : &quot;crook&quot;}" mergeChildren="true" treeOrder="120"/>
@@ -180,8 +180,8 @@
 			<saws class="Item" data="{ToolClass : &quot;saw&quot;}" treeOrder="90">
 				<toolSawDict oreDictName="toolSaw" treeOrder="220"/>
 			</saws>
-			<wrench class="Item" data="{ToolClass : &quot;wrench&quot;}" treeOrder="130"/>
-			<instrument treeOrder="310">
+			<wrench class="Item" data="{ToolClass : &quot;wrench&quot;}" mergeChildren="true" treeOrder="130"/>
+			<instrument treeOrder="340">
 				<compass treeOrder="10">
 					<compass id="compass" treeOrder="10"/>
 				</compass>
@@ -372,7 +372,7 @@
 					<compressedSand1xDict oreDictName="compressedSand1x" treeOrder="30"/>
 					<compressedSand2xDict oreDictName="compressedSand2x" treeOrder="40"/>
 				</sand>
-				<sandstone treeOrder="20">
+				<sandstone treeOrder="30">
 					<classicSandstone id="sandstone" damage="0" treeOrder="10"/>
 					<creeperSandstone id="sandstone" damage="1" treeOrder="20"/>
 					<smoothSandstone id="sandstone" damage="2" treeOrder="30"/>
@@ -395,11 +395,11 @@
 			<netherBlock treeOrder="80">
 				<glowstoneBlock treeOrder="10">
 					<itemGlowstone id="glowstone" treeOrder="10"/>
-					<glowstoneDict oreDictName="glowstone" treeOrder="30"/>
+					<glowstoneDict oreDictName="glowstone" treeOrder="40"/>
 				</glowstoneBlock>
 				<netherrack treeOrder="20">
 					<itemNetherrack id="netherrack" treeOrder="10"/>
-					<netherrackDict oreDictName="netherrack" treeOrder="120"/>
+					<netherrackDict oreDictName="netherrack" treeOrder="140"/>
 				</netherrack>
 				<soulSand treeOrder="30">
 					<itemSoulSand id="soul_sand" treeOrder="10"/>
@@ -438,190 +438,190 @@
 				<oreChromiumDict oreDictName="oreChromium" treeOrder="320"/>
 				<oreCinnabarDict oreDictName="oreCinnabar" treeOrder="330"/>
 				<oreCinnabarClusterDict oreDictName="clusterCinnabar" treeOrder="340"/>
-				<oreCoalDict oreDictName="oreCoal" treeOrder="350"/>
-				<oreCoalNetherDict oreDictName="oreNetherCoal" treeOrder="360"/>
-				<oreCobaltDict oreDictName="oreCobalt" treeOrder="370"/>
-				<oreColdironDict oreDictName="oreColdiron" treeOrder="380"/>
-				<oreCopperDict oreDictName="oreCopper" treeOrder="390"/>
-				<oreCopperClusterDict oreDictName="clusterCopper" treeOrder="400"/>
-				<oreCopperNetherDict oreDictName="oreNetherCopper" treeOrder="410"/>
-				<oreCopperPoorDict oreDictName="orePoorCopper" treeOrder="420"/>
-				<oreCoraliumDict oreDictName="oreCoralium" treeOrder="430"/>
-				<oreCoraliumStoneDict oreDictName="oreCoraliumStone" treeOrder="440"/>
-				<oreCrimsonMiddleGemDict oreDictName="oreCrimsonMiddleGem" treeOrder="450"/>
-				<oreCrystalDict oreDictName="oreCrystal" treeOrder="460"/>
-				<oreDarkDict oreDictName="oreDark" treeOrder="470"/>
-				<oreDarkIronDict oreDictName="oreDarkIron" treeOrder="480"/>
-				<oreDeepIronDict oreDictName="oreDeepIron" treeOrder="510"/>
-				<oreDenseCoalDict oreDictName="oreDenseCoal" treeOrder="520"/>
-				<oreDeshDict oreDictName="oreDesh" treeOrder="530"/>
-				<oreDiamondDict oreDictName="oreDiamond" treeOrder="560"/>
-				<oreDiamondNetherDict oreDictName="oreNetherDiamond" treeOrder="570"/>
-				<oreDilithiumDict oreDictName="oreDilithium" treeOrder="580"/>
-				<oreDimensionalShardDict oreDictName="oreDimensionalShard" treeOrder="590"/>
-				<oreDraconiumDict oreDictName="oreDraconium" treeOrder="600"/>
-				<oreDreadedAbyssalniteDict oreDictName="oreDreadedAbyssalnite" treeOrder="610"/>
-				<oreElectrotineDict oreDictName="oreElectrotine" treeOrder="620"/>
-				<oreEmeraldDict oreDictName="oreEmerald" treeOrder="630"/>
-				<oreEmeraldNetherDict oreDictName="oreNetherEmerald" treeOrder="640"/>
-				<oreEndInferiumDict oreDictName="oreEndInferium" treeOrder="650"/>
-				<oreEndProsperityDict oreDictName="oreEndProsperity" treeOrder="670"/>
-				<oreEximiteDict oreDictName="oreEximite" treeOrder="680"/>
-				<oreFirestoneDict oreDictName="oreFirestone" treeOrder="690"/>
-				<oreGalenaDict oreDictName="oreGalena" treeOrder="700"/>
-				<oreGalvanizedsteelDict oreDictName="oreGalvanizedsteel" treeOrder="710"/>
-				<oreGeolosysAutuniteDict oreDictName="oreGeolosysAutunite" treeOrder="720"/>
-				<oreGeolosysAzuriteDict oreDictName="oreGeolosysAzurite" treeOrder="730"/>
-				<oreGeolosysBauxiteDict oreDictName="oreGeolosysBauxite" treeOrder="740"/>
-				<oreGeolosysBerylDict oreDictName="oreGeolosysBeryl" treeOrder="750"/>
-				<oreGeolosysCassiteriteDict oreDictName="oreGeolosysCassiterite" treeOrder="760"/>
-				<oreGeolosysCinnabarDict oreDictName="oreGeolosysCinnabar" treeOrder="770"/>
-				<oreGeolosysCoalDict oreDictName="oreGeolosysCoal" treeOrder="780"/>
-				<oreGeolosysGalenaDict oreDictName="oreGeolosysGalena" treeOrder="790"/>
-				<oreGeolosysGoldDict oreDictName="oreGeolosysGold" treeOrder="800"/>
-				<oreGeolosysHematiteDict oreDictName="oreGeolosysHematite" treeOrder="810"/>
-				<oreGeolosysKimberliteDict oreDictName="oreGeolosysKimberlite" treeOrder="820"/>
-				<oreGeolosysLapisDict oreDictName="oreGeolosysLapis" treeOrder="830"/>
-				<oreGeolosysLimoniteDict oreDictName="oreGeolosysLimonite" treeOrder="840"/>
-				<oreGeolosysMalachiteDict oreDictName="oreGeolosysMalachite" treeOrder="850"/>
-				<oreGeolosysOsmiumDict oreDictName="oreGeolosysOsmium" treeOrder="860"/>
-				<oreGeolosysPlatinumDict oreDictName="oreGeolosysPlatinum" treeOrder="870"/>
-				<oreGeolosysQuartzDict oreDictName="oreGeolosysQuartz" treeOrder="880"/>
-				<oreGeolosysSphaleriteDict oreDictName="oreGeolosysSphalerite" treeOrder="890"/>
-				<oreGeolosysTealliteDict oreDictName="oreGeolosysTeallite" treeOrder="900"/>
-				<oreGoldDict oreDictName="oreGold" treeOrder="910"/>
-				<oreGoldClusterDict oreDictName="clusterGold" treeOrder="920"/>
-				<oreGoldNetherDict oreDictName="oreNetherGold" treeOrder="930"/>
-				<oreGoldPoorDict oreDictName="orePoorGold" treeOrder="940"/>
-				<oreGreenDiamondDict oreDictName="oreGreenDiamond" treeOrder="950"/>
-				<oreGreenMiddleGemDict oreDictName="oreGreenMiddleGem" treeOrder="960"/>
-				<oreIgnatiusDict oreDictName="oreIgnatius" treeOrder="970"/>
-				<oreIlmeniteDict oreDictName="oreIlmenite" treeOrder="980"/>
-				<oreInferiumDict oreDictName="oreInferium" treeOrder="990"/>
-				<oreInfuscoliumDict oreDictName="oreInfuscolium" treeOrder="1000"/>
-				<oreInfusedAirDict oreDictName="oreInfusedAir" treeOrder="1010"/>
-				<oreInfusedEarthDict oreDictName="oreInfusedEarth" treeOrder="1020"/>
-				<oreInfusedEntropyDict oreDictName="oreInfusedEntropy" treeOrder="1030"/>
-				<oreInfusedFireDict oreDictName="oreInfusedFire" treeOrder="1040"/>
-				<oreInfusedOrderDict oreDictName="oreInfusedOrder" treeOrder="1050"/>
-				<oreInfusedWaterDict oreDictName="oreInfusedWater" treeOrder="1060"/>
-				<oreIridiumDict oreDictName="oreIridium" treeOrder="1070"/>
-				<oreIridiumNetherDict oreDictName="oreNetherIridium" treeOrder="1080"/>
-				<oreIronDict oreDictName="oreIron" treeOrder="1090"/>
-				<oreIronClusterDict oreDictName="clusterIron" treeOrder="1100"/>
-				<oreIronNetherDict oreDictName="oreNetherIron" treeOrder="1110"/>
-				<oreIronPoorDict oreDictName="orePoorIron" treeOrder="1120"/>
-				<oreIronwoodDict oreDictName="oreIronwood" treeOrder="1130"/>
-				<oreKalendriteDict oreDictName="oreKalendrite" treeOrder="1140"/>
-				<oreKnightmetalDict oreDictName="oreKnightmetal" treeOrder="1150"/>
-				<oreLapisDict oreDictName="oreLapis" treeOrder="1160"/>
-				<oreLapisNetherDict oreDictName="oreNetherLapis" treeOrder="1170"/>
-				<oreLeadDict oreDictName="oreLead" treeOrder="1180"/>
-				<oreLeadClusterDict oreDictName="clusterLead" treeOrder="1190"/>
-				<oreLeadNetherDict oreDictName="oreNetherLead" treeOrder="1200"/>
-				<oreLeadPoorDict oreDictName="orePoorLead" treeOrder="1210"/>
-				<oreLemuriteDict oreDictName="oreLemurite" treeOrder="1220"/>
-				<oreLifeCrystalDict oreDictName="oreLifeCrystal" treeOrder="1230"/>
-				<oreLiquifiedCoraliumDict oreDictName="oreLiquifiedCoralium" treeOrder="1240"/>
-				<oreMagnesiumDict oreDictName="oreMagnesium" treeOrder="1250"/>
-				<oreMagnesiumNetherDict oreDictName="oreNetherMagnesium" treeOrder="1260"/>
-				<oreMagnetiteDict oreDictName="oreMagnetite" treeOrder="1270"/>
-				<oreMalachiteDict oreDictName="oreMalachite" treeOrder="1280"/>
-				<oreManganeseDict oreDictName="oreManganese" treeOrder="1290"/>
-				<oreMercuryDict oreDictName="oreMercury" treeOrder="1300"/>
-				<oreMeteoricIronDict oreDictName="oreMeteoricIron" treeOrder="1310"/>
-				<oreMeutoiteDict oreDictName="oreMeutoite" treeOrder="1320"/>
-				<oreMidasiumDict oreDictName="oreMidasium" treeOrder="1330"/>
-				<oreMinicioDict oreDictName="oreMinicio" treeOrder="1340"/>
-				<oreMithrilDict oreDictName="oreMithril" treeOrder="1360"/>
-				<oreMithrilNetherDict oreDictName="oreNetherMithril" treeOrder="1370"/>
-				<oreNetherInferiumDict oreDictName="oreNetherInferium" treeOrder="1380"/>
-				<oreNetherProsperityDict oreDictName="oreNetherProsperity" treeOrder="1390"/>
-				<oreNichromeDict oreDictName="oreNichrome" treeOrder="1400"/>
-				<oreNickelDict oreDictName="oreNickel" treeOrder="1410"/>
-				<oreNickelNetherDict oreDictName="oreNetherNickel" treeOrder="1420"/>
-				<oreNikoliteNetherDict oreDictName="oreNetherNikolite" treeOrder="1430"/>
-				<oreOctineDict oreDictName="oreOctine" treeOrder="1440"/>
-				<oreOpalDict oreDictName="oreOpal" treeOrder="1460"/>
-				<oreOrichalcumDict oreDictName="oreOrichalcum" treeOrder="1470"/>
-				<oreOsmiumDict oreDictName="oreOsmium" treeOrder="1480"/>
-				<oreOsmiumNetherDict oreDictName="oreNetherOsmium" treeOrder="1490"/>
-				<oreOureclaseDict oreDictName="oreOureclase" treeOrder="1500"/>
-				<orePalladiumDict oreDictName="orePalladium" treeOrder="1510"/>
-				<orePearlescentCoraliumDict oreDictName="orePearlescentCoralium" treeOrder="1520"/>
-				<orePeridotDict oreDictName="orePeridot" treeOrder="1530"/>
-				<orePeridotNetherDict oreDictName="oreNetherPeridot" treeOrder="1540"/>
-				<orePhosphoriteDict oreDictName="orePhosphorite" treeOrder="1550"/>
-				<orePlatinumDict oreDictName="orePlatinum" treeOrder="1560"/>
-				<orePlatinumNetherDict oreDictName="oreNetherPlatinum" treeOrder="1570"/>
-				<orePotashDict oreDictName="orePotash" treeOrder="1580"/>
-				<orePrometheumDict oreDictName="orePrometheum" treeOrder="1590"/>
-				<oreProsperityDict oreDictName="oreProsperity" treeOrder="1600"/>
-				<orePurpleDiamondDict oreDictName="orePurpleDiamond" treeOrder="1610"/>
-				<orePyriteDict oreDictName="orePyrite" treeOrder="1620"/>
-				<oreQuartzDict oreDictName="oreQuartz" treeOrder="1630"/>
-				<oreQuartzBlackDict oreDictName="oreQuartzBlack" treeOrder="1640"/>
-				<oreRedDiamondDict oreDictName="oreRedDiamond" treeOrder="1650"/>
-				<oreRedGemDict oreDictName="oreRedGem" treeOrder="1660"/>
-				<oreRedstoneDict oreDictName="oreRedstone" treeOrder="1670"/>
-				<oreRedstoneNetherDict oreDictName="oreNetherRedstone" treeOrder="1680"/>
-				<oreResonatingDict oreDictName="oreResonating" treeOrder="1700"/>
-				<oreRimeDict oreDictName="oreRime" treeOrder="1710"/>
-				<oreRockCrystalDict oreDictName="oreRockCrystal" treeOrder="1720"/>
-				<oreRubraciumDict oreDictName="oreRubracium" treeOrder="1730"/>
-				<oreRubyDict oreDictName="oreRuby" treeOrder="1740"/>
-				<oreRubyNetherNetherDict oreDictName="oreNetherRuby" treeOrder="1750"/>
-				<oreRutileDict oreDictName="oreRutile" treeOrder="1760"/>
-				<oreRutileNetherDict oreDictName="oreNetherRutile" treeOrder="1770"/>
-				<oreSaltNetherDict oreDictName="oreNetherSalt" treeOrder="1780"/>
-				<oreSaltpeterDict oreDictName="oreSaltpeter" treeOrder="1800"/>
+				<oreCoalDict oreDictName="oreCoal" treeOrder="360"/>
+				<oreCoalNetherDict oreDictName="oreNetherCoal" treeOrder="370"/>
+				<oreCobaltDict oreDictName="oreCobalt" treeOrder="380"/>
+				<oreColdironDict oreDictName="oreColdiron" treeOrder="390"/>
+				<oreCopperDict oreDictName="oreCopper" treeOrder="400"/>
+				<oreCopperClusterDict oreDictName="clusterCopper" treeOrder="410"/>
+				<oreCopperNetherDict oreDictName="oreNetherCopper" treeOrder="420"/>
+				<oreCopperPoorDict oreDictName="orePoorCopper" treeOrder="430"/>
+				<oreCoraliumDict oreDictName="oreCoralium" treeOrder="440"/>
+				<oreCoraliumStoneDict oreDictName="oreCoraliumStone" treeOrder="450"/>
+				<oreCrimsonMiddleGemDict oreDictName="oreCrimsonMiddleGem" treeOrder="460"/>
+				<oreCrystalDict oreDictName="oreCrystal" treeOrder="470"/>
+				<oreDarkDict oreDictName="oreDark" treeOrder="480"/>
+				<oreDarkIronDict oreDictName="oreDarkIron" treeOrder="490"/>
+				<oreDeepIronDict oreDictName="oreDeepIron" treeOrder="520"/>
+				<oreDenseCoalDict oreDictName="oreDenseCoal" treeOrder="530"/>
+				<oreDeshDict oreDictName="oreDesh" treeOrder="540"/>
+				<oreDiamondDict oreDictName="oreDiamond" treeOrder="570"/>
+				<oreDiamondNetherDict oreDictName="oreNetherDiamond" treeOrder="580"/>
+				<oreDilithiumDict oreDictName="oreDilithium" treeOrder="590"/>
+				<oreDimensionalShardDict oreDictName="oreDimensionalShard" treeOrder="600"/>
+				<oreDraconiumDict oreDictName="oreDraconium" treeOrder="610"/>
+				<oreDreadedAbyssalniteDict oreDictName="oreDreadedAbyssalnite" treeOrder="620"/>
+				<oreElectrotineDict oreDictName="oreElectrotine" treeOrder="630"/>
+				<oreEmeraldDict oreDictName="oreEmerald" treeOrder="640"/>
+				<oreEmeraldNetherDict oreDictName="oreNetherEmerald" treeOrder="650"/>
+				<oreEndInferiumDict oreDictName="oreEndInferium" treeOrder="660"/>
+				<oreEndProsperityDict oreDictName="oreEndProsperity" treeOrder="680"/>
+				<oreEximiteDict oreDictName="oreEximite" treeOrder="690"/>
+				<oreFirestoneDict oreDictName="oreFirestone" treeOrder="700"/>
+				<oreGalenaDict oreDictName="oreGalena" treeOrder="710"/>
+				<oreGalvanizedsteelDict oreDictName="oreGalvanizedsteel" treeOrder="720"/>
+				<oreGeolosysAutuniteDict oreDictName="oreGeolosysAutunite" treeOrder="730"/>
+				<oreGeolosysAzuriteDict oreDictName="oreGeolosysAzurite" treeOrder="740"/>
+				<oreGeolosysBauxiteDict oreDictName="oreGeolosysBauxite" treeOrder="750"/>
+				<oreGeolosysBerylDict oreDictName="oreGeolosysBeryl" treeOrder="760"/>
+				<oreGeolosysCassiteriteDict oreDictName="oreGeolosysCassiterite" treeOrder="770"/>
+				<oreGeolosysCinnabarDict oreDictName="oreGeolosysCinnabar" treeOrder="780"/>
+				<oreGeolosysCoalDict oreDictName="oreGeolosysCoal" treeOrder="790"/>
+				<oreGeolosysGalenaDict oreDictName="oreGeolosysGalena" treeOrder="800"/>
+				<oreGeolosysGoldDict oreDictName="oreGeolosysGold" treeOrder="810"/>
+				<oreGeolosysHematiteDict oreDictName="oreGeolosysHematite" treeOrder="820"/>
+				<oreGeolosysKimberliteDict oreDictName="oreGeolosysKimberlite" treeOrder="830"/>
+				<oreGeolosysLapisDict oreDictName="oreGeolosysLapis" treeOrder="840"/>
+				<oreGeolosysLimoniteDict oreDictName="oreGeolosysLimonite" treeOrder="850"/>
+				<oreGeolosysMalachiteDict oreDictName="oreGeolosysMalachite" treeOrder="860"/>
+				<oreGeolosysOsmiumDict oreDictName="oreGeolosysOsmium" treeOrder="870"/>
+				<oreGeolosysPlatinumDict oreDictName="oreGeolosysPlatinum" treeOrder="880"/>
+				<oreGeolosysQuartzDict oreDictName="oreGeolosysQuartz" treeOrder="890"/>
+				<oreGeolosysSphaleriteDict oreDictName="oreGeolosysSphalerite" treeOrder="900"/>
+				<oreGeolosysTealliteDict oreDictName="oreGeolosysTeallite" treeOrder="910"/>
+				<oreGoldDict oreDictName="oreGold" treeOrder="920"/>
+				<oreGoldClusterDict oreDictName="clusterGold" treeOrder="930"/>
+				<oreGoldNetherDict oreDictName="oreNetherGold" treeOrder="940"/>
+				<oreGoldPoorDict oreDictName="orePoorGold" treeOrder="950"/>
+				<oreGreenDiamondDict oreDictName="oreGreenDiamond" treeOrder="960"/>
+				<oreGreenMiddleGemDict oreDictName="oreGreenMiddleGem" treeOrder="970"/>
+				<oreIgnatiusDict oreDictName="oreIgnatius" treeOrder="980"/>
+				<oreIlmeniteDict oreDictName="oreIlmenite" treeOrder="990"/>
+				<oreInferiumDict oreDictName="oreInferium" treeOrder="1000"/>
+				<oreInfuscoliumDict oreDictName="oreInfuscolium" treeOrder="1010"/>
+				<oreInfusedAirDict oreDictName="oreInfusedAir" treeOrder="1020"/>
+				<oreInfusedEarthDict oreDictName="oreInfusedEarth" treeOrder="1030"/>
+				<oreInfusedEntropyDict oreDictName="oreInfusedEntropy" treeOrder="1040"/>
+				<oreInfusedFireDict oreDictName="oreInfusedFire" treeOrder="1050"/>
+				<oreInfusedOrderDict oreDictName="oreInfusedOrder" treeOrder="1060"/>
+				<oreInfusedWaterDict oreDictName="oreInfusedWater" treeOrder="1070"/>
+				<oreIridiumDict oreDictName="oreIridium" treeOrder="1080"/>
+				<oreIridiumNetherDict oreDictName="oreNetherIridium" treeOrder="1090"/>
+				<oreIronDict oreDictName="oreIron" treeOrder="1100"/>
+				<oreIronClusterDict oreDictName="clusterIron" treeOrder="1110"/>
+				<oreIronNetherDict oreDictName="oreNetherIron" treeOrder="1120"/>
+				<oreIronPoorDict oreDictName="orePoorIron" treeOrder="1130"/>
+				<oreIronwoodDict oreDictName="oreIronwood" treeOrder="1140"/>
+				<oreKalendriteDict oreDictName="oreKalendrite" treeOrder="1150"/>
+				<oreKnightmetalDict oreDictName="oreKnightmetal" treeOrder="1160"/>
+				<oreLapisDict oreDictName="oreLapis" treeOrder="1170"/>
+				<oreLapisNetherDict oreDictName="oreNetherLapis" treeOrder="1180"/>
+				<oreLeadDict oreDictName="oreLead" treeOrder="1190"/>
+				<oreLeadClusterDict oreDictName="clusterLead" treeOrder="1200"/>
+				<oreLeadNetherDict oreDictName="oreNetherLead" treeOrder="1210"/>
+				<oreLeadPoorDict oreDictName="orePoorLead" treeOrder="1220"/>
+				<oreLemuriteDict oreDictName="oreLemurite" treeOrder="1230"/>
+				<oreLifeCrystalDict oreDictName="oreLifeCrystal" treeOrder="1240"/>
+				<oreLiquifiedCoraliumDict oreDictName="oreLiquifiedCoralium" treeOrder="1250"/>
+				<oreMagnesiumDict oreDictName="oreMagnesium" treeOrder="1260"/>
+				<oreMagnesiumNetherDict oreDictName="oreNetherMagnesium" treeOrder="1270"/>
+				<oreMagnetiteDict oreDictName="oreMagnetite" treeOrder="1280"/>
+				<oreMalachiteDict oreDictName="oreMalachite" treeOrder="1290"/>
+				<oreManganeseDict oreDictName="oreManganese" treeOrder="1300"/>
+				<oreMercuryDict oreDictName="oreMercury" treeOrder="1310"/>
+				<oreMeteoricIronDict oreDictName="oreMeteoricIron" treeOrder="1320"/>
+				<oreMeutoiteDict oreDictName="oreMeutoite" treeOrder="1330"/>
+				<oreMidasiumDict oreDictName="oreMidasium" treeOrder="1340"/>
+				<oreMinicioDict oreDictName="oreMinicio" treeOrder="1350"/>
+				<oreMithrilDict oreDictName="oreMithril" treeOrder="1370"/>
+				<oreMithrilNetherDict oreDictName="oreNetherMithril" treeOrder="1380"/>
+				<oreNetherInferiumDict oreDictName="oreNetherInferium" treeOrder="1390"/>
+				<oreNetherProsperityDict oreDictName="oreNetherProsperity" treeOrder="1400"/>
+				<oreNichromeDict oreDictName="oreNichrome" treeOrder="1410"/>
+				<oreNickelDict oreDictName="oreNickel" treeOrder="1420"/>
+				<oreNickelNetherDict oreDictName="oreNetherNickel" treeOrder="1430"/>
+				<oreNikoliteNetherDict oreDictName="oreNetherNikolite" treeOrder="1440"/>
+				<oreOctineDict oreDictName="oreOctine" treeOrder="1450"/>
+				<oreOpalDict oreDictName="oreOpal" treeOrder="1470"/>
+				<oreOrichalcumDict oreDictName="oreOrichalcum" treeOrder="1480"/>
+				<oreOsmiumDict oreDictName="oreOsmium" treeOrder="1490"/>
+				<oreOsmiumNetherDict oreDictName="oreNetherOsmium" treeOrder="1500"/>
+				<oreOureclaseDict oreDictName="oreOureclase" treeOrder="1510"/>
+				<orePalladiumDict oreDictName="orePalladium" treeOrder="1520"/>
+				<orePearlescentCoraliumDict oreDictName="orePearlescentCoralium" treeOrder="1530"/>
+				<orePeridotDict oreDictName="orePeridot" treeOrder="1540"/>
+				<orePeridotNetherDict oreDictName="oreNetherPeridot" treeOrder="1550"/>
+				<orePhosphoriteDict oreDictName="orePhosphorite" treeOrder="1560"/>
+				<orePlatinumDict oreDictName="orePlatinum" treeOrder="1570"/>
+				<orePlatinumNetherDict oreDictName="oreNetherPlatinum" treeOrder="1580"/>
+				<orePotashDict oreDictName="orePotash" treeOrder="1590"/>
+				<orePrometheumDict oreDictName="orePrometheum" treeOrder="1600"/>
+				<oreProsperityDict oreDictName="oreProsperity" treeOrder="1610"/>
+				<orePurpleDiamondDict oreDictName="orePurpleDiamond" treeOrder="1620"/>
+				<orePyriteDict oreDictName="orePyrite" treeOrder="1630"/>
+				<oreQuartzDict oreDictName="oreQuartz" treeOrder="1640"/>
+				<oreQuartzBlackDict oreDictName="oreQuartzBlack" treeOrder="1650"/>
+				<oreRedDiamondDict oreDictName="oreRedDiamond" treeOrder="1660"/>
+				<oreRedGemDict oreDictName="oreRedGem" treeOrder="1670"/>
+				<oreRedstoneDict oreDictName="oreRedstone" treeOrder="1680"/>
+				<oreRedstoneNetherDict oreDictName="oreNetherRedstone" treeOrder="1690"/>
+				<oreResonatingDict oreDictName="oreResonating" treeOrder="1710"/>
+				<oreRimeDict oreDictName="oreRime" treeOrder="1720"/>
+				<oreRockCrystalDict oreDictName="oreRockCrystal" treeOrder="1730"/>
+				<oreRubraciumDict oreDictName="oreRubracium" treeOrder="1740"/>
+				<oreRubyDict oreDictName="oreRuby" treeOrder="1750"/>
+				<oreRubyNetherNetherDict oreDictName="oreNetherRuby" treeOrder="1760"/>
+				<oreRutileDict oreDictName="oreRutile" treeOrder="1770"/>
+				<oreRutileNetherDict oreDictName="oreNetherRutile" treeOrder="1780"/>
+				<oreSaltNetherDict oreDictName="oreNetherSalt" treeOrder="1790"/>
 				<oreSaltpeterDict oreDictName="oreSaltpeter" treeOrder="1810"/>
-				<oreSaltpeterNetherDict oreDictName="oreNetherSaltpeter" treeOrder="1820"/>
-				<oreSanguiniteDict oreDictName="oreSanguinite" treeOrder="1830"/>
-				<oreSapphireDict oreDictName="oreSapphire" treeOrder="1840"/>
-				<oreSapphireNetherDict oreDictName="oreNetherSapphire" treeOrder="1850"/>
-				<oreShadowIronDict oreDictName="oreShadowIron" treeOrder="1860"/>
-				<oreSheldoniteDict oreDictName="oreSheldonite" treeOrder="1870"/>
-				<oreSiliconDict oreDictName="oreSilicon" treeOrder="1880"/>
-				<oreSilverDict oreDictName="oreSilver" treeOrder="1890"/>
-				<oreSilverClusterDict oreDictName="clusterSilver" treeOrder="1900"/>
-				<oreSilverNetherDict oreDictName="oreNetherSilver" treeOrder="1910"/>
-				<oreSlimeDict oreDictName="oreSlime" treeOrder="1920"/>
-				<oreSodaliteDict oreDictName="oreSodalite" treeOrder="1930"/>
-				<oreSpacePlatinumDict oreDictName="oreSpacePlatinum" treeOrder="1940"/>
-				<oreSphaleriteDict oreDictName="oreSphalerite" treeOrder="1950"/>
-				<oreStainlesssteelDict oreDictName="oreStainlesssteel" treeOrder="1960"/>
-				<oreStarsteelDict oreDictName="oreStarsteel" treeOrder="1970"/>
-				<oreSteelNetherDict oreDictName="oreNetherSteel" treeOrder="1980"/>
-				<oreSulfurDict oreDictName="oreSulfur" treeOrder="1990"/>
-				<oreSulfurNetherDict oreDictName="oreNetherSulfur" treeOrder="2000"/>
-				<oreSyrmoriteDict oreDictName="oreSyrmorite" treeOrder="2010"/>
-				<oreTantalumDict oreDictName="oreTantalum" treeOrder="2020"/>
-				<oreTanzaniteDict oreDictName="oreTanzanite" treeOrder="2030"/>
-				<oreTennantiteNetherDict oreDictName="oreNetherTennantite" treeOrder="2040"/>
-				<oreTinDict oreDictName="oreTin" treeOrder="2050"/>
-				<oreTinClusterDict oreDictName="clusterTin" treeOrder="2060"/>
-				<oreTinNetherDict oreDictName="oreNetherTin" treeOrder="2070"/>
-				<oreTinPoorDict oreDictName="orePoorTin" treeOrder="2080"/>
-				<oreTitaniumDict oreDictName="oreTitanium" treeOrder="2090"/>
-				<oreTitaniumNetherDict oreDictName="oreNetherTitanium" treeOrder="2100"/>
-				<oreTopazDict oreDictName="oreTopaz" treeOrder="2110"/>
-				<oreTungstenDict oreDictName="oreTungsten" treeOrder="2120"/>
-				<oreTungstenNetherDict oreDictName="oreNetherTungsten" treeOrder="2130"/>
-				<oreUraniumDict oreDictName="oreUranium" treeOrder="2140"/>
-				<oreUraniumNetherDict oreDictName="oreNetherUranium" treeOrder="2150"/>
-				<oreValoniteDict oreDictName="oreValonite" treeOrder="2160"/>
-				<blockVividAlloyDict oreDictName="blockVividAlloy" treeOrder="2170"/>
-				<oreVulcaniteDict oreDictName="oreVulcanite" treeOrder="2180"/>
-				<oreVyroxeresDict oreDictName="oreVyroxeres" treeOrder="2190"/>
-				<oreWhiteGemDict oreDictName="oreWhiteGem" treeOrder="2200"/>
-				<oreWubOreDict oreDictName="oreWubOre" treeOrder="2210"/>
-				<oreWubNetherOreDict oreDictName="oreNetherWubOre" treeOrder="2220"/>
-				<oreYelloriteDict oreDictName="oreYellorite" treeOrder="2230"/>
-				<oreYelloriumDict oreDictName="oreYellorium" treeOrder="2240"/>
-				<oreYellowDiamondDict oreDictName="oreYellowDiamond" treeOrder="2250"/>
-				<oreZincDict oreDictName="oreZinc" treeOrder="2260"/>
-				<oreZirconiumDict oreDictName="oreZirconium" treeOrder="2270"/>
+				<oreSaltpeterDict oreDictName="oreSaltpeter" treeOrder="1820"/>
+				<oreSaltpeterNetherDict oreDictName="oreNetherSaltpeter" treeOrder="1830"/>
+				<oreSanguiniteDict oreDictName="oreSanguinite" treeOrder="1840"/>
+				<oreSapphireDict oreDictName="oreSapphire" treeOrder="1850"/>
+				<oreSapphireNetherDict oreDictName="oreNetherSapphire" treeOrder="1860"/>
+				<oreShadowIronDict oreDictName="oreShadowIron" treeOrder="1870"/>
+				<oreSheldoniteDict oreDictName="oreSheldonite" treeOrder="1880"/>
+				<oreSiliconDict oreDictName="oreSilicon" treeOrder="1890"/>
+				<oreSilverDict oreDictName="oreSilver" treeOrder="1900"/>
+				<oreSilverClusterDict oreDictName="clusterSilver" treeOrder="1910"/>
+				<oreSilverNetherDict oreDictName="oreNetherSilver" treeOrder="1920"/>
+				<oreSlimeDict oreDictName="oreSlime" treeOrder="1930"/>
+				<oreSodaliteDict oreDictName="oreSodalite" treeOrder="1940"/>
+				<oreSpacePlatinumDict oreDictName="oreSpacePlatinum" treeOrder="1950"/>
+				<oreSphaleriteDict oreDictName="oreSphalerite" treeOrder="1960"/>
+				<oreStainlesssteelDict oreDictName="oreStainlesssteel" treeOrder="1970"/>
+				<oreStarsteelDict oreDictName="oreStarsteel" treeOrder="1980"/>
+				<oreSteelNetherDict oreDictName="oreNetherSteel" treeOrder="1990"/>
+				<oreSulfurDict oreDictName="oreSulfur" treeOrder="2010"/>
+				<oreSulfurNetherDict oreDictName="oreNetherSulfur" treeOrder="2020"/>
+				<oreSyrmoriteDict oreDictName="oreSyrmorite" treeOrder="2030"/>
+				<oreTantalumDict oreDictName="oreTantalum" treeOrder="2040"/>
+				<oreTanzaniteDict oreDictName="oreTanzanite" treeOrder="2050"/>
+				<oreTennantiteNetherDict oreDictName="oreNetherTennantite" treeOrder="2060"/>
+				<oreTinDict oreDictName="oreTin" treeOrder="2070"/>
+				<oreTinClusterDict oreDictName="clusterTin" treeOrder="2080"/>
+				<oreTinNetherDict oreDictName="oreNetherTin" treeOrder="2090"/>
+				<oreTinPoorDict oreDictName="orePoorTin" treeOrder="2100"/>
+				<oreTitaniumDict oreDictName="oreTitanium" treeOrder="2110"/>
+				<oreTitaniumNetherDict oreDictName="oreNetherTitanium" treeOrder="2120"/>
+				<oreTopazDict oreDictName="oreTopaz" treeOrder="2130"/>
+				<oreTungstenDict oreDictName="oreTungsten" treeOrder="2140"/>
+				<oreTungstenNetherDict oreDictName="oreNetherTungsten" treeOrder="2150"/>
+				<oreUraniumDict oreDictName="oreUranium" treeOrder="2160"/>
+				<oreUraniumNetherDict oreDictName="oreNetherUranium" treeOrder="2170"/>
+				<oreValoniteDict oreDictName="oreValonite" treeOrder="2180"/>
+				<blockVividAlloyDict oreDictName="blockVividAlloy" treeOrder="2190"/>
+				<oreVulcaniteDict oreDictName="oreVulcanite" treeOrder="2200"/>
+				<oreVyroxeresDict oreDictName="oreVyroxeres" treeOrder="2210"/>
+				<oreWhiteGemDict oreDictName="oreWhiteGem" treeOrder="2220"/>
+				<oreWubOreDict oreDictName="oreWubOre" treeOrder="2230"/>
+				<oreWubNetherOreDict oreDictName="oreNetherWubOre" treeOrder="2240"/>
+				<oreYelloriteDict oreDictName="oreYellorite" treeOrder="2250"/>
+				<oreYelloriumDict oreDictName="oreYellorium" treeOrder="2260"/>
+				<oreYellowDiamondDict oreDictName="oreYellowDiamond" treeOrder="2270"/>
+				<oreZincDict oreDictName="oreZinc" treeOrder="2280"/>
+				<oreZirconiumDict oreDictName="oreZirconium" treeOrder="2290"/>
 			</oreBlock>
 			<web id="web" treeOrder="100"/>
 			<cobweb id="web" treeOrder="110"/>
@@ -664,23 +664,23 @@
 			<endPortal id="end_portal" treeOrder="230"/>
 			<endGateway id="end_gateway" treeOrder="240"/>
 			<endPortalFrame id="end_portal_frame" treeOrder="250"/>
-			<air id="air" treeOrder="260"/>
-			<fire id="fire" treeOrder="270"/>
-			<obsidian treeOrder="280">
+			<air id="air" treeOrder="270"/>
+			<fire id="fire" treeOrder="280"/>
+			<obsidian treeOrder="290">
 				<itemObsidian id="obsidian" treeOrder="10"/>
 				<blockObsidianDict oreDictName="blockObsidian" treeOrder="40"/>
 				<blockReinforcedObsidianDict oreDictName="blockReinforcedObsidian" treeOrder="50"/>
 			</obsidian>
-			<mushroomBlock treeOrder="290">
+			<mushroomBlock treeOrder="300">
 				<hugeBrownMushroom id="brown_mushroom_block" treeOrder="10"/>
 				<hugeRedMushroom id="red_mushroom_block" treeOrder="20"/>
 			</mushroomBlock>
-			<dragonEgg id="dragon_egg" treeOrder="300"/>
-			<dragonScaleDict oreDictName="dragonScale" treeOrder="310"/>
-			<hiddenSilverfish id="monster_egg" treeOrder="320"/>
-			<seaLantern id="sea_lantern" treeOrder="330"/>
-			<magma id="magma" treeOrder="340"/>
-			<oreLavaBlockDict oreDictName="oreLavaBlock" treeOrder="350"/>
+			<dragonEgg id="dragon_egg" treeOrder="310"/>
+			<dragonScaleDict oreDictName="dragonScale" treeOrder="320"/>
+			<hiddenSilverfish id="monster_egg" treeOrder="330"/>
+			<seaLantern id="sea_lantern" treeOrder="340"/>
+			<magma id="magma" treeOrder="350"/>
+			<oreLavaBlockDict oreDictName="oreLavaBlock" treeOrder="360"/>
 		</naturalBlock>
 		<wool treeOrder="20">
 			<whiteWool id="wool" damage="0" treeOrder="10"/>
@@ -850,9 +850,9 @@
 						<blockReinforcedGlassDict oreDictName="blockReinforcedGlass" treeOrder="70"/>
 						<darkFusedGlassDict oreDictName="darkFusedGlass" treeOrder="80"/>
 						<darkFusedQuartzDict oreDictName="darkFusedQuartz" treeOrder="90"/>
-						<enlightenedFusedGlassDict oreDictName="enlightenedFusedGlass" treeOrder="100"/>
-						<enlightenedFusedQuartzDict oreDictName="enlightenedFusedQuartz" treeOrder="110"/>
-						<blockGlassGlowstoneDict oreDictName="blockGlassGlowstone" treeOrder="120"/>
+						<enlightenedFusedGlassDict oreDictName="enlightenedFusedGlass" treeOrder="110"/>
+						<enlightenedFusedQuartzDict oreDictName="enlightenedFusedQuartz" treeOrder="120"/>
+						<blockGlassGlowstoneDict oreDictName="blockGlassGlowstone" treeOrder="130"/>
 					</glassBlock>
 					<glassPane id="glass_pane" treeOrder="20"/>
 					<paneGlassDict oreDictName="paneGlass" treeOrder="40"/>
@@ -924,8 +924,8 @@
 					<itemWhiteConcrete id="concrete" treeOrder="30"/>
 					<blockConcreteDict oreDictName="blockConcrete" treeOrder="40"/>
 					<blockConcreteDict oreDictName="concrete" treeOrder="50"/>
-					<powderConcreteDict oreDictName="powderConcrete" treeOrder="120"/>
-					<itemWhiteConcretePowder id="concrete_powder" treeOrder="130"/>
+					<powderConcreteDict oreDictName="powderConcrete" treeOrder="150"/>
+					<itemWhiteConcretePowder id="concrete_powder" treeOrder="160"/>
 				</roads>
 				<decorativeblocks treeOrder="80">
 					<antiBlockDict oreDictName="antiBlock" treeOrder="40"/>
@@ -935,9 +935,9 @@
 					<blockRockwoolDict oreDictName="blockRockwool" treeOrder="580"/>
 				</decorativeblocks>
 				<constructionUtility treeOrder="90">
-					<scaffoldingTreatedWoodDict oreDictName="scaffoldingTreatedWood" treeOrder="60"/>
-					<scaffoldingAluminumDict oreDictName="scaffoldingAluminum" treeOrder="70"/>
-					<scaffoldingSteelDict oreDictName="scaffoldingSteel" treeOrder="80"/>
+					<scaffoldingTreatedWoodDict oreDictName="scaffoldingTreatedWood" treeOrder="80"/>
+					<scaffoldingAluminumDict oreDictName="scaffoldingAluminum" treeOrder="90"/>
+					<scaffoldingSteelDict oreDictName="scaffoldingSteel" treeOrder="100"/>
 				</constructionUtility>
 				<stairs treeOrder="100">
 					<woodenStairs treeOrder="10">
@@ -991,7 +991,7 @@
 					<netherBrickSlab id="stone_slab" damage="6" treeOrder="180"/>
 					<quartzSlab id="stone_slab" damage="7" treeOrder="190"/>
 					<purpurSlab id="purpur_slab" treeOrder="200"/>
-					<metalSlabs oreDictName="slabAluminum" treeOrder="330">
+					<metalSlabs oreDictName="slabAluminum" treeOrder="360">
 						<slabAluminumDict oreDictName="slabAluminum" treeOrder="10"/>
 						<slabConstantanDict oreDictName="slabConstantan" treeOrder="20"/>
 						<slabCopperDict oreDictName="slabCopper" treeOrder="30"/>
@@ -1013,7 +1013,7 @@
 						<slabSteelDict oreDictName="slabSteel" treeOrder="190"/>
 						<slabUraniumDict oreDictName="slabUranium" treeOrder="200"/>
 					</metalSlabs>
-					<doubleSlab treeOrder="350">
+					<doubleSlab treeOrder="380">
 						<woodenDoubleSlabs treeOrder="10">
 							<woodenStoneDoubleSlab id="double_stone_slab" damage="2" treeOrder="10"/>
 							<oakWoodDoubleSlab id="double_wooden_slab" damage="0" treeOrder="20"/>
@@ -1203,30 +1203,30 @@
 			</rails>
 			<lighting treeOrder="30">
 				<torch treeOrder="10">
-					<itemTorch id="torch" treeOrder="20"/>
-					<blockTorchDict oreDictName="blockTorch" treeOrder="30"/>
-					<torchStoneDict oreDictName="torch" treeOrder="40"/>
-					<torchStoneDict oreDictName="torchStone" treeOrder="50"/>
-					<candelabraAcaciaDict oreDictName="candelabraAcacia" treeOrder="370"/>
-					<candelabraAmaranthDict oreDictName="candelabraAmaranth" treeOrder="380"/>
-					<candelabraBirchDict oreDictName="candelabraBirch" treeOrder="390"/>
-					<candelabraDarkOakDict oreDictName="candelabraDarkOak" treeOrder="400"/>
-					<candelabraDarkwoodDict oreDictName="candelabraDarkwood" treeOrder="410"/>
-					<candelabraEucalyptusDict oreDictName="candelabraEucalyptus" treeOrder="420"/>
-					<candelabraFusewoodDict oreDictName="candelabraFusewood" treeOrder="430"/>
-					<candelabraGhostwoodDict oreDictName="candelabraGhostwood" treeOrder="440"/>
-					<candelabraGoldDict oreDictName="candelabraGold" treeOrder="450"/>
-					<candelabraHopseedDict oreDictName="candelabraHopseed" treeOrder="460"/>
-					<candelabraIronDict oreDictName="candelabraIron" treeOrder="470"/>
-					<candelabraJungleDict oreDictName="candelabraJungle" treeOrder="480"/>
-					<candelabraMapleDict oreDictName="candelabraMaple" treeOrder="490"/>
-					<candelabraOakDict oreDictName="candelabraOak" treeOrder="500"/>
-					<candelabraRedwoodDict oreDictName="candelabraRedwood" treeOrder="510"/>
-					<candelabraSakuraDict oreDictName="candelabraSakura" treeOrder="520"/>
-					<candelabraSilverbellDict oreDictName="candelabraSilverbell" treeOrder="530"/>
-					<candelabraSpruceDict oreDictName="candelabraSpruce" treeOrder="540"/>
-					<candelabraTigerDict oreDictName="candelabraTiger" treeOrder="550"/>
-					<candelabraWillowDict oreDictName="candelabraWillow" treeOrder="560"/>
+					<itemTorch id="torch" treeOrder="30"/>
+					<blockTorchDict oreDictName="blockTorch" treeOrder="40"/>
+					<torchStoneDict oreDictName="torch" treeOrder="50"/>
+					<torchStoneDict oreDictName="torchStone" treeOrder="60"/>
+					<candelabraAcaciaDict oreDictName="candelabraAcacia" treeOrder="380"/>
+					<candelabraAmaranthDict oreDictName="candelabraAmaranth" treeOrder="390"/>
+					<candelabraBirchDict oreDictName="candelabraBirch" treeOrder="400"/>
+					<candelabraDarkOakDict oreDictName="candelabraDarkOak" treeOrder="410"/>
+					<candelabraDarkwoodDict oreDictName="candelabraDarkwood" treeOrder="420"/>
+					<candelabraEucalyptusDict oreDictName="candelabraEucalyptus" treeOrder="430"/>
+					<candelabraFusewoodDict oreDictName="candelabraFusewood" treeOrder="440"/>
+					<candelabraGhostwoodDict oreDictName="candelabraGhostwood" treeOrder="450"/>
+					<candelabraGoldDict oreDictName="candelabraGold" treeOrder="460"/>
+					<candelabraHopseedDict oreDictName="candelabraHopseed" treeOrder="470"/>
+					<candelabraIronDict oreDictName="candelabraIron" treeOrder="480"/>
+					<candelabraJungleDict oreDictName="candelabraJungle" treeOrder="490"/>
+					<candelabraMapleDict oreDictName="candelabraMaple" treeOrder="500"/>
+					<candelabraOakDict oreDictName="candelabraOak" treeOrder="510"/>
+					<candelabraRedwoodDict oreDictName="candelabraRedwood" treeOrder="520"/>
+					<candelabraSakuraDict oreDictName="candelabraSakura" treeOrder="530"/>
+					<candelabraSilverbellDict oreDictName="candelabraSilverbell" treeOrder="540"/>
+					<candelabraSpruceDict oreDictName="candelabraSpruce" treeOrder="550"/>
+					<candelabraTigerDict oreDictName="candelabraTiger" treeOrder="560"/>
+					<candelabraWillowDict oreDictName="candelabraWillow" treeOrder="570"/>
 				</torch>
 				<jackOLantern treeOrder="20">
 					<itemVainllaJackoLantern id="lit_pumpkin" treeOrder="10"/>
@@ -1238,28 +1238,28 @@
 				</redstoneLamp>
 				<lamp id="lit_redstone_lamp" treeOrder="60"/>
 				<redstoneLamp id="lit_redstone_lamp" treeOrder="70"/>
-				<decorativeLights treeOrder="100">
-					<lampAcaciaDict oreDictName="lampAcacia" treeOrder="80"/>
-					<lampAmaranthDict oreDictName="lampAmaranth" treeOrder="90"/>
-					<lampBirchDict oreDictName="lampBirch" treeOrder="100"/>
-					<lampDarkOakDict oreDictName="lampDarkOak" treeOrder="110"/>
-					<lampDarkwoodDict oreDictName="lampDarkwood" treeOrder="120"/>
-					<lampEucalyptusDict oreDictName="lampEucalyptus" treeOrder="130"/>
-					<lampFusewoodDict oreDictName="lampFusewood" treeOrder="140"/>
-					<lampGhostwoodDict oreDictName="lampGhostwood" treeOrder="150"/>
-					<lampGoldDict oreDictName="lampGold" treeOrder="160"/>
-					<lampHopseedDict oreDictName="lampHopseed" treeOrder="170"/>
-					<lampIronDict oreDictName="lampIron" treeOrder="180"/>
-					<lampJungleDict oreDictName="lampJungle" treeOrder="190"/>
-					<lampMapleDict oreDictName="lampMaple" treeOrder="200"/>
-					<lampOakDict oreDictName="lampOak" treeOrder="210"/>
-					<lampRedwoodDict oreDictName="lampRedwood" treeOrder="220"/>
-					<lampSakuraDict oreDictName="lampSakura" treeOrder="230"/>
-					<lampSilverbellDict oreDictName="lampSilverbell" treeOrder="240"/>
-					<lampSpruceDict oreDictName="lampSpruce" treeOrder="250"/>
-					<lampTigerDict oreDictName="lampTiger" treeOrder="260"/>
-					<lampWillowDict oreDictName="lampWillow" treeOrder="270"/>
-					<projredIllumarDict oreDictName="projredIllumar" treeOrder="280"/>
+				<decorativeLights treeOrder="110">
+					<lampAcaciaDict oreDictName="lampAcacia" treeOrder="100"/>
+					<lampAmaranthDict oreDictName="lampAmaranth" treeOrder="110"/>
+					<lampBirchDict oreDictName="lampBirch" treeOrder="120"/>
+					<lampDarkOakDict oreDictName="lampDarkOak" treeOrder="130"/>
+					<lampDarkwoodDict oreDictName="lampDarkwood" treeOrder="140"/>
+					<lampEucalyptusDict oreDictName="lampEucalyptus" treeOrder="150"/>
+					<lampFusewoodDict oreDictName="lampFusewood" treeOrder="160"/>
+					<lampGhostwoodDict oreDictName="lampGhostwood" treeOrder="170"/>
+					<lampGoldDict oreDictName="lampGold" treeOrder="180"/>
+					<lampHopseedDict oreDictName="lampHopseed" treeOrder="190"/>
+					<lampIronDict oreDictName="lampIron" treeOrder="200"/>
+					<lampJungleDict oreDictName="lampJungle" treeOrder="210"/>
+					<lampMapleDict oreDictName="lampMaple" treeOrder="220"/>
+					<lampOakDict oreDictName="lampOak" treeOrder="230"/>
+					<lampRedwoodDict oreDictName="lampRedwood" treeOrder="240"/>
+					<lampSakuraDict oreDictName="lampSakura" treeOrder="250"/>
+					<lampSilverbellDict oreDictName="lampSilverbell" treeOrder="260"/>
+					<lampSpruceDict oreDictName="lampSpruce" treeOrder="270"/>
+					<lampTigerDict oreDictName="lampTiger" treeOrder="280"/>
+					<lampWillowDict oreDictName="lampWillow" treeOrder="290"/>
+					<projredIllumarDict oreDictName="projredIllumar" treeOrder="300"/>
 				</decorativeLights>
 			</lighting>
 			<pistons treeOrder="40">
@@ -1331,6 +1331,9 @@
 					<cableRedNetDict oreDictName="cableRedNet" treeOrder="10"/>
 					<cableRedNetEnergyDict oreDictName="cableRedNetEnergy" treeOrder="20"/>
 				</redNet>
+				<mekPipes treeOrder="90">
+					<universalCableDict oreDictName="universalCable" treeOrder="30"/>
+				</mekPipes>
 			</resourceTransfer>
 			<dropper id="dropper" treeOrder="310"/>
 			<logicDevices treeOrder="320">
@@ -1344,8 +1347,8 @@
 			<basicCrafting treeOrder="360">
 				<craftingTables treeOrder="10">
 					<craftingTable id="crafting_table" treeOrder="10"/>
-					<workbenchDict oreDictName="workbench" treeOrder="220"/>
-					<craftingTableWoodDict oreDictName="craftingTableWood" treeOrder="230"/>
+					<workbenchDict oreDictName="workbench" treeOrder="250"/>
+					<craftingTableWoodDict oreDictName="craftingTableWood" treeOrder="260"/>
 				</craftingTables>
 				<furnaces treeOrder="30">
 					<furnace id="furnace" treeOrder="10"/>
@@ -1452,31 +1455,31 @@
 				<dustTinyManganeseDict oreDictName="dustTinyManganese" treeOrder="390"/>
 				<dustTinyMarbleDict oreDictName="dustTinyMarble" treeOrder="400"/>
 				<dustTinyNetherrackDict oreDictName="dustTinyNetherrack" treeOrder="410"/>
-				<dustTinyNickelDict oreDictName="dustTinyNickel" treeOrder="420"/>
-				<dustTinyObsidianDict oreDictName="dustTinyObsidian" treeOrder="430"/>
-				<dustTinyPeridotDict oreDictName="dustTinyPeridot" treeOrder="440"/>
-				<dustTinyPhosphorousDict oreDictName="dustTinyPhosphorous" treeOrder="450"/>
-				<dustTinyPlatinumDict oreDictName="dustTinyPlatinum" treeOrder="460"/>
-				<dustTinyPyriteDict oreDictName="dustTinyPyrite" treeOrder="470"/>
-				<dustTinyPyropeDict oreDictName="dustTinyPyrope" treeOrder="480"/>
-				<dustTinyRedGarnetDict oreDictName="dustTinyRedGarnet" treeOrder="490"/>
-				<dustTinyRedstoneDict oreDictName="dustTinyRedstone" treeOrder="500"/>
-				<dustTinyRubyDict oreDictName="dustTinyRuby" treeOrder="510"/>
-				<dustTinySaltpeterDict oreDictName="dustTinySaltpeter" treeOrder="520"/>
-				<dustTinySapphireDict oreDictName="dustTinySapphire" treeOrder="530"/>
-				<dustTinySawDustDict oreDictName="dustTinySawDust" treeOrder="540"/>
-				<dustTinySilverDict oreDictName="dustTinySilver" treeOrder="550"/>
-				<dustTinySodaliteDict oreDictName="dustTinySodalite" treeOrder="560"/>
-				<dustTinySpessartineDict oreDictName="dustTinySpessartine" treeOrder="570"/>
-				<dustTinySphaleriteDict oreDictName="dustTinySphalerite" treeOrder="580"/>
-				<dustTinySteelDict oreDictName="dustTinySteel" treeOrder="590"/>
-				<dustTinySulfurDict oreDictName="dustTinySulfur" treeOrder="600"/>
-				<dustTinyTinDict oreDictName="dustTinyTin" treeOrder="610"/>
-				<dustTinyTitaniumDict oreDictName="dustTinyTitanium" treeOrder="620"/>
-				<dustTinyTungstenDict oreDictName="dustTinyTungsten" treeOrder="630"/>
-				<dustTinyUvaroviteDict oreDictName="dustTinyUvarovite" treeOrder="640"/>
-				<dustTinyYellowGarnetDict oreDictName="dustTinyYellowGarnet" treeOrder="650"/>
-				<dustTinyZincDict oreDictName="dustTinyZinc" treeOrder="660"/>
+				<dustTinyNickelDict oreDictName="dustTinyNickel" treeOrder="430"/>
+				<dustTinyObsidianDict oreDictName="dustTinyObsidian" treeOrder="440"/>
+				<dustTinyPeridotDict oreDictName="dustTinyPeridot" treeOrder="450"/>
+				<dustTinyPhosphorousDict oreDictName="dustTinyPhosphorous" treeOrder="460"/>
+				<dustTinyPlatinumDict oreDictName="dustTinyPlatinum" treeOrder="470"/>
+				<dustTinyPyriteDict oreDictName="dustTinyPyrite" treeOrder="480"/>
+				<dustTinyPyropeDict oreDictName="dustTinyPyrope" treeOrder="490"/>
+				<dustTinyRedGarnetDict oreDictName="dustTinyRedGarnet" treeOrder="500"/>
+				<dustTinyRedstoneDict oreDictName="dustTinyRedstone" treeOrder="510"/>
+				<dustTinyRubyDict oreDictName="dustTinyRuby" treeOrder="520"/>
+				<dustTinySaltpeterDict oreDictName="dustTinySaltpeter" treeOrder="530"/>
+				<dustTinySapphireDict oreDictName="dustTinySapphire" treeOrder="540"/>
+				<dustTinySawDustDict oreDictName="dustTinySawDust" treeOrder="550"/>
+				<dustTinySilverDict oreDictName="dustTinySilver" treeOrder="560"/>
+				<dustTinySodaliteDict oreDictName="dustTinySodalite" treeOrder="570"/>
+				<dustTinySpessartineDict oreDictName="dustTinySpessartine" treeOrder="580"/>
+				<dustTinySphaleriteDict oreDictName="dustTinySphalerite" treeOrder="590"/>
+				<dustTinySteelDict oreDictName="dustTinySteel" treeOrder="600"/>
+				<dustTinySulfurDict oreDictName="dustTinySulfur" treeOrder="610"/>
+				<dustTinyTinDict oreDictName="dustTinyTin" treeOrder="620"/>
+				<dustTinyTitaniumDict oreDictName="dustTinyTitanium" treeOrder="630"/>
+				<dustTinyTungstenDict oreDictName="dustTinyTungsten" treeOrder="640"/>
+				<dustTinyUvaroviteDict oreDictName="dustTinyUvarovite" treeOrder="650"/>
+				<dustTinyYellowGarnetDict oreDictName="dustTinyYellowGarnet" treeOrder="660"/>
+				<dustTinyZincDict oreDictName="dustTinyZinc" treeOrder="670"/>
 			</tinyDust>
 			<smallDust treeOrder="30">
 				<smalldustAluminumDict oreDictName="smalldustAluminum" treeOrder="10"/>
@@ -1555,154 +1558,154 @@
 				<itemConfusingDustDict oreDictName="itemConfusingDust" treeOrder="470"/>
 				<dustConstantanDict oreDictName="dustConstantan" treeOrder="480"/>
 				<dustCopperDict oreDictName="dustCopper" treeOrder="490"/>
-				<dustCryotheumDict oreDictName="dustCryotheum" treeOrder="500"/>
-				<dustCupronickelDict oreDictName="dustCupronickel" treeOrder="510"/>
-				<dustCyanGlowstoneDict oreDictName="dustCyanGlowstone" treeOrder="520"/>
-				<dustCyaniteDict oreDictName="dustCyanite" treeOrder="530"/>
-				<dustDamascusSteelDict oreDictName="dustDamascusSteel" treeOrder="540"/>
-				<dustDarkAshesDict oreDictName="dustDarkAshes" treeOrder="550"/>
-				<gemDarkCrushedDict oreDictName="gemDarkCrushed" treeOrder="560"/>
-				<dustDeepIronDict oreDictName="dustDeepIron" treeOrder="570"/>
-				<dustDesichalkosDict oreDictName="dustDesichalkos" treeOrder="580"/>
-				<dustDiamondDict oreDictName="dustDiamond" treeOrder="590"/>
-				<dustDilithiumDict oreDictName="dustDilithium" treeOrder="600"/>
-				<dustDioriteDict oreDictName="dustDiorite" treeOrder="610"/>
-				<dustDirtDict oreDictName="dustDirt" treeOrder="620"/>
-				<dustDraconiumDict oreDictName="dustDraconium" treeOrder="630"/>
-				<dustDreadiumDict oreDictName="dustDreadium" treeOrder="640"/>
-				<dustDullDict oreDictName="dustDull" treeOrder="650"/>
-				<dustElectrotineDict oreDictName="dustElectrotine" treeOrder="660"/>
-				<dustElectrumDict oreDictName="dustElectrum" treeOrder="670"/>
-				<dustElectrumFluxDict oreDictName="dustElectrumFlux" treeOrder="680"/>
-				<dustEmeraldDict oreDictName="dustEmerald" treeOrder="690"/>
-				<dustEnderEyeDict oreDictName="dustEnderEye" treeOrder="700"/>
-				<dustEnderPearlDict oreDictName="dustEnderPearl" treeOrder="710"/>
-				<dustEnderiumDict oreDictName="dustEnderium" treeOrder="730"/>
-				<dustEndstoneDict oreDictName="dustEndstone" treeOrder="740"/>
-				<dustEnrichedGoldDict oreDictName="dustEnrichedGold" treeOrder="750"/>
-				<dustEximiteDict oreDictName="dustEximite" treeOrder="760"/>
-				<dustFlintDict oreDictName="dustFlint" treeOrder="770"/>
-				<dustFluixDict oreDictName="dustFluix" treeOrder="780"/>
-				<dustFoolsGoldDict oreDictName="dustFoolsGold" treeOrder="790"/>
-				<dustGalenaDict oreDictName="dustGalena" treeOrder="800"/>
-				<dustGalvanizedsteelDict oreDictName="dustGalvanizedsteel" treeOrder="810"/>
-				<dustGlowstoneDict oreDictName="dustGlowstone" treeOrder="820"/>
-				<dustGoldDict oreDictName="dustGold" treeOrder="830"/>
-				<dustGraniteDict oreDictName="dustGranite" treeOrder="840"/>
-				<dustGraphiteDict oreDictName="dustGraphite" treeOrder="850"/>
-				<dustGrayGlowstoneDict oreDictName="dustGrayGlowstone" treeOrder="860"/>
-				<dustGreenGlowstoneDict oreDictName="dustGreenGlowstone" treeOrder="870"/>
-				<dustGrossularDict oreDictName="dustGrossular" treeOrder="880"/>
-				<dustGunpowderDict oreDictName="dustGunpowder" treeOrder="890"/>
-				<dustHOPGraphiteDict oreDictName="dustHOPGraphite" treeOrder="900"/>
-				<dustHaderothDict oreDictName="dustHaderoth" treeOrder="910"/>
-				<dustHellfireDict oreDictName="dustHellfire" treeOrder="920"/>
-				<dustHepatizonDict oreDictName="dustHepatizon" treeOrder="930"/>
-				<dustHydratedCoalDict oreDictName="dustHydratedCoal" treeOrder="940"/>
-				<dustIgnatiusDict oreDictName="dustIgnatius" treeOrder="950"/>
-				<dustInfuscoliumDict oreDictName="dustInfuscolium" treeOrder="960"/>
-				<dustInolashiteDict oreDictName="dustInolashite" treeOrder="970"/>
-				<dustInvarDict oreDictName="dustInvar" treeOrder="980"/>
-				<dustIridiumDict oreDictName="dustIridium" treeOrder="990"/>
-				<dustIronDict oreDictName="dustIron" treeOrder="1000"/>
-				<dustKalendriteDict oreDictName="dustKalendrite" treeOrder="1010"/>
-				<dustLapisDict oreDictName="dustLapis" treeOrder="1030"/>
-				<dustLazuriteDict oreDictName="dustLazurite" treeOrder="1040"/>
-				<dustLeadDict oreDictName="dustLead" treeOrder="1050"/>
-				<dustLemuriteDict oreDictName="dustLemurite" treeOrder="1060"/>
-				<dustLightBlueGlowstoneDict oreDictName="dustLightBlueGlowstone" treeOrder="1070"/>
-				<dustLightGrayGlowstoneDict oreDictName="dustLightGrayGlowstone" treeOrder="1080"/>
-				<dustLimeGlowstoneDict oreDictName="dustLimeGlowstone" treeOrder="1090"/>
-				<dustLiquifiedCoraliumDict oreDictName="dustLiquifiedCoralium" treeOrder="1100"/>
-				<dustLithiumDict oreDictName="dustLithium" treeOrder="1110"/>
-				<dustLudicriteDict oreDictName="dustLudicrite" treeOrder="1120"/>
-				<dustLumiumDict oreDictName="dustLumium" treeOrder="1130"/>
-				<dustMagentaGlowstoneDict oreDictName="dustMagentaGlowstone" treeOrder="1140"/>
-				<dustMagnesiumDict oreDictName="dustMagnesium" treeOrder="1150"/>
-				<dustMagnetiteDict oreDictName="dustMagnetite" treeOrder="1160"/>
-				<dustManaDict oreDictName="dustMana" treeOrder="1170"/>
-				<powderManaDict oreDictName="powderMana" treeOrder="1180"/>
-				<dustManganeseDict oreDictName="dustManganese" treeOrder="1200"/>
-				<dustManyullynDict oreDictName="dustManyullyn" treeOrder="1210"/>
-				<dustMarbleDict oreDictName="dustMarble" treeOrder="1220"/>
-				<dustMercuryDict oreDictName="dustMercury" treeOrder="1230"/>
-				<dustMeutoiteDict oreDictName="dustMeutoite" treeOrder="1240"/>
-				<dustMidasiumDict oreDictName="dustMidasium" treeOrder="1250"/>
-				<dustMithrilDict oreDictName="dustMithril" treeOrder="1260"/>
-				<dustNetherQuartzDict oreDictName="dustNetherQuartz" treeOrder="1270"/>
-				<dustNetherrackDict oreDictName="dustNetherrack" treeOrder="1280"/>
-				<dustNichromeDict oreDictName="dustNichrome" treeOrder="1290"/>
-				<dustNickelDict oreDictName="dustNickel" treeOrder="1300"/>
-				<dustObsidianDict oreDictName="dustObsidian" treeOrder="1310"/>
-				<dustOrangeGlowstoneDict oreDictName="dustOrangeGlowstone" treeOrder="1320"/>
-				<dustOrichalcumDict oreDictName="dustOrichalcum" treeOrder="1330"/>
-				<dustOsmiumDict oreDictName="dustOsmium" treeOrder="1340"/>
-				<dustOureclaseDict oreDictName="dustOureclase" treeOrder="1350"/>
-				<dustPeridotDict oreDictName="dustPeridot" treeOrder="1360"/>
-				<dustPetrotheumDict oreDictName="dustPetrotheum" treeOrder="1370"/>
-				<dustPhosphorousDict oreDictName="dustPhosphorous" treeOrder="1380"/>
-				<dustPhosphorusDict oreDictName="dustPhosphorus" treeOrder="1390"/>
-				<dustPinkGlowstoneDict oreDictName="dustPinkGlowstone" treeOrder="1410"/>
-				<dustPlasticDict oreDictName="dustPlastic" treeOrder="1420"/>
-				<dustPlatinumDict oreDictName="dustPlatinum" treeOrder="1430"/>
-				<dustPlutoniumDict oreDictName="dustPlutonium" treeOrder="1440"/>
-				<dustPrometheumDict oreDictName="dustPrometheum" treeOrder="1450"/>
-				<dustPsiDict oreDictName="dustPsi" treeOrder="1460"/>
-				<dustPurpleGlowstoneDict oreDictName="dustPurpleGlowstone" treeOrder="1470"/>
-				<dustPyriteDict oreDictName="dustPyrite" treeOrder="1480"/>
-				<dustPyropeDict oreDictName="dustPyrope" treeOrder="1490"/>
-				<dustPyrotheumDict oreDictName="dustPyrotheum" treeOrder="1500"/>
-				<dustQuartzDict oreDictName="dustQuartz" treeOrder="1510"/>
-				<dustQuartzBlackDict oreDictName="dustQuartzBlack" treeOrder="1520"/>
-				<dustQuicksilverDict oreDictName="dustQuicksilver" treeOrder="1530"/>
-				<dustRedGarnetDict oreDictName="dustRedGarnet" treeOrder="1540"/>
-				<dustRedGlowstoneDict oreDictName="dustRedGlowstone" treeOrder="1550"/>
-				<dustRedstoneDict oreDictName="dustRedstone" treeOrder="1560"/>
-				<dustRefinedObsidianDict oreDictName="dustRefinedObsidian" treeOrder="1570"/>
-				<dustRubraciumDict oreDictName="dustRubracium" treeOrder="1580"/>
-				<dustRubyDict oreDictName="dustRuby" treeOrder="1590"/>
-				<dustRutileDict oreDictName="dustRutile" treeOrder="1600"/>
-				<dustSaltpeterDict oreDictName="dustSaltpeter" treeOrder="1610"/>
-				<dustSanguiniteDict oreDictName="dustSanguinite" treeOrder="1620"/>
-				<dustSapphireDict oreDictName="dustSapphire" treeOrder="1630"/>
-				<dustSawDustDict oreDictName="dustSawDust" treeOrder="1640"/>
-				<pulpWoodDict oreDictName="pulpWood" treeOrder="1650"/>
-				<dustShadowIronDict oreDictName="dustShadowIron" treeOrder="1670"/>
-				<dustShadowSteelDict oreDictName="dustShadowSteel" treeOrder="1680"/>
-				<dustSignalumDict oreDictName="dustSignalum" treeOrder="1690"/>
-				<dustSiliconDict oreDictName="dustSilicon" treeOrder="1700"/>
-				<dustSiliconDioxideDict oreDictName="dustSiliconDioxide" treeOrder="1710"/>
-				<dustSilverDict oreDictName="dustSilver" treeOrder="1720"/>
-				<dustSodaliteDict oreDictName="dustSodalite" treeOrder="1750"/>
-				<dustSoulariumDict oreDictName="dustSoularium" treeOrder="1760"/>
-				<dustSpacePlatinumDict oreDictName="dustSpacePlatinum" treeOrder="1770"/>
-				<dustSpessartineDict oreDictName="dustSpessartine" treeOrder="1780"/>
-				<dustSphaleriteDict oreDictName="dustSphalerite" treeOrder="1790"/>
-				<dustStainlesssteelDict oreDictName="dustStainlesssteel" treeOrder="1800"/>
-				<dustStarsteelDict oreDictName="dustStarsteel" treeOrder="1810"/>
-				<dustSteelDict oreDictName="dustSteel" treeOrder="1820"/>
-				<dustStoneDict oreDictName="dustStone" treeOrder="1830"/>
-				<dustSulfurDict oreDictName="dustSulfur" treeOrder="1840"/>
-				<dustTanninDict oreDictName="dustTannin" treeOrder="1860"/>
-				<dustTantalumDict oreDictName="dustTantalum" treeOrder="1870"/>
-				<dustTartariteDict oreDictName="dustTartarite" treeOrder="1880"/>
-				<dustTinDict oreDictName="dustTin" treeOrder="1890"/>
-				<dustTitaniumDict oreDictName="dustTitanium" treeOrder="1900"/>
-				<dustTitaniumAluminideDict oreDictName="dustTitaniumAluminide" treeOrder="1910"/>
-				<dustTitaniumIridiumDict oreDictName="dustTitaniumIridium" treeOrder="1920"/>
-				<dustTungstenDict oreDictName="dustTungsten" treeOrder="1930"/>
-				<dustUraniumDict oreDictName="dustUranium" treeOrder="1940"/>
-				<dustUrushiDict oreDictName="dustUrushi" treeOrder="1950"/>
-				<dustUvaroviteDict oreDictName="dustUvarovite" treeOrder="1960"/>
-				<dustVulcaniteDict oreDictName="dustVulcanite" treeOrder="1970"/>
-				<dustVyroxeresDict oreDictName="dustVyroxeres" treeOrder="1980"/>
-				<dustWheatDict oreDictName="dustWheat" treeOrder="1990"/>
-				<dustWhiteGlowstoneDict oreDictName="dustWhiteGlowstone" treeOrder="2000"/>
-				<dustWoodDict oreDictName="dustWood" treeOrder="2010"/>
-				<dustYelloriumDict oreDictName="dustYellorium" treeOrder="2020"/>
-				<dustYellowGarnetDict oreDictName="dustYellowGarnet" treeOrder="2030"/>
-				<dustZincDict oreDictName="dustZinc" treeOrder="2040"/>
-				<dustZirconiumDict oreDictName="dustZirconium" treeOrder="2050"/>
+				<dustCryotheumDict oreDictName="dustCryotheum" treeOrder="510"/>
+				<dustCupronickelDict oreDictName="dustCupronickel" treeOrder="520"/>
+				<dustCyanGlowstoneDict oreDictName="dustCyanGlowstone" treeOrder="530"/>
+				<dustCyaniteDict oreDictName="dustCyanite" treeOrder="540"/>
+				<dustDamascusSteelDict oreDictName="dustDamascusSteel" treeOrder="550"/>
+				<dustDarkAshesDict oreDictName="dustDarkAshes" treeOrder="560"/>
+				<gemDarkCrushedDict oreDictName="gemDarkCrushed" treeOrder="570"/>
+				<dustDeepIronDict oreDictName="dustDeepIron" treeOrder="580"/>
+				<dustDesichalkosDict oreDictName="dustDesichalkos" treeOrder="590"/>
+				<dustDiamondDict oreDictName="dustDiamond" treeOrder="600"/>
+				<dustDilithiumDict oreDictName="dustDilithium" treeOrder="610"/>
+				<dustDioriteDict oreDictName="dustDiorite" treeOrder="620"/>
+				<dustDirtDict oreDictName="dustDirt" treeOrder="630"/>
+				<dustDraconiumDict oreDictName="dustDraconium" treeOrder="640"/>
+				<dustDreadiumDict oreDictName="dustDreadium" treeOrder="650"/>
+				<dustDullDict oreDictName="dustDull" treeOrder="660"/>
+				<dustElectrotineDict oreDictName="dustElectrotine" treeOrder="670"/>
+				<dustElectrumDict oreDictName="dustElectrum" treeOrder="680"/>
+				<dustElectrumFluxDict oreDictName="dustElectrumFlux" treeOrder="690"/>
+				<dustEmeraldDict oreDictName="dustEmerald" treeOrder="700"/>
+				<dustEnderEyeDict oreDictName="dustEnderEye" treeOrder="710"/>
+				<dustEnderPearlDict oreDictName="dustEnderPearl" treeOrder="720"/>
+				<dustEnderiumDict oreDictName="dustEnderium" treeOrder="740"/>
+				<dustEndstoneDict oreDictName="dustEndstone" treeOrder="750"/>
+				<dustEnrichedGoldDict oreDictName="dustEnrichedGold" treeOrder="760"/>
+				<dustEximiteDict oreDictName="dustEximite" treeOrder="780"/>
+				<dustFlintDict oreDictName="dustFlint" treeOrder="790"/>
+				<dustFluixDict oreDictName="dustFluix" treeOrder="800"/>
+				<dustFoolsGoldDict oreDictName="dustFoolsGold" treeOrder="810"/>
+				<dustGalenaDict oreDictName="dustGalena" treeOrder="820"/>
+				<dustGalvanizedsteelDict oreDictName="dustGalvanizedsteel" treeOrder="830"/>
+				<dustGlowstoneDict oreDictName="dustGlowstone" treeOrder="840"/>
+				<dustGoldDict oreDictName="dustGold" treeOrder="850"/>
+				<dustGraniteDict oreDictName="dustGranite" treeOrder="860"/>
+				<dustGraphiteDict oreDictName="dustGraphite" treeOrder="870"/>
+				<dustGrayGlowstoneDict oreDictName="dustGrayGlowstone" treeOrder="880"/>
+				<dustGreenGlowstoneDict oreDictName="dustGreenGlowstone" treeOrder="890"/>
+				<dustGrossularDict oreDictName="dustGrossular" treeOrder="900"/>
+				<dustGunpowderDict oreDictName="dustGunpowder" treeOrder="910"/>
+				<dustHOPGraphiteDict oreDictName="dustHOPGraphite" treeOrder="920"/>
+				<dustHaderothDict oreDictName="dustHaderoth" treeOrder="930"/>
+				<dustHellfireDict oreDictName="dustHellfire" treeOrder="940"/>
+				<dustHepatizonDict oreDictName="dustHepatizon" treeOrder="950"/>
+				<dustHydratedCoalDict oreDictName="dustHydratedCoal" treeOrder="960"/>
+				<dustIgnatiusDict oreDictName="dustIgnatius" treeOrder="970"/>
+				<dustInfuscoliumDict oreDictName="dustInfuscolium" treeOrder="980"/>
+				<dustInolashiteDict oreDictName="dustInolashite" treeOrder="990"/>
+				<dustInvarDict oreDictName="dustInvar" treeOrder="1000"/>
+				<dustIridiumDict oreDictName="dustIridium" treeOrder="1010"/>
+				<dustIronDict oreDictName="dustIron" treeOrder="1020"/>
+				<dustKalendriteDict oreDictName="dustKalendrite" treeOrder="1030"/>
+				<dustLapisDict oreDictName="dustLapis" treeOrder="1050"/>
+				<dustLazuriteDict oreDictName="dustLazurite" treeOrder="1060"/>
+				<dustLeadDict oreDictName="dustLead" treeOrder="1070"/>
+				<dustLemuriteDict oreDictName="dustLemurite" treeOrder="1080"/>
+				<dustLightBlueGlowstoneDict oreDictName="dustLightBlueGlowstone" treeOrder="1090"/>
+				<dustLightGrayGlowstoneDict oreDictName="dustLightGrayGlowstone" treeOrder="1100"/>
+				<dustLimeGlowstoneDict oreDictName="dustLimeGlowstone" treeOrder="1110"/>
+				<dustLiquifiedCoraliumDict oreDictName="dustLiquifiedCoralium" treeOrder="1120"/>
+				<dustLithiumDict oreDictName="dustLithium" treeOrder="1130"/>
+				<dustLudicriteDict oreDictName="dustLudicrite" treeOrder="1140"/>
+				<dustLumiumDict oreDictName="dustLumium" treeOrder="1150"/>
+				<dustMagentaGlowstoneDict oreDictName="dustMagentaGlowstone" treeOrder="1160"/>
+				<dustMagnesiumDict oreDictName="dustMagnesium" treeOrder="1170"/>
+				<dustMagnetiteDict oreDictName="dustMagnetite" treeOrder="1180"/>
+				<dustManaDict oreDictName="dustMana" treeOrder="1190"/>
+				<powderManaDict oreDictName="powderMana" treeOrder="1200"/>
+				<dustManganeseDict oreDictName="dustManganese" treeOrder="1220"/>
+				<dustManyullynDict oreDictName="dustManyullyn" treeOrder="1230"/>
+				<dustMarbleDict oreDictName="dustMarble" treeOrder="1240"/>
+				<dustMercuryDict oreDictName="dustMercury" treeOrder="1250"/>
+				<dustMeutoiteDict oreDictName="dustMeutoite" treeOrder="1260"/>
+				<dustMidasiumDict oreDictName="dustMidasium" treeOrder="1270"/>
+				<dustMithrilDict oreDictName="dustMithril" treeOrder="1280"/>
+				<dustNetherQuartzDict oreDictName="dustNetherQuartz" treeOrder="1290"/>
+				<dustNetherrackDict oreDictName="dustNetherrack" treeOrder="1300"/>
+				<dustNichromeDict oreDictName="dustNichrome" treeOrder="1310"/>
+				<dustNickelDict oreDictName="dustNickel" treeOrder="1320"/>
+				<dustObsidianDict oreDictName="dustObsidian" treeOrder="1330"/>
+				<dustOrangeGlowstoneDict oreDictName="dustOrangeGlowstone" treeOrder="1340"/>
+				<dustOrichalcumDict oreDictName="dustOrichalcum" treeOrder="1350"/>
+				<dustOsmiumDict oreDictName="dustOsmium" treeOrder="1360"/>
+				<dustOureclaseDict oreDictName="dustOureclase" treeOrder="1370"/>
+				<dustPeridotDict oreDictName="dustPeridot" treeOrder="1380"/>
+				<dustPetrotheumDict oreDictName="dustPetrotheum" treeOrder="1390"/>
+				<dustPhosphorousDict oreDictName="dustPhosphorous" treeOrder="1400"/>
+				<dustPhosphorusDict oreDictName="dustPhosphorus" treeOrder="1410"/>
+				<dustPinkGlowstoneDict oreDictName="dustPinkGlowstone" treeOrder="1430"/>
+				<dustPlasticDict oreDictName="dustPlastic" treeOrder="1440"/>
+				<dustPlatinumDict oreDictName="dustPlatinum" treeOrder="1450"/>
+				<dustPlutoniumDict oreDictName="dustPlutonium" treeOrder="1460"/>
+				<dustPrometheumDict oreDictName="dustPrometheum" treeOrder="1470"/>
+				<dustPsiDict oreDictName="dustPsi" treeOrder="1480"/>
+				<dustPurpleGlowstoneDict oreDictName="dustPurpleGlowstone" treeOrder="1490"/>
+				<dustPyriteDict oreDictName="dustPyrite" treeOrder="1500"/>
+				<dustPyropeDict oreDictName="dustPyrope" treeOrder="1510"/>
+				<dustPyrotheumDict oreDictName="dustPyrotheum" treeOrder="1520"/>
+				<dustQuartzDict oreDictName="dustQuartz" treeOrder="1530"/>
+				<dustQuartzBlackDict oreDictName="dustQuartzBlack" treeOrder="1540"/>
+				<dustQuicksilverDict oreDictName="dustQuicksilver" treeOrder="1550"/>
+				<dustRedGarnetDict oreDictName="dustRedGarnet" treeOrder="1560"/>
+				<dustRedGlowstoneDict oreDictName="dustRedGlowstone" treeOrder="1570"/>
+				<dustRedstoneDict oreDictName="dustRedstone" treeOrder="1580"/>
+				<dustRefinedObsidianDict oreDictName="dustRefinedObsidian" treeOrder="1590"/>
+				<dustRubraciumDict oreDictName="dustRubracium" treeOrder="1600"/>
+				<dustRubyDict oreDictName="dustRuby" treeOrder="1610"/>
+				<dustRutileDict oreDictName="dustRutile" treeOrder="1620"/>
+				<dustSaltpeterDict oreDictName="dustSaltpeter" treeOrder="1630"/>
+				<dustSanguiniteDict oreDictName="dustSanguinite" treeOrder="1640"/>
+				<dustSapphireDict oreDictName="dustSapphire" treeOrder="1650"/>
+				<dustSawDustDict oreDictName="dustSawDust" treeOrder="1660"/>
+				<pulpWoodDict oreDictName="pulpWood" treeOrder="1670"/>
+				<dustShadowIronDict oreDictName="dustShadowIron" treeOrder="1690"/>
+				<dustShadowSteelDict oreDictName="dustShadowSteel" treeOrder="1700"/>
+				<dustSignalumDict oreDictName="dustSignalum" treeOrder="1710"/>
+				<dustSiliconDict oreDictName="dustSilicon" treeOrder="1720"/>
+				<dustSiliconDioxideDict oreDictName="dustSiliconDioxide" treeOrder="1730"/>
+				<dustSilverDict oreDictName="dustSilver" treeOrder="1740"/>
+				<dustSodaliteDict oreDictName="dustSodalite" treeOrder="1770"/>
+				<dustSoulariumDict oreDictName="dustSoularium" treeOrder="1780"/>
+				<dustSpacePlatinumDict oreDictName="dustSpacePlatinum" treeOrder="1790"/>
+				<dustSpessartineDict oreDictName="dustSpessartine" treeOrder="1800"/>
+				<dustSphaleriteDict oreDictName="dustSphalerite" treeOrder="1810"/>
+				<dustStainlesssteelDict oreDictName="dustStainlesssteel" treeOrder="1820"/>
+				<dustStarsteelDict oreDictName="dustStarsteel" treeOrder="1830"/>
+				<dustSteelDict oreDictName="dustSteel" treeOrder="1840"/>
+				<dustStoneDict oreDictName="dustStone" treeOrder="1850"/>
+				<dustSulfurDict oreDictName="dustSulfur" treeOrder="1860"/>
+				<dustTanninDict oreDictName="dustTannin" treeOrder="1880"/>
+				<dustTantalumDict oreDictName="dustTantalum" treeOrder="1890"/>
+				<dustTartariteDict oreDictName="dustTartarite" treeOrder="1900"/>
+				<dustTinDict oreDictName="dustTin" treeOrder="1910"/>
+				<dustTitaniumDict oreDictName="dustTitanium" treeOrder="1920"/>
+				<dustTitaniumAluminideDict oreDictName="dustTitaniumAluminide" treeOrder="1930"/>
+				<dustTitaniumIridiumDict oreDictName="dustTitaniumIridium" treeOrder="1940"/>
+				<dustTungstenDict oreDictName="dustTungsten" treeOrder="1950"/>
+				<dustUraniumDict oreDictName="dustUranium" treeOrder="1960"/>
+				<dustUrushiDict oreDictName="dustUrushi" treeOrder="1970"/>
+				<dustUvaroviteDict oreDictName="dustUvarovite" treeOrder="1980"/>
+				<dustVulcaniteDict oreDictName="dustVulcanite" treeOrder="1990"/>
+				<dustVyroxeresDict oreDictName="dustVyroxeres" treeOrder="2000"/>
+				<dustWheatDict oreDictName="dustWheat" treeOrder="2010"/>
+				<dustWhiteGlowstoneDict oreDictName="dustWhiteGlowstone" treeOrder="2020"/>
+				<dustWoodDict oreDictName="dustWood" treeOrder="2030"/>
+				<dustYelloriumDict oreDictName="dustYellorium" treeOrder="2040"/>
+				<dustYellowGarnetDict oreDictName="dustYellowGarnet" treeOrder="2050"/>
+				<dustZincDict oreDictName="dustZinc" treeOrder="2060"/>
+				<dustZirconiumDict oreDictName="dustZirconium" treeOrder="2070"/>
 			</dust>
 			<dustSpecial treeOrder="50">
 				<dyeMachineDict oreDictName="dyeMachine" treeOrder="10"/>
@@ -1778,18 +1781,18 @@
 				<dustCharcoalDict oreDictName="dustCharcoal" treeOrder="40"/>
 				<itemCharcoalSugarDict oreDictName="itemCharcoalSugar" treeOrder="50"/>
 				<fuelCokeDict oreDictName="fuelCoke" treeOrder="60"/>
-				<coalInferiumDict oreDictName="coalInferium" treeOrder="70"/>
-				<coalIntermediumDict oreDictName="coalIntermedium" treeOrder="80"/>
-				<coalPrudentiumDict oreDictName="coalPrudentium" treeOrder="90"/>
-				<coalSuperiumDict oreDictName="coalSuperium" treeOrder="100"/>
-				<coalSupremiumDict oreDictName="coalSupremium" treeOrder="110"/>
-				<coalPoweredDict oreDictName="coalPowered" treeOrder="130"/>
-				<dustCoalDict oreDictName="dustCoal" treeOrder="150"/>
-				<dustCharcoalDict oreDictName="dustCharcoal" treeOrder="160"/>
-				<dustCokeDict oreDictName="dustCoke" treeOrder="170"/>
-				<brickPeatDict oreDictName="brickPeat" treeOrder="180"/>
+				<coalInferiumDict oreDictName="coalInferium" treeOrder="100"/>
+				<coalIntermediumDict oreDictName="coalIntermedium" treeOrder="110"/>
+				<coalPrudentiumDict oreDictName="coalPrudentium" treeOrder="120"/>
+				<coalSuperiumDict oreDictName="coalSuperium" treeOrder="130"/>
+				<coalSupremiumDict oreDictName="coalSupremium" treeOrder="140"/>
+				<coalPoweredDict oreDictName="coalPowered" treeOrder="160"/>
+				<dustCoalDict oreDictName="dustCoal" treeOrder="180"/>
+				<dustCharcoalDict oreDictName="dustCharcoal" treeOrder="190"/>
+				<dustCokeDict oreDictName="dustCoke" treeOrder="200"/>
+				<brickPeatDict oreDictName="brickPeat" treeOrder="210"/>
 			</coals>
-			<oreBlock treeOrder="110">
+			<oreBlock treeOrder="120">
 				<blockAbyssalniteDict oreDictName="blockAbyssalnite" treeOrder="10"/>
 				<blockAdamantDict oreDictName="blockAdamant" treeOrder="20"/>
 				<blockAdamantineDict oreDictName="blockAdamantine" treeOrder="30"/>
@@ -1840,187 +1843,187 @@
 				<blockCupronickelDict oreDictName="blockCupronickel" treeOrder="510"/>
 				<blockCyaniteDict oreDictName="blockCyanite" treeOrder="520"/>
 				<blockDarkIronDict oreDictName="blockDarkIron" treeOrder="530"/>
-				<blockDarkSteelDict oreDictName="blockDarkSteel" treeOrder="540"/>
-				<blockDemonicMetalDict oreDictName="blockDemonicMetal" treeOrder="550"/>
-				<blockDeshDict oreDictName="blockDesh" treeOrder="560"/>
-				<blockDiamondDict oreDictName="blockDiamond" treeOrder="570"/>
-				<blockDioriteDict oreDictName="blockDiorite" treeOrder="580"/>
-				<blockDraconiumDict oreDictName="blockDraconium" treeOrder="590"/>
-				<blockDraconiumAwakenedDict oreDictName="blockDraconiumAwakened" treeOrder="600"/>
-				<blockDrainDict oreDictName="blockDrain" treeOrder="610"/>
-				<blockDreadiumDict oreDictName="blockDreadium" treeOrder="620"/>
-				<blockDungDict oreDictName="blockDung" treeOrder="630"/>
-				<blockElectricalSteelDict oreDictName="blockElectricalSteel" treeOrder="640"/>
-				<blockElectrotineDict oreDictName="blockElectrotine" treeOrder="650"/>
-				<blockElectrumDict oreDictName="blockElectrum" treeOrder="660"/>
-				<blockElectrumFluxDict oreDictName="blockElectrumFlux" treeOrder="670"/>
-				<blockEmeraldDict oreDictName="blockEmerald" treeOrder="680"/>
-				<blockEnchantedMetalDict oreDictName="blockEnchantedMetal" treeOrder="700"/>
-				<blockEnderDict oreDictName="blockEnder" treeOrder="710"/>
-				<blockEnderCoreDict oreDictName="blockEnderCore" treeOrder="720"/>
-				<blockEnderObsidianDict oreDictName="blockEnderObsidian" treeOrder="730"/>
-				<blockEnderiumDict oreDictName="blockEnderium" treeOrder="740"/>
-				<blockEndSteelDict oreDictName="blockEndSteel" treeOrder="750"/>
-				<blockEndstoneDict oreDictName="blockEndstone" treeOrder="760"/>
-				<blockEnergeticAlloyDict oreDictName="blockEnergeticAlloy" treeOrder="770"/>
-				<blockEnergeticSilverDict oreDictName="blockEnergeticSilver" treeOrder="780"/>
-				<blockEnhancedGalgadorianDict oreDictName="blockEnhancedGalgadorian" treeOrder="790"/>
-				<blockErodiumDict oreDictName="blockErodium" treeOrder="800"/>
-				<blockEthaxiumDict oreDictName="blockEthaxium" treeOrder="810"/>
-				<blockEvilMetalDict oreDictName="blockEvilMetal" treeOrder="820"/>
-				<blockFairyDict oreDictName="blockFairy" treeOrder="830"/>
-				<blockFieryDict oreDictName="blockFiery" treeOrder="840"/>
-				<blockFlintDict oreDictName="blockFlint" treeOrder="850"/>
-				<blockFuelDict oreDictName="blockFuel" treeOrder="880"/>
-				<blockFuelCokeDict oreDictName="blockFuelCoke" treeOrder="890"/>
-				<blockGalgadorianDict oreDictName="blockGalgadorian" treeOrder="900"/>
-				<blockGalvanizedsteelDict oreDictName="blockGalvanizedsteel" treeOrder="910"/>
-				<blockGateDict oreDictName="blockGate" treeOrder="920"/>
-				<blockGoldDict oreDictName="blockGold" treeOrder="930"/>
-				<blockGraphiteDict oreDictName="blockGraphite" treeOrder="940"/>
-				<blockGrateDict oreDictName="blockGrate" treeOrder="950"/>
-				<blockGreenMiddleGemDict oreDictName="blockGreenMiddleGem" treeOrder="960"/>
-				<blockHardenedNetherClayDict oreDictName="blockHardenedNetherClay" treeOrder="970"/>
-				<blockHellfireDict oreDictName="blockHellfire" treeOrder="980"/>
-				<blockInferiumDict oreDictName="blockInferium" treeOrder="990"/>
-				<blockInferiumCoalDict oreDictName="blockInferiumCoal" treeOrder="1000"/>
-				<blockInferiumEssenceDict oreDictName="blockInferiumEssence" treeOrder="1010"/>
-				<blockInsaniumDict oreDictName="blockInsanium" treeOrder="1020"/>
-				<blockInsaniumCoalDict oreDictName="blockInsaniumCoal" treeOrder="1030"/>
-				<blockInsaniumEssenceDict oreDictName="blockInsaniumEssence" treeOrder="1040"/>
-				<blockIntermediumDict oreDictName="blockIntermedium" treeOrder="1050"/>
-				<blockIntermediumCoalDict oreDictName="blockIntermediumCoal" treeOrder="1060"/>
-				<blockIntermediumEssenceDict oreDictName="blockIntermediumEssence" treeOrder="1070"/>
-				<blockInfinityDict oreDictName="blockInfinity" treeOrder="1080"/>
-				<blockInvarDict oreDictName="blockInvar" treeOrder="1090"/>
-				<blockIoniteDict oreDictName="blockIonite" treeOrder="1100"/>
-				<blockIridiumDict oreDictName="blockIridium" treeOrder="1110"/>
-				<blockIronDict oreDictName="blockIron" treeOrder="1120"/>
-				<blockIronCompressedDict oreDictName="blockIronCompressed" treeOrder="1130"/>
-				<blockConstructionAlloyDict oreDictName="blockConstructionAlloy" treeOrder="1140"/>
-				<blockKnightSlimeDict oreDictName="blockKnightslime" treeOrder="1150"/>
-				<blockKnightmetalDict oreDictName="blockKnightmetal" treeOrder="1160"/>
-				<blockKyroniteDict oreDictName="blockKyronite" treeOrder="1170"/>
-				<blockLapisDict oreDictName="blockLapis" treeOrder="1180"/>
-				<blockLeadDict oreDictName="blockLead" treeOrder="1200"/>
-				<blockLimestoneDict oreDictName="blockLimestone" treeOrder="1210"/>
-				<blockLiquifiedCoraliumDict oreDictName="blockLiquifiedCoralium" treeOrder="1220"/>
-				<blockLitheriteDict oreDictName="blockLitherite" treeOrder="1230"/>
-				<blockLonsdaleiteDict oreDictName="blockLonsdaleite" treeOrder="1240"/>
-				<blockLudicriteDict oreDictName="blockLudicrite" treeOrder="1250"/>
-				<blockLuminessenceDict oreDictName="blockLuminessence" treeOrder="1260"/>
-				<blockLumiumDict oreDictName="blockLumium" treeOrder="1270"/>
-				<blockMagicWoodDict oreDictName="blockMagicWood" treeOrder="1280"/>
-				<blockMagnesiumDict oreDictName="blockMagnesium" treeOrder="1290"/>
-				<blockMalachiteDict oreDictName="blockMalachite" treeOrder="1300"/>
-				<blockManganeseDict oreDictName="blockManganese" treeOrder="1310"/>
-				<blockManyullynDict oreDictName="blockManyullyn" treeOrder="1320"/>
-				<blockMeatDict oreDictName="blockMeat" treeOrder="1330"/>
-				<blockMeatRawDict oreDictName="blockMeatRaw" treeOrder="1340"/>
-				<blockMelodicAlloyDict oreDictName="blockMelodicAlloy" treeOrder="1350"/>
-				<blockMercuryDict oreDictName="blockMercury" treeOrder="1360"/>
-				<blockMiniatureStarDict oreDictName="blockMiniatureStar" treeOrder="1370"/>
-				<blockMirionDict oreDictName="blockMirion" treeOrder="1380"/>
-				<blockMithrilDict oreDictName="blockMithril" treeOrder="1390"/>
-				<blockMudDict oreDictName="blockMud" treeOrder="1400"/>
-				<blockMudDriedDict oreDictName="blockMudDried" treeOrder="1410"/>
-				<blockCosmicNeutroniumDict oreDictName="blockCosmicNeutronium" treeOrder="1450"/>
-				<blockNetherSludgeDict oreDictName="blockNetherSludge" treeOrder="1460"/>
-				<blockNetherStarDict oreDictName="blockNetherStar" treeOrder="1470"/>
-				<blockNichromeDict oreDictName="blockNichrome" treeOrder="1480"/>
-				<blockNickelDict oreDictName="blockNickel" treeOrder="1490"/>
-				<blockObsidianDict oreDictName="blockObsidian" mergeChildren="true" treeOrder="1500"/>
-				<blockOctineDict oreDictName="blockOctine" treeOrder="1510"/>
-				<blockOsgloglasDict oreDictName="blockOsgloglas" treeOrder="1520"/>
-				<blockOsmiumDict oreDictName="blockOsmium" treeOrder="1530"/>
-				<blockOsmiridiumDict oreDictName="blockOsmiridium" treeOrder="1540"/>
-				<blockPalladiumDict oreDictName="blockPalladium" treeOrder="1550"/>
-				<blockPearlDict oreDictName="blockPearl" treeOrder="1560"/>
-				<blockPeridotDict oreDictName="blockPeridot" treeOrder="1570"/>
-				<blockPhasedGoldDict oreDictName="blockPhasedGold" treeOrder="1580"/>
-				<blockPhasedIronDict oreDictName="blockPhasedIron" treeOrder="1590"/>
-				<blockPigIronDict oreDictName="blockPigiron" treeOrder="1600"/>
-				<blockPladiumDict oreDictName="blockPladium" treeOrder="1610"/>
-				<blockPlanterDict oreDictName="blockPlanter" treeOrder="1620"/>
-				<blockPlasticDict oreDictName="blockPlastic" treeOrder="1630"/>
-				<blockPlatinumDict oreDictName="blockPlatinum" treeOrder="1640"/>
-				<blockPlutoniumDict oreDictName="blockPlutonium" treeOrder="1650"/>
-				<blockPokefenniumDict oreDictName="blockPokefennium" treeOrder="1660"/>
-				<blockProsperityDict oreDictName="blockProsperity" treeOrder="1670"/>
-				<blockPrudentiumDict oreDictName="blockPrudentium" treeOrder="1680"/>
-				<blockPrudentiumCoalDict oreDictName="blockPrudentiumCoal" treeOrder="1690"/>
-				<blockPrudentiumEssenceDict oreDictName="blockPrudentiumEssence" treeOrder="1700"/>
-				<blockPulsatingIronDict oreDictName="blockPulsatingIron" treeOrder="1710"/>
-				<blockQuartzDict oreDictName="blockQuartz" treeOrder="1720"/>
-				<blockRedGarnetDict oreDictName="blockRedGarnet" treeOrder="1740"/>
-				<blockRedGemDict oreDictName="blockRedGem" treeOrder="1750"/>
-				<blockRed_aurumDict oreDictName="blockRed_aurum" treeOrder="1760"/>
-				<blockRedstoneAlloyDict oreDictName="blockRedstoneAlloy" treeOrder="1770"/>
-				<blockRefinedGlowstoneDict oreDictName="blockRefinedGlowstone" treeOrder="1780"/>
-				<blockRefinedObsidianDict oreDictName="blockRefinedObsidian" treeOrder="1790"/>
-				<blockReinforcedMetalDict oreDictName="blockReinforcedMetal" treeOrder="1800"/>
-				<blockRimeDict oreDictName="blockRime" treeOrder="1810"/>
-				<blockRubberDict oreDictName="blockRubber" treeOrder="1820"/>
-				<blockRubyDict oreDictName="blockRuby" treeOrder="1830"/>
-				<blockRutileDict oreDictName="blockRutile" treeOrder="1840"/>
-				<blockSapphireDict oreDictName="blockSapphire" treeOrder="1850"/>
-				<blockSignalumDict oreDictName="blockSignalum" treeOrder="1860"/>
-				<blockSiliconDict oreDictName="blockSilicon" treeOrder="1870"/>
-				<blockSilverDict oreDictName="blockSilver" treeOrder="1890"/>
-				<blockSlimeDict oreDictName="blockSlime" treeOrder="1900"/>
-				<blockSlimeCongealedDict oreDictName="blockSlimeCongealed" treeOrder="1910"/>
-				<blockSlimePinkDict oreDictName="blockSlimePink" treeOrder="1920"/>
-				<blockSnowDict oreDictName="blockSnow" treeOrder="1930"/>
-				<blockSoulUrnDict oreDictName="blockSoulUrn" treeOrder="1940"/>
-				<blockSoulariumDict oreDictName="blockSoularium" treeOrder="1950"/>
-				<blockSouliumDict oreDictName="blockSoulium" treeOrder="1960"/>
-				<blockSoulstonesoulstoneDict oreDictName="blockSoulstone, soulstone" treeOrder="1970"/>
-				<blockSpacePlatinumDict oreDictName="blockSpacePlatinum" treeOrder="1980"/>
-				<blockStainedHardenedClayDict oreDictName="blockStainedHardenedClay" treeOrder="1990"/>
-				<blockSteelDict oreDictName="blockSteel" treeOrder="2000"/>
-				<blockCrudeSteelDict oreDictName="blockCrudeSteel" treeOrder="2010"/>
-				<blockSteeleafDict oreDictName="blockSteeleaf" treeOrder="2020"/>
-				<blockStellarAlloyDict oreDictName="blockStellarAlloy" treeOrder="2030"/>
-				<blockStoneHardenedDict oreDictName="blockStoneHardened" treeOrder="2040"/>
-				<blockSulfurDict oreDictName="blockSulfur" treeOrder="2050"/>
-				<blockSuperiumDict oreDictName="blockSuperium" treeOrder="2060"/>
-				<blockSuperiumCoalDict oreDictName="blockSuperiumCoal" treeOrder="2070"/>
-				<blockSuperiumEssenceDict oreDictName="blockSuperiumEssence" treeOrder="2080"/>
-				<blockSupremiumDict oreDictName="blockSupremium" treeOrder="2090"/>
-				<blockSupremiumCoalDict oreDictName="blockSupremiumCoal" treeOrder="2100"/>
-				<blockSupremiumEssenceDict oreDictName="blockSupremiumEssence" treeOrder="2110"/>
-				<blockSyrmoriteDict oreDictName="blockSyrmorite" treeOrder="2120"/>
-				<blockTamahaganeDict oreDictName="blockTamahagane" treeOrder="2140"/>
-				<blockTantalumDict oreDictName="blockTantalum" treeOrder="2150"/>
-				<blockTanzaniteDict oreDictName="blockTanzanite" treeOrder="2160"/>
-				<blockTerraDict oreDictName="blockTerra" treeOrder="2170"/>
-				<blockTerracottaDict oreDictName="blockTerracotta" treeOrder="2180"/>
-				<blockTinDict oreDictName="blockTin" treeOrder="2200"/>
-				<blockTitaniumDict oreDictName="blockTitanium" treeOrder="2210"/>
-				<blockTitaniumAluminideDict oreDictName="blockTitaniumAluminide" treeOrder="2220"/>
-				<blockTitaniumIridiumDict oreDictName="blockTitaniumIridium" treeOrder="2230"/>
-				<blockTopazDict oreDictName="blockTopaz" treeOrder="2240"/>
-				<blockTungstenDict oreDictName="blockTungsten" treeOrder="2250"/>
-				<blockTungstensteelDict oreDictName="blockTungstensteel" treeOrder="2260"/>
-				<blockUltimateDict oreDictName="blockUltimate" treeOrder="2270"/>
-				<blockUnstableDict oreDictName="blockUnstable" treeOrder="2280"/>
-				<blockUraniumDict oreDictName="blockUranium" treeOrder="2290">
+				<blockDarkSteelDict oreDictName="blockDarkSteel" treeOrder="550"/>
+				<blockDemonicMetalDict oreDictName="blockDemonicMetal" treeOrder="560"/>
+				<blockDeshDict oreDictName="blockDesh" treeOrder="570"/>
+				<blockDiamondDict oreDictName="blockDiamond" treeOrder="580"/>
+				<blockDioriteDict oreDictName="blockDiorite" treeOrder="590"/>
+				<blockDraconiumDict oreDictName="blockDraconium" treeOrder="600"/>
+				<blockDraconiumAwakenedDict oreDictName="blockDraconiumAwakened" treeOrder="610"/>
+				<blockDrainDict oreDictName="blockDrain" treeOrder="620"/>
+				<blockDreadiumDict oreDictName="blockDreadium" treeOrder="630"/>
+				<blockDungDict oreDictName="blockDung" treeOrder="640"/>
+				<blockElectricalSteelDict oreDictName="blockElectricalSteel" treeOrder="650"/>
+				<blockElectrotineDict oreDictName="blockElectrotine" treeOrder="660"/>
+				<blockElectrumDict oreDictName="blockElectrum" treeOrder="670"/>
+				<blockElectrumFluxDict oreDictName="blockElectrumFlux" treeOrder="680"/>
+				<blockEmeraldDict oreDictName="blockEmerald" treeOrder="690"/>
+				<blockEnchantedMetalDict oreDictName="blockEnchantedMetal" treeOrder="710"/>
+				<blockEnderDict oreDictName="blockEnder" treeOrder="720"/>
+				<blockEnderCoreDict oreDictName="blockEnderCore" treeOrder="730"/>
+				<blockEnderObsidianDict oreDictName="blockEnderObsidian" treeOrder="740"/>
+				<blockEnderiumDict oreDictName="blockEnderium" treeOrder="750"/>
+				<blockEndSteelDict oreDictName="blockEndSteel" treeOrder="760"/>
+				<blockEndstoneDict oreDictName="blockEndstone" treeOrder="770"/>
+				<blockEnergeticAlloyDict oreDictName="blockEnergeticAlloy" treeOrder="780"/>
+				<blockEnergeticSilverDict oreDictName="blockEnergeticSilver" treeOrder="790"/>
+				<blockEnhancedGalgadorianDict oreDictName="blockEnhancedGalgadorian" treeOrder="800"/>
+				<blockErodiumDict oreDictName="blockErodium" treeOrder="810"/>
+				<blockEthaxiumDict oreDictName="blockEthaxium" treeOrder="820"/>
+				<blockEvilMetalDict oreDictName="blockEvilMetal" treeOrder="830"/>
+				<blockFairyDict oreDictName="blockFairy" treeOrder="840"/>
+				<blockFieryDict oreDictName="blockFiery" treeOrder="850"/>
+				<blockFlintDict oreDictName="blockFlint" treeOrder="860"/>
+				<blockFuelDict oreDictName="blockFuel" treeOrder="890"/>
+				<blockFuelCokeDict oreDictName="blockFuelCoke" treeOrder="900"/>
+				<blockGalgadorianDict oreDictName="blockGalgadorian" treeOrder="910"/>
+				<blockGalvanizedsteelDict oreDictName="blockGalvanizedsteel" treeOrder="920"/>
+				<blockGateDict oreDictName="blockGate" treeOrder="930"/>
+				<blockGoldDict oreDictName="blockGold" treeOrder="940"/>
+				<blockGraphiteDict oreDictName="blockGraphite" treeOrder="950"/>
+				<blockGrateDict oreDictName="blockGrate" treeOrder="960"/>
+				<blockGreenMiddleGemDict oreDictName="blockGreenMiddleGem" treeOrder="970"/>
+				<blockHardenedNetherClayDict oreDictName="blockHardenedNetherClay" treeOrder="980"/>
+				<blockHellfireDict oreDictName="blockHellfire" treeOrder="990"/>
+				<blockInferiumDict oreDictName="blockInferium" treeOrder="1000"/>
+				<blockInferiumCoalDict oreDictName="blockInferiumCoal" treeOrder="1010"/>
+				<blockInferiumEssenceDict oreDictName="blockInferiumEssence" treeOrder="1020"/>
+				<blockInsaniumDict oreDictName="blockInsanium" treeOrder="1030"/>
+				<blockInsaniumCoalDict oreDictName="blockInsaniumCoal" treeOrder="1040"/>
+				<blockInsaniumEssenceDict oreDictName="blockInsaniumEssence" treeOrder="1050"/>
+				<blockIntermediumDict oreDictName="blockIntermedium" treeOrder="1060"/>
+				<blockIntermediumCoalDict oreDictName="blockIntermediumCoal" treeOrder="1070"/>
+				<blockIntermediumEssenceDict oreDictName="blockIntermediumEssence" treeOrder="1080"/>
+				<blockInfinityDict oreDictName="blockInfinity" treeOrder="1090"/>
+				<blockInvarDict oreDictName="blockInvar" treeOrder="1100"/>
+				<blockIoniteDict oreDictName="blockIonite" treeOrder="1110"/>
+				<blockIridiumDict oreDictName="blockIridium" treeOrder="1120"/>
+				<blockIronDict oreDictName="blockIron" treeOrder="1130"/>
+				<blockIronCompressedDict oreDictName="blockIronCompressed" treeOrder="1140"/>
+				<blockConstructionAlloyDict oreDictName="blockConstructionAlloy" treeOrder="1150"/>
+				<blockKnightSlimeDict oreDictName="blockKnightslime" treeOrder="1160"/>
+				<blockKnightmetalDict oreDictName="blockKnightmetal" treeOrder="1170"/>
+				<blockKyroniteDict oreDictName="blockKyronite" treeOrder="1180"/>
+				<blockLapisDict oreDictName="blockLapis" treeOrder="1190"/>
+				<blockLeadDict oreDictName="blockLead" treeOrder="1210"/>
+				<blockLimestoneDict oreDictName="blockLimestone" treeOrder="1220"/>
+				<blockLiquifiedCoraliumDict oreDictName="blockLiquifiedCoralium" treeOrder="1230"/>
+				<blockLitheriteDict oreDictName="blockLitherite" treeOrder="1240"/>
+				<blockLonsdaleiteDict oreDictName="blockLonsdaleite" treeOrder="1250"/>
+				<blockLudicriteDict oreDictName="blockLudicrite" treeOrder="1260"/>
+				<blockLuminessenceDict oreDictName="blockLuminessence" treeOrder="1270"/>
+				<blockLumiumDict oreDictName="blockLumium" treeOrder="1280"/>
+				<blockMagicWoodDict oreDictName="blockMagicWood" treeOrder="1290"/>
+				<blockMagnesiumDict oreDictName="blockMagnesium" treeOrder="1300"/>
+				<blockMalachiteDict oreDictName="blockMalachite" treeOrder="1310"/>
+				<blockManganeseDict oreDictName="blockManganese" treeOrder="1320"/>
+				<blockManyullynDict oreDictName="blockManyullyn" treeOrder="1330"/>
+				<blockMeatDict oreDictName="blockMeat" treeOrder="1340"/>
+				<blockMeatRawDict oreDictName="blockMeatRaw" treeOrder="1350"/>
+				<blockMelodicAlloyDict oreDictName="blockMelodicAlloy" treeOrder="1360"/>
+				<blockMercuryDict oreDictName="blockMercury" treeOrder="1370"/>
+				<blockMiniatureStarDict oreDictName="blockMiniatureStar" treeOrder="1380"/>
+				<blockMirionDict oreDictName="blockMirion" treeOrder="1390"/>
+				<blockMithrilDict oreDictName="blockMithril" treeOrder="1400"/>
+				<blockMudDict oreDictName="blockMud" treeOrder="1410"/>
+				<blockMudDriedDict oreDictName="blockMudDried" treeOrder="1420"/>
+				<blockCosmicNeutroniumDict oreDictName="blockCosmicNeutronium" treeOrder="1460"/>
+				<blockNetherSludgeDict oreDictName="blockNetherSludge" treeOrder="1470"/>
+				<blockNetherStarDict oreDictName="blockNetherStar" treeOrder="1480"/>
+				<blockNichromeDict oreDictName="blockNichrome" treeOrder="1490"/>
+				<blockNickelDict oreDictName="blockNickel" treeOrder="1500"/>
+				<blockObsidianDict oreDictName="blockObsidian" mergeChildren="true" treeOrder="1510"/>
+				<blockOctineDict oreDictName="blockOctine" treeOrder="1520"/>
+				<blockOsgloglasDict oreDictName="blockOsgloglas" treeOrder="1530"/>
+				<blockOsmiumDict oreDictName="blockOsmium" treeOrder="1540"/>
+				<blockOsmiridiumDict oreDictName="blockOsmiridium" treeOrder="1550"/>
+				<blockPalladiumDict oreDictName="blockPalladium" treeOrder="1560"/>
+				<blockPearlDict oreDictName="blockPearl" treeOrder="1570"/>
+				<blockPeridotDict oreDictName="blockPeridot" treeOrder="1580"/>
+				<blockPhasedGoldDict oreDictName="blockPhasedGold" treeOrder="1590"/>
+				<blockPhasedIronDict oreDictName="blockPhasedIron" treeOrder="1600"/>
+				<blockPigIronDict oreDictName="blockPigiron" treeOrder="1610"/>
+				<blockPladiumDict oreDictName="blockPladium" treeOrder="1620"/>
+				<blockPlanterDict oreDictName="blockPlanter" treeOrder="1630"/>
+				<blockPlasticDict oreDictName="blockPlastic" treeOrder="1640"/>
+				<blockPlatinumDict oreDictName="blockPlatinum" treeOrder="1650"/>
+				<blockPlutoniumDict oreDictName="blockPlutonium" treeOrder="1660"/>
+				<blockPokefenniumDict oreDictName="blockPokefennium" treeOrder="1670"/>
+				<blockProsperityDict oreDictName="blockProsperity" treeOrder="1680"/>
+				<blockPrudentiumDict oreDictName="blockPrudentium" treeOrder="1690"/>
+				<blockPrudentiumCoalDict oreDictName="blockPrudentiumCoal" treeOrder="1700"/>
+				<blockPrudentiumEssenceDict oreDictName="blockPrudentiumEssence" treeOrder="1710"/>
+				<blockPulsatingIronDict oreDictName="blockPulsatingIron" treeOrder="1720"/>
+				<blockQuartzDict oreDictName="blockQuartz" treeOrder="1730"/>
+				<blockRedGarnetDict oreDictName="blockRedGarnet" treeOrder="1750"/>
+				<blockRedGemDict oreDictName="blockRedGem" treeOrder="1760"/>
+				<blockRed_aurumDict oreDictName="blockRed_aurum" treeOrder="1770"/>
+				<blockRedstoneAlloyDict oreDictName="blockRedstoneAlloy" treeOrder="1790"/>
+				<blockRefinedGlowstoneDict oreDictName="blockRefinedGlowstone" treeOrder="1800"/>
+				<blockRefinedObsidianDict oreDictName="blockRefinedObsidian" treeOrder="1810"/>
+				<blockReinforcedMetalDict oreDictName="blockReinforcedMetal" treeOrder="1820"/>
+				<blockRimeDict oreDictName="blockRime" treeOrder="1830"/>
+				<blockRubberDict oreDictName="blockRubber" treeOrder="1840"/>
+				<blockRubyDict oreDictName="blockRuby" treeOrder="1850"/>
+				<blockRutileDict oreDictName="blockRutile" treeOrder="1860"/>
+				<blockSapphireDict oreDictName="blockSapphire" treeOrder="1870"/>
+				<blockSignalumDict oreDictName="blockSignalum" treeOrder="1880"/>
+				<blockSiliconDict oreDictName="blockSilicon" treeOrder="1890"/>
+				<blockSilverDict oreDictName="blockSilver" treeOrder="1910"/>
+				<blockSlimeDict oreDictName="blockSlime" treeOrder="1920"/>
+				<blockSlimeCongealedDict oreDictName="blockSlimeCongealed" treeOrder="1930"/>
+				<blockSlimePinkDict oreDictName="blockSlimePink" treeOrder="1940"/>
+				<blockSnowDict oreDictName="blockSnow" treeOrder="1950"/>
+				<blockSoulUrnDict oreDictName="blockSoulUrn" treeOrder="1960"/>
+				<blockSoulariumDict oreDictName="blockSoularium" treeOrder="1970"/>
+				<blockSouliumDict oreDictName="blockSoulium" treeOrder="1980"/>
+				<blockSoulstonesoulstoneDict oreDictName="blockSoulstone, soulstone" treeOrder="1990"/>
+				<blockSpacePlatinumDict oreDictName="blockSpacePlatinum" treeOrder="2000"/>
+				<blockStainedHardenedClayDict oreDictName="blockStainedHardenedClay" treeOrder="2010"/>
+				<blockSteelDict oreDictName="blockSteel" treeOrder="2020"/>
+				<blockCrudeSteelDict oreDictName="blockCrudeSteel" treeOrder="2030"/>
+				<blockSteeleafDict oreDictName="blockSteeleaf" treeOrder="2040"/>
+				<blockStellarAlloyDict oreDictName="blockStellarAlloy" treeOrder="2050"/>
+				<blockStoneHardenedDict oreDictName="blockStoneHardened" treeOrder="2060"/>
+				<blockSulfurDict oreDictName="blockSulfur" treeOrder="2070"/>
+				<blockSuperiumDict oreDictName="blockSuperium" treeOrder="2080"/>
+				<blockSuperiumCoalDict oreDictName="blockSuperiumCoal" treeOrder="2090"/>
+				<blockSuperiumEssenceDict oreDictName="blockSuperiumEssence" treeOrder="2100"/>
+				<blockSupremiumDict oreDictName="blockSupremium" treeOrder="2110"/>
+				<blockSupremiumCoalDict oreDictName="blockSupremiumCoal" treeOrder="2120"/>
+				<blockSupremiumEssenceDict oreDictName="blockSupremiumEssence" treeOrder="2130"/>
+				<blockSyrmoriteDict oreDictName="blockSyrmorite" treeOrder="2140"/>
+				<blockTamahaganeDict oreDictName="blockTamahagane" treeOrder="2160"/>
+				<blockTantalumDict oreDictName="blockTantalum" treeOrder="2170"/>
+				<blockTanzaniteDict oreDictName="blockTanzanite" treeOrder="2180"/>
+				<blockTerraDict oreDictName="blockTerra" treeOrder="2190"/>
+				<blockTerracottaDict oreDictName="blockTerracotta" treeOrder="2200"/>
+				<blockTinDict oreDictName="blockTin" treeOrder="2220"/>
+				<blockTitaniumDict oreDictName="blockTitanium" treeOrder="2230"/>
+				<blockTitaniumAluminideDict oreDictName="blockTitaniumAluminide" treeOrder="2240"/>
+				<blockTitaniumIridiumDict oreDictName="blockTitaniumIridium" treeOrder="2250"/>
+				<blockTopazDict oreDictName="blockTopaz" treeOrder="2260"/>
+				<blockTungstenDict oreDictName="blockTungsten" treeOrder="2270"/>
+				<blockTungstensteelDict oreDictName="blockTungstensteel" treeOrder="2280"/>
+				<blockUltimateDict oreDictName="blockUltimate" treeOrder="2290"/>
+				<blockUnstableDict oreDictName="blockUnstable" treeOrder="2300"/>
+				<blockUraniumDict oreDictName="blockUranium" treeOrder="2310">
 					<blockYelloriumDict oreDictName="blockYellorium" treeOrder="20"/>
 				</blockUraniumDict>
-				<blockUrnDict oreDictName="blockUrn" treeOrder="2300"/>
-				<blockValoniteDict oreDictName="blockValonite" treeOrder="2310"/>
-				<blockVaseDict oreDictName="blockVase" treeOrder="2320"/>
-				<blockVibrantAlloyDict oreDictName="blockVibrantAlloy" treeOrder="2330"/>
-				<blockWhiteGemDict oreDictName="blockWhiteGem" treeOrder="2340"/>
-				<blockWindChimeDict oreDictName="blockWindChime" treeOrder="2350"/>
-				<blockWitherDict oreDictName="blockWither" treeOrder="2360"/>
-				<blockWoodBenchDict oreDictName="blockWoodBench" treeOrder="2370"/>
-				<blockWoodTableDict oreDictName="blockWoodTable" treeOrder="2380"/>
-				<blockYellowGarnetDict oreDictName="blockYellowGarnet" treeOrder="2390"/>
-				<blockZincDict oreDictName="blockZinc" treeOrder="2400"/>
-				<blockZirconiumDict oreDictName="blockZirconium" treeOrder="2410"/>
+				<blockUrnDict oreDictName="blockUrn" treeOrder="2320"/>
+				<blockValoniteDict oreDictName="blockValonite" treeOrder="2330"/>
+				<blockVaseDict oreDictName="blockVase" treeOrder="2340"/>
+				<blockVibrantAlloyDict oreDictName="blockVibrantAlloy" treeOrder="2350"/>
+				<blockWhiteGemDict oreDictName="blockWhiteGem" treeOrder="2360"/>
+				<blockWindChimeDict oreDictName="blockWindChime" treeOrder="2370"/>
+				<blockWitherDict oreDictName="blockWither" treeOrder="2380"/>
+				<blockWoodBenchDict oreDictName="blockWoodBench" treeOrder="2390"/>
+				<blockWoodTableDict oreDictName="blockWoodTable" treeOrder="2400"/>
+				<blockYellowGarnetDict oreDictName="blockYellowGarnet" treeOrder="2410"/>
+				<blockZincDict oreDictName="blockZinc" treeOrder="2420"/>
+				<blockZirconiumDict oreDictName="blockZirconium" treeOrder="2430"/>
 			</oreBlock>
-			<ingot treeOrder="120">
+			<ingot treeOrder="130">
 				<ingotAbyssalniteDict oreDictName="ingotAbyssalnite" treeOrder="10"/>
 				<ingotAdamantineDict oreDictName="ingotAdamantine" treeOrder="20"/>
 				<ingotAdamantiteDict oreDictName="ingotAdamantite" treeOrder="30"/>
@@ -2082,172 +2085,172 @@
 				<ingotCyaniteDict oreDictName="ingotCyanite" treeOrder="600"/>
 				<ingotDamascusSteelDict oreDictName="ingotDamascusSteel" treeOrder="610"/>
 				<ingotDarkIronDict oreDictName="ingotDarkIron" treeOrder="620"/>
-				<ingotDarkSoulariumDict oreDictName="ingotDarkSoularium" treeOrder="630"/>
-				<ingotDarkSteelDict oreDictName="ingotDarkSteel" treeOrder="640"/>
-				<ingotDeepIronDict oreDictName="ingotDeepIron" treeOrder="650"/>
-				<ingotDemonicMetalDict oreDictName="ingotDemonicMetal" treeOrder="660"/>
-				<ingotDeshDict oreDictName="ingotDesh" treeOrder="670"/>
-				<ingotDesichalkosDict oreDictName="ingotDesichalkos" treeOrder="680"/>
-				<ingotDiamondDict oreDictName="ingotDiamond" treeOrder="690"/>
-				<ingotDraconiumDict oreDictName="ingotDraconium" treeOrder="700"/>
-				<ingotDraconiumAwakenedDict oreDictName="ingotDraconiumAwakened" treeOrder="710"/>
-				<ingotDreadiumDict oreDictName="ingotDreadium" treeOrder="720"/>
-				<ingotDrulloyDict oreDictName="ingotDrulloy" treeOrder="730"/>
-				<ingotEbonyPsiDict oreDictName="ingotEbonyPsi" treeOrder="740"/>
-				<ingotElectricalSteelDict oreDictName="ingotElectricalSteel" treeOrder="750"/>
-				<ingotElectrotineAlloyDict oreDictName="ingotElectrotineAlloy" treeOrder="760"/>
-				<ingotElectrumDict oreDictName="ingotElectrum" treeOrder="770"/>
-				<ingotElectrumFluxDict oreDictName="ingotElectrumFlux" treeOrder="780"/>
-				<ingotElvenElementiumDict oreDictName="ingotElvenElementium" treeOrder="790"/>
-				<ingotEnchantedMetalDict oreDictName="ingotEnchantedMetal" treeOrder="800"/>
-				<ingotEndSteelDict oreDictName="ingotEndSteel" treeOrder="810"/>
-				<ingotEnderiumDict oreDictName="ingotEnderium" treeOrder="820"/>
-				<ingotEnderiumBaseDict oreDictName="ingotEnderiumBase" treeOrder="830"/>
-				<ingotEnergeticAlloyDict oreDictName="ingotEnergeticAlloy" treeOrder="840"/>
-				<ingotEnergeticSilverDict oreDictName="ingotEnergeticSilver" treeOrder="850"/>
-				<ingotEnhancedGalgadorianDict oreDictName="ingotEnhancedGalgadorian" treeOrder="860"/>
-				<ingotEnrichedGoldDict oreDictName="ingotEnrichedGold" treeOrder="870"/>
-				<ingotEthaxiumDict oreDictName="ingotEthaxium" treeOrder="880"/>
-				<ingotEthaxiumBrickDict oreDictName="ingotEthaxiumBrick" treeOrder="890"/>
-				<ingotEvilMetalDict oreDictName="ingotEvilMetal" treeOrder="900"/>
-				<ingotEximiteDict oreDictName="ingotEximite" treeOrder="910"/>
-				<ingotFairyDict oreDictName="ingotFairy" treeOrder="920"/>
-				<ingotFieryDict oreDictName="ingotFiery" treeOrder="930"/>
-				<ingotFieryDict oreDictName="fieryIngot" treeOrder="940"/>
-				<ingotFlintDict oreDictName="ingotFlint" treeOrder="950"/>
-				<ingotFoolsGoldDict oreDictName="ingotFoolsGold" treeOrder="960"/>
-				<ingotGaiaSpiritDict oreDictName="gaiaIngot" treeOrder="970"/>
-				<ingotGalgadorianDict oreDictName="ingotGalgadorian" treeOrder="980"/>
-				<ingotGalvanizedsteelDict oreDictName="ingotGalvanizedsteel" treeOrder="990"/>
-				<ingotGoldDict oreDictName="ingotGold" treeOrder="1000"/>
-				<ingotGold id="gold_ingot" treeOrder="1010"/>
-				<ingotGraphiteDict oreDictName="ingotGraphite" treeOrder="1020"/>
-				<ingotHOPGraphiteDict oreDictName="ingotHOPGraphite" treeOrder="1030"/>
-				<ingotHaderothDict oreDictName="ingotHaderoth" treeOrder="1040"/>
-				<ingotHeeEndiumDict oreDictName="ingotHeeEndium" treeOrder="1050"/>
-				<ingotHepatizonDict oreDictName="ingotHepatizon" treeOrder="1060"/>
-				<ingotHochoTetsuDict oreDictName="ingotHochoTetsu" treeOrder="1070"/>
-				<ingotHotTungstensteelDict oreDictName="ingotHotTungstensteel" treeOrder="1080"/>
-				<ingotIgnatiusDict oreDictName="ingotIgnatius" treeOrder="1090"/>
-				<ingotInferiumDict oreDictName="ingotInferium" treeOrder="1100"/>
-				<ingotInfinityDict oreDictName="ingotInfinity" treeOrder="1110"/>
-				<ingotInfuscoliumDict oreDictName="ingotInfuscolium" treeOrder="1120"/>
-				<ingotInolashiteDict oreDictName="ingotInolashite" treeOrder="1130"/>
-				<ingotInsaniumDict oreDictName="ingotInsanium" treeOrder="1140"/>
-				<ingotIntermediumDict oreDictName="ingotIntermedium" treeOrder="1150"/>
-				<ingotInvarDict oreDictName="ingotInvar" treeOrder="1160"/>
-				<ingotIridiumDict oreDictName="ingotIridium" treeOrder="1170"/>
-				<ingotIridiumAlloyDict oreDictName="ingotIridiumAlloy" treeOrder="1180"/>
-				<ingotIronDict oreDictName="ingotIron" treeOrder="1190"/>
-				<ingotIron id="iron_ingot" treeOrder="1200"/>
-				<ingotIronCompressedDict oreDictName="ingotIronCompressed" treeOrder="1210"/>
-				<ingotIronWoodDict oreDictName="ironwood" treeOrder="1220"/>
-				<ingotIronwoodDict oreDictName="ingotIronwood" treeOrder="1230"/>
-				<ingotIvoryPsiDict oreDictName="ingotIvoryPsi" treeOrder="1240"/>
-				<ingotKalendriteDict oreDictName="ingotKalendrite" treeOrder="1250"/>
-				<ingotKnightMetalDict oreDictName="knightmetal" treeOrder="1260"/>
-				<ingotKnightmetalDict oreDictName="ingotKnightmetal" treeOrder="1270"/>
-				<ingotKnightslimeDict oreDictName="ingotKnightslime" treeOrder="1280"/>
-				<ingotLapisDict oreDictName="ingotLapis" treeOrder="1300"/>
-				<ingotLeadDict oreDictName="ingotLead" treeOrder="1310"/>
-				<ingotLemuriteDict oreDictName="ingotLemurite" treeOrder="1320"/>
-				<ingotLiquifiedCoraliumDict oreDictName="ingotLiquifiedCoralium" treeOrder="1330"/>
-				<ingotLudicriteDict oreDictName="ingotLudicrite" treeOrder="1340"/>
-				<ingotLumiumDict oreDictName="ingotLumium" treeOrder="1350"/>
-				<ingotMagnesiumDict oreDictName="ingotMagnesium" treeOrder="1360"/>
-				<ingotManasteelDict oreDictName="ingotManasteel" treeOrder="1370"/>
-				<ingotManganeseDict oreDictName="ingotManganese" treeOrder="1380"/>
-				<ingotManyullynDict oreDictName="ingotManyullyn" treeOrder="1390"/>
-				<ingotMelodicAlloyDict oreDictName="ingotMelodicAlloy" treeOrder="1400"/>
-				<ingotMercuryDict oreDictName="ingotMercury" treeOrder="1410"/>
-				<ingotMeteoricIronDict oreDictName="ingotMeteoricIron" treeOrder="1420"/>
-				<ingotMeutoiteDict oreDictName="ingotMeutoite" treeOrder="1430"/>
-				<ingotMidasiumDict oreDictName="ingotMidasium" treeOrder="1440"/>
-				<ingotMirionDict oreDictName="ingotMirion" treeOrder="1450"/>
-				<ingotMithrilDict oreDictName="ingotMithril" treeOrder="1460"/>
-				<ingotMixedMetalDict oreDictName="ingotMixedMetal" treeOrder="1470"/>
-				<ingotModulariumDict oreDictName="ingotModularium" treeOrder="1480"/>
-				<ingotNichromeDict oreDictName="ingotNichrome" treeOrder="1490"/>
-				<ingotNickelDict oreDictName="ingotNickel" treeOrder="1500"/>
-				<ingotObsidianDict oreDictName="ingotObsidian" treeOrder="1510"/>
-				<ingotOctineDict oreDictName="ingotOctine" treeOrder="1520"/>
-				<ingotOrichalcumDict oreDictName="ingotOrichalcum" treeOrder="1530"/>
-				<ingotOriharukonDict oreDictName="ingotOriharukon" treeOrder="1540"/>
-				<ingotOsgloglasDict oreDictName="ingotOsgloglas" treeOrder="1550"/>
-				<ingotOsmiridiumDict oreDictName="ingotOsmiridium" treeOrder="1560"/>
-				<ingotOsmiumDict oreDictName="ingotOsmium" treeOrder="1570"/>
-				<ingotOureclaseDict oreDictName="ingotOureclase" treeOrder="1580"/>
-				<ingotPalladiumDict oreDictName="ingotPalladium" treeOrder="1590"/>
-				<ingotPewterDict oreDictName="ingotPewter" treeOrder="1600"/>
-				<ingotPhasedGoldDict oreDictName="ingotPhasedGold" treeOrder="1610"/>
-				<ingotPhasedIronDict oreDictName="ingotPhasedIron" treeOrder="1620"/>
-				<ingotPigIronDict oreDictName="ingotPigIron" treeOrder="1630"/>
-				<ingotPigironDict oreDictName="ingotPigiron" treeOrder="1640"/>
-				<ingotPlatinumDict oreDictName="ingotPlatinum" treeOrder="1650"/>
-				<ingotPlutoniumDict oreDictName="ingotPlutonium" treeOrder="1660"/>
-				<ingotPokefenniumDict oreDictName="ingotPokefennium" treeOrder="1670"/>
-				<ingotPrometheumDict oreDictName="ingotPrometheum" treeOrder="1680"/>
-				<ingotPrudentiumDict oreDictName="ingotPrudentium" treeOrder="1690"/>
-				<ingotPsiDict oreDictName="ingotPsi" treeOrder="1700"/>
-				<ingotPulsatingIronDict oreDictName="ingotPulsatingIron" treeOrder="1710"/>
-				<ingotQuartzDict oreDictName="ingotQuartz" treeOrder="1720"/>
-				<ingotQuicksilverDict oreDictName="ingotQuicksilver" treeOrder="1740"/>
-				<ingotRedAlloyDict oreDictName="ingotRedAlloy" treeOrder="1750"/>
-				<ingotRed_aurumDict oreDictName="ingotRed_aurum" treeOrder="1760"/>
-				<ingotRedstoneDict oreDictName="ingotRedstone" treeOrder="1770"/>
-				<ingotRedstoneAlloyDict oreDictName="ingotRedstoneAlloy" treeOrder="1780"/>
-				<ingotRefinedGlowstoneDict oreDictName="ingotRefinedGlowstone" treeOrder="1790"/>
-				<ingotRefinedIronDict oreDictName="ingotRefinedIron" treeOrder="1800"/>
-				<ingotRefinedObsidianDict oreDictName="ingotRefinedObsidian" treeOrder="1810"/>
-				<ingotReinforcedMetalDict oreDictName="ingotReinforcedMetal" treeOrder="1820"/>
-				<ingotReinforcedObsidianDict oreDictName="ingotReinforcedObsidian" treeOrder="1830"/>
-				<ingotRubraciumDict oreDictName="ingotRubracium" treeOrder="1840"/>
-				<ingotRutileDict oreDictName="ingotRutile" treeOrder="1850"/>
-				<ingotSanguiniteDict oreDictName="ingotSanguinite" treeOrder="1860"/>
-				<ingotShadowDict oreDictName="ingotShadow" treeOrder="1870"/>
-				<ingotShadowIronDict oreDictName="ingotShadowIron" treeOrder="1880"/>
-				<ingotShadowSteelDict oreDictName="ingotShadowSteel" treeOrder="1890"/>
-				<ingotSignalumDict oreDictName="ingotSignalum" treeOrder="1900"/>
-				<itemSiliconDict oreDictName="itemSilicon" treeOrder="1910"/>
-				<ingotSilverDict oreDictName="ingotSilver" treeOrder="1920"/>
-				<ingotSoulariumDict oreDictName="ingotSoularium" treeOrder="1930"/>
-				<ingotSoulforgedSteelDict oreDictName="ingotSoulforgedSteel" treeOrder="1940"/>
-				<ingotSouliumDict oreDictName="ingotSoulium" treeOrder="1950"/>
-				<ingotSpacePlatinumDict oreDictName="ingotSpacePlatinum" treeOrder="1960"/>
-				<ingotStainlesssteelDict oreDictName="ingotStainlesssteel" treeOrder="1980"/>
-				<ingotStarsteelDict oreDictName="ingotStarsteel" treeOrder="1990"/>
-				<ingotSteelDict oreDictName="ingotSteel" treeOrder="2000"/>
-				<ingotSteeleafDict oreDictName="ingotSteeleaf" treeOrder="2010"/>
-				<ingotStellarAlloyDict oreDictName="ingotStellarAlloy" treeOrder="2020"/>
-				<ingotSuperiumDict oreDictName="ingotSuperium" treeOrder="2040"/>
-				<ingotSupremiumDict oreDictName="ingotSupremium" treeOrder="2050"/>
-				<ingotSyrmoriteDict oreDictName="ingotSyrmorite" treeOrder="2060"/>
-				<ingotTamahaganeDict oreDictName="ingotTamahagane" treeOrder="2070"/>
-				<ingotTantalumDict oreDictName="ingotTantalum" treeOrder="2080"/>
-				<ingotTartariteDict oreDictName="ingotTartarite" treeOrder="2090"/>
-				<ingotTerrasteelDict oreDictName="ingotTerrasteel" treeOrder="2100"/>
-				<ingotThaumiumDict oreDictName="ingotThaumium" treeOrder="2110"/>
-				<ingotThoriumDict oreDictName="ingotThorium" treeOrder="2120"/>
-				<ingotTinDict oreDictName="ingotTin" treeOrder="2130"/>
-				<ingotTitaniumDict oreDictName="ingotTitanium" treeOrder="2140"/>
-				<ingotTitaniumAluminideDict oreDictName="ingotTitaniumAluminide" treeOrder="2150"/>
-				<ingotTitaniumIridiumDict oreDictName="ingotTitaniumIridium" treeOrder="2160"/>
-				<ingotTungstenDict oreDictName="ingotTungsten" treeOrder="2170"/>
-				<ingotTungstensteelDict oreDictName="ingotTungstensteel" treeOrder="2180"/>
-				<ingotUltimateDict oreDictName="ingotUltimate" treeOrder="2190"/>
-				<ingotUnstableDict oreDictName="ingotUnstable" treeOrder="2200"/>
-				<ingotUraniumDict oreDictName="ingotUranium" treeOrder="2210"/>
-				<ingotVibrantAlloyDict oreDictName="ingotVibrantAlloy" treeOrder="2220"/>
-				<ingotVividAlloyDict oreDictName="ingotVividAlloy" treeOrder="2230"/>
-				<ingotVoidDict oreDictName="ingotVoid" treeOrder="2240"/>
-				<ingotVulcaniteDict oreDictName="ingotVulcanite" treeOrder="2250"/>
-				<ingotVyroxeresDict oreDictName="ingotVyroxeres" treeOrder="2260"/>
-				<ingotWubDict oreDictName="ingotWub" treeOrder="2270"/>
-				<ingotYelloriumDict oreDictName="ingotYellorium" treeOrder="2280"/>
-				<ingotZincDict oreDictName="ingotZinc" treeOrder="2290"/>
-				<ingotZirconiumDict oreDictName="ingotZirconium" treeOrder="2300"/>
+				<ingotDarkSoulariumDict oreDictName="ingotDarkSoularium" treeOrder="640"/>
+				<ingotDarkSteelDict oreDictName="ingotDarkSteel" treeOrder="650"/>
+				<ingotDeepIronDict oreDictName="ingotDeepIron" treeOrder="660"/>
+				<ingotDemonicMetalDict oreDictName="ingotDemonicMetal" treeOrder="670"/>
+				<ingotDeshDict oreDictName="ingotDesh" treeOrder="680"/>
+				<ingotDesichalkosDict oreDictName="ingotDesichalkos" treeOrder="690"/>
+				<ingotDiamondDict oreDictName="ingotDiamond" treeOrder="700"/>
+				<ingotDraconiumDict oreDictName="ingotDraconium" treeOrder="710"/>
+				<ingotDraconiumAwakenedDict oreDictName="ingotDraconiumAwakened" treeOrder="720"/>
+				<ingotDreadiumDict oreDictName="ingotDreadium" treeOrder="730"/>
+				<ingotDrulloyDict oreDictName="ingotDrulloy" treeOrder="740"/>
+				<ingotEbonyPsiDict oreDictName="ingotEbonyPsi" treeOrder="750"/>
+				<ingotElectricalSteelDict oreDictName="ingotElectricalSteel" treeOrder="760"/>
+				<ingotElectrotineAlloyDict oreDictName="ingotElectrotineAlloy" treeOrder="770"/>
+				<ingotElectrumDict oreDictName="ingotElectrum" treeOrder="780"/>
+				<ingotElectrumFluxDict oreDictName="ingotElectrumFlux" treeOrder="790"/>
+				<ingotElvenElementiumDict oreDictName="ingotElvenElementium" treeOrder="800"/>
+				<ingotEnchantedMetalDict oreDictName="ingotEnchantedMetal" treeOrder="810"/>
+				<ingotEndSteelDict oreDictName="ingotEndSteel" treeOrder="820"/>
+				<ingotEnderiumDict oreDictName="ingotEnderium" treeOrder="830"/>
+				<ingotEnderiumBaseDict oreDictName="ingotEnderiumBase" treeOrder="840"/>
+				<ingotEnergeticAlloyDict oreDictName="ingotEnergeticAlloy" treeOrder="850"/>
+				<ingotEnergeticSilverDict oreDictName="ingotEnergeticSilver" treeOrder="860"/>
+				<ingotEnhancedGalgadorianDict oreDictName="ingotEnhancedGalgadorian" treeOrder="870"/>
+				<ingotEnrichedGoldDict oreDictName="ingotEnrichedGold" treeOrder="880"/>
+				<ingotEthaxiumDict oreDictName="ingotEthaxium" treeOrder="890"/>
+				<ingotEthaxiumBrickDict oreDictName="ingotEthaxiumBrick" treeOrder="900"/>
+				<ingotEvilMetalDict oreDictName="ingotEvilMetal" treeOrder="910"/>
+				<ingotEximiteDict oreDictName="ingotEximite" treeOrder="920"/>
+				<ingotFairyDict oreDictName="ingotFairy" treeOrder="930"/>
+				<ingotFieryDict oreDictName="ingotFiery" treeOrder="940"/>
+				<ingotFieryDict oreDictName="fieryIngot" treeOrder="950"/>
+				<ingotFlintDict oreDictName="ingotFlint" treeOrder="960"/>
+				<ingotFoolsGoldDict oreDictName="ingotFoolsGold" treeOrder="970"/>
+				<ingotGaiaSpiritDict oreDictName="gaiaIngot" treeOrder="980"/>
+				<ingotGalgadorianDict oreDictName="ingotGalgadorian" treeOrder="990"/>
+				<ingotGalvanizedsteelDict oreDictName="ingotGalvanizedsteel" treeOrder="1000"/>
+				<ingotGoldDict oreDictName="ingotGold" treeOrder="1010"/>
+				<ingotGold id="gold_ingot" treeOrder="1020"/>
+				<ingotGraphiteDict oreDictName="ingotGraphite" treeOrder="1030"/>
+				<ingotHOPGraphiteDict oreDictName="ingotHOPGraphite" treeOrder="1040"/>
+				<ingotHaderothDict oreDictName="ingotHaderoth" treeOrder="1050"/>
+				<ingotHeeEndiumDict oreDictName="ingotHeeEndium" treeOrder="1060"/>
+				<ingotHepatizonDict oreDictName="ingotHepatizon" treeOrder="1070"/>
+				<ingotHochoTetsuDict oreDictName="ingotHochoTetsu" treeOrder="1080"/>
+				<ingotHotTungstensteelDict oreDictName="ingotHotTungstensteel" treeOrder="1090"/>
+				<ingotIgnatiusDict oreDictName="ingotIgnatius" treeOrder="1100"/>
+				<ingotInferiumDict oreDictName="ingotInferium" treeOrder="1110"/>
+				<ingotInfinityDict oreDictName="ingotInfinity" treeOrder="1120"/>
+				<ingotInfuscoliumDict oreDictName="ingotInfuscolium" treeOrder="1130"/>
+				<ingotInolashiteDict oreDictName="ingotInolashite" treeOrder="1140"/>
+				<ingotInsaniumDict oreDictName="ingotInsanium" treeOrder="1150"/>
+				<ingotIntermediumDict oreDictName="ingotIntermedium" treeOrder="1160"/>
+				<ingotInvarDict oreDictName="ingotInvar" treeOrder="1170"/>
+				<ingotIridiumDict oreDictName="ingotIridium" treeOrder="1180"/>
+				<ingotIridiumAlloyDict oreDictName="ingotIridiumAlloy" treeOrder="1190"/>
+				<ingotIronDict oreDictName="ingotIron" treeOrder="1200"/>
+				<ingotIron id="iron_ingot" treeOrder="1210"/>
+				<ingotIronCompressedDict oreDictName="ingotIronCompressed" treeOrder="1220"/>
+				<ingotIronWoodDict oreDictName="ironwood" treeOrder="1230"/>
+				<ingotIronwoodDict oreDictName="ingotIronwood" treeOrder="1240"/>
+				<ingotIvoryPsiDict oreDictName="ingotIvoryPsi" treeOrder="1250"/>
+				<ingotKalendriteDict oreDictName="ingotKalendrite" treeOrder="1260"/>
+				<ingotKnightMetalDict oreDictName="knightmetal" treeOrder="1270"/>
+				<ingotKnightmetalDict oreDictName="ingotKnightmetal" treeOrder="1280"/>
+				<ingotKnightslimeDict oreDictName="ingotKnightslime" treeOrder="1290"/>
+				<ingotLapisDict oreDictName="ingotLapis" treeOrder="1310"/>
+				<ingotLeadDict oreDictName="ingotLead" treeOrder="1320"/>
+				<ingotLemuriteDict oreDictName="ingotLemurite" treeOrder="1330"/>
+				<ingotLiquifiedCoraliumDict oreDictName="ingotLiquifiedCoralium" treeOrder="1340"/>
+				<ingotLudicriteDict oreDictName="ingotLudicrite" treeOrder="1350"/>
+				<ingotLumiumDict oreDictName="ingotLumium" treeOrder="1360"/>
+				<ingotMagnesiumDict oreDictName="ingotMagnesium" treeOrder="1370"/>
+				<ingotManasteelDict oreDictName="ingotManasteel" treeOrder="1380"/>
+				<ingotManganeseDict oreDictName="ingotManganese" treeOrder="1390"/>
+				<ingotManyullynDict oreDictName="ingotManyullyn" treeOrder="1400"/>
+				<ingotMelodicAlloyDict oreDictName="ingotMelodicAlloy" treeOrder="1420"/>
+				<ingotMercuryDict oreDictName="ingotMercury" treeOrder="1430"/>
+				<ingotMeteoricIronDict oreDictName="ingotMeteoricIron" treeOrder="1440"/>
+				<ingotMeutoiteDict oreDictName="ingotMeutoite" treeOrder="1450"/>
+				<ingotMidasiumDict oreDictName="ingotMidasium" treeOrder="1460"/>
+				<ingotMirionDict oreDictName="ingotMirion" treeOrder="1470"/>
+				<ingotMithrilDict oreDictName="ingotMithril" treeOrder="1480"/>
+				<ingotMixedMetalDict oreDictName="ingotMixedMetal" treeOrder="1490"/>
+				<ingotModulariumDict oreDictName="ingotModularium" treeOrder="1500"/>
+				<ingotNichromeDict oreDictName="ingotNichrome" treeOrder="1510"/>
+				<ingotNickelDict oreDictName="ingotNickel" treeOrder="1520"/>
+				<ingotObsidianDict oreDictName="ingotObsidian" treeOrder="1530"/>
+				<ingotOctineDict oreDictName="ingotOctine" treeOrder="1540"/>
+				<ingotOrichalcumDict oreDictName="ingotOrichalcum" treeOrder="1550"/>
+				<ingotOriharukonDict oreDictName="ingotOriharukon" treeOrder="1560"/>
+				<ingotOsgloglasDict oreDictName="ingotOsgloglas" treeOrder="1570"/>
+				<ingotOsmiridiumDict oreDictName="ingotOsmiridium" treeOrder="1580"/>
+				<ingotOsmiumDict oreDictName="ingotOsmium" treeOrder="1590"/>
+				<ingotOureclaseDict oreDictName="ingotOureclase" treeOrder="1600"/>
+				<ingotPalladiumDict oreDictName="ingotPalladium" treeOrder="1610"/>
+				<ingotPewterDict oreDictName="ingotPewter" treeOrder="1620"/>
+				<ingotPhasedGoldDict oreDictName="ingotPhasedGold" treeOrder="1630"/>
+				<ingotPhasedIronDict oreDictName="ingotPhasedIron" treeOrder="1640"/>
+				<ingotPigIronDict oreDictName="ingotPigIron" treeOrder="1650"/>
+				<ingotPigironDict oreDictName="ingotPigiron" treeOrder="1660"/>
+				<ingotPlatinumDict oreDictName="ingotPlatinum" treeOrder="1670"/>
+				<ingotPlutoniumDict oreDictName="ingotPlutonium" treeOrder="1680"/>
+				<ingotPokefenniumDict oreDictName="ingotPokefennium" treeOrder="1690"/>
+				<ingotPrometheumDict oreDictName="ingotPrometheum" treeOrder="1700"/>
+				<ingotPrudentiumDict oreDictName="ingotPrudentium" treeOrder="1710"/>
+				<ingotPsiDict oreDictName="ingotPsi" treeOrder="1720"/>
+				<ingotPulsatingIronDict oreDictName="ingotPulsatingIron" treeOrder="1730"/>
+				<ingotQuartzDict oreDictName="ingotQuartz" treeOrder="1740"/>
+				<ingotQuicksilverDict oreDictName="ingotQuicksilver" treeOrder="1760"/>
+				<ingotRedAlloyDict oreDictName="ingotRedAlloy" treeOrder="1770"/>
+				<ingotRed_aurumDict oreDictName="ingotRed_aurum" treeOrder="1780"/>
+				<ingotRedstoneDict oreDictName="ingotRedstone" treeOrder="1800"/>
+				<ingotRedstoneAlloyDict oreDictName="ingotRedstoneAlloy" treeOrder="1810"/>
+				<ingotRefinedGlowstoneDict oreDictName="ingotRefinedGlowstone" treeOrder="1820"/>
+				<ingotRefinedIronDict oreDictName="ingotRefinedIron" treeOrder="1830"/>
+				<ingotRefinedObsidianDict oreDictName="ingotRefinedObsidian" treeOrder="1840"/>
+				<ingotReinforcedMetalDict oreDictName="ingotReinforcedMetal" treeOrder="1850"/>
+				<ingotReinforcedObsidianDict oreDictName="ingotReinforcedObsidian" treeOrder="1860"/>
+				<ingotRubraciumDict oreDictName="ingotRubracium" treeOrder="1870"/>
+				<ingotRutileDict oreDictName="ingotRutile" treeOrder="1880"/>
+				<ingotSanguiniteDict oreDictName="ingotSanguinite" treeOrder="1890"/>
+				<ingotShadowDict oreDictName="ingotShadow" treeOrder="1900"/>
+				<ingotShadowIronDict oreDictName="ingotShadowIron" treeOrder="1910"/>
+				<ingotShadowSteelDict oreDictName="ingotShadowSteel" treeOrder="1920"/>
+				<ingotSignalumDict oreDictName="ingotSignalum" treeOrder="1930"/>
+				<itemSiliconDict oreDictName="itemSilicon" treeOrder="1940"/>
+				<ingotSilverDict oreDictName="ingotSilver" treeOrder="1950"/>
+				<ingotSoulariumDict oreDictName="ingotSoularium" treeOrder="1960"/>
+				<ingotSoulforgedSteelDict oreDictName="ingotSoulforgedSteel" treeOrder="1970"/>
+				<ingotSouliumDict oreDictName="ingotSoulium" treeOrder="1980"/>
+				<ingotSpacePlatinumDict oreDictName="ingotSpacePlatinum" treeOrder="1990"/>
+				<ingotStainlesssteelDict oreDictName="ingotStainlesssteel" treeOrder="2010"/>
+				<ingotStarsteelDict oreDictName="ingotStarsteel" treeOrder="2020"/>
+				<ingotSteelDict oreDictName="ingotSteel" treeOrder="2030"/>
+				<ingotSteeleafDict oreDictName="ingotSteeleaf" treeOrder="2040"/>
+				<ingotStellarAlloyDict oreDictName="ingotStellarAlloy" treeOrder="2050"/>
+				<ingotSuperiumDict oreDictName="ingotSuperium" treeOrder="2070"/>
+				<ingotSupremiumDict oreDictName="ingotSupremium" treeOrder="2080"/>
+				<ingotSyrmoriteDict oreDictName="ingotSyrmorite" treeOrder="2090"/>
+				<ingotTamahaganeDict oreDictName="ingotTamahagane" treeOrder="2100"/>
+				<ingotTantalumDict oreDictName="ingotTantalum" treeOrder="2110"/>
+				<ingotTartariteDict oreDictName="ingotTartarite" treeOrder="2120"/>
+				<ingotTerrasteelDict oreDictName="ingotTerrasteel" treeOrder="2130"/>
+				<ingotThaumiumDict oreDictName="ingotThaumium" treeOrder="2140"/>
+				<ingotThoriumDict oreDictName="ingotThorium" treeOrder="2150"/>
+				<ingotTinDict oreDictName="ingotTin" treeOrder="2160"/>
+				<ingotTitaniumDict oreDictName="ingotTitanium" treeOrder="2170"/>
+				<ingotTitaniumAluminideDict oreDictName="ingotTitaniumAluminide" treeOrder="2180"/>
+				<ingotTitaniumIridiumDict oreDictName="ingotTitaniumIridium" treeOrder="2190"/>
+				<ingotTungstenDict oreDictName="ingotTungsten" treeOrder="2200"/>
+				<ingotTungstensteelDict oreDictName="ingotTungstensteel" treeOrder="2210"/>
+				<ingotUltimateDict oreDictName="ingotUltimate" treeOrder="2220"/>
+				<ingotUnstableDict oreDictName="ingotUnstable" treeOrder="2230"/>
+				<ingotUraniumDict oreDictName="ingotUranium" treeOrder="2240"/>
+				<ingotVibrantAlloyDict oreDictName="ingotVibrantAlloy" treeOrder="2250"/>
+				<ingotVividAlloyDict oreDictName="ingotVividAlloy" treeOrder="2260"/>
+				<ingotVoidDict oreDictName="ingotVoid" treeOrder="2270"/>
+				<ingotVulcaniteDict oreDictName="ingotVulcanite" treeOrder="2280"/>
+				<ingotVyroxeresDict oreDictName="ingotVyroxeres" treeOrder="2290"/>
+				<ingotWubDict oreDictName="ingotWub" treeOrder="2300"/>
+				<ingotYelloriumDict oreDictName="ingotYellorium" treeOrder="2310"/>
+				<ingotZincDict oreDictName="ingotZinc" treeOrder="2320"/>
+				<ingotZirconiumDict oreDictName="ingotZirconium" treeOrder="2330"/>
 			</ingot>
-			<nugget treeOrder="130">
+			<nugget treeOrder="140">
 				<nuggetAbyssalniteDict oreDictName="nuggetAbyssalnite" treeOrder="10"/>
 				<nuggetAdamantineDict oreDictName="nuggetAdamantine" treeOrder="20"/>
 				<nuggetAlduoriteDict oreDictName="nuggetAlduorite" treeOrder="30"/>
@@ -2332,65 +2335,65 @@
 				<nuggetMirionDict oreDictName="nuggetMirion" treeOrder="830"/>
 				<nuggetMithrilDict oreDictName="nuggetMithril" treeOrder="840"/>
 				<nuggetNetherStarDict oreDictName="nuggetNetherStar" treeOrder="850"/>
-				<nuggetNichromeDict oreDictName="nuggetNichrome" treeOrder="860"/>
-				<nuggetNickelDict oreDictName="nuggetNickel" treeOrder="870"/>
-				<nuggetObsidianDict oreDictName="nuggetObsidian" treeOrder="880"/>
-				<nuggetOrichalcumDict oreDictName="nuggetOrichalcum" treeOrder="890"/>
-				<nuggetOsgloglasDict oreDictName="nuggetOsgloglas" treeOrder="900"/>
-				<nuggetOsmiridiumDict oreDictName="nuggetOsmiridium" treeOrder="910"/>
-				<nuggetOsmiumDict oreDictName="nuggetOsmium" treeOrder="920"/>
-				<nuggetOureclaseDict oreDictName="nuggetOureclase" treeOrder="930"/>
-				<nuggetPigironDict oreDictName="nuggetPigiron" treeOrder="940"/>
-				<nuggetPlatinumDict oreDictName="nuggetPlatinum" treeOrder="950"/>
-				<nuggetPlutoniumDict oreDictName="nuggetPlutonium" treeOrder="960"/>
-				<nuggetPrometheumDict oreDictName="nuggetPrometheum" treeOrder="970"/>
-				<nuggetPrudentiumDict oreDictName="nuggetPrudentium" treeOrder="980"/>
-				<nuggetPulsatingIronDict oreDictName="nuggetPulsatingIron" treeOrder="990"/>
-				<nuggetQuartzDict oreDictName="nuggetQuartz" treeOrder="1000"/>
-				<nuggetQuicksilverDict oreDictName="nuggetQuicksilver" treeOrder="1010"/>
-				<nuggetRedstoneAlloyDict oreDictName="nuggetRedstoneAlloy" treeOrder="1030"/>
-				<nuggetRefinedGlowstoneDict oreDictName="nuggetRefinedGlowstone" treeOrder="1040"/>
-				<nuggetRefinedIronDict oreDictName="nuggetRefinedIron" treeOrder="1050"/>
-				<nuggetRefinedObsidianDict oreDictName="nuggetRefinedObsidian" treeOrder="1060"/>
-				<nuggetRubraciumDict oreDictName="nuggetRubracium" treeOrder="1070"/>
-				<nuggetRutileDict oreDictName="nuggetRutile" treeOrder="1080"/>
-				<nuggetSanguiniteDict oreDictName="nuggetSanguinite" treeOrder="1090"/>
-				<nuggetShadowIronDict oreDictName="nuggetShadowIron" treeOrder="1100"/>
-				<nuggetShadowSteelDict oreDictName="nuggetShadowSteel" treeOrder="1110"/>
-				<nuggetSignalumDict oreDictName="nuggetSignalum" treeOrder="1120"/>
-				<nuggetSiliconDict oreDictName="nuggetSilicon" treeOrder="1130"/>
-				<nuggetSilverDict oreDictName="nuggetSilver" treeOrder="1140"/>
-				<nuggetSoulariumDict oreDictName="nuggetSoularium" treeOrder="1150"/>
-				<nuggetSoulforgedSteelDict oreDictName="nuggetSoulforgedSteel" treeOrder="1160"/>
-				<nuggetStainlesssteelDict oreDictName="nuggetStainlesssteel" treeOrder="1180"/>
-				<nuggetStarsteelDict oreDictName="nuggetStarsteel" treeOrder="1190"/>
-				<nuggetSteelDict oreDictName="nuggetSteel" treeOrder="1200"/>
-				<nuggetStellarAlloyDict oreDictName="nuggetStellarAlloy" treeOrder="1210"/>
-				<nuggetStoneDict oreDictName="nuggetStone" treeOrder="1220"/>
-				<nuggetSuperiumDict oreDictName="nuggetSuperium" treeOrder="1230"/>
-				<nuggetSupremiumDict oreDictName="nuggetSupremium" treeOrder="1240"/>
-				<nuggetTantalumDict oreDictName="nuggetTantalum" treeOrder="1250"/>
-				<nuggetTartariteDict oreDictName="nuggetTartarite" treeOrder="1260"/>
-				<nuggetTerrasteelDict oreDictName="nuggetTerrasteel" treeOrder="1270"/>
-				<nuggetThaumiumDict oreDictName="nuggetThaumium" treeOrder="1280"/>
-				<nuggetTinDict oreDictName="nuggetTin" treeOrder="1290"/>
-				<nuggetTitaniumDict oreDictName="nuggetTitanium" treeOrder="1300"/>
-				<nuggetTitaniumAluminideDict oreDictName="nuggetTitaniumAluminide" treeOrder="1310"/>
-				<nuggetTitaniumIridiumDict oreDictName="nuggetTitaniumIridium" treeOrder="1320"/>
-				<nuggetTungstenDict oreDictName="nuggetTungsten" treeOrder="1330"/>
-				<nuggetTungstensteelDict oreDictName="nuggetTungstensteel" treeOrder="1340"/>
-				<nuggetUltimateDict oreDictName="nuggetUltimate" treeOrder="1350"/>
-				<nuggetUnstableDict oreDictName="nuggetUnstable" treeOrder="1360"/>
-				<nuggetUraniumDict oreDictName="nuggetUranium" treeOrder="1370"/>
-				<nuggetVibrantAlloyDict oreDictName="nuggetVibrantAlloy" treeOrder="1380"/>
-				<nuggetVividAlloyDict oreDictName="nuggetVividAlloy" treeOrder="1390"/>
-				<nuggetVoidDict oreDictName="nuggetVoid" treeOrder="1400"/>
-				<nuggetVulcaniteDict oreDictName="nuggetVulcanite" treeOrder="1410"/>
-				<nuggetVyroxeresDict oreDictName="nuggetVyroxeres" treeOrder="1420"/>
-				<nuggetZincDict oreDictName="nuggetZinc" treeOrder="1430"/>
-				<nuggetZirconiumDict oreDictName="nuggetZirconium" treeOrder="1440"/>
+				<nuggetNichromeDict oreDictName="nuggetNichrome" treeOrder="870"/>
+				<nuggetNickelDict oreDictName="nuggetNickel" treeOrder="880"/>
+				<nuggetObsidianDict oreDictName="nuggetObsidian" treeOrder="890"/>
+				<nuggetOrichalcumDict oreDictName="nuggetOrichalcum" treeOrder="900"/>
+				<nuggetOsgloglasDict oreDictName="nuggetOsgloglas" treeOrder="910"/>
+				<nuggetOsmiridiumDict oreDictName="nuggetOsmiridium" treeOrder="920"/>
+				<nuggetOsmiumDict oreDictName="nuggetOsmium" treeOrder="930"/>
+				<nuggetOureclaseDict oreDictName="nuggetOureclase" treeOrder="940"/>
+				<nuggetPigironDict oreDictName="nuggetPigiron" treeOrder="950"/>
+				<nuggetPlatinumDict oreDictName="nuggetPlatinum" treeOrder="960"/>
+				<nuggetPlutoniumDict oreDictName="nuggetPlutonium" treeOrder="970"/>
+				<nuggetPrometheumDict oreDictName="nuggetPrometheum" treeOrder="980"/>
+				<nuggetPrudentiumDict oreDictName="nuggetPrudentium" treeOrder="990"/>
+				<nuggetPulsatingIronDict oreDictName="nuggetPulsatingIron" treeOrder="1000"/>
+				<nuggetQuartzDict oreDictName="nuggetQuartz" treeOrder="1010"/>
+				<nuggetQuicksilverDict oreDictName="nuggetQuicksilver" treeOrder="1020"/>
+				<nuggetRedstoneAlloyDict oreDictName="nuggetRedstoneAlloy" treeOrder="1040"/>
+				<nuggetRefinedGlowstoneDict oreDictName="nuggetRefinedGlowstone" treeOrder="1050"/>
+				<nuggetRefinedIronDict oreDictName="nuggetRefinedIron" treeOrder="1060"/>
+				<nuggetRefinedObsidianDict oreDictName="nuggetRefinedObsidian" treeOrder="1070"/>
+				<nuggetRubraciumDict oreDictName="nuggetRubracium" treeOrder="1080"/>
+				<nuggetRutileDict oreDictName="nuggetRutile" treeOrder="1090"/>
+				<nuggetSanguiniteDict oreDictName="nuggetSanguinite" treeOrder="1100"/>
+				<nuggetShadowIronDict oreDictName="nuggetShadowIron" treeOrder="1110"/>
+				<nuggetShadowSteelDict oreDictName="nuggetShadowSteel" treeOrder="1120"/>
+				<nuggetSignalumDict oreDictName="nuggetSignalum" treeOrder="1130"/>
+				<nuggetSiliconDict oreDictName="nuggetSilicon" treeOrder="1140"/>
+				<nuggetSilverDict oreDictName="nuggetSilver" treeOrder="1150"/>
+				<nuggetSoulariumDict oreDictName="nuggetSoularium" treeOrder="1160"/>
+				<nuggetSoulforgedSteelDict oreDictName="nuggetSoulforgedSteel" treeOrder="1170"/>
+				<nuggetStainlesssteelDict oreDictName="nuggetStainlesssteel" treeOrder="1190"/>
+				<nuggetStarsteelDict oreDictName="nuggetStarsteel" treeOrder="1200"/>
+				<nuggetSteelDict oreDictName="nuggetSteel" treeOrder="1210"/>
+				<nuggetStellarAlloyDict oreDictName="nuggetStellarAlloy" treeOrder="1220"/>
+				<nuggetStoneDict oreDictName="nuggetStone" treeOrder="1230"/>
+				<nuggetSuperiumDict oreDictName="nuggetSuperium" treeOrder="1240"/>
+				<nuggetSupremiumDict oreDictName="nuggetSupremium" treeOrder="1250"/>
+				<nuggetTantalumDict oreDictName="nuggetTantalum" treeOrder="1260"/>
+				<nuggetTartariteDict oreDictName="nuggetTartarite" treeOrder="1270"/>
+				<nuggetTerrasteelDict oreDictName="nuggetTerrasteel" treeOrder="1280"/>
+				<nuggetThaumiumDict oreDictName="nuggetThaumium" treeOrder="1290"/>
+				<nuggetTinDict oreDictName="nuggetTin" treeOrder="1300"/>
+				<nuggetTitaniumDict oreDictName="nuggetTitanium" treeOrder="1310"/>
+				<nuggetTitaniumAluminideDict oreDictName="nuggetTitaniumAluminide" treeOrder="1320"/>
+				<nuggetTitaniumIridiumDict oreDictName="nuggetTitaniumIridium" treeOrder="1330"/>
+				<nuggetTungstenDict oreDictName="nuggetTungsten" treeOrder="1340"/>
+				<nuggetTungstensteelDict oreDictName="nuggetTungstensteel" treeOrder="1350"/>
+				<nuggetUltimateDict oreDictName="nuggetUltimate" treeOrder="1360"/>
+				<nuggetUnstableDict oreDictName="nuggetUnstable" treeOrder="1370"/>
+				<nuggetUraniumDict oreDictName="nuggetUranium" treeOrder="1380"/>
+				<nuggetVibrantAlloyDict oreDictName="nuggetVibrantAlloy" treeOrder="1390"/>
+				<nuggetVividAlloyDict oreDictName="nuggetVividAlloy" treeOrder="1400"/>
+				<nuggetVoidDict oreDictName="nuggetVoid" treeOrder="1410"/>
+				<nuggetVulcaniteDict oreDictName="nuggetVulcanite" treeOrder="1420"/>
+				<nuggetVyroxeresDict oreDictName="nuggetVyroxeres" treeOrder="1430"/>
+				<nuggetZincDict oreDictName="nuggetZinc" treeOrder="1440"/>
+				<nuggetZirconiumDict oreDictName="nuggetZirconium" treeOrder="1450"/>
 			</nugget>
-			<gem treeOrder="140">
+			<gem treeOrder="150">
 				<gemAmberDict oreDictName="gemAmber" treeOrder="10"/>
 				<gemAmethystDict oreDictName="gemAmethyst" treeOrder="20"/>
 				<gemApatiteDict oreDictName="gemApatite" treeOrder="40"/>
@@ -2427,7 +2430,7 @@
 				<diamond id="diamond" treeOrder="430"/>
 				<emerald id="emerald" treeOrder="440"/>
 			</gem>
-			<crystals treeOrder="150">
+			<crystals treeOrder="160">
 				<crystalAethiumDict oreDictName="crystalAethium" treeOrder="10"/>
 				<crystalCrudeOilDict oreDictName="crystalCrudeOil" treeOrder="20"/>
 				<crystalEnderDict oreDictName="crystalEnder" treeOrder="30"/>
@@ -2450,7 +2453,7 @@
 				<itemVibrantCrystalDict oreDictName="itemVibrantCrystal" treeOrder="200"/>
 				<itemWeatherCrystalDict oreDictName="itemWeatherCrystal" treeOrder="210"/>
 			</crystals>
-			<coin treeOrder="160">
+			<coin treeOrder="170">
 				<coinAluminumDict oreDictName="coinAluminum" treeOrder="10"/>
 				<coinBronzeDict oreDictName="coinBronze" treeOrder="20"/>
 				<coinConstantanDict oreDictName="coinConstantan" treeOrder="30"/>
@@ -2472,57 +2475,58 @@
 				<coinSteelDict oreDictName="coinSteel" treeOrder="190"/>
 				<coinTinDict oreDictName="coinTin" treeOrder="200"/>
 			</coin>
-			<redstone id="redstone" treeOrder="170"/>
-			<glowstoneDust id="glowstone_dust" treeOrder="180"/>
-			<bricks treeOrder="190">
+			<redstone id="redstone" treeOrder="180"/>
+			<glowstoneDust id="glowstone_dust" treeOrder="190"/>
+			<bricks treeOrder="200">
 				<clayBrick id="brick" treeOrder="20"/>
 			</bricks>
-			<clays treeOrder="200">
+			<clays treeOrder="210">
 				<clay id="clay_ball" treeOrder="10"/>
 				<clayballDict oreDictName="clayball" treeOrder="20"/>
 				<clayPorcelainDict oreDictName="clayPorcelain" treeOrder="30"/>
 			</clays>
-			<flint id="flint" treeOrder="230"/>
+			<flint id="flint" treeOrder="240"/>
 		</miningResources>
 		<huntingResources treeOrder="20">
 			<bone id="bone" treeOrder="10"/>
-			<leather id="leather" treeOrder="20"/>
-			<rabbitHide id="rabbit_hide" treeOrder="30"/>
-			<animalFurDict oreDictName="animalFur" treeOrder="40"/>
-			<furArcticDict oreDictName="furArctic" treeOrder="50"/>
-			<peltFurDict oreDictName="peltFur" treeOrder="60"/>
-			<peltFurLargeDict oreDictName="peltFurLarge" treeOrder="70"/>
-			<peltDict oreDictName="pelt" treeOrder="80"/>
-			<string id="string" treeOrder="90">
+			<witherRibDict oreDictName="witherRib" treeOrder="30"/>
+			<leather id="leather" treeOrder="40"/>
+			<rabbitHide id="rabbit_hide" treeOrder="50"/>
+			<animalFurDict oreDictName="animalFur" treeOrder="60"/>
+			<furArcticDict oreDictName="furArctic" treeOrder="70"/>
+			<peltFurDict oreDictName="peltFur" treeOrder="80"/>
+			<peltFurLargeDict oreDictName="peltFurLarge" treeOrder="90"/>
+			<peltDict oreDictName="pelt" treeOrder="100"/>
+			<string id="string" treeOrder="110">
 				<stringDict oreDictName="string" treeOrder="10"/>
 				<fiberHempDict oreDictName="fiberHemp" treeOrder="80"/>
 			</string>
-			<cropCottonDict oreDictName="cropCotton" treeOrder="100"/>
-			<materialClothDict oreDictName="materialCloth" treeOrder="110"/>
-			<fabricHempDict oreDictName="fabricHemp" treeOrder="120"/>
-			<feather id="feather" treeOrder="140"/>
-			<gunpowder id="gunpowder" treeOrder="150"/>
-			<slimyItems treeOrder="160">
+			<cropCottonDict oreDictName="cropCotton" treeOrder="120"/>
+			<materialClothDict oreDictName="materialCloth" treeOrder="130"/>
+			<fabricHempDict oreDictName="fabricHemp" treeOrder="140"/>
+			<feather id="feather" treeOrder="160"/>
+			<gunpowder id="gunpowder" treeOrder="170"/>
+			<slimyItems treeOrder="180">
 				<slimeball id="slime_ball" treeOrder="10"/>
 				<slimeballs oreDictName="slimeball" treeOrder="20"/>
 			</slimyItems>
-			<itemRawRubberDict oreDictName="itemRawRubber" treeOrder="170"/>
-			<itemRubberDict oreDictName="itemRubber" treeOrder="180"/>
-			<itemPlasticDict oreDictName="itemPlastic" treeOrder="190"/>
-			<enderPearl id="ender_pearl" treeOrder="200"/>
-			<blockBlazeDict oreDictName="blockBlaze" treeOrder="210"/>
-			<blazeRod id="blaze_rod" treeOrder="220"/>
-			<rodBasalzDict oreDictName="rodBasalz" treeOrder="230"/>
-			<rodBlitzDict oreDictName="rodBlitz" treeOrder="240"/>
-			<rodBlizzDict oreDictName="rodBlizz" treeOrder="250"/>
-			<ghastTear id="ghast_tear" treeOrder="260"/>
-			<dropofevilDict oreDictName="dropofevil" treeOrder="270"/>
-			<netherStar id="nether_star" treeOrder="280"/>
-			<prismarineCrystals id="prismarine_crystals" treeOrder="290"/>
-			<prismarineCrystal id="prismarine_crystals" treeOrder="300"/>
-			<prismarineShard id="prismarine_shard" treeOrder="310"/>
-			<itemShulkerShell id="shulker_shell" treeOrder="320"/>
-			<itemTotemofUndying id="totem_of_undying" treeOrder="330"/>
+			<itemRawRubberDict oreDictName="itemRawRubber" treeOrder="190"/>
+			<itemRubberDict oreDictName="itemRubber" treeOrder="200"/>
+			<itemPlasticDict oreDictName="itemPlastic" treeOrder="210"/>
+			<enderPearl id="ender_pearl" treeOrder="220"/>
+			<blockBlazeDict oreDictName="blockBlaze" treeOrder="240"/>
+			<blazeRod id="blaze_rod" treeOrder="250"/>
+			<rodBasalzDict oreDictName="rodBasalz" treeOrder="260"/>
+			<rodBlitzDict oreDictName="rodBlitz" treeOrder="270"/>
+			<rodBlizzDict oreDictName="rodBlizz" treeOrder="280"/>
+			<ghastTear id="ghast_tear" treeOrder="290"/>
+			<dropofevilDict oreDictName="dropofevil" treeOrder="300"/>
+			<netherStar id="nether_star" treeOrder="310"/>
+			<prismarineCrystals id="prismarine_crystals" treeOrder="320"/>
+			<prismarineCrystal id="prismarine_crystals" treeOrder="330"/>
+			<prismarineShard id="prismarine_shard" treeOrder="340"/>
+			<itemShulkerShell id="shulker_shell" treeOrder="350"/>
+			<itemTotemofUndying id="totem_of_undying" treeOrder="360"/>
 		</huntingResources>
 		<farmingResources treeOrder="30">
 			<paper id="paper" treeOrder="10"/>
@@ -2608,7 +2612,7 @@
 					<magentaShulkerBox id="magenta_shulker_box" treeOrder="170"/>
 					<orangeShulkerBox id="orange_shulker_box" treeOrder="180"/>
 					<chestDict oreDictName="chest" treeOrder="240"/>
-					<enderChest id="ender_chest" treeOrder="310"/>
+					<enderChest id="ender_chest" treeOrder="320"/>
 				</chests>
 				<drawers treeOrder="30">
 					<drawerBasicDict oreDictName="drawerBasic" treeOrder="10"/>
@@ -2632,35 +2636,35 @@
 			<readableBooks treeOrder="90">
 				<bookAndQuill id="writable_book" treeOrder="10"/>
 				<writtenBook id="written_book" treeOrder="20"/>
-				<itemKnowledgeBook id="knowledge_book" treeOrder="580"/>
-				<lexicaBotaniaDict oreDictName="lexicaBotania" treeOrder="630"/>
-				<bookDict oreDictName="book" treeOrder="640"/>
+				<itemKnowledgeBook id="knowledge_book" treeOrder="600"/>
+				<lexicaBotaniaDict oreDictName="lexicaBotania" treeOrder="650"/>
+				<bookDict oreDictName="book" treeOrder="680"/>
 			</readableBooks>
 			<enchantedBook id="enchanted_book" treeOrder="110"/>
-			<tnts treeOrder="120">
+			<tnts treeOrder="130">
 				<tnt id="tnt" treeOrder="10"/>
-				<wireExplosiveDict oreDictName="wireExplosive" treeOrder="40"/>
+				<wireExplosiveDict oreDictName="wireExplosive" treeOrder="50"/>
 			</tnts>
-			<tripwireHook id="tripwire_hook" treeOrder="130"/>
-			<bowl treeOrder="140">
+			<tripwireHook id="tripwire_hook" treeOrder="140"/>
+			<bowl treeOrder="150">
 				<oakbowl id="bowl" treeOrder="10"/>
 				<listBowl oreDictName="bowlWood" treeOrder="30"/>
 			</bowl>
-			<cauldron id="cauldron" treeOrder="150"/>
-			<brewingStand id="brewing_stand" treeOrder="160"/>
-			<enchantmentTable id="enchanting_table" treeOrder="170"/>
-			<eyeOfEnder id="ender_eye" treeOrder="180"/>
-			<enderEye id="ender_eye" treeOrder="190"/>
-			<spawnerEggs treeOrder="200">
+			<cauldron id="cauldron" treeOrder="160"/>
+			<brewingStand id="brewing_stand" treeOrder="170"/>
+			<enchantmentTable id="enchanting_table" treeOrder="180"/>
+			<eyeOfEnder id="ender_eye" treeOrder="190"/>
+			<enderEye id="ender_eye" treeOrder="200"/>
+			<spawnerEggs treeOrder="210">
 				<spawnerEgg id="spawn_egg" treeOrder="10"/>
 				<mobEggDict oreDictName="mobEgg" treeOrder="840"/>
 			</spawnerEggs>
-			<tripwire id="tripwire" treeOrder="220"/>
-			<nameTag id="name_tag" treeOrder="230"/>
-			<mobHolder treeOrder="240">
+			<tripwire id="tripwire" treeOrder="230"/>
+			<nameTag id="name_tag" treeOrder="240"/>
+			<mobHolder treeOrder="250">
 				<animalLead id="lead" treeOrder="10"/>
 			</mobHolder>
-			<horseArmor treeOrder="250">
+			<horseArmor treeOrder="260">
 				<ironHorseArmor id="iron_horse_armor" treeOrder="10"/>
 				<goldHorseArmor id="golden_horse_armor" treeOrder="20"/>
 				<diamondHorseArmor id="diamond_horse_armor" treeOrder="30"/>
@@ -2670,21 +2674,21 @@
 			<bucket treeOrder="10">
 				<emptyBucket id="bucket" treeOrder="10"/>
 				<waterBucket id="water_bucket" treeOrder="60"/>
-				<lavaBucket id="lava_bucket" treeOrder="80"/>
-				<itemminecraft_lava_bucket id="lava_bucket" treeOrder="250"/>
+				<lavaBucket id="lava_bucket" treeOrder="90"/>
+				<itemminecraft_lava_bucket id="lava_bucket" treeOrder="260"/>
 			</bucket>
 		</fluidPortableStorage>
 		<fluidStorage treeOrder="50">
 			<barrelDict oreDictName="barrel" treeOrder="10"/>
 			<barrelTrapDict oreDictName="barrelTrap" treeOrder="40"/>
 		</fluidStorage>
-		<instrument treeOrder="70">
+		<instrument treeOrder="80">
 			<clock id="clock" treeOrder="10"/>
 			<compass id="compass" treeOrder="20"/>
 			<emptyMap id="map" treeOrder="100"/>
 			<map id="filled_map" treeOrder="110"/>
 		</instrument>
-		<vehicle treeOrder="80">
+		<vehicle treeOrder="90">
 			<boat id="boat" treeOrder="10">
 				<itemAcaciaBoat id="acacia_boat" treeOrder="10"/>
 				<itemBirchBoat id="birch_boat" treeOrder="20"/>
@@ -2703,7 +2707,7 @@
 			</minecarts>
 			<saddle id="saddle" treeOrder="30"/>
 		</vehicle>
-		<parts treeOrder="110">
+		<parts treeOrder="120">
 			<mechanicalParts treeOrder="10">
 				<chip treeOrder="10">
 					<chipsetRedDict oreDictName="chipsetRed" treeOrder="10"/>
@@ -2719,33 +2723,33 @@
 					<circuitEliteDict oreDictName="circuitElite" treeOrder="160"/>
 					<circuitUltimateDict oreDictName="circuitUltimate" treeOrder="170"/>
 					<electronTubeDict oreDictName="electronTube" treeOrder="180"/>
-					<skullEnderResonatorDict oreDictName="skullEnderResonator" treeOrder="280"/>
-					<skullGuardianDiodeDict oreDictName="skullGuardianDiode" treeOrder="290"/>
-					<skullSentientEnderDict oreDictName="skullSentientEnder" treeOrder="300"/>
-					<skullSkeletalContractorDict oreDictName="skullSkeletalContractor" treeOrder="310"/>
-					<skullZombieControllerDict oreDictName="skullZombieController" treeOrder="320"/>
-					<skullZombieElectrodeDict oreDictName="skullZombieElectrode" treeOrder="330"/>
-					<skullZombieFrankensteinDict oreDictName="skullZombieFrankenstein" treeOrder="340"/>
-					<ballConductiveIronDict oreDictName="ballConductiveIron" treeOrder="360"/>
-					<ballConstructionAlloyDict oreDictName="ballConstructionAlloy" treeOrder="370"/>
-					<ballCrudeSteelDict oreDictName="ballCrudeSteel" treeOrder="380"/>
-					<ballCrystallineAlloyDict oreDictName="ballCrystallineAlloy" treeOrder="390"/>
-					<ballCrystallinePinkSlimeDict oreDictName="ballCrystallinePinkSlime" treeOrder="400"/>
-					<ballDarkSteelDict oreDictName="ballDarkSteel" treeOrder="410"/>
-					<ballElectricalSteelDict oreDictName="ballElectricalSteel" treeOrder="420"/>
-					<ballEndSteelDict oreDictName="ballEndSteel" treeOrder="430"/>
-					<ballEnergeticAlloyDict oreDictName="ballEnergeticAlloy" treeOrder="440"/>
-					<ballEnergeticSilverDict oreDictName="ballEnergeticSilver" treeOrder="450"/>
-					<ballMelodicAlloyDict oreDictName="ballMelodicAlloy" treeOrder="460"/>
-					<ballPulsatingIronDict oreDictName="ballPulsatingIron" treeOrder="470"/>
-					<ballRedstoneAlloyDict oreDictName="ballRedstoneAlloy" treeOrder="480"/>
-					<ballSoulariumDict oreDictName="ballSoularium" treeOrder="490"/>
-					<ballStellarAlloyDict oreDictName="ballStellarAlloy" treeOrder="500"/>
-					<ballVibrantAlloyDict oreDictName="ballVibrantAlloy" treeOrder="510"/>
-					<ballVividAlloyDict oreDictName="ballVividAlloy" treeOrder="520"/>
-					<itemGrindingBallEnderiumDict oreDictName="itemGrindingBallEnderium" treeOrder="530"/>
-					<itemGrindingBallLumiumDict oreDictName="itemGrindingBallLumium" treeOrder="540"/>
-					<itemGrindingBallSignalumDict oreDictName="itemGrindingBallSignalum" treeOrder="550"/>
+					<skullEnderResonatorDict oreDictName="skullEnderResonator" treeOrder="290"/>
+					<skullGuardianDiodeDict oreDictName="skullGuardianDiode" treeOrder="300"/>
+					<skullSentientEnderDict oreDictName="skullSentientEnder" treeOrder="310"/>
+					<skullSkeletalContractorDict oreDictName="skullSkeletalContractor" treeOrder="320"/>
+					<skullZombieControllerDict oreDictName="skullZombieController" treeOrder="330"/>
+					<skullZombieElectrodeDict oreDictName="skullZombieElectrode" treeOrder="340"/>
+					<skullZombieFrankensteinDict oreDictName="skullZombieFrankenstein" treeOrder="350"/>
+					<ballConductiveIronDict oreDictName="ballConductiveIron" treeOrder="370"/>
+					<ballConstructionAlloyDict oreDictName="ballConstructionAlloy" treeOrder="380"/>
+					<ballCrudeSteelDict oreDictName="ballCrudeSteel" treeOrder="390"/>
+					<ballCrystallineAlloyDict oreDictName="ballCrystallineAlloy" treeOrder="400"/>
+					<ballCrystallinePinkSlimeDict oreDictName="ballCrystallinePinkSlime" treeOrder="410"/>
+					<ballDarkSteelDict oreDictName="ballDarkSteel" treeOrder="420"/>
+					<ballElectricalSteelDict oreDictName="ballElectricalSteel" treeOrder="430"/>
+					<ballEndSteelDict oreDictName="ballEndSteel" treeOrder="440"/>
+					<ballEnergeticAlloyDict oreDictName="ballEnergeticAlloy" treeOrder="450"/>
+					<ballEnergeticSilverDict oreDictName="ballEnergeticSilver" treeOrder="460"/>
+					<ballMelodicAlloyDict oreDictName="ballMelodicAlloy" treeOrder="470"/>
+					<ballPulsatingIronDict oreDictName="ballPulsatingIron" treeOrder="480"/>
+					<ballRedstoneAlloyDict oreDictName="ballRedstoneAlloy" treeOrder="490"/>
+					<ballSoulariumDict oreDictName="ballSoularium" treeOrder="500"/>
+					<ballStellarAlloyDict oreDictName="ballStellarAlloy" treeOrder="510"/>
+					<ballVibrantAlloyDict oreDictName="ballVibrantAlloy" treeOrder="520"/>
+					<ballVividAlloyDict oreDictName="ballVividAlloy" treeOrder="530"/>
+					<itemGrindingBallEnderiumDict oreDictName="itemGrindingBallEnderium" treeOrder="540"/>
+					<itemGrindingBallLumiumDict oreDictName="itemGrindingBallLumium" treeOrder="550"/>
+					<itemGrindingBallSignalumDict oreDictName="itemGrindingBallSignalum" treeOrder="560"/>
 				</chip>
 				<rods oreDictName="rod" treeOrder="20">
 					<rodDict oreDictName="rod" treeOrder="10"/>
@@ -2780,66 +2784,68 @@
 					<stickGalvanizedsteelDict oreDictName="stickGalvanizedsteel" treeOrder="300"/>
 					<rodGoldDict oreDictName="rodGold" treeOrder="310"/>
 					<stickGoldDict oreDictName="stickGold" treeOrder="320"/>
-					<itemInfinityRodDict oreDictName="itemInfinityRod" treeOrder="330"/>
-					<rodInvarDict oreDictName="rodInvar" treeOrder="340"/>
-					<stickInvarDict oreDictName="stickInvar" treeOrder="350"/>
-					<rodIridiumDict oreDictName="rodIridium" treeOrder="360"/>
-					<stickIridiumDict oreDictName="stickIridium" treeOrder="370"/>
-					<rodIronDict oreDictName="rodIron" treeOrder="380"/>
-					<stickIronDict oreDictName="stickIron" treeOrder="390"/>
-					<rodLeadDict oreDictName="rodLead" treeOrder="400"/>
-					<stickLeadDict oreDictName="stickLead" treeOrder="410"/>
-					<rodMagnesiumDict oreDictName="rodMagnesium" treeOrder="420"/>
-					<stickMagnesiumDict oreDictName="stickMagnesium" treeOrder="430"/>
-					<rodManganeseDict oreDictName="rodManganese" treeOrder="440"/>
-					<stickManganeseDict oreDictName="stickManganese" treeOrder="450"/>
-					<rodMithrilDict oreDictName="rodMithril" treeOrder="460"/>
-					<stickMithrilDict oreDictName="stickMithril" treeOrder="470"/>
-					<rodNichromeDict oreDictName="rodNichrome" treeOrder="480"/>
-					<stickNichromeDict oreDictName="stickNichrome" treeOrder="490"/>
-					<rodNickelDict oreDictName="rodNickel" treeOrder="500"/>
-					<stickNickelDict oreDictName="stickNickel" treeOrder="510"/>
-					<rodOsmiumDict oreDictName="rodOsmium" treeOrder="520"/>
-					<stickOsmiumDict oreDictName="stickOsmium" treeOrder="530"/>
-					<rodPlatinumDict oreDictName="rodPlatinum" treeOrder="540"/>
-					<stickPlatinumDict oreDictName="stickPlatinum" treeOrder="550"/>
-					<rodPlutoniumDict oreDictName="rodPlutonium" treeOrder="560"/>
-					<stickPlutoniumDict oreDictName="stickPlutonium" treeOrder="570"/>
-					<rodRutileDict oreDictName="rodRutile" treeOrder="580"/>
-					<stickRutileDict oreDictName="stickRutile" treeOrder="590"/>
-					<rodSilverDict oreDictName="rodSilver" treeOrder="600"/>
-					<stickSilverDict oreDictName="stickSilver" treeOrder="610"/>
-					<rodStainlesssteelDict oreDictName="rodStainlesssteel" treeOrder="620"/>
-					<stickStainlesssteelDict oreDictName="stickStainlesssteel" treeOrder="630"/>
-					<rodStarsteelDict oreDictName="rodStarsteel" treeOrder="640"/>
-					<stickStarsteelDict oreDictName="stickStarsteel" treeOrder="650"/>
-					<rodSteelDict oreDictName="rodSteel" treeOrder="660"/>
-					<stickSteelDict oreDictName="stickSteel" treeOrder="670"/>
-					<rodTantalumDict oreDictName="rodTantalum" treeOrder="680"/>
-					<stickTantalumDict oreDictName="stickTantalum" treeOrder="690"/>
-					<rodTinDict oreDictName="rodTin" treeOrder="700"/>
-					<stickTinDict oreDictName="stickTin" treeOrder="710"/>
-					<rodTitaniumDict oreDictName="rodTitanium" treeOrder="720"/>
-					<stickTitaniumDict oreDictName="stickTitanium" treeOrder="730"/>
-					<stickTitaniumAluminideDict oreDictName="stickTitaniumAluminide" treeOrder="740"/>
-					<stickTitaniumIridiumDict oreDictName="stickTitaniumIridium" treeOrder="750"/>
-					<rodTungstenDict oreDictName="rodTungsten" treeOrder="760"/>
-					<stickTungstenDict oreDictName="stickTungsten" treeOrder="770"/>
-					<rodUraniumDict oreDictName="rodUranium" treeOrder="780"/>
-					<stickUraniumDict oreDictName="stickUranium" treeOrder="790"/>
-					<rodZincDict oreDictName="rodZinc" treeOrder="800"/>
-					<stickZincDict oreDictName="stickZinc" treeOrder="810"/>
-					<rodZirconiumDict oreDictName="rodZirconium" treeOrder="820"/>
-					<stickZirconiumDict oreDictName="stickZirconium" treeOrder="830"/>
+					<itemInfinityRodDict oreDictName="itemInfinityRod" treeOrder="340"/>
+					<rodInvarDict oreDictName="rodInvar" treeOrder="350"/>
+					<stickInvarDict oreDictName="stickInvar" treeOrder="360"/>
+					<rodIridiumDict oreDictName="rodIridium" treeOrder="370"/>
+					<stickIridiumDict oreDictName="stickIridium" treeOrder="380"/>
+					<rodIronDict oreDictName="rodIron" treeOrder="390"/>
+					<stickIronDict oreDictName="stickIron" treeOrder="400"/>
+					<rodLeadDict oreDictName="rodLead" treeOrder="410"/>
+					<stickLeadDict oreDictName="stickLead" treeOrder="420"/>
+					<rodMagnesiumDict oreDictName="rodMagnesium" treeOrder="430"/>
+					<stickMagnesiumDict oreDictName="stickMagnesium" treeOrder="440"/>
+					<rodManganeseDict oreDictName="rodManganese" treeOrder="450"/>
+					<stickManganeseDict oreDictName="stickManganese" treeOrder="460"/>
+					<rodMithrilDict oreDictName="rodMithril" treeOrder="470"/>
+					<stickMithrilDict oreDictName="stickMithril" treeOrder="480"/>
+					<stickNetherDict oreDictName="stickNether" treeOrder="490"/>
+					<rodNichromeDict oreDictName="rodNichrome" treeOrder="500"/>
+					<stickNichromeDict oreDictName="stickNichrome" treeOrder="510"/>
+					<rodNickelDict oreDictName="rodNickel" treeOrder="520"/>
+					<stickNickelDict oreDictName="stickNickel" treeOrder="530"/>
+					<rodOsmiumDict oreDictName="rodOsmium" treeOrder="540"/>
+					<stickOsmiumDict oreDictName="stickOsmium" treeOrder="550"/>
+					<rodPlatinumDict oreDictName="rodPlatinum" treeOrder="570"/>
+					<stickPlatinumDict oreDictName="stickPlatinum" treeOrder="580"/>
+					<rodPlutoniumDict oreDictName="rodPlutonium" treeOrder="590"/>
+					<stickPlutoniumDict oreDictName="stickPlutonium" treeOrder="600"/>
+					<rodRutileDict oreDictName="rodRutile" treeOrder="610"/>
+					<stickRutileDict oreDictName="stickRutile" treeOrder="620"/>
+					<rodSilverDict oreDictName="rodSilver" treeOrder="630"/>
+					<stickSilverDict oreDictName="stickSilver" treeOrder="640"/>
+					<rodStainlesssteelDict oreDictName="rodStainlesssteel" treeOrder="650"/>
+					<stickStainlesssteelDict oreDictName="stickStainlesssteel" treeOrder="660"/>
+					<rodStarsteelDict oreDictName="rodStarsteel" treeOrder="670"/>
+					<stickStarsteelDict oreDictName="stickStarsteel" treeOrder="680"/>
+					<rodSteelDict oreDictName="rodSteel" treeOrder="690"/>
+					<stickSteelDict oreDictName="stickSteel" treeOrder="700"/>
+					<stickCaneDict oreDictName="stickCane" treeOrder="710"/>
+					<rodTantalumDict oreDictName="rodTantalum" treeOrder="720"/>
+					<stickTantalumDict oreDictName="stickTantalum" treeOrder="730"/>
+					<rodTinDict oreDictName="rodTin" treeOrder="740"/>
+					<stickTinDict oreDictName="stickTin" treeOrder="750"/>
+					<rodTitaniumDict oreDictName="rodTitanium" treeOrder="760"/>
+					<stickTitaniumDict oreDictName="stickTitanium" treeOrder="770"/>
+					<stickTitaniumAluminideDict oreDictName="stickTitaniumAluminide" treeOrder="780"/>
+					<stickTitaniumIridiumDict oreDictName="stickTitaniumIridium" treeOrder="790"/>
+					<rodTungstenDict oreDictName="rodTungsten" treeOrder="800"/>
+					<stickTungstenDict oreDictName="stickTungsten" treeOrder="810"/>
+					<rodUraniumDict oreDictName="rodUranium" treeOrder="820"/>
+					<stickUraniumDict oreDictName="stickUranium" treeOrder="830"/>
+					<rodZincDict oreDictName="rodZinc" treeOrder="840"/>
+					<stickZincDict oreDictName="stickZinc" treeOrder="850"/>
+					<rodZirconiumDict oreDictName="rodZirconium" treeOrder="860"/>
+					<stickZirconiumDict oreDictName="stickZirconium" treeOrder="870"/>
 				</rods>
 				<sheets treeOrder="30">
 					<sheetAluminumDict oreDictName="sheetAluminum" treeOrder="10"/>
 					<sheetCopperDict oreDictName="sheetCopper" treeOrder="20"/>
-					<sheetIronDict oreDictName="sheetIron" treeOrder="30"/>
-					<sheetSteelDict oreDictName="sheetSteel" treeOrder="40"/>
-					<sheetTitaniumDict oreDictName="sheetTitanium" treeOrder="50"/>
-					<sheetTitaniumAluminideDict oreDictName="sheetTitaniumAluminide" treeOrder="60"/>
-					<sheetTitaniumIridiumDict oreDictName="sheetTitaniumIridium" treeOrder="70"/>
+					<sheetIronDict oreDictName="sheetIron" treeOrder="40"/>
+					<sheetSteelDict oreDictName="sheetSteel" treeOrder="50"/>
+					<sheetTitaniumDict oreDictName="sheetTitanium" treeOrder="60"/>
+					<sheetTitaniumAluminideDict oreDictName="sheetTitaniumAluminide" treeOrder="70"/>
+					<sheetTitaniumIridiumDict oreDictName="sheetTitaniumIridium" treeOrder="80"/>
 				</sheets>
 				<plates treeOrder="40">
 					<plateAdamantineDict oreDictName="plateAdamantine" treeOrder="10"/>
@@ -2854,72 +2860,72 @@
 					<plateBronzeDict oreDictName="plateBronze" treeOrder="100"/>
 					<plateCadmiumDict oreDictName="plateCadmium" treeOrder="110"/>
 					<plateCarbonDict oreDictName="plateCarbon" treeOrder="120"/>
-					<plateChromeDict oreDictName="plateChrome" treeOrder="130"/>
-					<plateChromiumDict oreDictName="plateChromium" treeOrder="140"/>
-					<plateClayRawDict oreDictName="plateClayRaw" treeOrder="150"/>
-					<plateClayDict oreDictName="plateClay" treeOrder="160"/>
-					<plateCoalDict oreDictName="plateCoal" treeOrder="170"/>
-					<plateColdironDict oreDictName="plateColdiron" treeOrder="180"/>
-					<plateConstantanDict oreDictName="plateConstantan" treeOrder="190"/>
-					<plateCopperDict oreDictName="plateCopper" treeOrder="200"/>
-					<plateCupronickelDict oreDictName="plateCupronickel" treeOrder="210"/>
-					<plateDenseBronzeDict oreDictName="plateDenseBronze" treeOrder="220"/>
-					<plateDenseCopperDict oreDictName="plateDenseCopper" treeOrder="230"/>
-					<plateDenseGoldDict oreDictName="plateDenseGold" treeOrder="240"/>
-					<plateDenseIronDict oreDictName="plateDenseIron" treeOrder="250"/>
-					<plateDenseLapisDict oreDictName="plateDenseLapis" treeOrder="260"/>
-					<plateDenseLeadDict oreDictName="plateDenseLead" treeOrder="270"/>
-					<plateDenseObsidianDict oreDictName="plateDenseObsidian" treeOrder="280"/>
-					<plateDenseSteelDict oreDictName="plateDenseSteel" treeOrder="290"/>
-					<plateDenseTinDict oreDictName="plateDenseTin" treeOrder="300"/>
-					<plateDiamondDict oreDictName="plateDiamond" treeOrder="310"/>
-					<plateElectrumDict oreDictName="plateElectrum" treeOrder="320"/>
-					<plateElectrumFluxDict oreDictName="plateElectrumFlux" treeOrder="330"/>
-					<plateEmeraldDict oreDictName="plateEmerald" treeOrder="340"/>
-					<plateEnderiumDict oreDictName="plateEnderium" treeOrder="350"/>
-					<plateGalvanizedsteelDict oreDictName="plateGalvanizedsteel" treeOrder="360"/>
-					<plateGoldDict oreDictName="plateGold" treeOrder="370"/>
-					<plateInvarDict oreDictName="plateInvar" treeOrder="380"/>
-					<plateIridiumDict oreDictName="plateIridium" treeOrder="390"/>
-					<plateIronDict oreDictName="plateIron" treeOrder="400"/>
-					<plateLapisDict oreDictName="plateLapis" treeOrder="410"/>
-					<plateLazuriteDict oreDictName="plateLazurite" treeOrder="420"/>
-					<plateLeadDict oreDictName="plateLead" treeOrder="430"/>
-					<plateLumiumDict oreDictName="plateLumium" treeOrder="440"/>
-					<plateMagnesiumDict oreDictName="plateMagnesium" treeOrder="450"/>
-					<plateManganeseDict oreDictName="plateManganese" treeOrder="460"/>
-					<plateMithrilDict oreDictName="plateMithril" treeOrder="470"/>
-					<plateNichromeDict oreDictName="plateNichrome" treeOrder="480"/>
-					<plateNickelDict oreDictName="plateNickel" treeOrder="490"/>
-					<plateObsidianDict oreDictName="plateObsidian" treeOrder="500"/>
-					<plateOsmiumDict oreDictName="plateOsmium" treeOrder="510"/>
-					<platePeridotDict oreDictName="plateperidot" treeOrder="520"/>
-					<platePlatinumDict oreDictName="platePlatinum" treeOrder="530"/>
-					<platePlutoniumDict oreDictName="platePlutonium" treeOrder="540"/>
-					<plateRedGarnetDict oreDictName="plateRedGarnet" treeOrder="550"/>
-					<plateRedstoneDict oreDictName="plateRedstone" treeOrder="560"/>
-					<plateRefinedIronDict oreDictName="plateRefinedIron" treeOrder="570"/>
-					<plateRubyDict oreDictName="plateRuby" treeOrder="580"/>
-					<plateRutileDict oreDictName="plateRutile" treeOrder="590"/>
-					<plateSapphireDict oreDictName="plateSapphire" treeOrder="600"/>
-					<plateSignalumDict oreDictName="plateSignalum" treeOrder="610"/>
-					<plateSiliconDict oreDictName="plateSilicon" treeOrder="620"/>
-					<plateSilverDict oreDictName="plateSilver" treeOrder="630"/>
-					<plateStainlesssteelDict oreDictName="plateStainlesssteel" treeOrder="640"/>
-					<plateStarsteelDict oreDictName="plateStarsteel" treeOrder="650"/>
-					<plateSteelDict oreDictName="plateSteel" treeOrder="660"/>
-					<plateTantalumDict oreDictName="plateTantalum" treeOrder="670"/>
-					<plateTinDict oreDictName="plateTin" treeOrder="680"/>
-					<plateTitaniumDict oreDictName="plateTitanium" treeOrder="690"/>
-					<plateTitaniumAluminideDict oreDictName="plateTitaniumAluminide" treeOrder="700"/>
-					<plateTitaniumIridiumDict oreDictName="plateTitaniumIridium" treeOrder="710"/>
-					<plateTungstenDict oreDictName="plateTungsten" treeOrder="720"/>
-					<plateTungstensteelDict oreDictName="plateTungstensteel" treeOrder="730"/>
-					<plateUraniumDict oreDictName="plateUranium" treeOrder="740"/>
-					<plateWoodDict oreDictName="plateWood" treeOrder="750"/>
-					<plateYellowGarnetDict oreDictName="plateYellowGarnet" treeOrder="760"/>
-					<plateZincDict oreDictName="platezinc" treeOrder="770"/>
-					<plateZirconiumDict oreDictName="plateZirconium" treeOrder="780"/>
+					<plateChromeDict oreDictName="plateChrome" treeOrder="140"/>
+					<plateChromiumDict oreDictName="plateChromium" treeOrder="150"/>
+					<plateClayRawDict oreDictName="plateClayRaw" treeOrder="160"/>
+					<plateClayDict oreDictName="plateClay" treeOrder="170"/>
+					<plateCoalDict oreDictName="plateCoal" treeOrder="180"/>
+					<plateColdironDict oreDictName="plateColdiron" treeOrder="190"/>
+					<plateConstantanDict oreDictName="plateConstantan" treeOrder="200"/>
+					<plateCopperDict oreDictName="plateCopper" treeOrder="210"/>
+					<plateCupronickelDict oreDictName="plateCupronickel" treeOrder="220"/>
+					<plateDenseBronzeDict oreDictName="plateDenseBronze" treeOrder="230"/>
+					<plateDenseCopperDict oreDictName="plateDenseCopper" treeOrder="240"/>
+					<plateDenseGoldDict oreDictName="plateDenseGold" treeOrder="250"/>
+					<plateDenseIronDict oreDictName="plateDenseIron" treeOrder="260"/>
+					<plateDenseLapisDict oreDictName="plateDenseLapis" treeOrder="270"/>
+					<plateDenseLeadDict oreDictName="plateDenseLead" treeOrder="280"/>
+					<plateDenseObsidianDict oreDictName="plateDenseObsidian" treeOrder="290"/>
+					<plateDenseSteelDict oreDictName="plateDenseSteel" treeOrder="300"/>
+					<plateDenseTinDict oreDictName="plateDenseTin" treeOrder="310"/>
+					<plateDiamondDict oreDictName="plateDiamond" treeOrder="320"/>
+					<plateElectrumDict oreDictName="plateElectrum" treeOrder="330"/>
+					<plateElectrumFluxDict oreDictName="plateElectrumFlux" treeOrder="340"/>
+					<plateEmeraldDict oreDictName="plateEmerald" treeOrder="350"/>
+					<plateEnderiumDict oreDictName="plateEnderium" treeOrder="360"/>
+					<plateGalvanizedsteelDict oreDictName="plateGalvanizedsteel" treeOrder="370"/>
+					<plateGoldDict oreDictName="plateGold" treeOrder="380"/>
+					<plateInvarDict oreDictName="plateInvar" treeOrder="390"/>
+					<plateIridiumDict oreDictName="plateIridium" treeOrder="400"/>
+					<plateIronDict oreDictName="plateIron" treeOrder="410"/>
+					<plateLapisDict oreDictName="plateLapis" treeOrder="420"/>
+					<plateLazuriteDict oreDictName="plateLazurite" treeOrder="430"/>
+					<plateLeadDict oreDictName="plateLead" treeOrder="440"/>
+					<plateLumiumDict oreDictName="plateLumium" treeOrder="450"/>
+					<plateMagnesiumDict oreDictName="plateMagnesium" treeOrder="460"/>
+					<plateManganeseDict oreDictName="plateManganese" treeOrder="470"/>
+					<plateMithrilDict oreDictName="plateMithril" treeOrder="480"/>
+					<plateNichromeDict oreDictName="plateNichrome" treeOrder="490"/>
+					<plateNickelDict oreDictName="plateNickel" treeOrder="500"/>
+					<plateObsidianDict oreDictName="plateObsidian" treeOrder="510"/>
+					<plateOsmiumDict oreDictName="plateOsmium" treeOrder="520"/>
+					<platePeridotDict oreDictName="plateperidot" treeOrder="530"/>
+					<platePlatinumDict oreDictName="platePlatinum" treeOrder="540"/>
+					<platePlutoniumDict oreDictName="platePlutonium" treeOrder="550"/>
+					<plateRedGarnetDict oreDictName="plateRedGarnet" treeOrder="560"/>
+					<plateRedstoneDict oreDictName="plateRedstone" treeOrder="570"/>
+					<plateRefinedIronDict oreDictName="plateRefinedIron" treeOrder="580"/>
+					<plateRubyDict oreDictName="plateRuby" treeOrder="590"/>
+					<plateRutileDict oreDictName="plateRutile" treeOrder="600"/>
+					<plateSapphireDict oreDictName="plateSapphire" treeOrder="610"/>
+					<plateSignalumDict oreDictName="plateSignalum" treeOrder="620"/>
+					<plateSiliconDict oreDictName="plateSilicon" treeOrder="630"/>
+					<plateSilverDict oreDictName="plateSilver" treeOrder="640"/>
+					<plateStainlesssteelDict oreDictName="plateStainlesssteel" treeOrder="650"/>
+					<plateStarsteelDict oreDictName="plateStarsteel" treeOrder="660"/>
+					<plateSteelDict oreDictName="plateSteel" treeOrder="670"/>
+					<plateTantalumDict oreDictName="plateTantalum" treeOrder="680"/>
+					<plateTinDict oreDictName="plateTin" treeOrder="690"/>
+					<plateTitaniumDict oreDictName="plateTitanium" treeOrder="700"/>
+					<plateTitaniumAluminideDict oreDictName="plateTitaniumAluminide" treeOrder="710"/>
+					<plateTitaniumIridiumDict oreDictName="plateTitaniumIridium" treeOrder="720"/>
+					<plateTungstenDict oreDictName="plateTungsten" treeOrder="730"/>
+					<plateTungstensteelDict oreDictName="plateTungstensteel" treeOrder="740"/>
+					<plateUraniumDict oreDictName="plateUranium" treeOrder="750"/>
+					<plateWoodDict oreDictName="plateWood" treeOrder="760"/>
+					<plateYellowGarnetDict oreDictName="plateYellowGarnet" treeOrder="770"/>
+					<plateZincDict oreDictName="platezinc" treeOrder="780"/>
+					<plateZirconiumDict oreDictName="plateZirconium" treeOrder="790"/>
 				</plates>
 				<plateBlocks treeOrder="50">
 					<blockSheetmetalAluminumDict oreDictName="blockSheetmetalAluminum" treeOrder="10"/>
@@ -3042,7 +3048,7 @@
 				<partToolRodSteeleafDict oreDictName="partToolRodSteeleaf" treeOrder="700"/>
 			</tinkerParts>
 		</parts>
-		<decoration treeOrder="120">
+		<decoration treeOrder="130">
 			<bed id="bed" treeOrder="10"/>
 			<door treeOrder="40">
 				<doorWood id="wooden_door" treeOrder="10"/>
@@ -3063,10 +3069,10 @@
 			</bookShelf>
 			<flowerPot id="flower_pot" treeOrder="240"/>
 			<armorStand id="armor_stand" treeOrder="260"/>
-			<clocks treeOrder="300">
+			<clocks treeOrder="310">
 				<clock id="clock" treeOrder="10"/>
 			</clocks>
-			<tables treeOrder="340">
+			<tables treeOrder="350">
 				<tableAcaciaDict oreDictName="tableAcacia" treeOrder="40"/>
 				<tableAmaranthDict oreDictName="tableAmaranth" treeOrder="50"/>
 				<tableBirchDict oreDictName="tableBirch" treeOrder="60"/>
@@ -3086,11 +3092,11 @@
 				<tableTigerDict oreDictName="tableTiger" treeOrder="200"/>
 				<tableWillowDict oreDictName="tableWillow" treeOrder="210"/>
 			</tables>
-			<case treeOrder="360">
+			<case treeOrder="370">
 				<itemFrame id="item_frame" treeOrder="10"/>
 				<frame id="item_frame" treeOrder="20"/>
 			</case>
-			<musicDisc treeOrder="410">
+			<musicDisc treeOrder="420">
 				<musicDisc13 id="record_13" treeOrder="10"/>
 				<musicDiscCat id="record_cat" treeOrder="20"/>
 				<musicDiscBlocks id="record_blocks" treeOrder="30"/>
@@ -3105,7 +3111,7 @@
 				<musicDiskWait id="record_wait" treeOrder="120"/>
 				<recordDict oreDictName="record" treeOrder="160"/>
 			</musicDisc>
-			<head treeOrder="420">
+			<head treeOrder="430">
 				<skullSkeletonDict oreDictName="skullSkeleton" treeOrder="20"/>
 				<itemSkeletonSkull id="skull" damage="0" treeOrder="30"/>
 				<skullWitherSkeletonDict oreDictName="skullWitherSkeleton" treeOrder="40"/>
@@ -3311,7 +3317,7 @@
 				<headBlock id="skull" treeOrder="2120"/>
 				<itemSkullDict oreDictName="itemSkull" treeOrder="2130"/>
 			</head>
-			<musicDisc treeOrder="430">
+			<musicDisc treeOrder="440">
 				<musicDisc13 id="record_13" treeOrder="10"/>
 				<musicDiscCat id="record_cat" treeOrder="20"/>
 				<musicDiscBlocks id="record_blocks" treeOrder="30"/>
@@ -3326,10 +3332,10 @@
 				<musicDiskWait id="record_wait" treeOrder="120"/>
 				<recordDict oreDictName="record" treeOrder="160"/>
 			</musicDisc>
-			<flowerPotBlock id="flower_pot" treeOrder="440"/>
-			<endCrystal id="end_crystal" treeOrder="450"/>
+			<flowerPotBlock id="flower_pot" treeOrder="450"/>
+			<endCrystal id="end_crystal" treeOrder="460"/>
 		</decoration>
-		<cookingTool treeOrder="140">
+		<cookingTool treeOrder="150">
 			<saucePan oreDictName="toolSaucepan" treeOrder="10"/>
 			<skillet oreDictName="toolSkillet" treeOrder="20"/>
 			<pot oreDictName="toolPot" treeOrder="30"/>
@@ -3342,7 +3348,7 @@
 			<juicerDict oreDictName="juicer" treeOrder="120"/>
 			<itemFoodCutterDict oreDictName="itemFoodCutter" treeOrder="130"/>
 		</cookingTool>
-		<food treeOrder="150">
+		<food treeOrder="160">
 			<edibleFood treeOrder="10">
 				<preparedFood treeOrder="30">
 					<foodHeartyBreakfastDict oreDictName="foodHeartyBreakfast" treeOrder="10"/>
@@ -3367,7 +3373,7 @@
 						<foodMaplecandiedbaconDict oreDictName="foodMaplecandiedbacon" treeOrder="30"/>
 						<foodChocolatecookieDict oreDictName="foodChocolatecookie" treeOrder="40"/>
 						<foodBaconandeggsDict oreDictName="foodBaconandeggs" treeOrder="50"/>
-						<foodBaconpancakesDict oreDictName="foodBaconpancakes" treeOrder="60"/>
+						<foodBaconpancakesDict oreDictName="foodBaconpancakes" treeOrder="70"/>
 					</bacon>
 					<preppedpork treeOrder="70">
 						<foodApricotglazedporkDict oreDictName="foodApricotglazedpork" treeOrder="10"/>
@@ -3452,46 +3458,46 @@
 						<foodPizzaDict oreDictName="foodPizza" treeOrder="80"/>
 					</pizza>
 					<soup treeOrder="150">
-						<foodAsparagussoupDict oreDictName="foodAsparagussoup" treeOrder="10"/>
-						<beetrootSoup id="beetroot_soup" treeOrder="20"/>
-						<foodBeetsoupDict oreDictName="foodBeetsoup" treeOrder="30"/>
-						<foodCactussoupDict oreDictName="foodCactussoup" treeOrder="40"/>
-						<foodCarrotsoupDict oreDictName="foodCarrotsoup" treeOrder="50"/>
-						<foodCelerysoupDict oreDictName="foodCelerysoup" treeOrder="60"/>
-						<foodChickennoodlesoupDict oreDictName="foodChickennoodlesoup" treeOrder="70"/>
-						<foodCreamedbroccolisoupDict oreDictName="foodCreamedbroccolisoup" treeOrder="80"/>
-						<foodCreamofavocadosoupDict oreDictName="foodCreamofavocadosoup" treeOrder="90"/>
-						<foodCucumbersoupDict oreDictName="foodCucumbersoup" treeOrder="100"/>
-						<foodGardensoupDict oreDictName="foodGardensoup" treeOrder="110"/>
-						<foodMinerstewDict oreDictName="foodMinerstew" treeOrder="130"/>
-						<foodLambbarleysoupDict oreDictName="foodLambbarleysoup" treeOrder="140"/>
-						<foodLeekbaconsoupDict oreDictName="foodLeekbaconsoup" treeOrder="150"/>
-						<foodMeatystewDict oreDictName="foodMeatystew" treeOrder="160"/>
-						<rabbitStew id="rabbit_stew" treeOrder="170"/>
-						<mushroomStew id="mushroom_stew" treeOrder="180"/>
-						<foodOldworldveggiesoupDict oreDictName="foodOldworldveggiesoup" treeOrder="210"/>
-						<foodOnionsoupDict oreDictName="foodOnionsoup" treeOrder="220"/>
-						<foodPeaandhamsoupDict oreDictName="foodPeaandhamsoup" treeOrder="240"/>
-						<foodPotatoandleeksoupDict oreDictName="foodPotatoandleeksoup" treeOrder="250"/>
-						<foodPotatosoupDict oreDictName="foodPotatosoup" treeOrder="260"/>
-						<foodPotroastDict oreDictName="foodPotroast" treeOrder="270"/>
-						<foodPumpkinsoupDict oreDictName="foodPumpkinsoup" treeOrder="280"/>
-						<foodRicesoupDict oreDictName="foodRicesoup" treeOrder="300"/>
-						<foodSeedsoupDict oreDictName="foodSeedsoup" treeOrder="310"/>
-						<foodSpidereyesoupDict oreDictName="foodSpidereyesoup" treeOrder="320"/>
-						<foodSplitpeasoupDict oreDictName="foodSplitpeasoup" treeOrder="330"/>
-						<foodTomatosoupDict oreDictName="foodTomatosoup" treeOrder="340"/>
-						<foodTurnipsoupDict oreDictName="foodTurnipsoup" treeOrder="350"/>
-						<foodVegetablesoupDict oreDictName="foodVegetablesoup" treeOrder="360"/>
-						<foodStockDict oreDictName="foodStock" treeOrder="370"/>
-						<foodChickengumboDict oreDictName="foodChickengumbo" treeOrder="380"/>
-						<foodBlazingsoupDict oreDictName="foodBlazingsoup" treeOrder="390"/>
-						<foodChorusfruitsoupDict oreDictName="foodChorusfruitsoup" treeOrder="400"/>
-						<foodDriedsoupDict oreDictName="foodDriedsoup" treeOrder="410"/>
-						<foodHotandsoursoupDict oreDictName="foodHotandsoursoup" treeOrder="420"/>
-						<foodMisosoupDict oreDictName="foodMisosoup" treeOrder="430"/>
-						<foodMobsoupDict oreDictName="foodMobsoup" treeOrder="440"/>
-						<foodWontonsoupDict oreDictName="foodWontonsoup" treeOrder="450"/>
+						<foodAsparagussoupDict oreDictName="foodAsparagussoup" treeOrder="20"/>
+						<beetrootSoup id="beetroot_soup" treeOrder="30"/>
+						<foodBeetsoupDict oreDictName="foodBeetsoup" treeOrder="40"/>
+						<foodCactussoupDict oreDictName="foodCactussoup" treeOrder="50"/>
+						<foodCarrotsoupDict oreDictName="foodCarrotsoup" treeOrder="60"/>
+						<foodCelerysoupDict oreDictName="foodCelerysoup" treeOrder="70"/>
+						<foodChickennoodlesoupDict oreDictName="foodChickennoodlesoup" treeOrder="80"/>
+						<foodCreamedbroccolisoupDict oreDictName="foodCreamedbroccolisoup" treeOrder="90"/>
+						<foodCreamofavocadosoupDict oreDictName="foodCreamofavocadosoup" treeOrder="100"/>
+						<foodCucumbersoupDict oreDictName="foodCucumbersoup" treeOrder="110"/>
+						<foodGardensoupDict oreDictName="foodGardensoup" treeOrder="120"/>
+						<foodMinerstewDict oreDictName="foodMinerstew" treeOrder="140"/>
+						<foodLambbarleysoupDict oreDictName="foodLambbarleysoup" treeOrder="150"/>
+						<foodLeekbaconsoupDict oreDictName="foodLeekbaconsoup" treeOrder="160"/>
+						<foodMeatystewDict oreDictName="foodMeatystew" treeOrder="170"/>
+						<rabbitStew id="rabbit_stew" treeOrder="180"/>
+						<mushroomStew id="mushroom_stew" treeOrder="190"/>
+						<foodOldworldveggiesoupDict oreDictName="foodOldworldveggiesoup" treeOrder="220"/>
+						<foodOnionsoupDict oreDictName="foodOnionsoup" treeOrder="230"/>
+						<foodPeaandhamsoupDict oreDictName="foodPeaandhamsoup" treeOrder="250"/>
+						<foodPotatoandleeksoupDict oreDictName="foodPotatoandleeksoup" treeOrder="260"/>
+						<foodPotatosoupDict oreDictName="foodPotatosoup" treeOrder="270"/>
+						<foodPotroastDict oreDictName="foodPotroast" treeOrder="280"/>
+						<foodPumpkinsoupDict oreDictName="foodPumpkinsoup" treeOrder="290"/>
+						<foodRicesoupDict oreDictName="foodRicesoup" treeOrder="310"/>
+						<foodSeedsoupDict oreDictName="foodSeedsoup" treeOrder="320"/>
+						<foodSpidereyesoupDict oreDictName="foodSpidereyesoup" treeOrder="330"/>
+						<foodSplitpeasoupDict oreDictName="foodSplitpeasoup" treeOrder="340"/>
+						<foodTomatosoupDict oreDictName="foodTomatosoup" treeOrder="350"/>
+						<foodTurnipsoupDict oreDictName="foodTurnipsoup" treeOrder="360"/>
+						<foodVegetablesoupDict oreDictName="foodVegetablesoup" treeOrder="370"/>
+						<foodStockDict oreDictName="foodStock" treeOrder="380"/>
+						<foodChickengumboDict oreDictName="foodChickengumbo" treeOrder="390"/>
+						<foodBlazingsoupDict oreDictName="foodBlazingsoup" treeOrder="400"/>
+						<foodChorusfruitsoupDict oreDictName="foodChorusfruitsoup" treeOrder="410"/>
+						<foodDriedsoupDict oreDictName="foodDriedsoup" treeOrder="420"/>
+						<foodHotandsoursoupDict oreDictName="foodHotandsoursoup" treeOrder="430"/>
+						<foodMisosoupDict oreDictName="foodMisosoup" treeOrder="440"/>
+						<foodMobsoupDict oreDictName="foodMobsoup" treeOrder="450"/>
+						<foodWontonsoupDict oreDictName="foodWontonsoup" treeOrder="460"/>
 					</soup>
 					<toasts treeOrder="160">
 						<foodToastDict oreDictName="foodToast" treeOrder="10"/>
@@ -3634,8 +3640,8 @@
 					</corns>
 				</preparedFood>
 				<jerky treeOrder="40">
-					<foodBeefjerkyDict oreDictName="foodBeefjerky" treeOrder="120"/>
-					<foodZombiejerkyDict oreDictName="foodZombiejerky" treeOrder="130"/>
+					<foodBeefjerkyDict oreDictName="foodBeefjerky" treeOrder="130"/>
+					<foodZombiejerkyDict oreDictName="foodZombiejerky" treeOrder="140"/>
 				</jerky>
 				<cookedFood treeOrder="50">
 					<listAllporkcookedDict oreDictName="listAllporkcooked" treeOrder="10"/>
@@ -3694,11 +3700,11 @@
 						<foodCookedMushroomDict oreDictName="foodCookedMushroom" treeOrder="10"/>
 						<foodBoiledeggDict oreDictName="foodBoiledegg" treeOrder="20"/>
 						<foodFriedeggDict oreDictName="foodFriedegg" treeOrder="30"/>
-						<foodScrambledeggDict oreDictName="foodScrambledegg" treeOrder="40"/>
-						<foodDeviledeggDict oreDictName="foodDeviledegg" treeOrder="50"/>
-						<foodEggsbenedictDict oreDictName="foodEggsbenedict" treeOrder="60"/>
-						<foodEggtartDict oreDictName="foodEggtart" treeOrder="70"/>
-						<foodGreeneggsandhamDict oreDictName="foodGreeneggsandham" treeOrder="80"/>
+						<foodScrambledeggDict oreDictName="foodScrambledegg" treeOrder="50"/>
+						<foodDeviledeggDict oreDictName="foodDeviledegg" treeOrder="60"/>
+						<foodEggsbenedictDict oreDictName="foodEggsbenedict" treeOrder="70"/>
+						<foodEggtartDict oreDictName="foodEggtart" treeOrder="80"/>
+						<foodGreeneggsandhamDict oreDictName="foodGreeneggsandham" treeOrder="90"/>
 					</cookedEgg>
 				</cookedFood>
 				<melonSlice id="melon" treeOrder="60"/>
@@ -3869,7 +3875,7 @@
 						<foodFortunecookieDict oreDictName="foodFortunecookie" treeOrder="90"/>
 						<foodMeringuecookieDict oreDictName="foodMeringuecookie" treeOrder="100"/>
 						<foodSugarcookieDict oreDictName="foodSugarcookie" treeOrder="110"/>
-						<listAllcookieDict oreDictName="listAllcookie" treeOrder="130"/>
+						<listAllcookieDict oreDictName="listAllcookie" treeOrder="140"/>
 					</cookies>
 					<donut treeOrder="20">
 						<foodDonutDict oreDictName="foodDonut" treeOrder="10"/>
@@ -3981,33 +3987,33 @@
 				<listAllheavycreamDict oreDictName="listAllheavycream" treeOrder="110"/>
 				<drink treeOrder="120">
 					<juice treeOrder="10">
-						<foodApplejuiceDict oreDictName="foodApplejuice" treeOrder="20"/>
-						<foodApricotjuiceDict oreDictName="foodApricotjuice" treeOrder="30"/>
-						<foodBlackberryjuiceDict oreDictName="foodBlackberryjuice" treeOrder="40"/>
-						<foodBlueberryjuiceDict oreDictName="foodBlueberryjuice" treeOrder="50"/>
-						<foodCactusfruitjuiceDict oreDictName="foodCactusfruitjuice" treeOrder="60"/>
-						<foodCarrotjuiceDict oreDictName="foodCarrotjuice" treeOrder="70"/>
-						<foodCherryjuiceDict oreDictName="foodCherryjuice" treeOrder="90"/>
-						<foodCranberryjuiceDict oreDictName="foodCranberryjuice" treeOrder="100"/>
-						<foodFigjuiceDict oreDictName="foodFigjuice" treeOrder="110"/>
-						<foodGrapefruitjuiceDict oreDictName="foodGrapefruitjuice" treeOrder="120"/>
-						<foodGrapejuiceDict oreDictName="foodGrapejuice" treeOrder="130"/>
-						<foodKiwijuiceDict oreDictName="foodKiwijuice" treeOrder="140"/>
-						<foodLemonaideDict oreDictName="foodLemonaide" treeOrder="150"/>
-						<foodLimejuiceDict oreDictName="foodLimejuice" treeOrder="160"/>
-						<foodMangojuiceDict oreDictName="foodMangojuice" treeOrder="170"/>
-						<foodMelonjuiceDict oreDictName="foodMelonjuice" treeOrder="180"/>
-						<foodOrangejuiceDict oreDictName="foodOrangejuice" treeOrder="190"/>
-						<foodPapayajuiceDict oreDictName="foodPapayajuice" treeOrder="200"/>
-						<foodPeachjuiceDict oreDictName="foodPeachjuice" treeOrder="210"/>
-						<foodPearjuiceDict oreDictName="foodPearjuice" treeOrder="220"/>
-						<foodPersimmonjuiceDict oreDictName="foodPersimmonjuice" treeOrder="230"/>
-						<foodPlumjuiceDict oreDictName="foodPlumjuice" treeOrder="240"/>
-						<foodPomegranatejuiceDict oreDictName="foodPomegranatejuice" treeOrder="250"/>
-						<foodRaspberryjuiceDict oreDictName="foodRaspberryjuice" treeOrder="260"/>
-						<foodStarfruitjuiceDict oreDictName="foodStarfruitjuice" treeOrder="270"/>
-						<foodStrawberryjuiceDict oreDictName="foodStrawberryjuice" treeOrder="280"/>
-						<listAlljuiceDict oreDictName="listAlljuice" treeOrder="290"/>
+						<listAlljuiceDict oreDictName="listAlljuice" treeOrder="10"/>
+						<foodApplejuiceDict oreDictName="foodApplejuice" treeOrder="30"/>
+						<foodApricotjuiceDict oreDictName="foodApricotjuice" treeOrder="40"/>
+						<foodBlackberryjuiceDict oreDictName="foodBlackberryjuice" treeOrder="70"/>
+						<foodBlueberryjuiceDict oreDictName="foodBlueberryjuice" treeOrder="90"/>
+						<foodCactusfruitjuiceDict oreDictName="foodCactusfruitjuice" treeOrder="120"/>
+						<foodCarrotjuiceDict oreDictName="foodCarrotjuice" treeOrder="150"/>
+						<foodCherryjuiceDict oreDictName="foodCherryjuice" treeOrder="160"/>
+						<foodCranberryjuiceDict oreDictName="foodCranberryjuice" treeOrder="170"/>
+						<foodFigjuiceDict oreDictName="foodFigjuice" treeOrder="180"/>
+						<foodGrapefruitjuiceDict oreDictName="foodGrapefruitjuice" treeOrder="190"/>
+						<foodGrapejuiceDict oreDictName="foodGrapejuice" treeOrder="200"/>
+						<foodKiwijuiceDict oreDictName="foodKiwijuice" treeOrder="210"/>
+						<foodLemonaideDict oreDictName="foodLemonaide" treeOrder="220"/>
+						<foodLimejuiceDict oreDictName="foodLimejuice" treeOrder="230"/>
+						<foodMangojuiceDict oreDictName="foodMangojuice" treeOrder="250"/>
+						<foodMelonjuiceDict oreDictName="foodMelonjuice" treeOrder="270"/>
+						<foodOrangejuiceDict oreDictName="foodOrangejuice" treeOrder="280"/>
+						<foodPapayajuiceDict oreDictName="foodPapayajuice" treeOrder="290"/>
+						<foodPeachjuiceDict oreDictName="foodPeachjuice" treeOrder="310"/>
+						<foodPearjuiceDict oreDictName="foodPearjuice" treeOrder="320"/>
+						<foodPersimmonjuiceDict oreDictName="foodPersimmonjuice" treeOrder="340"/>
+						<foodPlumjuiceDict oreDictName="foodPlumjuice" treeOrder="350"/>
+						<foodPomegranatejuiceDict oreDictName="foodPomegranatejuice" treeOrder="360"/>
+						<foodRaspberryjuiceDict oreDictName="foodRaspberryjuice" treeOrder="400"/>
+						<foodStarfruitjuiceDict oreDictName="foodStarfruitjuice" treeOrder="420"/>
+						<foodStrawberryjuiceDict oreDictName="foodStrawberryjuice" treeOrder="430"/>
 					</juice>
 					<sweetJuice treeOrder="20">
 						<foodAppleciderDict oreDictName="foodApplecider" treeOrder="10"/>
@@ -4434,28 +4440,28 @@
 				<foodSurfandturfDict oreDictName="foodSurfandturf" treeOrder="2310"/>
 				<foodSushiDict oreDictName="foodSushi" treeOrder="2320"/>
 				<foodSwedishmeatballsDict oreDictName="foodSwedishmeatballs" treeOrder="2330"/>
-				<foodSweetandsourchickenDict oreDictName="foodSweetandsourchicken" treeOrder="2340"/>
-				<foodSweetandsourmeatballsDict oreDictName="foodSweetandsourmeatballs" treeOrder="2350"/>
-				<foodSweetandsoursauceDict oreDictName="foodSweetandsoursauce" treeOrder="2360"/>
-				<foodSweetpickleDict oreDictName="foodSweetpickle" treeOrder="2370"/>
-				<foodSzechuaneggplantDict oreDictName="foodSzechuaneggplant" treeOrder="2380"/>
-				<foodTakoyakiDict oreDictName="foodTakoyaki" treeOrder="2390"/>
-				<foodTheatreboxDict oreDictName="foodTheatrebox" treeOrder="2400"/>
-				<foodTimtamDict oreDictName="foodTimtam" treeOrder="2410"/>
-				<foodTiropitaDict oreDictName="foodTiropita" treeOrder="2420"/>
-				<foodToadintheholeDict oreDictName="foodToadinthehole" treeOrder="2430"/>
-				<foodToastedcoconutDict oreDictName="foodToastedcoconut" treeOrder="2440"/>
-				<foodTortillachipsDict oreDictName="foodTortillachips" treeOrder="2450"/>
-				<foodTrailmixDict oreDictName="foodTrailmix" treeOrder="2460"/>
-				<foodTurtlecookedDict oreDictName="foodTurtlecooked" treeOrder="2470"/>
-				<foodVanillaDict oreDictName="foodVanilla" treeOrder="2480"/>
-				<foodVegetarianlettucewrapDict oreDictName="foodVegetarianlettucewrap" treeOrder="2490"/>
-				<foodVeggiestirfryDict oreDictName="foodVeggiestirfry" treeOrder="2500"/>
-				<foodVeggiestripsDict oreDictName="foodVeggiestrips" treeOrder="2510"/>
-				<foodVindalooDict oreDictName="foodVindaloo" treeOrder="2520"/>
-				<foodWafflesDict oreDictName="foodWaffles" treeOrder="2530"/>
-				<foodWeekendpicnicDict oreDictName="foodWeekendpicnic" treeOrder="2540"/>
-				<foodZeppoleDict oreDictName="foodZeppole" treeOrder="2550"/>
+				<foodSweetandsourchickenDict oreDictName="foodSweetandsourchicken" treeOrder="2350"/>
+				<foodSweetandsourmeatballsDict oreDictName="foodSweetandsourmeatballs" treeOrder="2360"/>
+				<foodSweetandsoursauceDict oreDictName="foodSweetandsoursauce" treeOrder="2370"/>
+				<foodSweetpickleDict oreDictName="foodSweetpickle" treeOrder="2380"/>
+				<foodSzechuaneggplantDict oreDictName="foodSzechuaneggplant" treeOrder="2390"/>
+				<foodTakoyakiDict oreDictName="foodTakoyaki" treeOrder="2400"/>
+				<foodTheatreboxDict oreDictName="foodTheatrebox" treeOrder="2410"/>
+				<foodTimtamDict oreDictName="foodTimtam" treeOrder="2420"/>
+				<foodTiropitaDict oreDictName="foodTiropita" treeOrder="2430"/>
+				<foodToadintheholeDict oreDictName="foodToadinthehole" treeOrder="2440"/>
+				<foodToastedcoconutDict oreDictName="foodToastedcoconut" treeOrder="2450"/>
+				<foodTortillachipsDict oreDictName="foodTortillachips" treeOrder="2460"/>
+				<foodTrailmixDict oreDictName="foodTrailmix" treeOrder="2470"/>
+				<foodTurtlecookedDict oreDictName="foodTurtlecooked" treeOrder="2480"/>
+				<foodVanillaDict oreDictName="foodVanilla" treeOrder="2490"/>
+				<foodVegetarianlettucewrapDict oreDictName="foodVegetarianlettucewrap" treeOrder="2500"/>
+				<foodVeggiestirfryDict oreDictName="foodVeggiestirfry" treeOrder="2510"/>
+				<foodVeggiestripsDict oreDictName="foodVeggiestrips" treeOrder="2520"/>
+				<foodVindalooDict oreDictName="foodVindaloo" treeOrder="2530"/>
+				<foodWafflesDict oreDictName="foodWaffles" treeOrder="2540"/>
+				<foodWeekendpicnicDict oreDictName="foodWeekendpicnic" treeOrder="2550"/>
+				<foodZeppoleDict oreDictName="foodZeppole" treeOrder="2560"/>
 			</todoFoods>
 			<poisonedFood treeOrder="40">
 				<cropBelladonnaDict oreDictName="cropBelladonna" treeOrder="10"/>
@@ -4490,14 +4496,15 @@
 				</dough>
 				<foodBlackpepperDict oreDictName="foodBlackpepper" treeOrder="40"/>
 				<listAllspiceDict oreDictName="listAllspice" treeOrder="50"/>
-				<sugarCane id="reeds" treeOrder="60"/>
-				<sugar id="sugar" treeOrder="70"/>
-				<popChorusFruit id="chorus_fruit_popped" treeOrder="80"/>
-				<listAllsugarDict oreDictName="listAllsugar" treeOrder="90"/>
-				<eggDict oreDictName="egg" treeOrder="100"/>
-				<itemEgg id="egg" treeOrder="110"/>
-				<foodFatDict oreDictName="foodFat" treeOrder="120"/>
-				<cakes treeOrder="130">
+				<sugarcaneDict oreDictName="sugarcane" treeOrder="60"/>
+				<sugarCane id="reeds" treeOrder="70"/>
+				<sugar id="sugar" treeOrder="160"/>
+				<popChorusFruit id="chorus_fruit_popped" treeOrder="190"/>
+				<listAllsugarDict oreDictName="listAllsugar" treeOrder="200"/>
+				<eggDict oreDictName="egg" treeOrder="210"/>
+				<itemEgg id="egg" treeOrder="220"/>
+				<foodFatDict oreDictName="foodFat" treeOrder="230"/>
+				<cakes treeOrder="240">
 					<foodOvisAtreDict oreDictName="foodOvisAtre" treeOrder="10"/>
 					<itemCakeBaseDict oreDictName="itemCakeBase" treeOrder="20"/>
 					<cake id="cake" treeOrder="30"/>
@@ -4510,9 +4517,9 @@
 					<foodPineappleupsidedowncakeDict oreDictName="foodPineappleupsidedowncake" treeOrder="120"/>
 					<foodRedvelvetcakeDict oreDictName="foodRedvelvetcake" treeOrder="130"/>
 				</cakes>
-				<listAllwaterDict oreDictName="listAllwater" treeOrder="140"/>
-				<dustSaltDict oreDictName="dustSalt" treeOrder="160"/>
-				<blockSaltDict oreDictName="blockSalt" treeOrder="170"/>
+				<listAllwaterDict oreDictName="listAllwater" treeOrder="250"/>
+				<dustSaltDict oreDictName="dustSalt" treeOrder="270"/>
+				<blockSaltDict oreDictName="blockSalt" treeOrder="280"/>
 			</unedibleFood>
 			<hunting treeOrder="60">
 				<bait treeOrder="20">
@@ -4524,7 +4531,7 @@
 				</bait>
 			</hunting>
 		</food>
-		<plant treeOrder="160">
+		<plant treeOrder="170">
 			<flower treeOrder="10">
 				<flowerChorus id="chorus_flower" treeOrder="10"/>
 				<flowerOrange treeOrder="30">
@@ -4642,31 +4649,31 @@
 				<seedFlaxDict oreDictName="seedFlax" treeOrder="520"/>
 				<seedGrassNetherDict oreDictName="seedGrassNether" treeOrder="570"/>
 				<seedGrassVoidDict oreDictName="seedGrassVoid" treeOrder="580"/>
-				<thisIsWhatHappensWhenYouDontFollowOreDictionariesForSeedsDict oreDictName="thisIsWhatHappensWhenYouDontFollowOreDictionariesF" treeOrder="610"/>
-				<seedOkraDict oreDictName="seedOkra" treeOrder="710"/>
-				<cropPetiniaDict oreDictName="cropPetinia" treeOrder="740"/>
-				<cropPlatiolusDict oreDictName="cropPlatiolus" treeOrder="770"/>
-				<cropQuartzanthemumDict oreDictName="cropQuartzanthemum" treeOrder="800"/>
-				<cropRedstodendronDict oreDictName="cropRedstodendron" treeOrder="820"/>
-				<seedRiceDict oreDictName="seedRice" treeOrder="850"/>
-				<seedRushDict oreDictName="seedRush" treeOrder="880"/>
-				<seedRutabagaDict oreDictName="seedRutabaga" treeOrder="890"/>
-				<wheatSeed id="wheat_seeds" treeOrder="920"/>
-				<pumpkinSeed id="pumpkin_seeds" treeOrder="930"/>
-				<melonSeed id="melon_seeds" treeOrder="940"/>
-				<beetrootSeeds id="beetroot_seeds" treeOrder="950"/>
-				<seedSinuousDict oreDictName="seedSinuous" treeOrder="990"/>
-				<seedTallGrassDict oreDictName="seedTallGrass" treeOrder="1060"/>
-				<seedTeaDict oreDictName="seedTea" treeOrder="1070"/>
-				<seedsTier1Dict oreDictName="seedsTier1" treeOrder="1230"/>
-				<seedsTier2Dict oreDictName="seedsTier2" treeOrder="1240"/>
-				<seedsTier3Dict oreDictName="seedsTier3" treeOrder="1250"/>
-				<seedsTier4Dict oreDictName="seedsTier4" treeOrder="1260"/>
-				<seedsTier5Dict oreDictName="seedsTier5" treeOrder="1270"/>
-				<seedsTier6Dict oreDictName="seedsTier6" treeOrder="1280"/>
-				<seedValusDict oreDictName="seedValus" treeOrder="1300"/>
-				<seedYewDict oreDictName="seedYew" treeOrder="1360"/>
-				<seeds oreDictName="listAllseed" treeOrder="1370"/>
+				<thisIsWhatHappensWhenYouDontFollowOreDictionariesForSeedsDict oreDictName="thisIsWhatHappensWhenYouDontFollowOreDictionariesF" treeOrder="620"/>
+				<seedOkraDict oreDictName="seedOkra" treeOrder="720"/>
+				<cropPetiniaDict oreDictName="cropPetinia" treeOrder="750"/>
+				<cropPlatiolusDict oreDictName="cropPlatiolus" treeOrder="780"/>
+				<cropQuartzanthemumDict oreDictName="cropQuartzanthemum" treeOrder="810"/>
+				<cropRedstodendronDict oreDictName="cropRedstodendron" treeOrder="830"/>
+				<seedRiceDict oreDictName="seedRice" treeOrder="860"/>
+				<seedRushDict oreDictName="seedRush" treeOrder="890"/>
+				<seedRutabagaDict oreDictName="seedRutabaga" treeOrder="900"/>
+				<wheatSeed id="wheat_seeds" treeOrder="930"/>
+				<pumpkinSeed id="pumpkin_seeds" treeOrder="940"/>
+				<melonSeed id="melon_seeds" treeOrder="950"/>
+				<beetrootSeeds id="beetroot_seeds" treeOrder="960"/>
+				<seedSinuousDict oreDictName="seedSinuous" treeOrder="1000"/>
+				<seedTallGrassDict oreDictName="seedTallGrass" treeOrder="1070"/>
+				<seedTeaDict oreDictName="seedTea" treeOrder="1080"/>
+				<seedsTier1Dict oreDictName="seedsTier1" treeOrder="1240"/>
+				<seedsTier2Dict oreDictName="seedsTier2" treeOrder="1250"/>
+				<seedsTier3Dict oreDictName="seedsTier3" treeOrder="1260"/>
+				<seedsTier4Dict oreDictName="seedsTier4" treeOrder="1270"/>
+				<seedsTier5Dict oreDictName="seedsTier5" treeOrder="1280"/>
+				<seedsTier6Dict oreDictName="seedsTier6" treeOrder="1290"/>
+				<seedValusDict oreDictName="seedValus" treeOrder="1310"/>
+				<seedYewDict oreDictName="seedYew" treeOrder="1370"/>
+				<seeds oreDictName="listAllseed" treeOrder="1380"/>
 			</seed>
 			<seedlings treeOrder="70">
 				<magicalCrops treeOrder="620">
@@ -4705,7 +4712,7 @@
 			<itemPlantbrownDict oreDictName="itemPlantbrown" treeOrder="310"/>
 			<itemPlantgreenDict oreDictName="itemPlantgreen" treeOrder="320"/>
 		</plant>
-		<bees treeOrder="170">
+		<bees treeOrder="180">
 			<beeQueens treeOrder="10">
 				<beeQueenDict oreDictName="beeQueen" treeOrder="10"/>
 			</beeQueens>
@@ -4727,10 +4734,10 @@
 				<dropRoyalJellyDict oreDictName="dropRoyalJelly" treeOrder="30"/>
 			</beeHoney>
 		</bees>
-		<fireworks id="firework_charge" treeOrder="190"/>
-		<itemFireworkRocket id="fireworks" treeOrder="200"/>
-		<glassBottle id="glass_bottle" treeOrder="210"/>
-		<potionIngredient treeOrder="250">
+		<fireworks id="firework_charge" treeOrder="200"/>
+		<itemFireworkRocket id="fireworks" treeOrder="210"/>
+		<glassBottle id="glass_bottle" treeOrder="220"/>
+		<potionIngredient treeOrder="260">
 			<dragonsBreath id="dragon_breath" treeOrder="10"/>
 			<bEnderAirBottleDict oreDictName="bEnderAirBottle" treeOrder="20"/>
 			<netherWart id="nether_wart" treeOrder="30"/>
@@ -4746,7 +4753,7 @@
 			<rabbitsFoot id="rabbit_foot" treeOrder="130"/>
 			<rabbitFoot id="rabbit_foot" treeOrder="140"/>
 		</potionIngredient>
-		<potion treeOrder="260">
+		<potion treeOrder="270">
 			<drinkablePotion treeOrder="10">
 				<neutralPotion treeOrder="10">
 					<potionEmpty id="potion" data="{Potion:&quot;minecraft:empty&quot;}" treeOrder="10"/>
@@ -4973,7 +4980,7 @@
 			<bottleOEnchanting id="experience_bottle" treeOrder="80"/>
 			<bottleEnchanting id="experience_bottle" treeOrder="90"/>
 		</potion>
-		<magical treeOrder="280">
+		<magical treeOrder="310">
 			<witchery treeOrder="30">
 				<Ingredient treeOrder="10">
 					<cropMandrakeDict oreDictName="cropMandrake" treeOrder="10"/>
@@ -4983,7 +4990,7 @@
 					<cropWormwoodDict oreDictName="cropWormwood" treeOrder="50"/>
 				</Ingredient>
 			</witchery>
-			<botania treeOrder="40">
+			<botania treeOrder="50">
 				<petals treeOrder="10">
 					<petalBlackDict oreDictName="petalBlack" treeOrder="10"/>
 					<petalBlueDict oreDictName="petalBlue" treeOrder="20"/>
@@ -5051,7 +5058,7 @@
 					<redstoneRootDict oreDictName="redstoneRoot" treeOrder="100"/>
 				</botaniaMisc>
 			</botania>
-			<magicalCrops treeOrder="50">
+			<magicalCrops treeOrder="60">
 				<cropEssence treeOrder="30">
 					<baseEssence treeOrder="10">
 						<essenceInferiumDict oreDictName="essenceInferium" treeOrder="60"/>

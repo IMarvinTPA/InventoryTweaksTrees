@@ -37,45 +37,45 @@
 			</miningTool>
 			<diggingTool treeOrder="30">
 				<shovel class="Item" data="{ToolClass : &quot;shovel&quot;}" mergeChildren="true" treeOrder="20">
-					<itemGoldenBoneShovel id="nex:tool_shovel_bone" treeOrder="1050"/>
+					<itemGoldenBoneShovel id="nex:tool_shovel_bone" treeOrder="1070"/>
 				</shovel>
 			</diggingTool>
 			<choppingTool treeOrder="40">
 				<axe class="Item" data="{ToolClass : &quot;axe&quot;}" mergeChildren="true" treeOrder="20">
-					<itemGoldenBoneAxe id="nex:tool_axe_bone" treeOrder="1050"/>
+					<itemGoldenBoneAxe id="nex:tool_axe_bone" treeOrder="1070"/>
 				</axe>
 			</choppingTool>
 			<farmingTool treeOrder="50">
 				<hoe class="Item" data="{ToolClass : &quot;hoe&quot;}" mergeChildren="true" treeOrder="50">
-					<itemGoldenBoneHoe id="nex:tool_hoe_bone" treeOrder="930"/>
+					<itemGoldenBoneHoe id="nex:tool_hoe_bone" treeOrder="940"/>
 				</hoe>
 			</farmingTool>
 		</tool>
 		<armor treeOrder="30">
 			<helmet class="ItemArmor" data="{ArmorType : &quot;head&quot;}" treeOrder="20">
 				<helmetUnsorted treeOrder="60">
-					<itemBoneHelmet id="nex:armor_helmet_bone" treeOrder="50"/>
-					<itemSalamanderHideHelmet id="nex:armor_helmet_hide_salamander" treeOrder="470"/>
+					<itemBoneHelmet id="nex:armor_helmet_bone" treeOrder="60"/>
+					<itemSalamanderHideHelmet id="nex:armor_helmet_hide_salamander" treeOrder="480"/>
 				</helmetUnsorted>
 			</helmet>
 			<chestplate class="ItemArmor" data="{ArmorType:&quot;chest&quot;}" treeOrder="30">
 				<chestplateArmor treeOrder="20">
 					<chestplateUnsorted treeOrder="120">
-						<itemBoneChestplate id="nex:armor_chestplate_bone" treeOrder="50"/>
-						<itemSalamanderHideChestplate id="nex:armor_chestplate_hide_salamander" treeOrder="470"/>
-						<itemSalamanderHideLeggings id="nex:armor_leggings_hide_salamander" treeOrder="480"/>
+						<itemBoneChestplate id="nex:armor_chestplate_bone" treeOrder="60"/>
+						<itemSalamanderHideChestplate id="nex:armor_chestplate_hide_salamander" treeOrder="480"/>
+						<itemSalamanderHideLeggings id="nex:armor_leggings_hide_salamander" treeOrder="490"/>
 					</chestplateUnsorted>
 				</chestplateArmor>
 			</chestplate>
 			<leggings class="ItemArmor" data="{ArmorType:&quot;legs&quot;}" treeOrder="40">
 				<leggingsUnsorted treeOrder="100">
-					<itemBoneLeggings id="nex:armor_leggings_bone" treeOrder="50"/>
+					<itemBoneLeggings id="nex:armor_leggings_bone" treeOrder="60"/>
 				</leggingsUnsorted>
 			</leggings>
 			<boots class="ItemArmor" data="{ArmorType:&quot;feet&quot;}" treeOrder="50">
 				<bootsUnsorted treeOrder="70">
-					<itemBoneBoots id="nex:armor_boots_bone" treeOrder="50"/>
-					<itemSalamanderHideBoots id="nex:armor_boots_hide_salamander" treeOrder="490"/>
+					<itemBoneBoots id="nex:armor_boots_bone" treeOrder="60"/>
+					<itemSalamanderHideBoots id="nex:armor_boots_hide_salamander" treeOrder="500"/>
 				</bootsUnsorted>
 			</boots>
 		</armor>

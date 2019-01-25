@@ -54,26 +54,26 @@
 			</miningTool>
 			<diggingTool treeOrder="30">
 				<shovel class="Item" data="{ToolClass : &quot;shovel&quot;}" mergeChildren="true" treeOrder="20">
-					<itemBronzeShovel id="techreborn:bronzespade" treeOrder="90"/>
-					<itemPeridotShovel id="techreborn:peridotspade" treeOrder="440"/>
-					<itemRubyShovel id="techreborn:rubyspade" treeOrder="510"/>
-					<itemSapphireShovel id="techreborn:sapphirespade" treeOrder="530"/>
+					<itemBronzeShovel id="techreborn:bronzespade" treeOrder="110"/>
+					<itemPeridotShovel id="techreborn:peridotspade" treeOrder="460"/>
+					<itemRubyShovel id="techreborn:rubyspade" treeOrder="530"/>
+					<itemSapphireShovel id="techreborn:sapphirespade" treeOrder="550"/>
 				</shovel>
 			</diggingTool>
 			<choppingTool treeOrder="40">
 				<axe class="Item" data="{ToolClass : &quot;axe&quot;}" mergeChildren="true" treeOrder="20">
-					<itemBronzeAxe id="techreborn:bronzeaxe" treeOrder="160"/>
-					<itemPeridotAxe id="techreborn:peridotaxe" treeOrder="500"/>
-					<itemRubyAxe id="techreborn:rubyaxe" treeOrder="580"/>
-					<itemSapphireAxe id="techreborn:sapphireaxe" treeOrder="600"/>
+					<itemBronzeAxe id="techreborn:bronzeaxe" treeOrder="180"/>
+					<itemPeridotAxe id="techreborn:peridotaxe" treeOrder="520"/>
+					<itemRubyAxe id="techreborn:rubyaxe" treeOrder="600"/>
+					<itemSapphireAxe id="techreborn:sapphireaxe" treeOrder="620"/>
 				</axe>
 			</choppingTool>
 			<farmingTool treeOrder="50">
 				<hoe class="Item" data="{ToolClass : &quot;hoe&quot;}" mergeChildren="true" treeOrder="50">
-					<itemBronzeHoe id="techreborn:bronzehoe" treeOrder="90"/>
-					<itemPeridotHoe id="techreborn:peridothoe" treeOrder="430"/>
-					<itemRubyHoe id="techreborn:rubyhoe" treeOrder="510"/>
-					<itemSapphireHoe id="techreborn:sapphirehoe" treeOrder="530"/>
+					<itemBronzeHoe id="techreborn:bronzehoe" treeOrder="100"/>
+					<itemPeridotHoe id="techreborn:peridothoe" treeOrder="440"/>
+					<itemRubyHoe id="techreborn:rubyhoe" treeOrder="520"/>
+					<itemSapphireHoe id="techreborn:sapphirehoe" treeOrder="540"/>
 				</hoe>
 			</farmingTool>
 		</tool>
