@@ -29,10 +29,10 @@
 	<item treeOrder="40">
 		<utility treeOrder="10">
 			<storage treeOrder="30">
-				<storageupgrades treeOrder="80">
+				<storageupgrades treeOrder="90">
 					<itemUpgrade id="bagginses:upgrade" treeOrder="440"/>
 				</storageupgrades>
-				<portableStorage treeOrder="90">
+				<portableStorage treeOrder="100">
 					<bagginses treeOrder="260">
 						<itemBlackBag id="bagginses:black" treeOrder="10"/>
 						<itemBlackBag id="bagginses:blackt2" treeOrder="20"/>
@@ -85,7 +85,7 @@
 						<itemEnderBag id="bagginses:ender" treeOrder="490"/>
 					</bagginses>
 				</portableStorage>
-				<voidStorage treeOrder="110">
+				<voidStorage treeOrder="120">
 					<voidBags treeOrder="20">
 						<itemVoidBag id="bagginses:void" treeOrder="20"/>
 					</voidBags>

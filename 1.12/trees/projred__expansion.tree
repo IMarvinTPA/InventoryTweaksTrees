@@ -37,22 +37,22 @@
 	</equipment>
 	<block treeOrder="20">
 		<mechanism treeOrder="60">
-			<resourceTransfer treeOrder="300">
+			<resourceTransfer treeOrder="320">
 				<groundItemCollector treeOrder="10">
-					<itemItemImporter id="projred|expansion:projectred.expansion.machine2" damage="1" treeOrder="170"/>
+					<itemItemImporter id="projred|expansion:projectred.expansion.machine2" damage="1" treeOrder="180"/>
 				</groundItemCollector>
 			</resourceTransfer>
-			<basicCrafting treeOrder="360">
+			<basicCrafting treeOrder="390">
 				<craftingTables treeOrder="10">
 					<itemProjectBench id="projred|expansion:projectred.expansion.machine2" damage="10" treeOrder="100"/>
 				</craftingTables>
 			</basicCrafting>
-			<generators treeOrder="370">
+			<generators treeOrder="400">
 				<liquidFuelGenerators treeOrder="40">
 					<itemProjRed_Expansion_projectred.ElectrotineGenerator id="projred|expansion:projectred.expansion.machine1" damage="1" treeOrder="50"/>
 				</liquidFuelGenerators>
 			</generators>
-			<machines treeOrder="380">
+			<machines treeOrder="410">
 				<poweredCrafting treeOrder="10">
 					<itemAutoCraftingBench id="projred|expansion:projectred.expansion.machine2" damage="11" treeOrder="160"/>
 				</poweredCrafting>
@@ -63,16 +63,16 @@
 					<itemBlockBreaker id="projred|expansion:projectred.expansion.machine2" damage="0" treeOrder="30"/>
 				</poweredMining>
 				<poweredDroppers treeOrder="160">
-					<itemBlockPlacer id="projred|expansion:projectred.expansion.machine2" damage="2" treeOrder="90"/>
+					<itemBlockPlacer id="projred|expansion:projectred.expansion.machine2" damage="2" treeOrder="30"/>
 				</poweredDroppers>
-				<randomMachines treeOrder="210">
+				<randomMachines treeOrder="220">
 					<itemBatteryBox id="projred|expansion:projectred.expansion.machine2" damage="5" treeOrder="90"/>
 					<itemChargingBench id="projred|expansion:projectred.expansion.machine2" damage="6" treeOrder="100"/>
 					<itemFilteredImporter id="projred|expansion:projectred.expansion.machine2" damage="3" treeOrder="110"/>
 					<itemFireStarter id="projred|expansion:projectred.expansion.machine2" damage="4" treeOrder="120"/>
-					<itemFrameLinearActuator id="projred|expansion:projectred.expansion.machine2" damage="9" treeOrder="130"/>
-					<itemFrameMotor id="projred|expansion:projectred.expansion.machine2" damage="8" treeOrder="140"/>
-					<itemTeleposer id="projred|expansion:projectred.expansion.machine2" damage="7" treeOrder="150"/>
+					<itemFrameLinearActuator id="projred|expansion:projectred.expansion.machine2" damage="9" treeOrder="140"/>
+					<itemFrameMotor id="projred|expansion:projectred.expansion.machine2" damage="8" treeOrder="150"/>
+					<itemTeleposer id="projred|expansion:projectred.expansion.machine2" damage="7" treeOrder="160"/>
 				</randomMachines>
 			</machines>
 		</mechanism>

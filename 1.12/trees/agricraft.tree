@@ -32,9 +32,9 @@
 				<otherFarmingTools treeOrder="60">
 					<itemIronHandRake id="agricraft:handrake" damage="1" treeOrder="10"/>
 					<itemWoodenHandRake id="agricraft:handrake" damage="0" treeOrder="20"/>
-					<itemClipper id="agricraft:clipper" treeOrder="30"/>
-					<itemMagnifyingGlass id="agricraft:magnifyingglass" treeOrder="40"/>
-					<itemGardeningTrowel id="agricraft:trowel" treeOrder="50"/>
+					<itemClipper id="agricraft:clipper" treeOrder="50"/>
+					<itemMagnifyingGlass id="agricraft:magnifyingglass" treeOrder="60"/>
+					<itemGardeningTrowel id="agricraft:trowel" treeOrder="70"/>
 				</otherFarmingTools>
 			</farmingTool>
 		</tool>

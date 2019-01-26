@@ -194,19 +194,28 @@
 					<itemObsidianHoe id="actuallyadditions:item_hoe_obsidian" treeOrder="770"/>
 					<itemBlackQuartzHoe id="actuallyadditions:item_hoe_quartz" treeOrder="780"/>
 				</hoe>
+				<otherFarmingTools treeOrder="60">
+					<itemLeafBlower id="actuallyadditions:item_leaf_blower" mergeChildren="true" treeOrder="30"/>
+					<itemAdvancedLeafBlower id="actuallyadditions:item_leaf_blower_advanced" mergeChildren="true" treeOrder="40"/>
+				</otherFarmingTools>
 			</farmingTool>
 			<wrench class="Item" data="{ToolClass : &quot;wrench&quot;}" mergeChildren="true" treeOrder="130">
-				<itemLaserWrench id="actuallyadditions:item_laser_wrench" treeOrder="200"/>
+				<itemLaserWrench id="actuallyadditions:item_laser_wrench" treeOrder="220"/>
+				<itemPlayerProbe id="actuallyadditions:item_player_probe" treeOrder="230"/>
+				<itemPhantomConnector id="actuallyadditions:item_phantom_connector" treeOrder="240"/>
 			</wrench>
-			<wands treeOrder="180">
+			<wands treeOrder="190">
 				<itemHandheldFiller id="actuallyadditions:item_filling_wand" treeOrder="130"/>
 				<itemHandheldFiller id="actuallyadditions:item_filling_wand" treeOrder="140"/>
 			</wands>
-			<magnets treeOrder="310">
+			<magnets treeOrder="320">
 				<itemRingofMagnetizing id="actuallyadditions:item_suction_ring" treeOrder="60"/>
 				<itemRingofMagnetizing id="actuallyadditions:magnet_ring_bauble" treeOrder="70"/>
 			</magnets>
-			<portableCrafting treeOrder="350">
+			<teleport treeOrder="330">
+				<itemTeleportStaff id="actuallyadditions:item_tele_staff" treeOrder="40"/>
+			</teleport>
+			<portableCrafting treeOrder="360">
 				<itemCraftingTableOnAStick id="actuallyadditions:item_crafter_on_a_stick" treeOrder="10"/>
 			</portableCrafting>
 		</tool>
@@ -223,6 +232,10 @@
 					<itemRestoniaCrystalHelmet id="actuallyadditions:item_helm_crystal_red" treeOrder="470"/>
 					<itemVoidCrystalHelmet id="actuallyadditions:item_helm_crystal_black" treeOrder="690"/>
 				</helmetUnsorted>
+				<eyeGlasses treeOrder="90">
+					<itemEngineersGoggles id="actuallyadditions:item_engineer_goggles" treeOrder="140"/>
+					<itemEngineersInfraredGoggles id="actuallyadditions:item_engineer_goggles_advanced" treeOrder="150"/>
+				</eyeGlasses>
 			</helmet>
 			<chestplate class="ItemArmor" data="{ArmorType:&quot;chest&quot;}" treeOrder="30">
 				<chestplateArmor treeOrder="20">
@@ -284,17 +297,36 @@
 			</boots>
 		</armor>
 		<baubles treeOrder="40">
-			<rings treeOrder="10">
-				<itemRing id="actuallyadditions:item_misc" damage="6" treeOrder="150"/>
-				<itemRingofGrowth id="actuallyadditions:item_growth_ring" treeOrder="160"/>
-				<itemRingofHaste id="actuallyadditions:item_potion_ring" treeOrder="170"/>
-				<itemRingofLiquidBanning id="actuallyadditions:item_water_removal_ring" treeOrder="180"/>
-				<itemAdvancedRingBauble id="actuallyadditions:potion_ring_advanced_bauble" treeOrder="190"/>
-				<itemAdvancedRingItem id="actuallyadditions:item_potion_ring_advanced" treeOrder="200"/>
+			<rings treeOrder="20">
+				<itemWingsOfTheBats id="actuallyadditions:item_wings_of_the_bats" treeOrder="150"/>
+				<itemRing id="actuallyadditions:item_misc" damage="6" treeOrder="160"/>
+				<itemRingofGrowth id="actuallyadditions:item_growth_ring" treeOrder="170"/>
+				<itemRingofHaste id="actuallyadditions:item_potion_ring" treeOrder="180"/>
+				<itemRingofLiquidBanning id="actuallyadditions:item_water_removal_ring" treeOrder="190"/>
+				<itemAdvancedRingBauble id="actuallyadditions:potion_ring_advanced_bauble" treeOrder="200"/>
+				<itemAdvancedRingItem id="actuallyadditions:item_potion_ring_advanced" treeOrder="210"/>
 			</rings>
 		</baubles>
 	</equipment>
 	<block treeOrder="20">
+		<naturalBlock treeOrder="10">
+			<crystals treeOrder="170">
+				<itemBlackCrystalCluster id="actuallyadditions:block_crystal_cluster_coal" treeOrder="10"/>
+				<itemBlueCrystalCluster id="actuallyadditions:block_crystal_cluster_lapis" treeOrder="20"/>
+				<itemGreenCrystalCluster id="actuallyadditions:block_crystal_cluster_emerald" treeOrder="30"/>
+				<itemLightBlueCrystalCluster id="actuallyadditions:block_crystal_cluster_diamond" treeOrder="40"/>
+				<itemRedCrystalCluster id="actuallyadditions:block_crystal_cluster_redstone" treeOrder="50"/>
+				<itemWhiteCrystalCluster id="actuallyadditions:block_crystal_cluster_iron" treeOrder="60"/>
+			</crystals>
+			<liquid treeOrder="210">
+				<fluids treeOrder="60">
+					<itemCanolaOil id="actuallyadditions:block_canola_oil" treeOrder="430"/>
+					<itemRefinedCanolaOil id="actuallyadditions:block_refined_canola_oil" treeOrder="440"/>
+					<itemCrystallizedOil id="actuallyadditions:block_crystal_oil" treeOrder="450"/>
+					<itemEmpoweredOil id="actuallyadditions:block_empowered_oil" treeOrder="460"/>
+				</fluids>
+			</liquid>
+		</naturalBlock>
 		<manufacturedBlock treeOrder="50">
 			<fence treeOrder="20">
 				<itemEtheticGreenWall id="actuallyadditions:block_testifi_bucks_green_fence" treeOrder="150"/>
@@ -308,6 +340,16 @@
 				<itemEtheticQuartz id="actuallyadditions:block_testifi_bucks_white_wall" treeOrder="140"/>
 			</stoneWall>
 			<constructionBlock treeOrder="70">
+				<glass treeOrder="40">
+					<glassBlock id="glass" treeOrder="10">
+						<itemGreenhouseGlass id="actuallyadditions:block_greenhouse_glass" treeOrder="30"/>
+					</glassBlock>
+				</glass>
+				<decorativeblocks treeOrder="80">
+					<skyBlocks treeOrder="570">
+						<itemSmileyCloud id="actuallyadditions:block_smiley_cloud" treeOrder="40"/>
+					</skyBlocks>
+				</decorativeblocks>
 				<stairs treeOrder="100">
 					<otherStairs treeOrder="40">
 						<itemBlackQuartzPillarStairs id="actuallyadditions:block_pillar_quartz_stair" treeOrder="1360"/>
@@ -324,55 +366,230 @@
 						<itemBlackQuartzSlab id="actuallyadditions:blockquartzslab" treeOrder="30"/>
 						<itemEtheticGreenSlab id="actuallyadditions:blocktestifibucksgreenslab" treeOrder="40"/>
 						<itemEtheticQuartzSlab id="actuallyadditions:blocktestifibuckswhiteslab" treeOrder="50"/>
+						<itemBlackQuartzPillarSlab id="actuallyadditions:block_pillar_quartz_slab" treeOrder="60"/>
+						<itemBlackQuartzSlab id="actuallyadditions:block_quartz_slab" treeOrder="70"/>
+						<itemChiseledBlackQuartzSlab id="actuallyadditions:block_chiseled_quartz_slab" treeOrder="80"/>
+						<itemEtheticGreenSlab id="actuallyadditions:block_testifi_bucks_green_slab" treeOrder="90"/>
+						<itemEtheticQuartzSlab id="actuallyadditions:block_testifi_bucks_white_slab" treeOrder="100"/>
 					</quartzSlab>
 				</slabs>
 			</constructionBlock>
 		</manufacturedBlock>
 		<mechanism treeOrder="60">
 			<lighting treeOrder="30">
-				<decorativeLights treeOrder="110">
+				<torch treeOrder="10">
+					<itemTinyTorch id="actuallyadditions:block_tiny_torch" treeOrder="50"/>
+				</torch>
+				<decorativeLights treeOrder="120">
 					<itemWhiteLamp id="actuallyadditions:block_colored_lamp_on" treeOrder="340"/>
 					<itemWhiteLamp id="actuallyadditions:block_colored_lamp" treeOrder="350"/>
+					<itemLampController id="actuallyadditions:block_lamp_powerer" treeOrder="360"/>
 				</decorativeLights>
 			</lighting>
-			<resourceTransfer treeOrder="300">
+			<itemFireworkBox id="actuallyadditions:block_firework_box" treeOrder="190"/>
+			<resourceTransfer treeOrder="320">
+				<groundItemCollector treeOrder="10">
+					<itemRangedCollector id="actuallyadditions:block_ranged_collector" treeOrder="170"/>
+				</groundItemCollector>
 				<aaTransfer treeOrder="110">
 					<itemItemLaserRelay id="actuallyadditions:block_laser_relay_item" treeOrder="10"/>
 					<itemAdvancedItemLaserRelay id="actuallyadditions:block_laser_relay_item_whitelist" treeOrder="20"/>
 					<itemFluidLaserRelay id="actuallyadditions:block_laser_relay_fluids" treeOrder="30"/>
 					<itemEnergyLaserRelay id="actuallyadditions:block_laser_relay" treeOrder="40"/>
 					<itemAdvancedEnergyLaserRelay id="actuallyadditions:block_laser_relay_advanced" treeOrder="50"/>
+					<itemExtremeEnergyLaserRelay id="actuallyadditions:block_laser_relay_extreme" treeOrder="60"/>
+					<itemESD id="actuallyadditions:block_inputter" treeOrder="70"/>
+					<itemAdvancedESD id="actuallyadditions:block_inputter_advanced" treeOrder="80"/>
+					<itemItemInterface id="actuallyadditions:block_item_viewer" treeOrder="90"/>
+					<itemHoppingItemInterface id="actuallyadditions:block_item_viewer_hopping" treeOrder="100"/>
+					<itemPhantomface id="actuallyadditions:block_phantomface" treeOrder="110"/>
+					<itemPhantomLiquiface id="actuallyadditions:block_phantom_liquiface" treeOrder="120"/>
+					<itemPhantomEnergyface id="actuallyadditions:block_phantom_energyface" treeOrder="130"/>
+					<itemPhantomRedstoneface id="actuallyadditions:block_phantom_redstoneface" treeOrder="140"/>
+					<itemPhantomBooster id="actuallyadditions:block_phantom_booster" treeOrder="150"/>
 				</aaTransfer>
+				<transDimensionalTransfer treeOrder="150">
+					<itemPlayerInterface id="actuallyadditions:block_player_interface" treeOrder="70"/>
+				</transDimensionalTransfer>
 			</resourceTransfer>
-			<generators treeOrder="370">
+			<itemAutomaticPrecisionDropper id="actuallyadditions:block_dropper" treeOrder="340"/>
+			<basicCrafting treeOrder="390">
+				<kitchen treeOrder="50">
+					<itemCoffeeMaker id="actuallyadditions:block_coffee_machine" treeOrder="270"/>
+				</kitchen>
+			</basicCrafting>
+			<generators treeOrder="400">
 				<fuelGenerators treeOrder="20">
 					<itemCoalGenerator id="actuallyadditions:block_coal_generator" treeOrder="200"/>
 				</fuelGenerators>
+				<lavaGenerators treeOrder="30">
+					<itemHeatCollector id="actuallyadditions:block_heat_collector" treeOrder="60"/>
+				</lavaGenerators>
+				<liquidFuelGenerators treeOrder="40">
+					<itemOilGenerator id="actuallyadditions:block_oil_generator" treeOrder="60"/>
+				</liquidFuelGenerators>
+				<weirdGenerators treeOrder="80">
+					<itemBioReactor id="actuallyadditions:block_bio_reactor" treeOrder="220"/>
+					<itemLeaf-EatingGenerator id="actuallyadditions:block_leaf_generator" treeOrder="230"/>
+				</weirdGenerators>
+				<solarGenerators treeOrder="110">
+					<itemSolarPanel id="actuallyadditions:block_furnace_solar" treeOrder="10"/>
+				</solarGenerators>
 			</generators>
+			<machines treeOrder="410">
+				<poweredCrafting treeOrder="10">
+					<itemDisplayStand id="actuallyadditions:block_display_stand" treeOrder="200"/>
+					<itemEmpowerer id="actuallyadditions:block_empowerer" treeOrder="210"/>
+				</poweredCrafting>
+				<poweredFurnaces treeOrder="20">
+					<itemPoweredFurnace id="actuallyadditions:block_furnace_double" treeOrder="110"/>
+				</poweredFurnaces>
+				<poweredGrinders treeOrder="30">
+					<itemCrusher id="actuallyadditions:block_grinder" treeOrder="70"/>
+					<itemDoubleCrusher id="actuallyadditions:block_grinder_double" treeOrder="80"/>
+				</poweredGrinders>
+				<poweredFarming treeOrder="40">
+					<itemFarmer id="actuallyadditions:block_farmer" treeOrder="40"/>
+					<itemComposter id="actuallyadditions:block_compost" treeOrder="90"/>
+				</poweredFarming>
+				<poweredRanching treeOrder="50">
+					<feeders treeOrder="80">
+						<itemAutomaticFeeder id="actuallyadditions:block_feeder" treeOrder="30"/>
+					</feeders>
+				</poweredRanching>
+				<poweredFishing treeOrder="60">
+					<itemFishingNet id="actuallyadditions:block_fishing_net" treeOrder="30"/>
+				</poweredFishing>
+				<poweredMining treeOrder="130">
+					<itemAuto-Breaker id="actuallyadditions:block_breaker" treeOrder="40"/>
+					<itemLong-RangeBreaker id="actuallyadditions:block_directional_breaker" treeOrder="50"/>
+					<itemPhantomBreaker id="actuallyadditions:block_phantom_breaker" treeOrder="60"/>
+					<itemVerticalDigger id="actuallyadditions:block_miner" treeOrder="150"/>
+				</poweredMining>
+				<poweredFluids treeOrder="140">
+					<poweredFluidTransmuters treeOrder="30">
+						<itemCanolaPress id="actuallyadditions:block_canola_press" treeOrder="80"/>
+						<itemFermentingBarrel id="actuallyadditions:block_fermenting_barrel" treeOrder="90"/>
+					</poweredFluidTransmuters>
+					<poweredFluidCreators treeOrder="40">
+						<itemLavaFactoryController id="actuallyadditions:block_lava_factory_controller" treeOrder="50"/>
+					</poweredFluidCreators>
+					<poweredFluidCollector treeOrder="50">
+						<itemFluidCollector id="actuallyadditions:block_fluid_collector" treeOrder="50"/>
+					</poweredFluidCollector>
+					<poweredFluidPlacer treeOrder="60">
+						<itemFluidPlacer id="actuallyadditions:block_fluid_placer" treeOrder="10"/>
+					</poweredFluidPlacer>
+				</poweredFluids>
+				<poweredDroppers treeOrder="160">
+					<itemAuto-Placer id="actuallyadditions:block_placer" treeOrder="40"/>
+					<itemPhantomPlacer id="actuallyadditions:block_phantom_placer" treeOrder="50"/>
+				</poweredDroppers>
+				<poweredRepair treeOrder="210">
+					<itemItemRepairer id="actuallyadditions:block_item_repairer" treeOrder="10"/>
+				</poweredRepair>
+				<randomMachines treeOrder="220">
+					<itemAtomicReconstructor id="actuallyadditions:block_atomic_reconstructor" treeOrder="390"/>
+					<itemShockAbsorber id="actuallyadditions:block_shock_suppressor" treeOrder="400"/>
+				</randomMachines>
+			</machines>
+			<machineupgrades treeOrder="420">
+				<transportUpgrades treeOrder="20">
+					<aaLaserUpgrades treeOrder="50">
+						<itemLaserRelayModifier_Invisibility id="actuallyadditions:item_laser_upgrade_invisibility" treeOrder="10"/>
+						<itemLaserRelayModifier_Range id="actuallyadditions:item_laser_upgrade_range" treeOrder="20"/>
+						<itemItemFilter id="actuallyadditions:item_filter" treeOrder="30"/>
+						<itemLensofCertainDeath id="actuallyadditions:item_damage_lens" treeOrder="40"/>
+						<itemLensofColor id="actuallyadditions:item_color_lens" treeOrder="50"/>
+						<itemLensofDetonation id="actuallyadditions:item_explosion_lens" treeOrder="60"/>
+						<itemLensofDisenchanting id="actuallyadditions:item_disenchanting_lens" treeOrder="70"/>
+						<itemLensoftheKiller id="actuallyadditions:item_more_damage_lens" treeOrder="80"/>
+						<itemLensoftheMiner id="actuallyadditions:item_mining_lens" treeOrder="90"/>
+					</aaLaserUpgrades>
+				</transportUpgrades>
+			</machineupgrades>
 		</mechanism>
 	</block>
+	<resources treeOrder="30">
+		<miningResources treeOrder="10">
+			<oreBlock treeOrder="120">
+				<itemRestoniaCrystalBlock id="actuallyadditions:block_crystal" treeOrder="10"/>
+				<itemEmpoweredRestoniaCrystalBlock id="actuallyadditions:block_crystal_empowered" treeOrder="20"/>
+				<itemBlockofBlackQuartz id="actuallyadditions:block_misc" damage="2" treeOrder="210"/>
+				<itemChiseledBlockofBlackQuartz id="actuallyadditions:block_misc" damage="1" treeOrder="220"/>
+				<itemPillarofBlackQuartz id="actuallyadditions:block_misc" damage="0" treeOrder="370"/>
+				<itemBlockofEnderpearl id="actuallyadditions:block_misc" damage="6" treeOrder="800"/>
+			</oreBlock>
+			<crystals treeOrder="160">
+				<itemRestoniaCrystal id="actuallyadditions:item_crystal" treeOrder="10"/>
+				<itemEmpoweredRestoniaCrystal id="actuallyadditions:item_crystal_empowered" treeOrder="20"/>
+			</crystals>
+			<shards treeOrder="170">
+				<itemRedCrystalShard id="actuallyadditions:item_crystal_shard" treeOrder="10"/>
+			</shards>
+		</miningResources>
+		<huntingResources treeOrder="20">
+			<itemBallofFur id="actuallyadditions:item_hairy_ball" treeOrder="130"/>
+			<itemBatsWing id="actuallyadditions:item_misc" treeOrder="140"/>
+		</huntingResources>
+	</resources>
 	<item treeOrder="40">
 		<utility treeOrder="10">
 			<storage treeOrder="30">
 				<chests treeOrder="10">
-					<itemSmallStorageCrate id="actuallyadditions:block_giant_chest" treeOrder="460"/>
-					<itemMediumStorageCrate id="actuallyadditions:block_giant_chest_medium" treeOrder="470"/>
-					<itemLargeStorageCrate id="actuallyadditions:block_giant_chest_large" treeOrder="480"/>
+					<itemEmeradicCrystalChest id="actuallyadditions:item_chest_crystal_green" treeOrder="220"/>
+					<itemEnoriCrystalChest id="actuallyadditions:item_chest_crystal_white" treeOrder="230"/>
+					<itemSmallStorageCrate id="actuallyadditions:block_giant_chest" treeOrder="480"/>
+					<itemMediumStorageCrate id="actuallyadditions:block_giant_chest_medium" treeOrder="490"/>
+					<itemLargeStorageCrate id="actuallyadditions:block_giant_chest_large" treeOrder="500"/>
 				</chests>
-				<storageupgrades treeOrder="80">
+				<storageupgrades treeOrder="90">
 					<itemChestToStorageCrateUpgrade id="actuallyadditions:item_chest_to_crate_upgrade" treeOrder="400"/>
 					<itemSmallToMediumStorageCrateUpgrade id="actuallyadditions:item_small_to_medium_crate_upgrade" treeOrder="410"/>
 					<itemMediumToLargeStorageCrateUpgrade id="actuallyadditions:item_medium_to_large_crate_upgrade" treeOrder="420"/>
 					<itemStorageCrateKeeper id="actuallyadditions:item_crate_keeper" treeOrder="430"/>
 				</storageupgrades>
-				<powerStorage treeOrder="120">
-					<itemBatteryBox id="actuallyadditions:block_battery_box" treeOrder="330"/>
+				<portableStorage treeOrder="100">
+					<itemTravelersSack id="actuallyadditions:item_bag" treeOrder="310"/>
+				</portableStorage>
+				<treasureContainers treeOrder="110">
+					<itemTreasureChest id="actuallyadditions:block_treasure_chest" treeOrder="100"/>
+				</treasureContainers>
+				<voidStorage treeOrder="120">
+					<voidBags treeOrder="20">
+						<itemVoidSack id="actuallyadditions:item_void_bag" treeOrder="30"/>
+					</voidBags>
+				</voidStorage>
+				<powerStorage treeOrder="130">
+					<itemEnergizer id="actuallyadditions:block_energizer" treeOrder="90"/>
+					<itemEnervator id="actuallyadditions:block_enervator" treeOrder="100"/>
+					<itemBatteryBox id="actuallyadditions:block_battery_box" treeOrder="280"/>
 				</powerStorage>
+				<portablePowerStorage treeOrder="140">
+					<itemQuintupleBattery id="actuallyadditions:battery_quintuple_bauble" treeOrder="80"/>
+					<itemQuintupleBattery id="actuallyadditions:item_battery_quintuple" treeOrder="90"/>
+					<itemQuadrupleBattery id="actuallyadditions:battery_quadruple_bauble" treeOrder="100"/>
+					<itemQuadrupleBattery id="actuallyadditions:item_battery_quadruple" treeOrder="110"/>
+					<itemTripleBattery id="actuallyadditions:battery_triple_bauble" treeOrder="120"/>
+					<itemTripleBattery id="actuallyadditions:item_battery_triple" treeOrder="130"/>
+					<itemDoubleBattery id="actuallyadditions:battery_double_bauble" treeOrder="140"/>
+					<itemDoubleBattery id="actuallyadditions:item_battery_double" treeOrder="150"/>
+					<itemSingleBattery id="actuallyadditions:battery_bauble" treeOrder="160"/>
+					<itemSingleBattery id="actuallyadditions:item_battery" treeOrder="170"/>
+				</portablePowerStorage>
 			</storage>
 			<readableBooks treeOrder="90">
 				<itemActuallyAdditionsManual id="actuallyadditions:item_booklet" treeOrder="400"/>
 			</readableBooks>
+			<mobHolder treeOrder="260">
+				<itemSpawnerChanger id="actuallyadditions:item_spawner_changer" treeOrder="120"/>
+			</mobHolder>
 		</utility>
+		<fluidPortableStorage treeOrder="20">
+			<bucket treeOrder="10">
+				<itemBowlofWater id="actuallyadditions:item_water_bowl" treeOrder="70"/>
+			</bucket>
+		</fluidPortableStorage>
 		<experienceStorage treeOrder="70">
 			<itemExperienceSolidifier id="actuallyadditions:block_xp_solidifier" treeOrder="10"/>
 		</experienceStorage>
@@ -382,12 +599,30 @@
 					<itemBasicCoil id="actuallyadditions:item_misc" damage="7" treeOrder="110"/>
 					<itemAdvancedCoil id="actuallyadditions:item_misc" damage="8" treeOrder="120"/>
 				</coils>
-				<frames treeOrder="110">
-					<itemCasing id="actuallyadditions:block_misc" damage="7" treeOrder="180"/>
-					<itemWoodCasing id="actuallyadditions:block_misc" damage="4" treeOrder="190"/>
+				<frames treeOrder="120">
+					<itemWoodCasing id="actuallyadditions:block_misc" damage="4" treeOrder="180"/>
+					<itemCasing id="actuallyadditions:block_misc" damage="7" treeOrder="190"/>
+					<itemIronCasing id="actuallyadditions:block_misc" damage="9" treeOrder="200"/>
+					<itemEnderCasing id="actuallyadditions:block_misc" damage="8" treeOrder="210"/>
 				</frames>
 			</mechanicalParts>
+			<toolUpgrades treeOrder="30">
+				<drillParts treeOrder="20">
+					<itemDrillBlockPlacingAugment id="actuallyadditions:item_drill_upgrade_block_placing" treeOrder="10"/>
+					<itemDrillFortuneAugmentI id="actuallyadditions:item_drill_upgrade_fortune" treeOrder="20"/>
+					<itemDrillFortuneAugmentIIGivesFortuneIII id="actuallyadditions:item_drill_upgrade_fortune_ii" treeOrder="30"/>
+					<itemDrillMiningAugmentI id="actuallyadditions:item_drill_upgrade_three_by_three" treeOrder="40"/>
+					<itemDrillMiningAugmentII id="actuallyadditions:item_drill_upgrade_five_by_five" treeOrder="50"/>
+					<itemDrillSilkTouchAugment id="actuallyadditions:item_drill_upgrade_silk_touch" treeOrder="60"/>
+					<itemDrillSpeedAugmentI id="actuallyadditions:item_drill_upgrade_speed" treeOrder="70"/>
+					<itemDrillSpeedAugmentII id="actuallyadditions:item_drill_upgrade_speed_ii" treeOrder="80"/>
+					<itemDrillSpeedAugmentIII id="actuallyadditions:item_drill_upgrade_speed_iii" treeOrder="90"/>
+				</drillParts>
+			</toolUpgrades>
 		</parts>
+		<cookingTool treeOrder="150">
+			<itemKnife id="actuallyadditions:item_knife" treeOrder="110"/>
+		</cookingTool>
 		<food treeOrder="160">
 			<edibleFood treeOrder="10">
 				<preparedFood treeOrder="30">
@@ -408,11 +643,11 @@
 					</soup>
 					<toasts treeOrder="160">
 						<itemToast id="actuallyadditions:item_food" damage="10" treeOrder="20"/>
-						<itemToastoChocolate id="actuallyadditions:item_food" damage="19" treeOrder="120"/>
+						<itemToastoChocolate id="actuallyadditions:item_food" damage="19" treeOrder="130"/>
 					</toasts>
 					<breads treeOrder="170">
-						<itemBaguette id="actuallyadditions:item_food" damage="15" treeOrder="60"/>
-						<itemRiceBread id="actuallyadditions:item_food" damage="17" treeOrder="80"/>
+						<itemBaguette id="actuallyadditions:item_food" damage="15" treeOrder="70"/>
+						<itemRiceBread id="actuallyadditions:item_food" damage="17" treeOrder="90"/>
 					</breads>
 					<sandwich treeOrder="190">
 						<itemSubmarineSandwich id="actuallyadditions:item_food" damage="11" treeOrder="240"/>
@@ -450,9 +685,20 @@
 					<juice treeOrder="10">
 						<itemCarrotJuice id="actuallyadditions:item_food" damage="2" treeOrder="130"/>
 					</juice>
+					<coffee treeOrder="70">
+						<itemCupwithCoffee id="actuallyadditions:item_coffee" treeOrder="50"/>
+					</coffee>
 				</drink>
+				<rawFood treeOrder="130">
+					<rawMeat treeOrder="20">
+						<itemWorm id="actuallyadditions:item_worm" treeOrder="430"/>
+					</rawMeat>
+				</rawFood>
 			</edibleFood>
 			<unedibleFood treeOrder="50">
+				<grain treeOrder="10">
+					<itemResonantRice id="actuallyadditions:item_resonant_rice" treeOrder="40"/>
+				</grain>
 				<dough treeOrder="30">
 					<itemNoodle id="actuallyadditions:item_food" damage="7" treeOrder="60"/>
 				</dough>
@@ -467,6 +713,17 @@
 					<itemBlackLotus id="actuallyadditions:block_black_lotus" treeOrder="20"/>
 				</flowerBlack>
 			</flower>
+			<seedlings treeOrder="70">
+				<itemCanolaPlant id="actuallyadditions:block_canola" treeOrder="620"/>
+				<itemCoffeePlant id="actuallyadditions:block_coffee" treeOrder="630"/>
+				<itemFlaxPlant id="actuallyadditions:block_flax" treeOrder="640"/>
+				<itemRicePlant id="actuallyadditions:block_rice" treeOrder="650"/>
+			</seedlings>
+			<fertilizer treeOrder="80">
+				<fertilizerDict oreDictName="fertilizer" treeOrder="30">
+					<itemFertilizer id="actuallyadditions:item_fertilizer" treeOrder="40"/>
+				</fertilizerDict>
+			</fertilizer>
 		</plant>
 		<potion treeOrder="270">
 			<itemSolidifiedExperience id="actuallyadditions:item_solidified_experience" treeOrder="130"/>

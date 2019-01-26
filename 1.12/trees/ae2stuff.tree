@@ -29,9 +29,9 @@
 	<equipment treeOrder="10">
 		<tool treeOrder="20">
 			<wrench class="Item" data="{ToolClass : &quot;wrench&quot;}" mergeChildren="true" treeOrder="130">
-				<itemWirelessSetupKit id="ae2stuff:wireless_kit" treeOrder="120"/>
+				<itemWirelessSetupKit id="ae2stuff:wireless_kit" treeOrder="140"/>
 			</wrench>
-			<debugTools treeOrder="200">
+			<debugTools treeOrder="210">
 				<itemNetworkVisualisationTool id="ae2stuff:visualiser" treeOrder="70"/>
 			</debugTools>
 		</tool>
@@ -39,7 +39,7 @@
 	<item treeOrder="40">
 		<utility treeOrder="10">
 			<storage treeOrder="30">
-				<digitalstorage treeOrder="70">
+				<digitalstorage treeOrder="80">
 					<terminals treeOrder="20">
 						<patternTerminal treeOrder="60">
 							<itemPatternEncoder id="ae2stuff:encoder" treeOrder="30"/>

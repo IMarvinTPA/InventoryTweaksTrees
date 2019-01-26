@@ -35,7 +35,7 @@
 			</constructionBlock>
 		</manufacturedBlock>
 		<mechanism treeOrder="60">
-			<resourceTransfer treeOrder="300">
+			<resourceTransfer treeOrder="320">
 				<bcpipes treeOrder="20">
 					<itemPipeSealant id="buildcrafttransport:waterproof" treeOrder="10"/>
 					<itemCobblestoneStructurePipe id="buildcrafttransport:pipe_structure" treeOrder="20"/>
@@ -83,7 +83,7 @@
 					</bcPowerPipes>
 				</bcpipes>
 			</resourceTransfer>
-			<machineupgrades treeOrder="390">
+			<machineupgrades treeOrder="420">
 				<transportUpgrades treeOrder="20">
 					<bcPipeUpgrades treeOrder="10">
 						<itemPipeWire id="buildcrafttransport:wire" treeOrder="10"/>

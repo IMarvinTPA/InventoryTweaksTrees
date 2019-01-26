@@ -48,12 +48,12 @@
 			<saws class="Item" data="{ToolClass : &quot;saw&quot;}" treeOrder="90">
 				<itemFlintSawBlade id="primal_tech:flint_edged_disc" treeOrder="210"/>
 			</saws>
-			<itemCraftingRock id="primal_tech:rock" treeOrder="360"/>
+			<itemCraftingRock id="primal_tech:rock" treeOrder="370"/>
 		</tool>
 	</equipment>
 	<block treeOrder="20">
 		<mechanism treeOrder="60">
-			<basicCrafting treeOrder="360">
+			<basicCrafting treeOrder="390">
 				<craftingTables treeOrder="10">
 					<itemWorkStump id="primal_tech:work_stump" treeOrder="230"/>
 					<itemWorkStumpMk2 id="primal_tech:work_stump_upgraded" treeOrder="240"/>

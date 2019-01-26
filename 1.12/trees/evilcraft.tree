@@ -39,15 +39,24 @@
 			</meleeWeapon>
 		</weapon>
 		<baubles treeOrder="40">
-			<rings treeOrder="10">
-				<itemEffortlessRing id="evilcraft:effortless_ring" treeOrder="340"/>
-				<itemVengeanceRing id="evilcraft:vengeance_ring" treeOrder="350"/>
+			<rings treeOrder="20">
+				<itemEffortlessRing id="evilcraft:effortless_ring" treeOrder="350"/>
+				<itemVengeanceRing id="evilcraft:vengeance_ring" treeOrder="360"/>
 			</rings>
 		</baubles>
 	</equipment>
+	<block treeOrder="20">
+		<mechanism treeOrder="60">
+			<lighting treeOrder="30">
+				<mobWarding treeOrder="170">
+					<itemGemstoneTorch id="evilcraft:gem_stone_torch" treeOrder="60"/>
+				</mobWarding>
+			</lighting>
+		</mechanism>
+	</block>
 	<resources treeOrder="30">
 		<huntingResources treeOrder="20">
-			<string id="string" treeOrder="110">
+			<string id="string" treeOrder="150">
 				<itemGoldenString id="evilcraft:golden_string" treeOrder="30"/>
 			</string>
 		</huntingResources>

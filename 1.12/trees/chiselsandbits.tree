@@ -32,15 +32,15 @@
 				<itemDiamondBitSaw id="chiselsandbits:bitsaw_diamond" treeOrder="170"/>
 			</saws>
 			<wrench class="Item" data="{ToolClass : &quot;wrench&quot;}" mergeChildren="true" treeOrder="130">
-				<itemWoodenWrench id="chiselsandbits:wrench_wood" treeOrder="250"/>
+				<itemWoodenWrench id="chiselsandbits:wrench_wood" treeOrder="290"/>
 			</wrench>
-			<chisel treeOrder="210">
+			<chisel treeOrder="220">
 				<itemDiamondChisel id="chiselsandbits:chisel_diamond" treeOrder="110"/>
 				<itemGoldenChisel id="chiselsandbits:chisel_gold" treeOrder="120"/>
 				<itemIronChisel id="chiselsandbits:chisel_iron" treeOrder="130"/>
 				<itemStoneChisel id="chiselsandbits:chisel_stone" treeOrder="140"/>
 			</chisel>
-			<odometers treeOrder="290">
+			<odometers treeOrder="300">
 				<itemTapeMeasure id="chiselsandbits:tape_measure" treeOrder="20"/>
 			</odometers>
 		</tool>
@@ -57,8 +57,8 @@
 	<item treeOrder="40">
 		<utility treeOrder="10">
 			<storage treeOrder="30">
-				<portableStorage treeOrder="90">
-					<itemChiseledBitBag id="chiselsandbits:bit_bag" treeOrder="310"/>
+				<portableStorage treeOrder="100">
+					<itemChiseledBitBag id="chiselsandbits:bit_bag" treeOrder="320"/>
 				</portableStorage>
 			</storage>
 		</utility>

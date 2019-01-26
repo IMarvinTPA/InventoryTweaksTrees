@@ -32,26 +32,26 @@
 				<oreEndMinicioOreItem id="magicalcrops:miniciooreend" treeOrder="670"/>
 				<oreMinicioOreItem id="magicalcrops:minicioore" treeOrder="1360"/>
 			</oreBlock>
-			<obsidian treeOrder="290">
+			<obsidian treeOrder="300">
 				<blockReinforcedObsidianDict oreDictName="blockReinforcedObsidian" treeOrder="50">
 					<itemWitherProofBlock id="magicalcrops:witherproof" treeOrder="30"/>
 				</blockReinforcedObsidianDict>
 			</obsidian>
 		</naturalBlock>
 		<mechanism treeOrder="60">
-			<basicCrafting treeOrder="360">
+			<basicCrafting treeOrder="390">
 				<furnaces treeOrder="30">
 					<simpleFurnaces treeOrder="30">
-						<itemAccioFurnace id="magicalcrops:acciofurnace" treeOrder="30"/>
-						<itemActiveAccioFurnace id="magicalcrops:acciofurnaceactive" treeOrder="40"/>
-						<itemCrucioFurnace id="magicalcrops:cruciofurnace" treeOrder="50"/>
-						<itemActiveCrucioFurnace id="magicalcrops:cruciofurnaceactive" treeOrder="60"/>
-						<itemImperioFurnace id="magicalcrops:imperiofurnace" treeOrder="70"/>
-						<itemActiveImperioFurnace id="magicalcrops:imperiofurnaceactive" treeOrder="80"/>
-						<itemZivicioFurnace id="magicalcrops:ziviciofurnace" treeOrder="90"/>
-						<itemActiveZivicioFurnace id="magicalcrops:ziviciofurnaceactive" treeOrder="100"/>
-						<itemUltimateFurnace id="magicalcrops:ultimatefurnace" treeOrder="110"/>
-						<itemActiveUltimateFurnace id="magicalcrops:ultimatefurnaceactive" treeOrder="180"/>
+						<itemAccioFurnace id="magicalcrops:acciofurnace" treeOrder="40"/>
+						<itemActiveAccioFurnace id="magicalcrops:acciofurnaceactive" treeOrder="50"/>
+						<itemCrucioFurnace id="magicalcrops:cruciofurnace" treeOrder="60"/>
+						<itemActiveCrucioFurnace id="magicalcrops:cruciofurnaceactive" treeOrder="70"/>
+						<itemImperioFurnace id="magicalcrops:imperiofurnace" treeOrder="80"/>
+						<itemActiveImperioFurnace id="magicalcrops:imperiofurnaceactive" treeOrder="90"/>
+						<itemZivicioFurnace id="magicalcrops:ziviciofurnace" treeOrder="100"/>
+						<itemActiveZivicioFurnace id="magicalcrops:ziviciofurnaceactive" treeOrder="110"/>
+						<itemUltimateFurnace id="magicalcrops:ultimatefurnace" treeOrder="120"/>
+						<itemActiveUltimateFurnace id="magicalcrops:ultimatefurnaceactive" treeOrder="190"/>
 					</simpleFurnaces>
 				</furnaces>
 			</basicCrafting>
@@ -149,7 +149,7 @@
 				<itemmagicalcrops_YelloriteSeeds id="magicalcrops:yelloriteseeds" treeOrder="1360"/>
 			</seed>
 			<seedlings treeOrder="70">
-				<magicalCrops treeOrder="620">
+				<magicalCrops treeOrder="660">
 					<itemAirCrop id="magicalcrops:aircrop" treeOrder="10"/>
 					<itemAirShardCrop id="magicalcrops:airshardcrop" treeOrder="20"/>
 					<itemAluminiumCrop id="magicalcrops:aluminiumcrop" treeOrder="30"/>
@@ -232,7 +232,7 @@
 			</seedlings>
 			<fertilizer treeOrder="80">
 				<fertilizerDict oreDictName="fertilizer" treeOrder="30">
-					<itemMagicalFertilizer id="magicalcrops:magicalfertilizer" treeOrder="40"/>
+					<itemMagicalFertilizer id="magicalcrops:magicalfertilizer" treeOrder="50"/>
 				</fertilizerDict>
 			</fertilizer>
 			<irrigation treeOrder="110">

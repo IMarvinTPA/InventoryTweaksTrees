@@ -29,9 +29,9 @@
 	<item treeOrder="40">
 		<utility treeOrder="10">
 			<storage treeOrder="30">
-				<portableStorage treeOrder="90">
-					<itemWirelessCraftingGrid id="refinedstorageaddons:wireless_crafting_grid" damage="0" treeOrder="460"/>
-					<itemCreativeWirelessCraftingGrid id="refinedstorageaddons:wireless_crafting_grid" damage="1" treeOrder="500"/>
+				<portableStorage treeOrder="100">
+					<itemWirelessCraftingGrid id="refinedstorageaddons:wireless_crafting_grid" damage="0" treeOrder="470"/>
+					<itemCreativeWirelessCraftingGrid id="refinedstorageaddons:wireless_crafting_grid" damage="1" treeOrder="510"/>
 				</portableStorage>
 			</storage>
 		</utility>

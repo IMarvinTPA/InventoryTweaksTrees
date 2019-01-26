@@ -31,24 +31,24 @@
 			<saws class="Item" data="{ToolClass : &quot;saw&quot;}" treeOrder="90">
 				<itemFramingSaw id="bibliocraft:framingsaw" treeOrder="10"/>
 			</saws>
-			<debugTools treeOrder="200">
+			<debugTools treeOrder="210">
 				<itemItemStackNameTester id="bibliocraft:testeritem" treeOrder="30"/>
 			</debugTools>
-			<keys treeOrder="240">
+			<keys treeOrder="250">
 				<itemLockandKey id="bibliocraft:bibliocreativelock" treeOrder="30"/>
 			</keys>
-			<clipboards treeOrder="270">
+			<clipboards treeOrder="280">
 				<itemClipboard id="bibliocraft:biblioclipboard" treeOrder="10"/>
 			</clipboards>
-			<bibliocraftTools treeOrder="280">
+			<bibliocraftTools treeOrder="290">
 				<itemScrewGun id="bibliocraft:bibliodrill" treeOrder="10"/>
 				<itemHandDrill id="bibliocraft:handdrill" treeOrder="20"/>
 			</bibliocraftTools>
-			<odometers treeOrder="290">
+			<odometers treeOrder="300">
 				<itemTapeMeasure id="bibliocraft:tapemeasure" treeOrder="10"/>
 				<itemPlumbline id="bibliocraft:plumbline" treeOrder="40"/>
 			</odometers>
-			<instrument treeOrder="340">
+			<instrument treeOrder="350">
 				<compass treeOrder="10">
 					<itemDraftingCompass id="bibliocraft:maptool" treeOrder="20"/>
 					<itemCompass id="bibliocraft:compass" treeOrder="30"/>
@@ -74,20 +74,20 @@
 		</manufacturedBlock>
 		<mechanism treeOrder="60">
 			<lighting treeOrder="30">
-				<decorativeLights treeOrder="110">
+				<decorativeLights treeOrder="120">
 					<itemFancyLamp id="bibliocraft:lampiron" treeOrder="10"/>
 					<itemFancyLamp id="bibliocraft:lampgold" treeOrder="20"/>
 					<itemFancyLantern id="bibliocraft:lanterniron" treeOrder="30"/>
 					<itemFancyLantern id="bibliocraft:lanterngold" treeOrder="40"/>
 				</decorativeLights>
 			</lighting>
-			<basicCrafting treeOrder="360">
+			<basicCrafting treeOrder="390">
 				<craftingTables treeOrder="10">
 					<itemBiblioWorkbench id="bibliocraft:workbench" treeOrder="20"/>
 					<itemOakFancyWorkbench id="bibliocraft:fancyworkbench" treeOrder="30"/>
 				</craftingTables>
 			</basicCrafting>
-			<machines treeOrder="380">
+			<machines treeOrder="410">
 				<decorationMachines treeOrder="190">
 					<itemBiblioFurniturePaneler id="bibliocraft:furniturepaneler" treeOrder="60"/>
 				</decorationMachines>
@@ -105,9 +105,9 @@
 		<utility treeOrder="10">
 			<storage treeOrder="30">
 				<chests treeOrder="10">
-					<itembibliocraft_tile.BiblioFramedChest id="bibliocraft:framedchest" treeOrder="370"/>
+					<itembibliocraft_tile.BiblioFramedChest id="bibliocraft:framedchest" treeOrder="390"/>
 				</chests>
-				<foodStorage treeOrder="60">
+				<foodStorage treeOrder="70">
 					<itemCookieJar id="bibliocraft:cookiejar" treeOrder="10"/>
 					<itemDinnerPlate id="bibliocraft:dinnerplate" treeOrder="20"/>
 				</foodStorage>

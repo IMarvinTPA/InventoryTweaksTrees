@@ -90,37 +90,37 @@
 				</hoe>
 			</farmingTool>
 			<shears class="Item" data="{ToolClass : &quot;shears&quot;}" mergeChildren="true" treeOrder="60">
-				<itemDarkMatterShears id="projecte:item.pe_dm_shears" treeOrder="260"/>
-				<itemRedMatterShears id="projecte:item.pe_rm_shears" treeOrder="270"/>
+				<itemDarkMatterShears id="projecte:item.pe_dm_shears" treeOrder="270"/>
+				<itemRedMatterShears id="projecte:item.pe_rm_shears" treeOrder="280"/>
 			</shears>
-			<wands treeOrder="180">
+			<wands treeOrder="190">
 				<itemMercurialEye id="projecte:item.pe_mercurial_eye" treeOrder="120"/>
 			</wands>
-			<magicaltools treeOrder="220">
+			<magicaltools treeOrder="230">
 				<itemDiviningRodhigh id="projecte:item.pe_divining_rod_3" treeOrder="70"/>
 				<itemDiviningRodmedium id="projecte:item.pe_divining_rod_2" treeOrder="80"/>
 				<itemDiviningRodlow id="projecte:item.pe_divining_rod_1" treeOrder="90"/>
 			</magicaltools>
 		</tool>
 		<baubles treeOrder="40">
-			<rings treeOrder="10">
-				<itemIgnitionRing id="projecte:item.pe_ignition" treeOrder="370"/>
-				<itemIronBand id="projecte:item.pe_ring_iron_band" treeOrder="380"/>
-				<itemRingofArcana id="projecte:item.pe_arcana_ring" treeOrder="390"/>
-				<itemVoidRing id="projecte:item.pe_void_ring" treeOrder="400"/>
-				<itemZeroRing id="projecte:item.pe_zero_ring" treeOrder="410"/>
-				<itemBlackHoleBand id="projecte:item.pe_black_hole" treeOrder="420"/>
-				<itemGemofEternalDensity id="projecte:item.pe_gem_density" treeOrder="430"/>
-				<itemSwiftwolfsRendingGale id="projecte:item.pe_swrg" treeOrder="440"/>
+			<rings treeOrder="20">
+				<itemIgnitionRing id="projecte:item.pe_ignition" treeOrder="380"/>
+				<itemIronBand id="projecte:item.pe_ring_iron_band" treeOrder="390"/>
+				<itemRingofArcana id="projecte:item.pe_arcana_ring" treeOrder="400"/>
+				<itemVoidRing id="projecte:item.pe_void_ring" treeOrder="410"/>
+				<itemZeroRing id="projecte:item.pe_zero_ring" treeOrder="420"/>
+				<itemBlackHoleBand id="projecte:item.pe_black_hole" treeOrder="430"/>
+				<itemGemofEternalDensity id="projecte:item.pe_gem_density" treeOrder="440"/>
+				<itemSwiftwolfsRendingGale id="projecte:item.pe_swrg" treeOrder="450"/>
 			</rings>
-			<necklaces treeOrder="20">
+			<necklaces treeOrder="30">
 				<itemEvertideAmulet id="projecte:item.pe_evertide_amulet" treeOrder="40"/>
 				<itemVolcaniteAmulet id="projecte:item.pe_volcanite_amulet" treeOrder="50"/>
 				<itemLifeStone id="projecte:item.pe_life_stone" treeOrder="60"/>
 				<itemSoulStone id="projecte:item.pe_soul_stone" treeOrder="70"/>
 				<itemBodyStone id="projecte:item.pe_body_stone" treeOrder="80"/>
 			</necklaces>
-			<belts treeOrder="30">
+			<belts treeOrder="40">
 				<itemRepairTalisman id="projecte:item.pe_repair_talisman" treeOrder="40"/>
 			</belts>
 		</baubles>
@@ -128,15 +128,15 @@
 	<block treeOrder="20">
 		<mechanism treeOrder="60">
 			<lighting treeOrder="30">
-				<torch treeOrder="10">
-					<itemInterdictionTorch id="projecte:interdiction_torch" treeOrder="20"/>
-				</torch>
+				<mobWarding treeOrder="170">
+					<itemInterdictionTorch id="projecte:interdiction_torch" treeOrder="50"/>
+				</mobWarding>
 			</lighting>
-			<basicCrafting treeOrder="360">
+			<basicCrafting treeOrder="390">
 				<furnaces treeOrder="30">
 					<simpleFurnaces treeOrder="30">
-						<itemRedMatterFurnace id="projecte:rm_furnace" treeOrder="190"/>
-						<itemDarkMatterFurnace id="projecte:dm_furnace" treeOrder="200"/>
+						<itemRedMatterFurnace id="projecte:rm_furnace" treeOrder="200"/>
+						<itemDarkMatterFurnace id="projecte:dm_furnace" treeOrder="210"/>
 					</simpleFurnaces>
 				</furnaces>
 			</basicCrafting>
@@ -156,8 +156,8 @@
 				<itemAeternalisFuelBlock id="projecte:fuel_block" damage="2" treeOrder="240"/>
 			</coals>
 			<oreBlock treeOrder="120">
-				<itemDarkMatterBlock id="projecte:matter_block" damage="0" treeOrder="540"/>
-				<itemRedMatterBlock id="projecte:matter_block" damage="1" treeOrder="1780"/>
+				<itemDarkMatterBlock id="projecte:matter_block" damage="0" treeOrder="590"/>
+				<itemRedMatterBlock id="projecte:matter_block" damage="1" treeOrder="1840"/>
 			</oreBlock>
 			<ingot treeOrder="130">
 				<itemDarkMatter id="projecte:item.pe_matter" damage="0" treeOrder="630"/>
@@ -169,17 +169,17 @@
 		<utility treeOrder="10">
 			<storage treeOrder="30">
 				<chests treeOrder="10">
-					<itemAlchemicalChest id="projecte:alchemical_chest" treeOrder="550"/>
+					<itemAlchemicalChest id="projecte:alchemical_chest" treeOrder="570"/>
 				</chests>
-				<portableStorage treeOrder="90">
+				<portableStorage treeOrder="100">
 					<itemAlchemicalBagWhite id="projecte:item.pe_alchemical_bag" treeOrder="240"/>
 				</portableStorage>
 			</storage>
 			<readableBooks treeOrder="90">
-				<itemBookoftheAlchemistWIP id="projecte:item.pe_manual" treeOrder="660"/>
-				<itemTomeofKnowledge id="projecte:item.pe_tome" treeOrder="670"/>
+				<itemBookoftheAlchemistWIP id="projecte:item.pe_manual" treeOrder="680"/>
+				<itemTomeofKnowledge id="projecte:item.pe_tome" treeOrder="690"/>
 			</readableBooks>
-			<tnts treeOrder="130">
+			<tnts treeOrder="140">
 				<itemNovaCatalyst id="projecte:nova_catalyst" treeOrder="60"/>
 				<itemNovaCataclysm id="projecte:nova_cataclysm" treeOrder="70"/>
 			</tnts>

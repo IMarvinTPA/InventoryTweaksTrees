@@ -28,7 +28,7 @@
 <stuff treeVersion="1.12.2">
 	<block treeOrder="20">
 		<mechanism treeOrder="60">
-			<generators treeOrder="370">
+			<generators treeOrder="400">
 				<fuelGenerators treeOrder="20">
 					<itemHeatGenerator id="mekanismgenerators:generator" damage="0" treeOrder="230"/>
 				</fuelGenerators>
@@ -38,8 +38,8 @@
 					<itemWindGenerator id="mekanismgenerators:generator" damage="6" treeOrder="210"/>
 				</weirdGenerators>
 				<solarGenerators treeOrder="110">
-					<itemSolarGenerator id="mekanismgenerators:generator" damage="1" treeOrder="80"/>
-					<itemAdvancedSolarGenerator id="mekanismgenerators:generator" damage="5" treeOrder="90"/>
+					<itemSolarGenerator id="mekanismgenerators:generator" damage="1" treeOrder="90"/>
+					<itemAdvancedSolarGenerator id="mekanismgenerators:generator" damage="5" treeOrder="100"/>
 				</solarGenerators>
 				<nuclearGenerators treeOrder="120">
 					<itemReactorController id="mekanismgenerators:reactor" damage="0" treeOrder="280"/>
@@ -65,9 +65,9 @@
 	<item treeOrder="40">
 		<parts treeOrder="120">
 			<mechanicalParts treeOrder="10">
-				<otherParts treeOrder="100">
-					<itemHohlraum id="mekanismgenerators:hohlraum" treeOrder="350"/>
-					<itemSolarPanel id="mekanismgenerators:solarpanel" treeOrder="360"/>
+				<otherParts treeOrder="110">
+					<itemHohlraum id="mekanismgenerators:hohlraum" treeOrder="180"/>
+					<itemSolarPanel id="mekanismgenerators:solarpanel" treeOrder="190"/>
 				</otherParts>
 			</mechanicalParts>
 		</parts>

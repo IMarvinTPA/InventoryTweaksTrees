@@ -35,8 +35,8 @@
 	</equipment>
 	<block treeOrder="20">
 		<mechanism treeOrder="60">
-			<machines treeOrder="380">
-				<compactMachines treeOrder="220">
+			<machines treeOrder="410">
+				<compactMachines treeOrder="230">
 					<itemcompactmachines_machine id="compactmachines:machine" treeOrder="10"/>
 				</compactMachines>
 			</machines>
@@ -45,7 +45,7 @@
 	<item treeOrder="40">
 		<parts treeOrder="120">
 			<mechanicalParts treeOrder="10">
-				<compactMachineParts treeOrder="120">
+				<compactMachineParts treeOrder="130">
 					<itemAtomEnlargingModule id="compactmachines:enlarger" damage="0" treeOrder="10"/>
 					<itemCompactMachineWall id="compactmachines:innerwall" damage="0" treeOrder="20"/>
 					<itemCompactMachineWall id="compactmachines:innerwallcreative" damage="0" treeOrder="30"/>

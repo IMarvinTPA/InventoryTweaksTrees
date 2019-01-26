@@ -29,7 +29,7 @@
 	<item treeOrder="40">
 		<utility treeOrder="10">
 			<storage treeOrder="30">
-				<treasureContainers treeOrder="100">
+				<treasureContainers treeOrder="110">
 					<itemLootChest id="bq_standard:loot_chest" treeOrder="80"/>
 				</treasureContainers>
 			</storage>

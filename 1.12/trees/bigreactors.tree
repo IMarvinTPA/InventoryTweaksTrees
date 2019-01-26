@@ -29,9 +29,9 @@
 	<equipment treeOrder="10">
 		<tool treeOrder="20">
 			<wrench class="Item" data="{ToolClass : &quot;wrench&quot;}" mergeChildren="true" treeOrder="130">
-				<itemExtremeWrench id="bigreactors:wrench" treeOrder="190"/>
+				<itemExtremeWrench id="bigreactors:wrench" treeOrder="210"/>
 			</wrench>
-			<debugTools treeOrder="200">
+			<debugTools treeOrder="210">
 				<itemBeefTronicDiagnosticsTool id="bigreactors:brdebugtool" treeOrder="10"/>
 			</debugTools>
 		</tool>
@@ -46,7 +46,7 @@
 					<itemBenitoiteOre id="bigreactors:brore" damage="2" treeOrder="10"/>
 				</oreBenitoiteOre>
 			</oreBlock>
-			<liquid treeOrder="200">
+			<liquid treeOrder="210">
 				<fluids treeOrder="60">
 					<itemFluidYellorium id="bigreactors:tile.fluid.yellorium.still" treeOrder="50"/>
 					<itemFluidCyanite id="bigreactors:tile.fluid.cyanite.still" treeOrder="60"/>
@@ -54,7 +54,7 @@
 			</liquid>
 		</naturalBlock>
 		<mechanism treeOrder="60">
-			<generators treeOrder="370">
+			<generators treeOrder="400">
 				<nuclearGenerators treeOrder="120">
 					<itemReactorCasingCoreLegacy id="bigreactors:reactorcasingcores" treeOrder="10"/>
 					<itemReactorCasingLegacy id="bigreactors:reactorcasing" treeOrder="30"/>
@@ -108,8 +108,8 @@
 	<item treeOrder="40">
 		<fluidPortableStorage treeOrder="20">
 			<bucket treeOrder="10">
-				<itemBigReactors_bucketCyanite id="bigreactors:bucketcyanite" treeOrder="220"/>
-				<itemBigReactors_bucketYellorium id="bigreactors:bucketyellorium" treeOrder="230"/>
+				<itemBigReactors_bucketCyanite id="bigreactors:bucketcyanite" treeOrder="230"/>
+				<itemBigReactors_bucketYellorium id="bigreactors:bucketyellorium" treeOrder="240"/>
 			</bucket>
 		</fluidPortableStorage>
 	</item>

@@ -42,7 +42,7 @@
 			</meleeWeapon>
 		</weapon>
 		<tool treeOrder="20">
-			<keys treeOrder="240">
+			<keys treeOrder="250">
 				<itemSpectreKey id="randomthings:spectrekey" treeOrder="60"/>
 				<itemOpSpectreKey id="randomthings:opspectrekey" treeOrder="70"/>
 			</keys>
@@ -72,8 +72,8 @@
 			</boots>
 		</armor>
 		<baubles treeOrder="40">
-			<rings treeOrder="10">
-				<itemObsidianSkullRing id="randomthings:obsidianskullring" treeOrder="360"/>
+			<rings treeOrder="20">
+				<itemObsidianSkullRing id="randomthings:obsidianskullring" treeOrder="370"/>
 			</rings>
 		</baubles>
 	</equipment>
@@ -94,17 +94,18 @@
 			<lever treeOrder="50">
 				<itemWirelessLever id="randomthings:wirelesslever" damage="0" treeOrder="30"/>
 			</lever>
-			<resourceTransfer treeOrder="300">
+			<itemAdvancedRedstoneTorch id="randomthings:advancedredstonetorch_on" treeOrder="130"/>
+			<resourceTransfer treeOrder="320">
 				<groundItemCollector treeOrder="10">
 					<itemItemCollector id="randomthings:itemcollector" treeOrder="100"/>
 					<itemAdvancedItemCollector id="randomthings:advanceditemcollector" treeOrder="110"/>
 				</groundItemCollector>
 			</resourceTransfer>
-			<machines treeOrder="380">
+			<machines treeOrder="410">
 				<decorationMachines treeOrder="190">
 					<itemDyeingMachine id="randomthings:dyeingmachine" damage="0" treeOrder="50"/>
 				</decorationMachines>
-				<randomMachines treeOrder="210">
+				<randomMachines treeOrder="220">
 					<itemBiomePainter id="randomthings:biomepainter" treeOrder="80"/>
 				</randomMachines>
 			</machines>
@@ -117,7 +118,7 @@
 			</ingot>
 		</miningResources>
 		<huntingResources treeOrder="20">
-			<string id="string" treeOrder="110">
+			<string id="string" treeOrder="150">
 				<itemSpectreString id="randomthings:ingredient" damage="12" treeOrder="70"/>
 			</string>
 		</huntingResources>

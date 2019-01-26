@@ -28,7 +28,7 @@
 <stuff treeVersion="1.12.2">
 	<equipment treeOrder="10">
 		<tool treeOrder="20">
-			<keys treeOrder="240">
+			<keys treeOrder="250">
 				<itemSoulkey id="lycanitesmobs:soulkey" treeOrder="50"/>
 			</keys>
 		</tool>

@@ -28,14 +28,14 @@
 <stuff treeVersion="1.12.2">
 	<equipment treeOrder="10">
 		<tool treeOrder="20">
-			<portableCrafting treeOrder="350">
+			<portableCrafting treeOrder="360">
 				<itemHandheldCraftingTable id="extendedcrafting:handheld_table" treeOrder="30"/>
 			</portableCrafting>
 		</tool>
 	</equipment>
 	<block treeOrder="20">
 		<mechanism treeOrder="60">
-			<basicCrafting treeOrder="360">
+			<basicCrafting treeOrder="390">
 				<craftingTables treeOrder="10">
 					<itemCraftingTable id="extendedcrafting:crafting_table" treeOrder="160"/>
 					<itemBasicCraftingTable id="extendedcrafting:table_basic" treeOrder="170"/>

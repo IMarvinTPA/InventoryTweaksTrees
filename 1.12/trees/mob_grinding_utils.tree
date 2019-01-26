@@ -28,15 +28,15 @@
 <stuff treeVersion="1.12.2">
 	<block treeOrder="20">
 		<mechanism treeOrder="60">
-			<resourceTransfer treeOrder="300">
+			<resourceTransfer treeOrder="320">
 				<groundItemCollector treeOrder="10">
 					<itemAbsorptionHopper id="mob_grinding_utils:absorption_hopper" treeOrder="160"/>
 				</groundItemCollector>
-				<conveyerBelts treeOrder="120">
+				<conveyerBelts treeOrder="130">
 					<itemEntityConveyor id="mob_grinding_utils:entity_conveyor" treeOrder="110"/>
 				</conveyerBelts>
 			</resourceTransfer>
-			<machines treeOrder="380">
+			<machines treeOrder="410">
 				<mobKillers treeOrder="80">
 					<itemIronSpikes id="mob_grinding_utils:spikes" treeOrder="60"/>
 					<itemMobMasher id="mob_grinding_utils:saw" treeOrder="140"/>

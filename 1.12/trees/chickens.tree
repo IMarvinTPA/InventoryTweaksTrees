@@ -28,7 +28,7 @@
 <stuff treeVersion="1.12.2">
 	<equipment treeOrder="10">
 		<tool treeOrder="20">
-			<instrument treeOrder="340">
+			<instrument treeOrder="350">
 				<Analyzers treeOrder="30">
 					<itemChickenAnalyzer id="chickens:analyzer" treeOrder="20"/>
 				</Analyzers>
@@ -37,7 +37,7 @@
 	</equipment>
 	<block treeOrder="20">
 		<mechanism treeOrder="60">
-			<machines treeOrder="380">
+			<machines treeOrder="410">
 				<poweredRanching treeOrder="50">
 					<nesting treeOrder="100">
 						<itemAcaciaHenhouse id="chickens:henhouse_acacia" treeOrder="20"/>
@@ -53,8 +53,8 @@
 	</block>
 	<item treeOrder="40">
 		<utility treeOrder="10">
-			<spawnerEggs treeOrder="210">
-				<itemSmartChicken id="chickens:spawn_egg" treeOrder="850"/>
+			<spawnerEggs treeOrder="220">
+				<itemSmartChicken id="chickens:spawn_egg" treeOrder="860"/>
 			</spawnerEggs>
 		</utility>
 		<food treeOrder="160">

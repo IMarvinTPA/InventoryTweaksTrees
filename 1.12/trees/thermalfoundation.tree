@@ -159,31 +159,31 @@
 				</hoe>
 			</farmingTool>
 			<shears class="Item" data="{ToolClass : &quot;shears&quot;}" mergeChildren="true" treeOrder="60">
-				<itemBronzeShears id="thermalfoundation:tool.shearsbronze" treeOrder="30"/>
-				<itemCopperShears id="thermalfoundation:tool.shearscopper" treeOrder="40"/>
-				<itemElectrumShears id="thermalfoundation:tool.shearselectrum" treeOrder="50"/>
-				<itemFerrousShears id="thermalfoundation:tool.shearsnickel" treeOrder="60"/>
-				<itemInvarShears id="thermalfoundation:tool.shearsinvar" treeOrder="70"/>
-				<itemLeadShears id="thermalfoundation:tool.shearslead" treeOrder="80"/>
-				<itemShinyShears id="thermalfoundation:tool.shearsplatinum" treeOrder="110"/>
-				<itemSilverShears id="thermalfoundation:tool.shearssilver" treeOrder="120"/>
-				<itemTinShears id="thermalfoundation:tool.shearstin" treeOrder="140"/>
-				<itemAluminumShears id="thermalfoundation:tool.shears_aluminum" treeOrder="280"/>
-				<itemBronzeShears id="thermalfoundation:tool.shears_bronze" treeOrder="290"/>
-				<itemConstantanShears id="thermalfoundation:tool.shears_constantan" treeOrder="300"/>
-				<itemCopperShears id="thermalfoundation:tool.shears_copper" treeOrder="310"/>
-				<itemDiamondShears id="thermalfoundation:tool.shears_diamond" treeOrder="320"/>
-				<itemElectrumShears id="thermalfoundation:tool.shears_electrum" treeOrder="330"/>
-				<itemGoldShears id="thermalfoundation:tool.shears_gold" treeOrder="340"/>
-				<itemInvarShears id="thermalfoundation:tool.shears_invar" treeOrder="350"/>
-				<itemLeadShears id="thermalfoundation:tool.shears_lead" treeOrder="360"/>
-				<itemNickelShears id="thermalfoundation:tool.shears_nickel" treeOrder="370"/>
-				<itemPlatinumShears id="thermalfoundation:tool.shears_platinum" treeOrder="380"/>
-				<itemSilverShears id="thermalfoundation:tool.shears_silver" treeOrder="390"/>
-				<itemSteelShears id="thermalfoundation:tool.shears_steel" treeOrder="400"/>
-				<itemStoneShears id="thermalfoundation:tool.shears_stone" treeOrder="410"/>
-				<itemTinShears id="thermalfoundation:tool.shears_tin" treeOrder="420"/>
-				<itemWoodenShears id="thermalfoundation:tool.shears_wood" treeOrder="430"/>
+				<itemBronzeShears id="thermalfoundation:tool.shearsbronze" treeOrder="40"/>
+				<itemCopperShears id="thermalfoundation:tool.shearscopper" treeOrder="50"/>
+				<itemElectrumShears id="thermalfoundation:tool.shearselectrum" treeOrder="60"/>
+				<itemFerrousShears id="thermalfoundation:tool.shearsnickel" treeOrder="70"/>
+				<itemInvarShears id="thermalfoundation:tool.shearsinvar" treeOrder="80"/>
+				<itemLeadShears id="thermalfoundation:tool.shearslead" treeOrder="90"/>
+				<itemShinyShears id="thermalfoundation:tool.shearsplatinum" treeOrder="120"/>
+				<itemSilverShears id="thermalfoundation:tool.shearssilver" treeOrder="130"/>
+				<itemTinShears id="thermalfoundation:tool.shearstin" treeOrder="150"/>
+				<itemAluminumShears id="thermalfoundation:tool.shears_aluminum" treeOrder="290"/>
+				<itemBronzeShears id="thermalfoundation:tool.shears_bronze" treeOrder="300"/>
+				<itemConstantanShears id="thermalfoundation:tool.shears_constantan" treeOrder="310"/>
+				<itemCopperShears id="thermalfoundation:tool.shears_copper" treeOrder="320"/>
+				<itemDiamondShears id="thermalfoundation:tool.shears_diamond" treeOrder="330"/>
+				<itemElectrumShears id="thermalfoundation:tool.shears_electrum" treeOrder="340"/>
+				<itemGoldShears id="thermalfoundation:tool.shears_gold" treeOrder="350"/>
+				<itemInvarShears id="thermalfoundation:tool.shears_invar" treeOrder="360"/>
+				<itemLeadShears id="thermalfoundation:tool.shears_lead" treeOrder="370"/>
+				<itemNickelShears id="thermalfoundation:tool.shears_nickel" treeOrder="380"/>
+				<itemPlatinumShears id="thermalfoundation:tool.shears_platinum" treeOrder="390"/>
+				<itemSilverShears id="thermalfoundation:tool.shears_silver" treeOrder="400"/>
+				<itemSteelShears id="thermalfoundation:tool.shears_steel" treeOrder="410"/>
+				<itemStoneShears id="thermalfoundation:tool.shears_stone" treeOrder="420"/>
+				<itemTinShears id="thermalfoundation:tool.shears_tin" treeOrder="430"/>
+				<itemWoodenShears id="thermalfoundation:tool.shears_wood" treeOrder="440"/>
 			</shears>
 			<fishingRod class="Item" data="{ToolClass : &quot;fishingrod&quot;}" treeOrder="70">
 				<itemBronzeFishingRod id="thermalfoundation:tool.fishingrodbronze" treeOrder="10"/>
@@ -298,7 +298,7 @@
 					<itemResonantEndStone id="thermalfoundation:ore_fluid" damage="4" treeOrder="10"/>
 				</oreResonantEndStone>
 			</oreBlock>
-			<liquid treeOrder="200">
+			<liquid treeOrder="210">
 				<fluids treeOrder="60">
 					<itemZephyreanAerotheum id="thermalfoundation:fluidaerotheum" treeOrder="340"/>
 					<itemLiquifactedCoal id="thermalfoundation:fluidcoal" treeOrder="350"/>
@@ -324,7 +324,7 @@
 			</liquid>
 		</naturalBlock>
 		<mechanism treeOrder="60">
-			<machineupgrades treeOrder="390">
+			<machineupgrades treeOrder="420">
 				<augments treeOrder="30">
 					<itemHardenedUpgradeKit id="thermalfoundation:upgrade" damage="0" treeOrder="10"/>
 					<itemReinforcedUpgradeKit id="thermalfoundation:upgrade" damage="1" treeOrder="20"/>
@@ -346,7 +346,7 @@
 			</dust>
 		</miningResources>
 		<huntingResources treeOrder="20">
-			<slimyItems treeOrder="180">
+			<slimyItems treeOrder="220">
 				<itemRosin id="thermalfoundation:material" damage="832" treeOrder="30"/>
 				<itemTar id="thermalfoundation:material" damage="833" treeOrder="40"/>
 			</slimyItems>
@@ -361,7 +361,7 @@
 			<experienceBook treeOrder="100">
 				<itemTomeofKnowledge id="thermalfoundation:tome_experience" treeOrder="20"/>
 			</experienceBook>
-			<horseArmor treeOrder="260">
+			<horseArmor treeOrder="270">
 				<itemAluminumHorseArmor id="thermalfoundation:horse_armor_aluminum" treeOrder="40"/>
 				<itemBronzeHorseArmor id="thermalfoundation:horse_armor_bronze" treeOrder="50"/>
 				<itemConstantanHorseArmor id="thermalfoundation:horse_armor_constantan" treeOrder="60"/>
@@ -378,7 +378,7 @@
 		</utility>
 		<fluidPortableStorage treeOrder="20">
 			<bucket treeOrder="10">
-				<itemthermalfoundation_bucket id="thermalfoundation:bucket" treeOrder="120"/>
+				<itemthermalfoundation_bucket id="thermalfoundation:bucket" treeOrder="130"/>
 			</bucket>
 		</fluidPortableStorage>
 		<patterns treeOrder="100">
@@ -394,7 +394,7 @@
 				<servos treeOrder="90">
 					<itemRedstoneServo id="thermalfoundation:material" damage="512" treeOrder="10"/>
 				</servos>
-				<otherParts treeOrder="100">
+				<otherParts treeOrder="110">
 					<itemToolCasing id="thermalfoundation:material" damage="640" treeOrder="40"/>
 					<itemDrillHead id="thermalfoundation:material" damage="656" treeOrder="60"/>
 					<itemSawBlade id="thermalfoundation:material" damage="657" treeOrder="120"/>

@@ -124,7 +124,7 @@
 					<itemTinkersMattock id="tconstruct:mattock" treeOrder="50"/>
 				</hoe>
 			</farmingTool>
-			<chisel treeOrder="210">
+			<chisel treeOrder="220">
 				<itemTinkerChisel id="tconstruct:chisel" treeOrder="80"/>
 			</chisel>
 		</tool>
@@ -181,7 +181,7 @@
 				<itemSlimyGrass id="tconstruct:slime.grass" damage="0" treeOrder="130"/>
 				<itemSlimyGrass id="tconstruct:slime.grass.tall" damage="0" treeOrder="140"/>
 			</grass>
-			<liquid treeOrder="200">
+			<liquid treeOrder="210">
 				<itemMilk.name id="tconstruct:milk" treeOrder="140"/>
 				<itemBlood id="tconstruct:blood" treeOrder="150"/>
 				<itemLiquidBlueSlime id="tconstruct:blueslime" treeOrder="160"/>
@@ -235,9 +235,9 @@
 					<itemDriedClay id="tconstruct:dried_clay" damage="0" treeOrder="30"/>
 				</hardenedClay>
 				<roads treeOrder="70">
-					<itemStoneRoad id="tconstruct:decoration.multibrickfancy" damage="15" treeOrder="110"/>
-					<itemBrownstoneRoad id="tconstruct:speedblock" treeOrder="120"/>
-					<itemBrownstoneRoad id="tconstruct:brownstone" damage="7" treeOrder="130"/>
+					<itemStoneRoad id="tconstruct:decoration.multibrickfancy" damage="15" treeOrder="120"/>
+					<itemBrownstoneRoad id="tconstruct:speedblock" treeOrder="130"/>
+					<itemBrownstoneRoad id="tconstruct:brownstone" damage="7" treeOrder="140"/>
 				</roads>
 				<decorativeblocks treeOrder="80">
 					<itemBrownstoneCreeperface id="tconstruct:brownstone" damage="8" treeOrder="520"/>
@@ -351,17 +351,17 @@
 		</manufacturedBlock>
 		<mechanism treeOrder="60">
 			<rails treeOrder="10">
-				<woodenRails treeOrder="190">
+				<woodenRails treeOrder="220">
 					<itemWoodenRail id="tconstruct:wood_rail" treeOrder="10"/>
 					<itemWoodenRailwithaTrapdoor id="tconstruct:wood_rail_trapdoor" treeOrder="20"/>
 					<itemWoodenRail id="tconstruct:rail.wood" treeOrder="30"/>
 				</woodenRails>
 			</rails>
-			<resourceTransfer treeOrder="300">
+			<resourceTransfer treeOrder="320">
 				<groundItemCollector treeOrder="10">
 					<itemWoodenHopper id="tconstruct:wooden_hopper" treeOrder="20"/>
 				</groundItemCollector>
-				<conveyerBelts treeOrder="120">
+				<conveyerBelts treeOrder="130">
 					<itemBloodChannel id="tconstruct:slime_channel" damage="3" treeOrder="60"/>
 					<itemBlueSlimeChannel id="tconstruct:slime_channel" damage="1" treeOrder="70"/>
 					<itemGreenSlimeChannel id="tconstruct:slime_channel" damage="0" treeOrder="80"/>
@@ -369,7 +369,7 @@
 					<itemMagmaSlimeChannel id="tconstruct:slime_channel" damage="4" treeOrder="100"/>
 				</conveyerBelts>
 			</resourceTransfer>
-			<basicCrafting treeOrder="360">
+			<basicCrafting treeOrder="390">
 				<craftingTables treeOrder="10">
 					<itemCraftingStation id="tconstruct:craftingstation" damage="0" treeOrder="90"/>
 				</craftingTables>
@@ -460,7 +460,7 @@
 					</tinkerSmeltry>
 				</furnaces>
 			</basicCrafting>
-			<machines treeOrder="380">
+			<machines treeOrder="410">
 				<mobKillers treeOrder="80">
 					<itemPunjiStick id="tconstruct:trap.punji" treeOrder="10"/>
 					<itemPunjiSticks id="tconstruct:punji" treeOrder="20"/>
@@ -471,7 +471,7 @@
 	<resources treeOrder="30">
 		<miningResources treeOrder="10">
 			<oreBlock treeOrder="120">
-				<blockSilkyJewel treeOrder="1900">
+				<blockSilkyJewel treeOrder="1960">
 					<itemSilkyBlockofJewel id="tconstruct:metal" damage="6" treeOrder="10"/>
 				</blockSilkyJewel>
 			</oreBlock>
@@ -482,12 +482,12 @@
 					<itemSlimyMagmaMud id="tconstruct:soil" damage="5" treeOrder="30"/>
 				</gemSlimyMud>
 			</gem>
-			<bricks treeOrder="200">
+			<bricks treeOrder="210">
 				<itemMudBrick id="tconstruct:materials" damage="1" treeOrder="10"/>
 				<itemSearedBrick id="tconstruct:materials" damage="37" treeOrder="30"/>
 				<itemSearedBrick id="tconstruct:materials" damage="2" treeOrder="40"/>
 			</bricks>
-			<grout treeOrder="230">
+			<grout treeOrder="240">
 				<itemGrout id="tconstruct:craftedsoil" damage="1" treeOrder="10"/>
 				<itemGrout id="tconstruct:soil" damage="0" treeOrder="20"/>
 			</grout>
@@ -503,10 +503,10 @@
 			</torch>
 			<storage treeOrder="30">
 				<chests treeOrder="10">
-					<itemPatternChest id="tconstruct:tooltables" damage="4" treeOrder="390"/>
-					<itemPartChest id="tconstruct:tooltables" damage="5" treeOrder="400"/>
+					<itemPatternChest id="tconstruct:tooltables" damage="4" treeOrder="410"/>
+					<itemPartChest id="tconstruct:tooltables" damage="5" treeOrder="420"/>
 				</chests>
-				<portableStorage treeOrder="90">
+				<portableStorage treeOrder="100">
 					<itemKnapsack id="tconstruct:knapsack" treeOrder="300"/>
 				</portableStorage>
 			</storage>
@@ -517,17 +517,17 @@
 				<itemMaterialsandYou id="tconstruct:book" treeOrder="80"/>
 				<itemMaterialsandYou_Volume1 id="tconstruct:manualbook" treeOrder="130"/>
 			</readableBooks>
-			<spawnerEggs treeOrder="210">
+			<spawnerEggs treeOrder="220">
 				<itemSpawnBlueSlime id="tconstruct:titleicon" damage="0" treeOrder="820"/>
 				<itemSpawnKingSlime id="tconstruct:titleicon" damage="1" treeOrder="830"/>
 			</spawnerEggs>
-			<mobHolder treeOrder="250">
+			<mobHolder treeOrder="260">
 				<itemPiggybackpack id="tconstruct:piggybackpack" treeOrder="90"/>
 			</mobHolder>
 		</utility>
 		<fluidPortableStorage treeOrder="20">
 			<bucket treeOrder="10">
-				<itemtconstruct_buckets id="tconstruct:buckets" treeOrder="140"/>
+				<itemtconstruct_buckets id="tconstruct:buckets" treeOrder="150"/>
 			</bucket>
 		</fluidPortableStorage>
 		<patterns treeOrder="100">
@@ -577,7 +577,9 @@
 				<itemTinkerToughRod id="tconstruct:tough_tool_rod" treeOrder="730"/>
 				<itemFeatherFletching id="tconstruct:fletching" treeOrder="750"/>
 				<itemTinkerShard id="tconstruct:shard" treeOrder="770"/>
-				<tinkerUpgrades treeOrder="820">
+			</tinkerParts>
+			<toolUpgrades treeOrder="30">
+				<tinkerUpgrades treeOrder="30">
 					<itemWoodenSharpeningKit id="tconstruct:sharpening_kit" treeOrder="10"/>
 					<itemBallofMoss id="tconstruct:materials" damage="18" treeOrder="20"/>
 					<itemMendingMoss id="tconstruct:materials" damage="19" treeOrder="30"/>
@@ -589,7 +591,7 @@
 					<itemConsecratedSoil id="tconstruct:soil" damage="4" treeOrder="90"/>
 					<itemCreativeModifier id="tconstruct:materials" damage="50" treeOrder="130"/>
 				</tinkerUpgrades>
-			</tinkerParts>
+			</toolUpgrades>
 		</parts>
 		<decoration treeOrder="130">
 			<case treeOrder="370">

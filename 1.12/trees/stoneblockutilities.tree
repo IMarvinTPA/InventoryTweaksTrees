@@ -30,7 +30,7 @@
 		<tool treeOrder="20">
 			<farmingTool treeOrder="50">
 				<otherFarmingTools treeOrder="60">
-					<crook class="Item" data="{ToolClass : &quot;crook&quot;}" mergeChildren="true" treeOrder="120">
+					<crook class="Item" data="{ToolClass : &quot;crook&quot;}" mergeChildren="true" treeOrder="140">
 						<itemStoneCrook id="stoneblockutilities:crook_stone" treeOrder="10"/>
 					</crook>
 				</otherFarmingTools>

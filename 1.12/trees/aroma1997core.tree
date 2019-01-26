@@ -29,7 +29,7 @@
 	<equipment treeOrder="10">
 		<tool treeOrder="20">
 			<wrench class="Item" data="{ToolClass : &quot;wrench&quot;}" mergeChildren="true" treeOrder="130">
-				<itemAromicHammer id="aroma1997core:wrench" treeOrder="130"/>
+				<itemAromicHammer id="aroma1997core:wrench" treeOrder="150"/>
 			</wrench>
 		</tool>
 	</equipment>

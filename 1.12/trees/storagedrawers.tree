@@ -28,7 +28,7 @@
 <stuff treeVersion="1.12.2">
 	<equipment treeOrder="10">
 		<tool treeOrder="20">
-			<keys treeOrder="240">
+			<keys treeOrder="250">
 				<itemDrawerKey id="storagedrawers:drawer_key" treeOrder="80"/>
 				<itemPersonalKey id="storagedrawers:personalkey" treeOrder="90"/>
 				<itemPersonalKey id="storagedrawers:personal_key" treeOrder="100"/>
@@ -58,7 +58,7 @@
 						<itemFramedTrim id="storagedrawers:customtrim" treeOrder="60"/>
 					</drawerTrim>
 				</drawers>
-				<storageupgrades treeOrder="80">
+				<storageupgrades treeOrder="90">
 					<itemStorageDowngrade id="storagedrawers:upgrade_one_stack" treeOrder="200"/>
 					<itemStorageDrawers_upgrade id="storagedrawers:upgrade" treeOrder="210"/>
 					<itemStorageUpgradeI id="storagedrawers:upgrade_storage" treeOrder="220"/>

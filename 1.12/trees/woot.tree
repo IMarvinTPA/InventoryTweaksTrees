@@ -26,13 +26,140 @@
 -->
 <!-- Note: 'stuff' matches everything, even items that don't appear here -->
 <stuff treeVersion="1.12.2">
+	<equipment treeOrder="10">
+		<tool treeOrder="20">
+			<craftingHammers treeOrder="150">
+				<itemYaHammer id="woot:yahhammer" treeOrder="40"/>
+			</craftingHammers>
+			<multiblockAutoplacers treeOrder="180">
+				<itemTheIntern id="woot:builder" treeOrder="10"/>
+			</multiblockAutoplacers>
+		</tool>
+	</equipment>
+	<block treeOrder="20">
+		<naturalBlock treeOrder="10">
+			<stones treeOrder="10">
+				<stoneSoul treeOrder="80">
+					<itemSoulStone id="woot:soulstone" treeOrder="20"/>
+				</stoneSoul>
+			</stones>
+			<oreBlock treeOrder="90">
+				<itemStygianIronOre id="woot:stygianironore" treeOrder="2010"/>
+			</oreBlock>
+		</naturalBlock>
+		<mechanism treeOrder="60">
+			<basicCrafting treeOrder="390">
+				<anvils treeOrder="40">
+					<itemStygianIronAnvil id="woot:anvil" treeOrder="70"/>
+				</anvils>
+			</basicCrafting>
+			<machines treeOrder="410">
+				<mobKillers treeOrder="80">
+					<multiblockKiller treeOrder="220">
+						<itemFactoryController id="woot:controller" damage="0" treeOrder="10"/>
+						<itemFactoryHeart id="woot:factory" damage="0" treeOrder="20"/>
+						<itemFactoryBlazeCasing id="woot:structure" damage="2" treeOrder="30"/>
+						<itemFactoryBoneCasing id="woot:structure" damage="1" treeOrder="40"/>
+						<itemFactoryEnderCasing id="woot:structure" damage="3" treeOrder="50"/>
+						<itemFactoryFleshCasing id="woot:structure" damage="0" treeOrder="60"/>
+						<itemFactoryNetherCasing id="woot:structure" damage="4" treeOrder="70"/>
+						<itemFactoryTierICap id="woot:structure" damage="6" treeOrder="80"/>
+						<itemFactoryTierIICap id="woot:structure" damage="7" treeOrder="90"/>
+						<itemFactoryTierIIICap id="woot:structure" damage="8" treeOrder="100"/>
+						<itemFactoryTierIVCap id="woot:structure" damage="9" treeOrder="110"/>
+						<itemFactoryUpgradeBase id="woot:structure" damage="5" treeOrder="120"/>
+						<itemFactoryExporter id="woot:exporter" damage="0" treeOrder="130"/>
+						<itemFactoryImporter id="woot:importer" damage="0" treeOrder="140"/>
+						<itemBasicPowerCell id="woot:cell" damage="0" treeOrder="150"/>
+						<itemAdvancedPowerCell id="woot:cell" damage="1" treeOrder="160"/>
+						<itemPremiumPowerCell id="woot:cell" damage="2" treeOrder="170"/>
+						<itemFactoryLayout id="woot:layout" treeOrder="180"/>
+						<wootUpgrades treeOrder="190">
+							<itemBloodMagicCrystalIUpgrade id="woot:upgradeb" damage="12" treeOrder="10"/>
+							<itemBloodMagicCrystalIIUpgrade id="woot:upgradeb" damage="13" treeOrder="20"/>
+							<itemBloodMagicCrystalIIIUpgrade id="woot:upgradeb" damage="14" treeOrder="30"/>
+							<itemBloodMagicLifeEssenceAltarIUpgrade id="woot:upgradeb" damage="6" treeOrder="40"/>
+							<itemBloodMagicLifeEssenceAltarIIUpgrade id="woot:upgradeb" damage="7" treeOrder="50"/>
+							<itemBloodMagicLifeEssenceAltarIIIUpgrade id="woot:upgradeb" damage="8" treeOrder="60"/>
+							<itemBloodMagicLifeEssenceTankIUpgrade id="woot:upgradeb" damage="3" treeOrder="70"/>
+							<itemBloodMagicLifeEssenceTankIIUpgrade id="woot:upgradeb" damage="4" treeOrder="80"/>
+							<itemBloodMagicLifeEssenceTankIIIUpgrade id="woot:upgradeb" damage="5" treeOrder="90"/>
+							<itemDecapitateIUpgrade id="woot:upgrade" damage="12" treeOrder="100"/>
+							<itemDecapitateIIUpgrade id="woot:upgrade" damage="13" treeOrder="110"/>
+							<itemDecapitateIIIUpgrade id="woot:upgrade" damage="14" treeOrder="120"/>
+							<itemEfficiencyIUpgrade id="woot:upgradeb" damage="0" treeOrder="130"/>
+							<itemEfficiencyIIUpgrade id="woot:upgradeb" damage="1" treeOrder="140"/>
+							<itemEfficiencyIIIUpgrade id="woot:upgradeb" damage="2" treeOrder="150"/>
+							<itemEvilCraftBloodTankIUpgrade id="woot:upgradeb" damage="9" treeOrder="160"/>
+							<itemEvilCraftBloodTankIIUpgrade id="woot:upgradeb" damage="10" treeOrder="170"/>
+							<itemEvilCraftBloodTankIIIUpgrade id="woot:upgradeb" damage="11" treeOrder="180"/>
+							<itemLootingIUpgrade id="woot:upgrade" damage="3" treeOrder="190"/>
+							<itemLootingIIUpgrade id="woot:upgrade" damage="4" treeOrder="200"/>
+							<itemLootingIIIUpgrade id="woot:upgrade" damage="5" treeOrder="210"/>
+							<itemMassIUpgrade id="woot:upgrade" damage="9" treeOrder="220"/>
+							<itemMassIIUpgrade id="woot:upgrade" damage="10" treeOrder="230"/>
+							<itemMassIIIUpgrade id="woot:upgrade" damage="11" treeOrder="240"/>
+							<itemRateIUpgrade id="woot:upgrade" damage="0" treeOrder="250"/>
+							<itemRateIIUpgrade id="woot:upgrade" damage="1" treeOrder="260"/>
+							<itemRateIIIUpgrade id="woot:upgrade" damage="2" treeOrder="270"/>
+							<itemXPIUpgrade id="woot:upgrade" damage="6" treeOrder="280"/>
+							<itemXPIIUpgrade id="woot:upgrade" damage="7" treeOrder="290"/>
+							<itemXPIIIUpgrade id="woot:upgrade" damage="8" treeOrder="300"/>
+						</wootUpgrades>
+					</multiblockKiller>
+				</mobKillers>
+			</machines>
+		</mechanism>
+	</block>
 	<resources treeOrder="30">
 		<miningResources treeOrder="10">
+			<dust treeOrder="40">
+				<itemSoulDust id="woot:soulsanddust" treeOrder="1780"/>
+				<itemStygianIronDust id="woot:stygianirondust" treeOrder="1870"/>
+			</dust>
+			<oreBlock treeOrder="120">
+				<itemStygianIronBlock id="woot:stygianiron" treeOrder="2130"/>
+			</oreBlock>
 			<ingot treeOrder="130">
 				<ingotStygianIron treeOrder="2060">
 					<itemStygianIronIngot id="woot:stygianironingot" damage="0" treeOrder="10"/>
 				</ingotStygianIron>
 			</ingot>
+			<shards treeOrder="170">
+				<itemDiamondShard id="woot:shard" treeOrder="20"/>
+				<itemEnderShard id="woot:endershard" treeOrder="30"/>
+			</shards>
 		</miningResources>
 	</resources>
+	<item treeOrder="40">
+		<utility treeOrder="10">
+			<readableBooks treeOrder="90">
+				<itemReadme id="woot:fakemanual" treeOrder="600"/>
+			</readableBooks>
+		</utility>
+		<patterns treeOrder="100">
+			<itemMeshDie id="woot:die" treeOrder="140"/>
+		</patterns>
+		<parts treeOrder="120">
+			<mechanicalParts treeOrder="10">
+				<plates treeOrder="40">
+					<itemStygianIronPlate id="woot:stygianironplate" treeOrder="680"/>
+				</plates>
+				<cores treeOrder="100">
+					<itemFactoryBase id="woot:factorybase" damage="0" treeOrder="180"/>
+					<itemControllerCore id="woot:factorycore" damage="1" treeOrder="190"/>
+					<itemHeartCore id="woot:factorycore" damage="0" treeOrder="200"/>
+					<itemPowerCore id="woot:factorycore" damage="5" treeOrder="210"/>
+					<itemCapCore id="woot:factorycore" damage="6" treeOrder="220"/>
+					<itemTierIUpgradeCore id="woot:factorycore" damage="2" treeOrder="230"/>
+					<itemTierIIUpgradeCore id="woot:factorycore" damage="3" treeOrder="240"/>
+					<itemTierIIIUpgradeCore id="woot:factorycore" damage="4" treeOrder="250"/>
+					<itemPrism id="woot:prism" damage="0" treeOrder="260"/>
+				</cores>
+			</mechanicalParts>
+		</parts>
+		<potion treeOrder="270">
+			<itemXPShard16XP id="woot:xpshard" treeOrder="140"/>
+		</potion>
+	</item>
 </stuff>

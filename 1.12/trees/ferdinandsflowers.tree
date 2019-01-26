@@ -36,21 +36,21 @@
 		</manufacturedBlock>
 		<mechanism treeOrder="60">
 			<lighting treeOrder="30">
-				<stoneLights treeOrder="120">
+				<stoneLights treeOrder="130">
 					<itemStoneLight id="ferdinandsflowers:block_stone_light" treeOrder="10"/>
 					<itemCobblestoneLight id="ferdinandsflowers:block_cobble_light" treeOrder="20"/>
 				</stoneLights>
-				<woodLights treeOrder="130">
+				<woodLights treeOrder="140">
 					<itemOakLogLight id="ferdinandsflowers:block_log_light" treeOrder="10"/>
 					<itemOakPlankLight id="ferdinandsflowers:block_plank_light" treeOrder="20"/>
 				</woodLights>
-				<blockLights treeOrder="140">
+				<blockLights treeOrder="150">
 					<itemDirtLight id="ferdinandsflowers:block_dirt_light" treeOrder="10"/>
 					<itemGravelLight id="ferdinandsflowers:block_gravel_light" treeOrder="20"/>
 					<itemIronBlockLight id="ferdinandsflowers:block_metal_light" treeOrder="30"/>
 					<itemSandLight id="ferdinandsflowers:block_sand_light" treeOrder="40"/>
 				</blockLights>
-				<lightBricks id="minefactoryreloaded:brick" damage="1" treeOrder="150">
+				<lightBricks id="minefactoryreloaded:brick" damage="1" treeOrder="160">
 					<itemStoneBrickLight id="ferdinandsflowers:block_stonebrick_light" treeOrder="20"/>
 				</lightBricks>
 			</lighting>

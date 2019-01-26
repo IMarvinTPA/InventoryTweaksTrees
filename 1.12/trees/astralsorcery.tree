@@ -50,7 +50,7 @@
 					<itemCrystalAxe id="astralsorcery:itemcrystalaxe" treeOrder="880"/>
 				</axe>
 			</choppingTool>
-			<wands treeOrder="180">
+			<wands treeOrder="190">
 				<itemFormationWand id="astralsorcery:itemarchitectwand" treeOrder="150"/>
 				<itemConversionWand id="astralsorcery:itemexchangewand" treeOrder="160"/>
 				<itemImpulsionWand id="astralsorcery:itemgrapplewand" treeOrder="170"/>
@@ -70,7 +70,7 @@
 			</constructionBlock>
 		</manufacturedBlock>
 		<mechanism treeOrder="60">
-			<basicCrafting treeOrder="360">
+			<basicCrafting treeOrder="390">
 				<craftingTables treeOrder="10">
 					<itemLuminousCraftingTable id="astralsorcery:blockaltar" treeOrder="120"/>
 				</craftingTables>

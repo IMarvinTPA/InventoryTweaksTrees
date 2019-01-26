@@ -51,7 +51,7 @@
 				</hoe>
 			</farmingTool>
 			<wrench class="Item" data="{ToolClass : &quot;wrench&quot;}" mergeChildren="true" treeOrder="130">
-				<itemStandardWrench id="galacticraftcore:standard_wrench" treeOrder="270"/>
+				<itemStandardWrench id="galacticraftcore:standard_wrench" treeOrder="310"/>
 			</wrench>
 		</tool>
 		<armor treeOrder="30">
@@ -93,7 +93,7 @@
 			</constructionBlock>
 		</manufacturedBlock>
 		<mechanism treeOrder="60">
-			<basicCrafting treeOrder="360">
+			<basicCrafting treeOrder="390">
 				<craftingTables treeOrder="10">
 					<itemMagneticCraftingTable id="galacticraftcore:magnetic_table" treeOrder="210"/>
 				</craftingTables>
@@ -103,8 +103,8 @@
 	<item treeOrder="40">
 		<fluidPortableStorage treeOrder="20">
 			<bucket treeOrder="10">
-				<itemFuelBucket id="galacticraftcore:bucket_fuel" treeOrder="450"/>
-				<itemOilBucket id="galacticraftcore:bucket_oil" treeOrder="460"/>
+				<itemFuelBucket id="galacticraftcore:bucket_fuel" treeOrder="460"/>
+				<itemOilBucket id="galacticraftcore:bucket_oil" treeOrder="470"/>
 			</bucket>
 		</fluidPortableStorage>
 	</item>

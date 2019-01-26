@@ -62,22 +62,22 @@
 				</axe>
 			</choppingTool>
 			<wrench class="Item" data="{ToolClass : &quot;wrench&quot;}" mergeChildren="true" treeOrder="130">
-				<itemenderio_itemYetaWrench id="enderio:itemyetawrench" treeOrder="30"/>
-				<itemYetaWrench id="enderio:item_yeta_wrench" treeOrder="40"/>
+				<itemenderio_itemYetaWrench id="enderio:itemyetawrench" treeOrder="50"/>
+				<itemYetaWrench id="enderio:item_yeta_wrench" treeOrder="60"/>
 			</wrench>
 			<multimeters treeOrder="160">
 				<itemConduitProbe id="enderio:item_conduit_probe" treeOrder="70"/>
 				<itemCoordinateSelector id="enderio:item_coord_selector" treeOrder="110"/>
 			</multimeters>
-			<magnets treeOrder="310">
+			<magnets treeOrder="320">
 				<itemElectromagnet id="enderio:item_magnet" treeOrder="10"/>
 				<itemElectromagnet id="enderio:itemmagnet" treeOrder="20"/>
 			</magnets>
-			<teleport treeOrder="320">
+			<teleport treeOrder="330">
 				<itemStaffofTraveling id="enderio:item_travel_staff" treeOrder="10"/>
 				<itemStaffofTraveling id="enderio:itemtravelstaff" treeOrder="20"/>
-				<itemRodofReturn id="enderio:item_rod_of_return" treeOrder="30"/>
-				<itemStaffofLevity id="enderio:item_staff_of_levity" treeOrder="40"/>
+				<itemRodofReturn id="enderio:item_rod_of_return" treeOrder="50"/>
+				<itemStaffofLevity id="enderio:item_staff_of_levity" treeOrder="60"/>
 			</teleport>
 		</tool>
 		<armor treeOrder="30">
@@ -114,7 +114,7 @@
 			<sponge treeOrder="140">
 				<itemIndustrialInsulation id="enderio:block_industrial_insulation" treeOrder="30"/>
 			</sponge>
-			<liquid treeOrder="200">
+			<liquid treeOrder="210">
 				<fluids treeOrder="60">
 					<itemFireWater id="enderio:blockfire_water" treeOrder="10"/>
 					<itemHootch id="enderio:blockhootch" treeOrder="20"/>
@@ -122,7 +122,7 @@
 					<itemRocketFuel id="enderio:blockrocket_fuel" treeOrder="40"/>
 				</fluids>
 			</liquid>
-			<obsidian treeOrder="290">
+			<obsidian treeOrder="300">
 				<blockReinforcedObsidianDict oreDictName="blockReinforcedObsidian" treeOrder="50">
 					<itemReinforcedObsidian id="enderio:blockreinforcedobsidian" treeOrder="10"/>
 					<itemReinforcedObsidian id="enderio:block_reinforced_obsidian" treeOrder="20"/>
@@ -152,17 +152,17 @@
 		<mechanism treeOrder="60">
 			<rails treeOrder="10">
 				<itemEnderRail id="enderio:blockenderrail" treeOrder="120"/>
-				<itemExitRail id="enderio:block_exit_rail" treeOrder="130"/>
+				<itemExitRail id="enderio:block_exit_rail" treeOrder="140"/>
 			</rails>
 			<lighting treeOrder="30">
 				<enderioLights treeOrder="90">
 					<itemLight id="enderio:blockelectriclight" treeOrder="10"/>
 					<itemElectricLight id="enderio:block_electric_light" treeOrder="20"/>
 				</enderioLights>
-				<mobWarding id="enderio:blockspawnguard" treeOrder="160">
-					<itemAversionObelisk id="enderio:blockspawnguard" treeOrder="30"/>
-					<itemAversionObelisk id="enderio:block_aversion_obelisk" treeOrder="40"/>
-					<itemInhibitorObelisk id="enderio:block_inhibitor_obelisk" treeOrder="50"/>
+				<mobWarding treeOrder="170">
+					<itemAversionObelisk id="enderio:blockspawnguard" treeOrder="70"/>
+					<itemAversionObelisk id="enderio:block_aversion_obelisk" treeOrder="80"/>
+					<itemInhibitorObelisk id="enderio:block_inhibitor_obelisk" treeOrder="90"/>
 				</mobWarding>
 			</lighting>
 			<lever treeOrder="50">
@@ -188,9 +188,9 @@
 			<trapdoor treeOrder="90">
 				<itemDarkSteelTrapdoor id="enderio:block_dark_steel_trapdoor" treeOrder="170"/>
 			</trapdoor>
-			<itemBlockDetector id="enderio:block_detector_block" treeOrder="280"/>
-			<itemBlockDetectorSilent id="enderio:block_detector_block_silent" treeOrder="290"/>
-			<resourceTransfer treeOrder="300">
+			<itemBlockDetector id="enderio:block_detector_block" treeOrder="300"/>
+			<itemBlockDetectorSilent id="enderio:block_detector_block_silent" treeOrder="310"/>
+			<resourceTransfer treeOrder="320">
 				<groundItemCollector treeOrder="10">
 					<itemImpulseHopper id="enderio:block_impulse_hopper" treeOrder="40"/>
 					<itemVacuumChest id="enderio:blockvacuumchest" treeOrder="70"/>
@@ -214,21 +214,21 @@
 					<itemRefinedStorageConduit id="enderio:item_refined_storage_conduit" treeOrder="160"/>
 					<itemItemBuffer id="enderio:block_buffer" treeOrder="170"/>
 				</eioPipes>
-				<fans treeOrder="130">
+				<fans treeOrder="140">
 					<itemRelocatorObelisk id="enderio:block_relocator_obelisk" treeOrder="20"/>
 				</fans>
-				<transDimensionalTransfer treeOrder="140">
+				<transDimensionalTransfer treeOrder="150">
 					<itemDimensionalTransceiver id="enderio:blocktransceiver" treeOrder="40"/>
 					<itemDimensionalTransceiver id="enderio:block_transceiver" treeOrder="50"/>
 				</transDimensionalTransfer>
 			</resourceTransfer>
-			<basicCrafting treeOrder="360">
+			<basicCrafting treeOrder="390">
 				<anvils treeOrder="40">
 					<itemDarkSteelAnvil id="enderio:blockdarksteelanvil" treeOrder="20"/>
 					<itemDarkSteelAnvil id="enderio:block_dark_steel_anvil" treeOrder="30"/>
 				</anvils>
 			</basicCrafting>
-			<generators treeOrder="370">
+			<generators treeOrder="400">
 				<fuelGenerators treeOrder="20">
 					<itemenderio_blockCombustionGenerator_0 id="enderio:blockcombustiongenerator" damage="0" treeOrder="20"/>
 					<itemCombustionGenerator id="enderio:block_combustion_generator" treeOrder="30"/>
@@ -251,11 +251,11 @@
 					<itemenderio_blockZombieGenerator_0 id="enderio:blockzombiegenerator" damage="0" treeOrder="160"/>
 				</weirdGenerators>
 				<solarGenerators treeOrder="110">
-					<itemPhotovoltaicCell id="enderio:blocksolarpanel" treeOrder="10"/>
-					<itemPhotovoltaicCell id="enderio:block_solar_panel" treeOrder="20"/>
+					<itemPhotovoltaicCell id="enderio:blocksolarpanel" treeOrder="20"/>
+					<itemPhotovoltaicCell id="enderio:block_solar_panel" treeOrder="30"/>
 				</solarGenerators>
 			</generators>
-			<machines treeOrder="380">
+			<machines treeOrder="410">
 				<poweredCrafting treeOrder="10">
 					<itemSimpleCrafter id="enderio:block_simple_crafter" treeOrder="70"/>
 					<itemCrafter id="enderio:blockcrafter" damage="0" treeOrder="80"/>
@@ -296,10 +296,14 @@
 					<itemEnchanter id="enderio:block_enchanter" treeOrder="30"/>
 				</poweredEnchantment>
 				<poweredFluids treeOrder="140">
-					<itemReservoir id="enderio:blockreservoir" treeOrder="50"/>
-					<itemTheVat id="enderio:blockvat" treeOrder="130"/>
-					<itemTheVat id="enderio:block_vat" treeOrder="140"/>
-					<itemTheEnhancedVat id="enderio:block_enhanced_vat" treeOrder="150"/>
+					<poweredFluidTransmuters treeOrder="30">
+						<itemTheVat id="enderio:blockvat" treeOrder="50"/>
+						<itemTheVat id="enderio:block_vat" treeOrder="60"/>
+						<itemTheEnhancedVat id="enderio:block_enhanced_vat" treeOrder="70"/>
+					</poweredFluidTransmuters>
+					<poweredFluidCreators treeOrder="40">
+						<itemReservoir id="enderio:blockreservoir" treeOrder="20"/>
+					</poweredFluidCreators>
 				</poweredFluids>
 				<poweredTransport treeOrder="170">
 					<itemOmniBuffer id="enderio:blockbuffer" treeOrder="40"/>
@@ -308,14 +312,14 @@
 					<itemPaintingMachine id="enderio:blockpainter" damage="0" treeOrder="30"/>
 					<itemPaintingMachine id="enderio:block_painter" treeOrder="40"/>
 				</decorationMachines>
-				<randomMachines treeOrder="210">
+				<randomMachines treeOrder="220">
 					<itemSliceNSplice id="enderio:blocksliceandsplice" treeOrder="10"/>
 					<itemSoulBinder id="enderio:blocksoulbinder" treeOrder="20"/>
 					<itemSliceNSplice id="enderio:block_slice_and_splice" treeOrder="30"/>
 					<itemSoulBinder id="enderio:block_soul_binder" treeOrder="40"/>
 					<itemWeatherObelisk id="enderio:block_weather_obelisk" treeOrder="200"/>
 				</randomMachines>
-				<remoteAccess treeOrder="230">
+				<remoteAccess treeOrder="240">
 					<itemTravelAnchor id="enderio:blocktravelanchor" treeOrder="10"/>
 					<itemTravelAnchor id="enderio:block_travel_anchor" treeOrder="20"/>
 					<itemenderio id="enderio:blockenderio" treeOrder="70"/>
@@ -323,7 +327,7 @@
 					<itemTelepadBlock id="enderio:block_tele_pad" treeOrder="90"/>
 				</remoteAccess>
 			</machines>
-			<machineupgrades treeOrder="390">
+			<machineupgrades treeOrder="420">
 				<transportUpgrades treeOrder="20">
 					<eioPipeUpgrades treeOrder="40">
 						<itemItemFilter id="enderio:itembasicfilterupgrade" treeOrder="10"/>
@@ -367,39 +371,41 @@
 				<itemColdFireIgniter id="enderio:item_cold_fire_igniter" treeOrder="40"/>
 			</flintAndSteel>
 			<storage treeOrder="30">
-				<powerStorage treeOrder="120">
+				<powerStorage treeOrder="130">
 					<itemCapacitorBankDeprecated id="enderio:blockcapacitorbank" treeOrder="10"/>
 					<itemCapacitorBank id="enderio:blockcapbank" treeOrder="20"/>
 					<itemCapacitorBank id="enderio:block_cap_bank" treeOrder="30"/>
-					<itemBasicInventoryCharger id="enderio:item_inventory_charger_basic" treeOrder="110"/>
-					<itemSimpleInventoryCharger id="enderio:item_inventory_charger_simple" treeOrder="120"/>
-					<itemInventoryCharger id="enderio:item_inventory_charger" treeOrder="130"/>
-					<itemVibrantInventoryCharger id="enderio:item_inventory_charger_vibrant" treeOrder="140"/>
-					<itemSimpleWiredCharger id="enderio:block_simple_wired_charger" treeOrder="170"/>
-					<itemWiredCharger id="enderio:block_wired_charger" treeOrder="180"/>
-					<itemEnhancedWiredCharger id="enderio:block_enhanced_wired_charger" treeOrder="190"/>
-					<itemPowerMonitor id="enderio:blockpowermonitor" treeOrder="200"/>
-					<itemPowerMonitor id="enderio:block_power_monitor" treeOrder="210"/>
-					<itemGraphicalPowerMonitor id="enderio:block_advanced_power_monitor" treeOrder="220"/>
-					<itemWirelessCharger id="enderio:blockwirelesscharger" treeOrder="260"/>
-					<itemWirelessCharger id="enderio:block_wireless_charger" treeOrder="270"/>
-					<itemWirelessChargingAntenna id="enderio:block_normal_wireless_charger" treeOrder="280"/>
-					<itemEnhancedWirelessChargingAntenna id="enderio:block_enhanced_wireless_charger" treeOrder="290"/>
-					<itemWirelessChargingAntennaExtension id="enderio:block_wireless_charger_extension" treeOrder="300"/>
-					<itemEnergyGauge id="enderio:block_gauge" treeOrder="320"/>
+					<itemSimpleWiredCharger id="enderio:block_simple_wired_charger" treeOrder="120"/>
+					<itemWiredCharger id="enderio:block_wired_charger" treeOrder="130"/>
+					<itemEnhancedWiredCharger id="enderio:block_enhanced_wired_charger" treeOrder="140"/>
+					<itemPowerMonitor id="enderio:blockpowermonitor" treeOrder="150"/>
+					<itemPowerMonitor id="enderio:block_power_monitor" treeOrder="160"/>
+					<itemGraphicalPowerMonitor id="enderio:block_advanced_power_monitor" treeOrder="170"/>
+					<itemWirelessCharger id="enderio:blockwirelesscharger" treeOrder="210"/>
+					<itemWirelessCharger id="enderio:block_wireless_charger" treeOrder="220"/>
+					<itemWirelessChargingAntenna id="enderio:block_normal_wireless_charger" treeOrder="230"/>
+					<itemEnhancedWirelessChargingAntenna id="enderio:block_enhanced_wireless_charger" treeOrder="240"/>
+					<itemWirelessChargingAntennaExtension id="enderio:block_wireless_charger_extension" treeOrder="250"/>
+					<itemEnergyGauge id="enderio:block_gauge" treeOrder="270"/>
 				</powerStorage>
+				<portablePowerStorage treeOrder="140">
+					<itemBasicInventoryCharger id="enderio:item_inventory_charger_basic" treeOrder="30"/>
+					<itemSimpleInventoryCharger id="enderio:item_inventory_charger_simple" treeOrder="40"/>
+					<itemInventoryCharger id="enderio:item_inventory_charger" treeOrder="50"/>
+					<itemVibrantInventoryCharger id="enderio:item_inventory_charger_vibrant" treeOrder="60"/>
+				</portablePowerStorage>
 			</storage>
-			<mobHolder treeOrder="250">
+			<mobHolder treeOrder="260">
 				<itemSoulVial id="enderio:itemsoulvessel" treeOrder="30"/>
 				<itemSoulVial id="enderio:item_soul_vial" treeOrder="40"/>
 			</mobHolder>
 		</utility>
 		<fluidPortableStorage treeOrder="20">
 			<bucket treeOrder="10">
-				<itemenderio_bucketFire_water id="enderio:bucketfire_water" treeOrder="210"/>
-				<itemenderio_bucketHootch id="enderio:buckethootch" treeOrder="250"/>
-				<itemenderio_bucketNutrient_distillation id="enderio:bucketnutrient_distillation" treeOrder="300"/>
-				<itemenderio_bucketRocket_fuel id="enderio:bucketrocket_fuel" treeOrder="340"/>
+				<itemenderio_bucketFire_water id="enderio:bucketfire_water" treeOrder="220"/>
+				<itemenderio_bucketHootch id="enderio:buckethootch" treeOrder="260"/>
+				<itemenderio_bucketNutrient_distillation id="enderio:bucketnutrient_distillation" treeOrder="310"/>
+				<itemenderio_bucketRocket_fuel id="enderio:bucketrocket_fuel" treeOrder="350"/>
 			</bucket>
 		</fluidPortableStorage>
 		<fluidStorage treeOrder="50">
@@ -429,12 +435,12 @@
 					<itemPulsatingCrystal id="enderio:itemmaterial" damage="5" treeOrder="590"/>
 					<itemVibrantCrystal id="enderio:itemmaterial" damage="6" treeOrder="600"/>
 				</chip>
-				<frames treeOrder="110">
+				<frames treeOrder="120">
 					<itemenderio_itemMachinePart_0 id="enderio:itemmachinepart" damage="0" treeOrder="70"/>
 					<itemFusedQuartzFrame id="enderio:itemfusedquartzframe" treeOrder="120"/>
 				</frames>
-				<itemGliderWing id="enderio:itemgliderwing" damage="0" treeOrder="130"/>
-				<itemGliderWings id="enderio:itemgliderwing" damage="1" treeOrder="140"/>
+				<itemGliderWing id="enderio:itemgliderwing" damage="0" treeOrder="140"/>
+				<itemGliderWings id="enderio:itemgliderwing" damage="1" treeOrder="150"/>
 			</mechanicalParts>
 		</parts>
 		<decoration treeOrder="130">

@@ -28,7 +28,7 @@
 <stuff treeVersion="1.12.2">
 	<block treeOrder="20">
 		<naturalBlock treeOrder="10">
-			<liquid treeOrder="200">
+			<liquid treeOrder="210">
 				<fluids treeOrder="60">
 					<itemLiquidSilicon id="extratic:liquidsilicon" treeOrder="70"/>
 					<itemMoltenAdamantine id="extratic:moltenadamantine." treeOrder="80"/>
@@ -56,7 +56,7 @@
 	<item treeOrder="40">
 		<fluidPortableStorage treeOrder="20">
 			<bucket treeOrder="10">
-				<itemExtraTiC_extra.bucket id="extratic:extra.bucket" treeOrder="280"/>
+				<itemExtraTiC_extra.bucket id="extratic:extra.bucket" treeOrder="290"/>
 			</bucket>
 		</fluidPortableStorage>
 		<parts treeOrder="120">

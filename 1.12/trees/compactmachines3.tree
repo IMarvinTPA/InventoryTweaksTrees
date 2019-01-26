@@ -35,8 +35,8 @@
 	</equipment>
 	<block treeOrder="20">
 		<mechanism treeOrder="60">
-			<machines treeOrder="380">
-				<compactMachines treeOrder="220">
+			<machines treeOrder="410">
+				<compactMachines treeOrder="230">
 					<itemTinyCompactMachine id="compactmachines3:machine" damage="0" treeOrder="20"/>
 					<itemSmallCompactMachine id="compactmachines3:machine" damage="1" treeOrder="30"/>
 					<itemNormalCompactMachine id="compactmachines3:machine" damage="2" treeOrder="40"/>
@@ -50,7 +50,7 @@
 	<item treeOrder="40">
 		<parts treeOrder="120">
 			<mechanicalParts treeOrder="10">
-				<compactMachineParts treeOrder="120">
+				<compactMachineParts treeOrder="130">
 					<itemCompactMachineWall id="compactmachines3:wallbreakable" treeOrder="50"/>
 					<itemSolidCompactMachineWall id="compactmachines3:wall" treeOrder="60"/>
 					<itemTunnel id="compactmachines3:tunneltool" treeOrder="100"/>

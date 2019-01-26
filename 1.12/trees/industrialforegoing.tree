@@ -28,8 +28,8 @@
 <stuff treeVersion="1.12.2">
 	<block treeOrder="20">
 		<mechanism treeOrder="60">
-			<resourceTransfer treeOrder="300">
-				<conveyerBelts treeOrder="120">
+			<resourceTransfer treeOrder="320">
+				<conveyerBelts treeOrder="130">
 					<itemWhiteConveyorBelt id="industrialforegoing:conveyor" treeOrder="40"/>
 				</conveyerBelts>
 			</resourceTransfer>

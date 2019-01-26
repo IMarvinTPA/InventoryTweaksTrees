@@ -88,33 +88,33 @@
 				</hoe>
 			</farmingTool>
 			<wrench class="Item" data="{ToolClass : &quot;wrench&quot;}" mergeChildren="true" treeOrder="130">
-				<itemNetworkTool id="appliedenergistics2:item.toolnetworktool" treeOrder="60"/>
-				<itemNetworkTool id="appliedenergistics2:network_tool" treeOrder="70"/>
-				<itemappliedenergistics2_item.ToolCertusQuartzWrench id="appliedenergistics2:item.toolcertusquartzwrench" treeOrder="80"/>
-				<itemappliedenergistics2_item.ToolNetherQuartzWrench id="appliedenergistics2:item.toolnetherquartzwrench" treeOrder="90"/>
-				<itemCertusQuartzWrench id="appliedenergistics2:certus_quartz_wrench" treeOrder="100"/>
-				<itemNetherQuartzWrench id="appliedenergistics2:nether_quartz_wrench" treeOrder="110"/>
+				<itemNetworkTool id="appliedenergistics2:item.toolnetworktool" treeOrder="80"/>
+				<itemNetworkTool id="appliedenergistics2:network_tool" treeOrder="90"/>
+				<itemappliedenergistics2_item.ToolCertusQuartzWrench id="appliedenergistics2:item.toolcertusquartzwrench" treeOrder="100"/>
+				<itemappliedenergistics2_item.ToolNetherQuartzWrench id="appliedenergistics2:item.toolnetherquartzwrench" treeOrder="110"/>
+				<itemCertusQuartzWrench id="appliedenergistics2:certus_quartz_wrench" treeOrder="120"/>
+				<itemNetherQuartzWrench id="appliedenergistics2:nether_quartz_wrench" treeOrder="130"/>
 			</wrench>
 			<multimeters treeOrder="160">
 				<itemMemoryCard id="appliedenergistics2:memory_card" treeOrder="10"/>
 			</multimeters>
-			<magicaltools treeOrder="220">
+			<magicaltools treeOrder="230">
 				<itemEntropyManipulator id="appliedenergistics2:item.toolentropymanipulator" treeOrder="100"/>
 				<itemEntropyManipulator id="appliedenergistics2:entropy_manipulator" treeOrder="110"/>
 				<itemChargedStaff id="appliedenergistics2:item.toolchargedstaff" treeOrder="120"/>
 				<itemChargedStaff id="appliedenergistics2:charged_staff" treeOrder="130"/>
 			</magicaltools>
-			<paintingTools treeOrder="250">
+			<paintingTools treeOrder="260">
 				<itemColorApplicator-Empty id="appliedenergistics2:item.toolcolorapplicator" treeOrder="10"/>
 				<itemColorApplicator-Empty id="appliedenergistics2:color_applicator" treeOrder="20"/>
 			</paintingTools>
-			<cuttingKnives treeOrder="260">
+			<cuttingKnives treeOrder="270">
 				<itemCertusQuartzCuttingKnife id="appliedenergistics2:item.toolcertusquartzcuttingknife" treeOrder="10"/>
 				<itemNetherQuartzCuttingKnife id="appliedenergistics2:item.toolnetherquartzcuttingknife" treeOrder="20"/>
 				<itemCertusQuartzCuttingKnife id="appliedenergistics2:certus_quartz_cutting_knife" treeOrder="30"/>
 				<itemNetherQuartzCuttingKnife id="appliedenergistics2:nether_quartz_cutting_knife" treeOrder="40"/>
 			</cuttingKnives>
-			<instrument treeOrder="340">
+			<instrument treeOrder="350">
 				<compass treeOrder="10">
 					<itemMeteoriteCompass id="appliedenergistics2:tile.blockskycompass" treeOrder="50"/>
 				</compass>
@@ -142,7 +142,7 @@
 				</bricks>
 				<glass treeOrder="40">
 					<glassBlock id="glass" treeOrder="10">
-						<darkFusedQuartzDict oreDictName="darkFusedQuartz" treeOrder="90">
+						<darkFusedQuartzDict oreDictName="darkFusedQuartz" treeOrder="100">
 							<itemQuartzGlass id="appliedenergistics2:quartz_glass" treeOrder="10"/>
 							<itemVibrantQuartzGlass id="appliedenergistics2:quartz_vibrant_glass" treeOrder="20"/>
 						</darkFusedQuartzDict>
@@ -175,10 +175,10 @@
 				</stairs>
 				<slabs treeOrder="110">
 					<quartzSlab id="stone_slab" damage="7" treeOrder="190">
-						<itemChiseledCertusQuartzSlabs id="appliedenergistics2:chiseled_quartz_slab" treeOrder="60"/>
-						<itemFluixSlabs id="appliedenergistics2:fluix_slab" treeOrder="70"/>
-						<itemCertusQuartzPillarSlabs id="appliedenergistics2:quartz_pillar_slab" treeOrder="80"/>
-						<itemCertusQuartzSlabs id="appliedenergistics2:quartz_slab" treeOrder="90"/>
+						<itemChiseledCertusQuartzSlabs id="appliedenergistics2:chiseled_quartz_slab" treeOrder="110"/>
+						<itemFluixSlabs id="appliedenergistics2:fluix_slab" treeOrder="120"/>
+						<itemCertusQuartzPillarSlabs id="appliedenergistics2:quartz_pillar_slab" treeOrder="130"/>
+						<itemCertusQuartzSlabs id="appliedenergistics2:quartz_slab" treeOrder="140"/>
 					</quartzSlab>
 					<slabSkyStone treeOrder="300">
 						<itemSkyStoneBrickSlabs id="appliedenergistics2:sky_stone_brick_slab" treeOrder="10"/>
@@ -194,7 +194,7 @@
 		</manufacturedBlock>
 		<mechanism treeOrder="60">
 			<lighting treeOrder="30">
-				<decorativeLights treeOrder="110">
+				<decorativeLights treeOrder="120">
 					<itemChargedQuartzFixture id="appliedenergistics2:tile.blockquartztorch" treeOrder="310"/>
 					<itemChargedQuartzFixture id="appliedenergistics2:quartz_fixture" treeOrder="320"/>
 				</decorativeLights>
@@ -208,9 +208,9 @@
 				<itemSkyStoneDust id="appliedenergistics2:material" damage="45" treeOrder="1760"/>
 			</dust>
 			<oreBlock treeOrder="120">
-				<itemCertusQuartzBlock id="appliedenergistics2:quartz_block" treeOrder="270"/>
-				<itemChiseledCertusQuartzBlock id="appliedenergistics2:chiseled_quartz_block" treeOrder="320"/>
-				<itemFluixBlock id="appliedenergistics2:fluix_block" treeOrder="880"/>
+				<itemCertusQuartzBlock id="appliedenergistics2:quartz_block" treeOrder="310"/>
+				<itemChiseledCertusQuartzBlock id="appliedenergistics2:chiseled_quartz_block" treeOrder="360"/>
+				<itemFluixBlock id="appliedenergistics2:fluix_block" treeOrder="940"/>
 			</oreBlock>
 			<gem treeOrder="150">
 				<crystalCertusQuartzSeed treeOrder="70">
@@ -244,11 +244,11 @@
 		<utility treeOrder="10">
 			<storage treeOrder="30">
 				<chests treeOrder="10">
-					<itemSkyStoneChest id="appliedenergistics2:tile.blockskychest" treeOrder="250"/>
-					<itemSkyStoneChest id="appliedenergistics2:sky_stone_chest" treeOrder="260"/>
-					<itemSkyStoneBlockChest id="appliedenergistics2:smooth_sky_stone_chest" treeOrder="270"/>
+					<itemSkyStoneChest id="appliedenergistics2:tile.blockskychest" treeOrder="270"/>
+					<itemSkyStoneChest id="appliedenergistics2:sky_stone_chest" treeOrder="280"/>
+					<itemSkyStoneBlockChest id="appliedenergistics2:smooth_sky_stone_chest" treeOrder="290"/>
 				</chests>
-				<digitalstorage treeOrder="70">
+				<digitalstorage treeOrder="80">
 					<cables treeOrder="10">
 						<meCableParts treeOrder="10">
 							<itemCableAnchor id="appliedenergistics2:part" damage="120" treeOrder="10"/>
@@ -676,14 +676,14 @@
 						<itemSpatialIOPort id="appliedenergistics2:spatial_io_port" treeOrder="670"/>
 					</machines>
 				</digitalstorage>
-				<portableStorage treeOrder="90">
-					<itemWirelessTerminal id="appliedenergistics2:item.toolwirelessterminal" damage="0" treeOrder="330"/>
-					<itemWirelessTerminal id="appliedenergistics2:wireless_terminal" treeOrder="340"/>
-					<itemPortableCell id="appliedenergistics2:item.toolportablecell" damage="0" treeOrder="380"/>
-					<itemPortableCell id="appliedenergistics2:portable_cell" treeOrder="390"/>
+				<portableStorage treeOrder="100">
+					<itemWirelessTerminal id="appliedenergistics2:item.toolwirelessterminal" damage="0" treeOrder="340"/>
+					<itemWirelessTerminal id="appliedenergistics2:wireless_terminal" treeOrder="350"/>
+					<itemPortableCell id="appliedenergistics2:item.toolportablecell" damage="0" treeOrder="390"/>
+					<itemPortableCell id="appliedenergistics2:portable_cell" treeOrder="400"/>
 				</portableStorage>
 			</storage>
-			<tnts treeOrder="130">
+			<tnts treeOrder="140">
 				<itemTinyTNT id="appliedenergistics2:tile.blocktinytnt" damage="0" treeOrder="20"/>
 				<itemTinyTNT id="appliedenergistics2:tiny_tnt" treeOrder="30"/>
 			</tnts>

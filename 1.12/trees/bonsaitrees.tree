@@ -28,7 +28,7 @@
 <stuff treeVersion="1.12.2">
 	<block treeOrder="20">
 		<mechanism treeOrder="60">
-			<machines treeOrder="380">
+			<machines treeOrder="410">
 				<poweredFarming treeOrder="40">
 					<itemBonsaiPot id="bonsaitrees:bonsaipot" treeOrder="10"/>
 				</poweredFarming>

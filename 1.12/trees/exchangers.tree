@@ -28,7 +28,7 @@
 <stuff treeVersion="1.12.2">
 	<equipment treeOrder="10">
 		<tool treeOrder="20">
-			<exchangeBlockTools mergeChildren="true" treeOrder="190">
+			<exchangeBlockTools mergeChildren="true" treeOrder="200">
 				<itemAdvancedExchanger id="exchangers:advanced_exchanger" treeOrder="60"/>
 				<itemBasicExchanger id="exchangers:basic_exchanger" treeOrder="70"/>
 				<itemConductiveIronExchanger id="exchangers:conductive_iron_exchanger" treeOrder="80"/>
@@ -64,23 +64,23 @@
 	<item treeOrder="40">
 		<parts treeOrder="120">
 			<mechanicalParts treeOrder="10">
-				<otherParts treeOrder="100">
-					<itemExchangerCoreTier1 id="exchangers:exchanger_core_tier1" treeOrder="160"/>
-					<itemExchangerCoreTier2 id="exchangers:exchanger_core_tier2" treeOrder="170"/>
-					<itemExchangerCoreTier3 id="exchangers:exchanger_core_tier3" treeOrder="180"/>
-					<itemEnderIOExchangerCoreTier1 id="exchangers:eio_exchanger_core_tier1" treeOrder="190"/>
-					<itemEnderIOExchangerCoreTier2 id="exchangers:eio_exchanger_core_tier2" treeOrder="200"/>
-					<itemEnderIOExchangerCoreTier3 id="exchangers:eio_exchanger_core_tier3" treeOrder="210"/>
-					<itemImmersiveEngineeringExchangerCoreTier1 id="exchangers:ie_exchanger_core_tier1" treeOrder="220"/>
-					<itemImmersiveEngineeringExchangerCoreTier2 id="exchangers:ie_exchanger_core_tier2" treeOrder="230"/>
-					<itemImmersiveEngineeringExchangerCoreTier3 id="exchangers:ie_exchanger_core_tier3" treeOrder="240"/>
-					<itemMekanismExchangerCoreTier1 id="exchangers:mekanism_exchanger_core_tier1" treeOrder="250"/>
-					<itemMekanismExchangerCoreTier2 id="exchangers:mekanism_exchanger_core_tier2" treeOrder="260"/>
-					<itemMekanismExchangerCoreTier3 id="exchangers:mekanism_exchanger_core_tier3" treeOrder="270"/>
-					<itemThermalExpansionExchangerCoreTier1 id="exchangers:te_exchanger_core_tier1" treeOrder="280"/>
-					<itemThermalExpansionExchangerCoreTier2 id="exchangers:te_exchanger_core_tier2" treeOrder="290"/>
-					<itemThermalExpansionExchangerCoreTier3 id="exchangers:te_exchanger_core_tier3" treeOrder="300"/>
-				</otherParts>
+				<cores treeOrder="100">
+					<itemExchangerCoreTier1 id="exchangers:exchanger_core_tier1" treeOrder="10"/>
+					<itemExchangerCoreTier2 id="exchangers:exchanger_core_tier2" treeOrder="20"/>
+					<itemExchangerCoreTier3 id="exchangers:exchanger_core_tier3" treeOrder="30"/>
+					<itemEnderIOExchangerCoreTier1 id="exchangers:eio_exchanger_core_tier1" treeOrder="40"/>
+					<itemEnderIOExchangerCoreTier2 id="exchangers:eio_exchanger_core_tier2" treeOrder="50"/>
+					<itemEnderIOExchangerCoreTier3 id="exchangers:eio_exchanger_core_tier3" treeOrder="60"/>
+					<itemImmersiveEngineeringExchangerCoreTier1 id="exchangers:ie_exchanger_core_tier1" treeOrder="70"/>
+					<itemImmersiveEngineeringExchangerCoreTier2 id="exchangers:ie_exchanger_core_tier2" treeOrder="80"/>
+					<itemImmersiveEngineeringExchangerCoreTier3 id="exchangers:ie_exchanger_core_tier3" treeOrder="90"/>
+					<itemMekanismExchangerCoreTier1 id="exchangers:mekanism_exchanger_core_tier1" treeOrder="100"/>
+					<itemMekanismExchangerCoreTier2 id="exchangers:mekanism_exchanger_core_tier2" treeOrder="110"/>
+					<itemMekanismExchangerCoreTier3 id="exchangers:mekanism_exchanger_core_tier3" treeOrder="120"/>
+					<itemThermalExpansionExchangerCoreTier1 id="exchangers:te_exchanger_core_tier1" treeOrder="130"/>
+					<itemThermalExpansionExchangerCoreTier2 id="exchangers:te_exchanger_core_tier2" treeOrder="140"/>
+					<itemThermalExpansionExchangerCoreTier3 id="exchangers:te_exchanger_core_tier3" treeOrder="150"/>
+				</cores>
 			</mechanicalParts>
 		</parts>
 	</item>

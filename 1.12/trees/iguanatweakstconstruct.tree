@@ -40,9 +40,9 @@
 			<bucket treeOrder="10">
 				<itemIguanaTweakstconstruct_clayBucketUnfired id="iguanatweakstconstruct:claybucketunfired" treeOrder="20"/>
 				<itemIguanaTweakstconstruct_clayBucketFired id="iguanatweakstconstruct:claybucketfired" treeOrder="50"/>
-				<itemIguanaTweakstconstruct_clayBucketWater id="iguanatweakstconstruct:claybucketwater" treeOrder="80"/>
-				<itemIguanaTweakstconstruct_clayBucketLava id="iguanatweakstconstruct:claybucketlava" treeOrder="100"/>
-				<itemIguanaTweakstconstruct_clayBucketsTinkers id="iguanatweakstconstruct:claybucketstinkers" treeOrder="390"/>
+				<itemIguanaTweakstconstruct_clayBucketWater id="iguanatweakstconstruct:claybucketwater" treeOrder="90"/>
+				<itemIguanaTweakstconstruct_clayBucketLava id="iguanatweakstconstruct:claybucketlava" treeOrder="110"/>
+				<itemIguanaTweakstconstruct_clayBucketsTinkers id="iguanatweakstconstruct:claybucketstinkers" treeOrder="400"/>
 			</bucket>
 		</fluidPortableStorage>
 		<decoration treeOrder="130">

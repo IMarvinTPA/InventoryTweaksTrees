@@ -29,7 +29,7 @@
 	<item treeOrder="40">
 		<utility treeOrder="10">
 			<storage treeOrder="30">
-				<digitalstorage treeOrder="70">
+				<digitalstorage treeOrder="80">
 					<upgrades treeOrder="40">
 						<meUpgrades treeOrder="10">
 							<itemInfinityBoosterCard id="wct:infinity_booster_card" treeOrder="120"/>
@@ -37,8 +37,8 @@
 						</meUpgrades>
 					</upgrades>
 				</digitalstorage>
-				<portableStorage treeOrder="90">
-					<itemWirelessCraftingTerminal id="wct:wct" treeOrder="350"/>
+				<portableStorage treeOrder="100">
+					<itemWirelessCraftingTerminal id="wct:wct" treeOrder="360"/>
 				</portableStorage>
 			</storage>
 		</utility>

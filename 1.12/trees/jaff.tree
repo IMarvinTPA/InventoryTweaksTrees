@@ -39,10 +39,10 @@
 	<item treeOrder="40">
 		<fluidPortableStorage treeOrder="20">
 			<bucket treeOrder="10">
-				<itemBucketwithClownfish id="jaff:fish_bucket_clownfish" treeOrder="410"/>
-				<itemBucketwithCod id="jaff:fish_bucket_cod" treeOrder="420"/>
-				<itemBucketwithPufferfish id="jaff:fish_bucket_pufferfish" treeOrder="430"/>
-				<itemBucketwithSalmon id="jaff:fish_bucket_salmon" treeOrder="440"/>
+				<itemBucketwithClownfish id="jaff:fish_bucket_clownfish" treeOrder="420"/>
+				<itemBucketwithCod id="jaff:fish_bucket_cod" treeOrder="430"/>
+				<itemBucketwithPufferfish id="jaff:fish_bucket_pufferfish" treeOrder="440"/>
+				<itemBucketwithSalmon id="jaff:fish_bucket_salmon" treeOrder="450"/>
 			</bucket>
 		</fluidPortableStorage>
 	</item>

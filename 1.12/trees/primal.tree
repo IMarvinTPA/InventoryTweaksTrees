@@ -137,7 +137,7 @@
 		<utility treeOrder="10">
 			<storage treeOrder="30">
 				<chests treeOrder="10">
-					<itemOakStorageCrate id="primal:storage_crate" treeOrder="450"/>
+					<itemOakStorageCrate id="primal:storage_crate" treeOrder="470"/>
 				</chests>
 			</storage>
 		</utility>

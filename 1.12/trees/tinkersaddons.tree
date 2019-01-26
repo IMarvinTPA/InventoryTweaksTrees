@@ -28,14 +28,14 @@
 <stuff treeVersion="1.12.2">
 	<item treeOrder="40">
 		<parts treeOrder="120">
-			<tinkerParts treeOrder="20">
-				<tinkerUpgrades treeOrder="820">
+			<toolUpgrades treeOrder="30">
+				<tinkerUpgrades treeOrder="30">
 					<itemBonusToolModifier id="tinkersaddons:modifier_item" damage="1" treeOrder="100"/>
 					<itemBonusToolModifier id="tinkersaddons:modifier_item" damage="2" treeOrder="110"/>
 					<itemBonusToolModifier id="tinkersaddons:modifier_item" damage="3" treeOrder="120"/>
 					<itemAmeliorationKit id="tinkersaddons:modifier_item" damage="0" treeOrder="140"/>
 				</tinkerUpgrades>
-			</tinkerParts>
+			</toolUpgrades>
 		</parts>
 	</item>
 </stuff>

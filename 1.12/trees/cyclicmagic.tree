@@ -70,22 +70,25 @@
 				</hoe>
 			</farmingTool>
 			<shears class="Item" data="{ToolClass : &quot;shears&quot;}" mergeChildren="true" treeOrder="60">
-				<itemEnhancedShears id="cyclicmagic:ender_wool" treeOrder="180"/>
-				<itemObsidianShears id="cyclicmagic:shears_obsidian" treeOrder="190"/>
+				<itemEnhancedShears id="cyclicmagic:ender_wool" treeOrder="190"/>
+				<itemObsidianShears id="cyclicmagic:shears_obsidian" treeOrder="200"/>
 			</shears>
 			<wrench class="Item" data="{ToolClass : &quot;wrench&quot;}" mergeChildren="true" treeOrder="130">
-				<itemWoodenWrench id="cyclicmagic:tool_rotate" treeOrder="260"/>
+				<itemWoodenWrench id="cyclicmagic:tool_rotate" treeOrder="300"/>
 			</wrench>
-			<wands treeOrder="180">
+			<wands treeOrder="190">
 				<itemCyclicBuildingScepter id="cyclicmagic:cyclic_wand_build" treeOrder="220"/>
 				<itemChaosReaper id="cyclicmagic:wand_hypno" treeOrder="230"/>
 				<itemSpiritSeeker id="cyclicmagic:wand_missile" treeOrder="240"/>
 			</wands>
-			<exchangeBlockTools mergeChildren="true" treeOrder="190">
+			<exchangeBlockTools mergeChildren="true" treeOrder="200">
 				<itemGentleExchangeScepter id="cyclicmagic:tool_swap_match" treeOrder="40"/>
 				<itemStandardExchangeScepter id="cyclicmagic:tool_swap" treeOrder="50"/>
 			</exchangeBlockTools>
-			<portableCrafting treeOrder="350">
+			<instrument treeOrder="350">
+				<itemTorchlauncher id="cyclicmagic:tool_torch_launcher" treeOrder="100"/>
+			</instrument>
+			<portableCrafting treeOrder="360">
 				<itemInventoryCraftingTable id="cyclicmagic:crafting_food" treeOrder="20"/>
 			</portableCrafting>
 		</tool>
@@ -117,6 +120,11 @@
 				</bootsUnsorted>
 			</boots>
 		</armor>
+		<baubles treeOrder="40">
+			<genericBauble treeOrder="10">
+				<itemAutomaticTorch id="cyclicmagic:tool_auto_torch" treeOrder="10"/>
+			</genericBauble>
+		</baubles>
 	</equipment>
 	<block treeOrder="20">
 		<manufacturedBlock treeOrder="50">
@@ -129,15 +137,20 @@
 			</constructionBlock>
 		</manufacturedBlock>
 		<mechanism treeOrder="60">
-			<resourceTransfer treeOrder="300">
-				<conveyerBelts treeOrder="120">
+			<lighting treeOrder="30">
+				<torch treeOrder="10">
+					<itemThrowingTorch id="cyclicmagic:ender_torch" treeOrder="60"/>
+				</torch>
+			</lighting>
+			<resourceTransfer treeOrder="320">
+				<conveyerBelts treeOrder="130">
 					<itemSlowestConveyorBelt id="cyclicmagic:plate_push_slowest" treeOrder="120"/>
 					<itemSlowConveyorBelt id="cyclicmagic:plate_push_slow" treeOrder="130"/>
 					<itemConveyorBelt id="cyclicmagic:plate_push" treeOrder="140"/>
 					<itemFastConveyorBelt id="cyclicmagic:plate_push_fast" treeOrder="150"/>
 				</conveyerBelts>
 			</resourceTransfer>
-			<machines treeOrder="380">
+			<machines treeOrder="410">
 				<poweredSpawners treeOrder="70">
 					<itemWaterCandle id="cyclicmagic:water_candle" treeOrder="20"/>
 				</poweredSpawners>
@@ -147,7 +160,7 @@
 	<item treeOrder="40">
 		<utility treeOrder="10">
 			<storage treeOrder="30">
-				<voidStorage treeOrder="110">
+				<voidStorage treeOrder="120">
 					<voidBlocks treeOrder="10">
 						<itemTrashVoid id="cyclicmagic:trash" treeOrder="40"/>
 					</voidBlocks>

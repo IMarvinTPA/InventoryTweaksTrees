@@ -29,7 +29,7 @@
 	<equipment treeOrder="10">
 		<tool treeOrder="20">
 			<wrench class="Item" data="{ToolClass : &quot;wrench&quot;}" mergeChildren="true" treeOrder="130">
-				<itemBigMetalBar id="openblocks:wrench" treeOrder="140"/>
+				<itemBigMetalBar id="openblocks:wrench" treeOrder="160"/>
 			</wrench>
 		</tool>
 		<armor treeOrder="30">
@@ -61,21 +61,21 @@
 			<buttons treeOrder="70">
 				<itemBigButton id="openblocks:bigbutton" damage="0" treeOrder="40"/>
 			</buttons>
-			<resourceTransfer treeOrder="300">
+			<resourceTransfer treeOrder="320">
 				<groundItemCollector treeOrder="10">
 					<itemVacuumHopper id="openblocks:vacuumhopper" treeOrder="60"/>
 				</groundItemCollector>
 			</resourceTransfer>
-			<basicCrafting treeOrder="360">
+			<basicCrafting treeOrder="390">
 				<anvils treeOrder="40">
 					<itemAutoAnvil id="openblocks:autoanvil" treeOrder="50"/>
 				</anvils>
 			</basicCrafting>
-			<machines treeOrder="380">
+			<machines treeOrder="410">
 				<decorationMachines treeOrder="190">
 					<itemPaintMixer id="openblocks:paintmixer" treeOrder="70"/>
 				</decorationMachines>
-				<remoteAccess treeOrder="230">
+				<remoteAccess treeOrder="240">
 					<itemElevator id="openblocks:elevator" treeOrder="30"/>
 					<itemRotatingElevator id="openblocks:elevator_rotating" treeOrder="40"/>
 				</remoteAccess>
@@ -93,10 +93,10 @@
 	<item treeOrder="40">
 		<utility treeOrder="10">
 			<storage treeOrder="30">
-				<portableStorage treeOrder="90">
+				<portableStorage treeOrder="100">
 					<itemLuggage id="openblocks:luggage" treeOrder="10"/>
 				</portableStorage>
-				<voidStorage treeOrder="110">
+				<voidStorage treeOrder="120">
 					<voidBags treeOrder="20">
 						<itemdevnull id="openblocks:devnull" treeOrder="10"/>
 					</voidBags>
@@ -111,7 +111,7 @@
 		</utility>
 		<fluidPortableStorage treeOrder="20">
 			<bucket treeOrder="10">
-				<itemOpenBlocks_filledbucket id="openblocks:filledbucket" treeOrder="380"/>
+				<itemOpenBlocks_filledbucket id="openblocks:filledbucket" treeOrder="390"/>
 			</bucket>
 		</fluidPortableStorage>
 		<fluidStorage treeOrder="50">

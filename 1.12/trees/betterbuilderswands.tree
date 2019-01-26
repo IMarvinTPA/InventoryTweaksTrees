@@ -28,7 +28,7 @@
 <stuff treeVersion="1.12.2">
 	<equipment treeOrder="10">
 		<tool treeOrder="20">
-			<wands treeOrder="180">
+			<wands treeOrder="190">
 				<itemUnbreakableWand id="betterbuilderswands:wandunbreakable" damage="14" treeOrder="10"/>
 				<itemUnbreakableWand id="betterbuilderswands:wandunbreakable" damage="13" treeOrder="20"/>
 				<itemUnbreakableWand id="betterbuilderswands:wandunbreakable" damage="12" treeOrder="30"/>

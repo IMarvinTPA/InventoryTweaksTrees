@@ -35,7 +35,7 @@
 			</constructionBlock>
 		</manufacturedBlock>
 		<mechanism treeOrder="60">
-			<machines treeOrder="380">
+			<machines treeOrder="410">
 				<poweredCrafting treeOrder="10">
 					<itemLaser id="buildcraftsilicon:laser" treeOrder="120"/>
 					<itemAdvancedCraftingTable id="buildcraftsilicon:advanced_crafting_table" treeOrder="130"/>
@@ -43,7 +43,7 @@
 					<itemIntegrationTable id="buildcraftsilicon:integration_table" treeOrder="150"/>
 				</poweredCrafting>
 			</machines>
-			<machineupgrades treeOrder="390">
+			<machineupgrades treeOrder="420">
 				<transportUpgrades treeOrder="20">
 					<bcPipeUpgrades treeOrder="10">
 						<itemPipeLens id="buildcraftsilicon:plug_lens" treeOrder="20"/>

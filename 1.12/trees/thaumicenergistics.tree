@@ -29,7 +29,7 @@
 	<item treeOrder="40">
 		<utility treeOrder="10">
 			<storage treeOrder="30">
-				<digitalstorage treeOrder="70">
+				<digitalstorage treeOrder="80">
 					<terminals treeOrder="20">
 						<addon treeOrder="20">
 							<itemEssentiaTerminal id="thaumicenergistics:part.base" damage="4" treeOrder="30"/>
@@ -104,9 +104,9 @@
 						<itemArcaneAssembler id="thaumicenergistics:thaumicenergistics.block.arcane.assembler" damage="0" treeOrder="300"/>
 					</machines>
 				</digitalstorage>
-				<portableStorage treeOrder="90">
-					<itemWirelessEssentiaTerminal id="thaumicenergistics:wireless.essentia.terminal" treeOrder="420"/>
-					<itemWirelessGolemBackpack id="thaumicenergistics:golem.wifi.backpack" damage="0" treeOrder="430"/>
+				<portableStorage treeOrder="100">
+					<itemWirelessEssentiaTerminal id="thaumicenergistics:wireless.essentia.terminal" treeOrder="430"/>
+					<itemWirelessGolemBackpack id="thaumicenergistics:golem.wifi.backpack" damage="0" treeOrder="440"/>
 				</portableStorage>
 			</storage>
 		</utility>

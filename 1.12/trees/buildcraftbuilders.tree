@@ -28,19 +28,19 @@
 <stuff treeVersion="1.12.2">
 	<block treeOrder="20">
 		<mechanism treeOrder="60">
-			<resourceTransfer treeOrder="300">
+			<resourceTransfer treeOrder="320">
 				<bcpipes treeOrder="20">
 					<itemFrame id="buildcraftbuilders:frame" treeOrder="30"/>
 				</bcpipes>
 			</resourceTransfer>
-			<machines treeOrder="380">
+			<machines treeOrder="410">
 				<poweredMining treeOrder="130">
-					<itemQuarry id="buildcraftbuilders:quarry" treeOrder="90"/>
+					<itemQuarry id="buildcraftbuilders:quarry" treeOrder="120"/>
 				</poweredMining>
 				<poweredDroppers treeOrder="160">
-					<itemArchitectTable id="buildcraftbuilders:architect" treeOrder="40"/>
-					<itemBuilder id="buildcraftbuilders:builder" treeOrder="50"/>
-					<itemFiller id="buildcraftbuilders:filler" treeOrder="60"/>
+					<itemArchitectTable id="buildcraftbuilders:architect" treeOrder="70"/>
+					<itemBuilder id="buildcraftbuilders:builder" treeOrder="80"/>
+					<itemFiller id="buildcraftbuilders:filler" treeOrder="90"/>
 				</poweredDroppers>
 			</machines>
 		</mechanism>

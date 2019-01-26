@@ -119,7 +119,7 @@
 	</block>
 	<resources treeOrder="30">
 		<miningResources treeOrder="10">
-			<rawPottery treeOrder="220">
+			<rawPottery treeOrder="230">
 				<itemUnfiredPottery id="betterwithmods:unfired_pottery" treeOrder="10"/>
 			</rawPottery>
 		</miningResources>

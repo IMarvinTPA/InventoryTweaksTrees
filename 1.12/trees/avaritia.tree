@@ -78,15 +78,15 @@
 	</equipment>
 	<block treeOrder="20">
 		<mechanism treeOrder="60">
-			<basicCrafting treeOrder="360">
+			<basicCrafting treeOrder="390">
 				<craftingTables treeOrder="10">
 					<itemCompressedCraftingTable id="avaritia:compressed_crafting_table" treeOrder="130"/>
 					<itemDoubleCompressedCraftingTable id="avaritia:double_compressed_crafting_table" treeOrder="140"/>
 					<itemExtremeCraftingTable id="avaritia:extreme_crafting_table" treeOrder="150"/>
 				</craftingTables>
 			</basicCrafting>
-			<machines treeOrder="380">
-				<randomMachines treeOrder="210">
+			<machines treeOrder="410">
+				<randomMachines treeOrder="220">
 					<itemNeutronCollector id="avaritia:neutron_collector" treeOrder="370"/>
 					<itemNeutroniumCompressor id="avaritia:neutronium_compressor" treeOrder="380"/>
 				</randomMachines>
@@ -123,15 +123,15 @@
 			</nugget>
 		</miningResources>
 		<huntingResources treeOrder="20">
-			<itemEndestPearl id="avaritia:endest_pearl" treeOrder="230"/>
+			<itemEndestPearl id="avaritia:endest_pearl" treeOrder="270"/>
 		</huntingResources>
 	</resources>
 	<item treeOrder="40">
 		<parts treeOrder="120">
 			<mechanicalParts treeOrder="10">
-				<otherParts treeOrder="100">
-					<itemDiamondLattice id="avaritia:resource" damage="0" treeOrder="310"/>
-					<itemInfinityCatalyst id="avaritia:resource" damage="5" treeOrder="320"/>
+				<otherParts treeOrder="110">
+					<itemDiamondLattice id="avaritia:resource" damage="0" treeOrder="160"/>
+					<itemInfinityCatalyst id="avaritia:resource" damage="5" treeOrder="170"/>
 				</otherParts>
 			</mechanicalParts>
 		</parts>

@@ -81,7 +81,7 @@
 					<itemYellowCandle id="harvestcraft:candledeco5" treeOrder="250"/>
 				</torch>
 			</lighting>
-			<basicCrafting treeOrder="360">
+			<basicCrafting treeOrder="390">
 				<kitchen treeOrder="50">
 					<itemChurn id="harvestcraft:churn" treeOrder="200"/>
 					<itemOven id="harvestcraft:oven" treeOrder="210"/>

@@ -56,7 +56,7 @@
 	<item treeOrder="40">
 		<utility treeOrder="10">
 			<readableBooks treeOrder="90">
-				<itemAlmanac id="rustic:book" treeOrder="620"/>
+				<itemAlmanac id="rustic:book" treeOrder="640"/>
 			</readableBooks>
 		</utility>
 	</item>

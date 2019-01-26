@@ -31,6 +31,7 @@
 			<readableBooks treeOrder="90">
 				<itemCyclicGuideBook id="guideapi:cyclicmagic-guide" treeOrder="570"/>
 				<itemModularRoutersGuide id="guideapi:modularrouters-guidebook" treeOrder="580"/>
+				<itemWootGuide id="guideapi:woot-guide" treeOrder="610"/>
 			</readableBooks>
 		</utility>
 	</item>

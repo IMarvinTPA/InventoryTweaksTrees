@@ -28,7 +28,7 @@
 <stuff treeVersion="1.12.2">
 	<equipment treeOrder="10">
 		<tool treeOrder="20">
-			<crushingTools treeOrder="230">
+			<crushingTools treeOrder="240">
 				<crushingHammers mergeChildren="true" treeOrder="20">
 					<itemDiamondHammer id="exnihilocreatio:hammer_diamond" treeOrder="10"/>
 					<itemGoldHammer id="exnihilocreatio:hammer_gold" treeOrder="90"/>
@@ -49,9 +49,9 @@
 				<itemCrushedNetherrack id="exnihilocreatio:block_netherrack_crushed" treeOrder="90"/>
 				<itemCrushedSkyStone id="exnihilocreatio:block_skystone_crushed" treeOrder="100"/>
 			</gravel>
-			<liquid treeOrder="200">
+			<liquid treeOrder="210">
 				<itemizedFluids treeOrder="70">
-					<itemWitchWater id="exnihilocreatio:witchwater" treeOrder="180"/>
+					<itemWitchWater id="exnihilocreatio:witchwater" treeOrder="190"/>
 				</itemizedFluids>
 			</liquid>
 		</naturalBlock>
@@ -71,8 +71,8 @@
 			</itemFilter>
 		</manufacturedBlock>
 		<mechanism treeOrder="60">
-			<machines treeOrder="380">
-				<randomMachines treeOrder="210">
+			<machines treeOrder="410">
+				<randomMachines treeOrder="220">
 					<itemAutoSifter id="exnihilocreatio:block_auto_sifter" treeOrder="300"/>
 				</randomMachines>
 			</machines>
@@ -87,7 +87,7 @@
 	</resources>
 	<item treeOrder="40">
 		<utility treeOrder="10">
-			<spawnerDolls treeOrder="220">
+			<spawnerDolls treeOrder="230">
 				<itemPorcelainDoll id="exnihilocreatio:item_material" damage="5" treeOrder="10"/>
 				<itemBlazingDoll id="exnihilocreatio:item_doll" treeOrder="20"/>
 			</spawnerDolls>
@@ -99,7 +99,7 @@
 				</cookedFood>
 				<rawFood treeOrder="130">
 					<rawMeat treeOrder="20">
-						<itemSilkworm id="exnihilocreatio:item_material" damage="2" treeOrder="410"/>
+						<itemSilkworm id="exnihilocreatio:item_material" damage="2" treeOrder="420"/>
 					</rawMeat>
 				</rawFood>
 			</edibleFood>
@@ -115,7 +115,9 @@
 				<itemInfestedLeaves id="exnihilocreatio:block_infesting_leaves" treeOrder="130"/>
 			</leaves>
 			<seed treeOrder="60">
-				<itemAncientSpores id="exnihilocreatio:item_material" damage="3" treeOrder="30"/>
+				<itemMyceliumSeed id="tp:mycelium_seeds" treeOrder="30">
+					<itemAncientSpores id="exnihilocreatio:item_material" damage="3" treeOrder="10"/>
+				</itemMyceliumSeed>
 			</seed>
 		</plant>
 	</item>

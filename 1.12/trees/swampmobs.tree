@@ -38,7 +38,7 @@
 	</equipment>
 	<item treeOrder="40">
 		<utility treeOrder="10">
-			<spawnerEggs treeOrder="210">
+			<spawnerEggs treeOrder="220">
 				<itemSpawnAspid id="swampmobs:swampegg" damage="5" treeOrder="750"/>
 				<itemSpawnDweller id="swampmobs:swampegg" damage="1" treeOrder="760"/>
 				<itemSpawnEttin id="swampmobs:swampegg" damage="2" treeOrder="770"/>
@@ -55,7 +55,7 @@
 				</cookedFood>
 				<rawFood treeOrder="130">
 					<rawMeat treeOrder="20">
-						<itemswampmobs_aspidmeatraw id="swampmobs:aspidmeatraw" treeOrder="160"/>
+						<itemswampmobs_aspidmeatraw id="swampmobs:aspidmeatraw" treeOrder="170"/>
 					</rawMeat>
 				</rawFood>
 			</edibleFood>

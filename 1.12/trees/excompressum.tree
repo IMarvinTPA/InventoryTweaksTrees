@@ -33,15 +33,15 @@
 			</miningTool>
 			<farmingTool treeOrder="50">
 				<otherFarmingTools treeOrder="60">
-					<crook class="Item" data="{ToolClass : &quot;crook&quot;}" mergeChildren="true" treeOrder="120">
+					<crook class="Item" data="{ToolClass : &quot;crook&quot;}" mergeChildren="true" treeOrder="140">
 						<itemCompressedCrook id="excompressum:compressed_crook" treeOrder="20"/>
 					</crook>
 				</otherFarmingTools>
 			</farmingTool>
-			<wands treeOrder="180">
-				<itemBatZapper id="excompressum:bat_zapper" treeOrder="440"/>
+			<wands treeOrder="190">
+				<itemBatZapper id="excompressum:bat_zapper" treeOrder="430"/>
 			</wands>
-			<crushingTools treeOrder="230">
+			<crushingTools treeOrder="240">
 				<itemChickenStick id="excompressum:chicken_stick" treeOrder="10"/>
 				<crushingHammers mergeChildren="true" treeOrder="20">
 					<itemCompressedDiamondHammer id="excompressum:compressed_hammer_diamond" treeOrder="20"/>
@@ -110,8 +110,8 @@
 			</itemFilter>
 		</manufacturedBlock>
 		<mechanism treeOrder="60">
-			<machines treeOrder="380">
-				<randomMachines treeOrder="210">
+			<machines treeOrder="410">
+				<randomMachines treeOrder="220">
 					<itemAutoSieve id="excompressum:auto_sieve" treeOrder="310"/>
 					<itemAutoHeavySieve id="excompressum:auto_heavy_sieve" treeOrder="320"/>
 					<itemAutoHammer id="excompressum:auto_hammer" treeOrder="330"/>
@@ -128,7 +128,7 @@
 				<itemUncompressedCoal id="excompressum:uncompressed_coal" treeOrder="160"/>
 			</tinyDust>
 			<oreBlock treeOrder="120">
-				<itemCompressedFlint id="excompressum:compressed_block" damage="5" treeOrder="870"/>
+				<itemCompressedFlint id="excompressum:compressed_block" damage="5" treeOrder="930"/>
 			</oreBlock>
 		</miningResources>
 	</resources>
@@ -136,7 +136,7 @@
 		<parts treeOrder="120">
 			<mechanicalParts treeOrder="10">
 				<plates treeOrder="40">
-					<itemUglySteelPlating id="excompressum:ugly_steel_plating" treeOrder="800"/>
+					<itemUglySteelPlating id="excompressum:ugly_steel_plating" treeOrder="810"/>
 				</plates>
 			</mechanicalParts>
 		</parts>

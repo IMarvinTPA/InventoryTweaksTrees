@@ -30,10 +30,10 @@
 		<utility treeOrder="10">
 			<storage treeOrder="30">
 				<chests treeOrder="10">
-					<itemEnderStorage_enderChest id="enderstorage:enderchest" treeOrder="330"/>
-					<itemEnderChest id="enderstorage:ender_storage" treeOrder="340"/>
+					<itemEnderStorage_enderChest id="enderstorage:enderchest" treeOrder="350"/>
+					<itemEnderChest id="enderstorage:ender_storage" treeOrder="360"/>
 				</chests>
-				<portableStorage treeOrder="90">
+				<portableStorage treeOrder="100">
 					<itemEnderPouch id="enderstorage:enderpouch" treeOrder="40"/>
 					<itemEnderPouch id="enderstorage:ender_pouch" treeOrder="50"/>
 				</portableStorage>

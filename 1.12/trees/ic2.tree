@@ -75,12 +75,15 @@
 					<itemElectricHoe id="ic2:electric_hoe" treeOrder="170"/>
 				</hoe>
 				<otherFarmingTools treeOrder="60">
-					<treeTap treeOrder="150">
+					<treeTap treeOrder="170">
 						<itemElectricTreetap id="ic2:electric_treetap" treeOrder="20"/>
 						<itemTreetap id="ic2:treetap" treeOrder="30"/>
 					</treeTap>
 				</otherFarmingTools>
 			</farmingTool>
+			<wrench class="Item" data="{ToolClass : &quot;wrench&quot;}" mergeChildren="true" treeOrder="130">
+				<itemWrench id="ic2:wrench" treeOrder="40"/>
+			</wrench>
 		</tool>
 	</equipment>
 	<block treeOrder="20">
@@ -115,5 +118,20 @@
 				<itemDamagedRubberDinghy id="ic2:boat" treeOrder="90"/>
 			</boat>
 		</vehicle>
+		<parts treeOrder="120">
+			<mechanicalParts treeOrder="10">
+				<frames treeOrder="120">
+					<itemBasicMachineCasing id="ic2:resource" damage="12" treeOrder="220"/>
+					<itemAdvancedMachineCasing id="ic2:resource" damage="13" treeOrder="230"/>
+					<itemBronzeItemCasing id="ic2:casing" damage="0" treeOrder="240"/>
+					<itemCopperItemCasing id="ic2:casing" damage="1" treeOrder="250"/>
+					<itemGoldItemCasing id="ic2:casing" damage="2" treeOrder="260"/>
+					<itemIronItemCasing id="ic2:casing" damage="3" treeOrder="270"/>
+					<itemLeadItemCasing id="ic2:casing" damage="4" treeOrder="280"/>
+					<itemSteelItemCasing id="ic2:casing" damage="5" treeOrder="290"/>
+					<itemTinItemCasing id="ic2:casing" damage="6" treeOrder="300"/>
+				</frames>
+			</mechanicalParts>
+		</parts>
 	</item>
 </stuff>

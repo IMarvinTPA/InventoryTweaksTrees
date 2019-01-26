@@ -29,7 +29,7 @@
 	<item treeOrder="40">
 		<utility treeOrder="10">
 			<storage treeOrder="30">
-				<digitalstorage treeOrder="70">
+				<digitalstorage treeOrder="80">
 					<terminals treeOrder="20">
 						<addon treeOrder="20">
 							<itemMEFluidTerminal id="extracells:part.base" damage="3" treeOrder="10"/>
@@ -163,12 +163,12 @@
 						<itemMEEnergyCellFixture id="extracells:part.base" damage="8" treeOrder="630"/>
 					</machines>
 				</digitalstorage>
-				<portableStorage treeOrder="90">
-					<itemWirelessUniversalTerminal id="extracells:terminal.universal.wireless" damage="0" treeOrder="320"/>
-					<itemWirelessFluidTerminal id="extracells:terminal.fluid.wireless" damage="0" treeOrder="360"/>
-					<itemWirelessGasTerminal id="extracells:terminal.gas.wireless" damage="0" treeOrder="370"/>
-					<itemMEPortableFluidStorage id="extracells:storage.fluid.portable" damage="0" treeOrder="400"/>
-					<itemMEPortableGasStorage id="extracells:storage.gas.portable" damage="0" treeOrder="410"/>
+				<portableStorage treeOrder="100">
+					<itemWirelessUniversalTerminal id="extracells:terminal.universal.wireless" damage="0" treeOrder="330"/>
+					<itemWirelessFluidTerminal id="extracells:terminal.fluid.wireless" damage="0" treeOrder="370"/>
+					<itemWirelessGasTerminal id="extracells:terminal.gas.wireless" damage="0" treeOrder="380"/>
+					<itemMEPortableFluidStorage id="extracells:storage.fluid.portable" damage="0" treeOrder="410"/>
+					<itemMEPortableGasStorage id="extracells:storage.gas.portable" damage="0" treeOrder="420"/>
 				</portableStorage>
 			</storage>
 		</utility>

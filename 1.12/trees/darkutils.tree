@@ -28,7 +28,12 @@
 <stuff treeVersion="1.12.2">
 	<block treeOrder="20">
 		<mechanism treeOrder="60">
-			<resourceTransfer treeOrder="300">
+			<lighting treeOrder="30">
+				<blockLights treeOrder="150">
+					<itemSneakyTorch id="darkutils:sneaky_torch" treeOrder="50"/>
+				</blockLights>
+			</lighting>
+			<resourceTransfer treeOrder="320">
 				<groundItemCollector treeOrder="10">
 					<itemEnderHopper id="darkutils:ender_hopper" treeOrder="130"/>
 					<itemPearledEnderHopper id="darkutils:ender_pearl_hopper" treeOrder="140"/>

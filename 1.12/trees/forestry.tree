@@ -48,9 +48,9 @@
 				<itemPipette id="forestry:pipette" treeOrder="20"/>
 			</fluidMovers>
 			<wrench class="Item" data="{ToolClass : &quot;wrench&quot;}" mergeChildren="true" treeOrder="130">
-				<itemWrench id="forestry:wrench" treeOrder="180"/>
+				<itemWrench id="forestry:wrench" treeOrder="200"/>
 			</wrench>
-			<instrument treeOrder="340">
+			<instrument treeOrder="350">
 				<compass treeOrder="10">
 					<itemHabitatLocator id="forestry:habitat_locator" treeOrder="90"/>
 				</compass>
@@ -91,10 +91,10 @@
 			<wood treeOrder="30">
 				<itemAppleOakWoodPile id="forestry:pile_wood" treeOrder="130"/>
 			</wood>
-			<ice treeOrder="190">
+			<ice treeOrder="200">
 				<itemIceShard id="forestry:crafting_material" damage="5" treeOrder="100"/>
 			</ice>
-			<liquid treeOrder="200">
+			<liquid treeOrder="210">
 				<itemizedFluids treeOrder="70">
 					<itemBiomass id="forestry:fluid.biomass" treeOrder="10"/>
 					<itemCrushedIce id="forestry:fluid.ice" treeOrder="40"/>
@@ -144,17 +144,17 @@
 					<itemUnlitCandle id="forestry:candle" treeOrder="90"/>
 				</torch>
 			</lighting>
-			<resourceTransfer treeOrder="300">
+			<resourceTransfer treeOrder="320">
 				<forestryPipes treeOrder="80">
 					<itemGeneticFilter id="forestry:genetic_filter" treeOrder="10"/>
 				</forestryPipes>
 			</resourceTransfer>
-			<basicCrafting treeOrder="360">
+			<basicCrafting treeOrder="390">
 				<craftingTables treeOrder="10">
 					<itemWorktable id="forestry:worktable" treeOrder="110"/>
 				</craftingTables>
 			</basicCrafting>
-			<generators treeOrder="370">
+			<generators treeOrder="400">
 				<fuelGenerators treeOrder="20">
 					<itemPeat-firedEngine id="forestry:engine_peat" treeOrder="190"/>
 				</fuelGenerators>
@@ -162,35 +162,41 @@
 					<itemBiogasEngine id="forestry:engine_biogas" treeOrder="40"/>
 				</liquidFuelGenerators>
 				<solarGenerators treeOrder="110">
-					<itemClockworkEngine id="forestry:engine_clockwork" treeOrder="70"/>
+					<itemClockworkEngine id="forestry:engine_clockwork" treeOrder="80"/>
 				</solarGenerators>
 				<euGenerators treeOrder="160">
 					<itemBioGenerator id="forestry:engine_generator" treeOrder="10"/>
 					<itemElectricalEngine id="forestry:engine_electrical" treeOrder="20"/>
 				</euGenerators>
 			</generators>
-			<machines treeOrder="380">
+			<machines treeOrder="410">
 				<poweredCrafting treeOrder="10">
 					<itemCarpenter id="forestry:carpenter" treeOrder="170"/>
 					<itemThermionicFabricator id="forestry:fabricator" treeOrder="180"/>
 				</poweredCrafting>
 				<poweredFarming treeOrder="40">
-					<itemArboretumManaged id="forestry:arboretum" treeOrder="120"/>
-					<itemEnderFarmManaged id="forestry:farm_ender" treeOrder="130"/>
-					<itemFarmManaged id="forestry:farm_crops" treeOrder="140"/>
-					<itemGourdFarmManaged id="forestry:farm_gourd" treeOrder="150"/>
-					<itemInfernalFarmManaged id="forestry:farm_nether" treeOrder="160"/>
-					<itemMushroomFarmManaged id="forestry:farm_mushroom" treeOrder="170"/>
-					<itemPeatBogManaged id="forestry:peat_bog" treeOrder="180"/>
-					<itemFarmBlock id="forestry:ffarm" treeOrder="190"/>
-					<itemFermenter id="forestry:fermenter" treeOrder="200"/>
+					<itemArboretumManaged id="forestry:arboretum" treeOrder="140"/>
+					<itemEnderFarmManaged id="forestry:farm_ender" treeOrder="150"/>
+					<itemFarmManaged id="forestry:farm_crops" treeOrder="160"/>
+					<itemGourdFarmManaged id="forestry:farm_gourd" treeOrder="170"/>
+					<itemInfernalFarmManaged id="forestry:farm_nether" treeOrder="180"/>
+					<itemMushroomFarmManaged id="forestry:farm_mushroom" treeOrder="190"/>
+					<itemPeatBogManaged id="forestry:peat_bog" treeOrder="200"/>
+					<itemFarmBlock id="forestry:ffarm" treeOrder="210"/>
+					<itemFermenter id="forestry:fermenter" treeOrder="220"/>
 				</poweredFarming>
 				<poweredFluids treeOrder="140">
-					<itemBottler id="forestry:bottler" treeOrder="100"/>
-					<itemSqueezer id="forestry:squeezer" treeOrder="110"/>
-					<itemStill id="forestry:still" treeOrder="120"/>
+					<poweredFluidExtractors treeOrder="10">
+						<itemSqueezer id="forestry:squeezer" treeOrder="20"/>
+					</poweredFluidExtractors>
+					<poweredFluidInserters treeOrder="20">
+						<itemBottler id="forestry:bottler" treeOrder="10"/>
+					</poweredFluidInserters>
+					<poweredFluidTransmuters treeOrder="30">
+						<itemStill id="forestry:still" treeOrder="40"/>
+					</poweredFluidTransmuters>
 				</poweredFluids>
-				<randomMachines treeOrder="210">
+				<randomMachines treeOrder="220">
 					<itemRainmaker id="forestry:rainmaker" treeOrder="210"/>
 					<itemCentrifuge id="forestry:centrifuge" treeOrder="220"/>
 					<itemAnalyzer id="forestry:analyzer" treeOrder="230"/>
@@ -216,13 +222,13 @@
 				</brickPeatDict>
 			</coals>
 			<oreBlock treeOrder="120">
-				<itemBogEarth id="forestry:bog_earth" treeOrder="1430"/>
-				<itemHumus id="forestry:humus" treeOrder="1440"/>
-				<itemLoam id="forestry:loam" treeOrder="1450"/>
+				<itemBogEarth id="forestry:bog_earth" treeOrder="1490"/>
+				<itemHumus id="forestry:humus" treeOrder="1500"/>
+				<itemLoam id="forestry:loam" treeOrder="1510"/>
 			</oreBlock>
 		</miningResources>
 		<huntingResources treeOrder="20">
-			<itemSilk treeOrder="150">
+			<itemSilk treeOrder="190">
 				<itemSilkWisp id="forestry:crafting_material" damage="2" treeOrder="10"/>
 				<itemWovenSilk id="forestry:crafting_material" damage="3" treeOrder="20"/>
 				<itemPulsatingMesh id="forestry:crafting_material" damage="1" treeOrder="30"/>
@@ -233,11 +239,11 @@
 		<utility treeOrder="10">
 			<storage treeOrder="30">
 				<chests treeOrder="10">
-					<itemApiaristsChest id="forestry:bee_chest" treeOrder="410"/>
-					<itemLepidopteristsChest id="forestry:butterfly_chest" treeOrder="420"/>
-					<itemArboristsChest id="forestry:tree_chest" treeOrder="430"/>
+					<itemApiaristsChest id="forestry:bee_chest" treeOrder="430"/>
+					<itemLepidopteristsChest id="forestry:butterfly_chest" treeOrder="440"/>
+					<itemArboristsChest id="forestry:tree_chest" treeOrder="450"/>
 				</chests>
-				<portableStorage treeOrder="90">
+				<portableStorage treeOrder="100">
 					<itemAdventuringBackpack id="forestry:adventurer_bag" treeOrder="100"/>
 					<itemWovenAdventuringBackpack id="forestry:adventurer_bag_t2" treeOrder="110"/>
 					<itemApiaristsBackpack id="forestry:apiarist_bag" treeOrder="120"/>
@@ -278,11 +284,11 @@
 					<itemIronElectronTube id="forestry:thermionic_tubes" treeOrder="190"/>
 					<itemBasicCircuitBoard id="forestry:chipsets" treeOrder="200"/>
 				</chip>
-				<otherParts treeOrder="100">
+				<otherParts treeOrder="110">
 					<itemScentedPaneling id="forestry:crafting_material" damage="6" treeOrder="140"/>
 					<itemCamouflagedPaneling id="forestry:crafting_material" damage="7" treeOrder="150"/>
 				</otherParts>
-				<frames treeOrder="110">
+				<frames treeOrder="120">
 					<itemImpregnatedCasing id="forestry:impregnated_casing" treeOrder="130"/>
 					<itemFlexibleCasing id="forestry:flexible_casing" treeOrder="140"/>
 					<itemSturdyCasing id="forestry:sturdy_machine" treeOrder="150"/>
@@ -306,7 +312,7 @@
 			<edibleFood treeOrder="10">
 				<preparedFood treeOrder="30">
 					<breads treeOrder="170">
-						<itemHoneyedSlice id="forestry:honeyed_slice" treeOrder="30"/>
+						<itemHoneyedSlice id="forestry:honeyed_slice" treeOrder="40"/>
 					</breads>
 				</preparedFood>
 			</edibleFood>
@@ -315,8 +321,8 @@
 			</todoFoods>
 			<unedibleFood treeOrder="50">
 				<grain treeOrder="10">
-					<itemDecayingWheat id="forestry:decaying_wheat" treeOrder="70"/>
-					<itemMouldyWheat id="forestry:mouldy_wheat" treeOrder="80"/>
+					<itemDecayingWheat id="forestry:decaying_wheat" treeOrder="80"/>
+					<itemMouldyWheat id="forestry:mouldy_wheat" treeOrder="90"/>
 				</grain>
 			</unedibleFood>
 		</food>

@@ -37,7 +37,7 @@
 	<item treeOrder="40">
 		<utility treeOrder="10">
 			<storage treeOrder="30">
-				<portableStorage treeOrder="90">
+				<portableStorage treeOrder="100">
 					<itemBackpack id="backpack:backpack" treeOrder="70"/>
 					<itemWorkbenchBackpack id="backpack:workbenchbackpack" treeOrder="270"/>
 				</portableStorage>

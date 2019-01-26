@@ -28,11 +28,11 @@
 <stuff treeVersion="1.12.2">
 	<equipment treeOrder="10">
 		<tool treeOrder="20">
-			<keys treeOrder="240">
+			<keys treeOrder="250">
 				<itemMiningMultitool id="aroma1997sdimension:miningmultitool" treeOrder="150"/>
 			</keys>
-			<teleport treeOrder="320">
-				<itemDimensionChanger id="aroma1997sdimension:dimensionchanger" treeOrder="70"/>
+			<teleport treeOrder="330">
+				<itemDimensionChanger id="aroma1997sdimension:dimensionchanger" treeOrder="90"/>
 			</teleport>
 		</tool>
 	</equipment>
@@ -42,7 +42,7 @@
 				<itemClayOre id="aroma1997sdimension:miningore" damage="1" treeOrder="350"/>
 				<itemStickyOre id="aroma1997sdimension:miningore" damage="0" treeOrder="2000"/>
 			</oreBlock>
-			<itemPortalFrame id="aroma1997sdimension:portalframe" treeOrder="260"/>
+			<itemPortalFrame id="aroma1997sdimension:portalframe" treeOrder="270"/>
 		</naturalBlock>
 	</block>
 </stuff>

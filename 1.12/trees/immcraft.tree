@@ -28,7 +28,7 @@
 <stuff treeVersion="1.12.2">
 	<equipment treeOrder="10">
 		<tool treeOrder="20">
-			<chisel treeOrder="210">
+			<chisel treeOrder="220">
 				<itemChisel id="immcraft:chisel" treeOrder="90"/>
 			</chisel>
 		</tool>

@@ -28,7 +28,7 @@
 <stuff treeVersion="1.12.2">
 	<equipment treeOrder="10">
 		<baubles treeOrder="40">
-			<rings treeOrder="10">
+			<rings treeOrder="20">
 				<itemMinersRing id="baubles:ring" treeOrder="20"/>
 			</rings>
 		</baubles>

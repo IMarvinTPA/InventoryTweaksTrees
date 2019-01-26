@@ -30,7 +30,7 @@
 		<tool treeOrder="20">
 			<farmingTool treeOrder="50">
 				<otherFarmingTools treeOrder="60">
-					<itemWateringCanBasic id="thermalcultivation:watering_can" treeOrder="100"/>
+					<itemWateringCanBasic id="thermalcultivation:watering_can" treeOrder="120"/>
 				</otherFarmingTools>
 			</farmingTool>
 		</tool>

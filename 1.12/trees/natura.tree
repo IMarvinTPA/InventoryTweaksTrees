@@ -312,12 +312,12 @@
 				<itemTigerwoodTrapdoor id="natura:trapdoor.tiger" treeOrder="140"/>
 				<itemWillowTrapdoor id="natura:trapdoor.willow" treeOrder="150"/>
 			</trapdoor>
-			<resourceTransfer treeOrder="300">
+			<resourceTransfer treeOrder="320">
 				<groundItemCollector treeOrder="10">
 					<itemBlazeHopper id="natura:blaze_hopper" treeOrder="30"/>
 				</groundItemCollector>
 			</resourceTransfer>
-			<basicCrafting treeOrder="360">
+			<basicCrafting treeOrder="390">
 				<furnaces treeOrder="30">
 					<simpleFurnaces treeOrder="30">
 						<itemNetherFurnace id="natura:netherfurnace" treeOrder="20"/>
@@ -329,14 +329,14 @@
 	<resources treeOrder="30">
 		<miningResources treeOrder="10">
 			<dust treeOrder="40">
-				<itemSulfur id="natura:barleyfood" damage="4" treeOrder="1870"/>
+				<itemSulfur id="natura:barleyfood" damage="4" treeOrder="1890"/>
 			</dust>
 		</miningResources>
 		<huntingResources treeOrder="20">
 			<leather id="leather" treeOrder="40">
 				<itemImpLeather id="natura:barleyfood" damage="6" treeOrder="40"/>
 			</leather>
-			<string id="string" treeOrder="110">
+			<string id="string" treeOrder="150">
 				<itemFlamestring id="natura:materials" damage="7" treeOrder="20"/>
 			</string>
 		</huntingResources>
@@ -353,10 +353,10 @@
 			<beds treeOrder="80">
 				<obelisk id="natura:obelisk" treeOrder="20"/>
 			</beds>
-			<bowl treeOrder="150">
+			<bowl treeOrder="160">
 				<naturaBowl id="natura:natura.emptybowl" treeOrder="20"/>
 			</bowl>
-			<spawnerEggs treeOrder="210">
+			<spawnerEggs treeOrder="220">
 				<itemSpawnBabyHeatscarSpider id="natura:natura.spawnegg" damage="3" treeOrder="540"/>
 				<itemSpawnHeatscarSpider id="natura:natura.spawnegg" damage="1" treeOrder="550"/>
 				<itemSpawnImp id="natura:natura.spawnegg" damage="0" treeOrder="560"/>
@@ -411,7 +411,7 @@
 				</drink>
 				<rawFood treeOrder="130">
 					<rawMeat treeOrder="20">
-						<itemNatura_impmeat_0 id="natura:impmeat" damage="0" treeOrder="260"/>
+						<itemNatura_impmeat_0 id="natura:impmeat" damage="0" treeOrder="270"/>
 					</rawMeat>
 					<mushroom treeOrder="30">
 						<itemNatura_Glowshroom id="natura:glowshroom" treeOrder="40"/>

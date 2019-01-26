@@ -56,7 +56,7 @@
 					<itemBoundAxe id="awwayoftime:boundaxe" treeOrder="150"/>
 				</axe>
 			</choppingTool>
-			<keys treeOrder="240">
+			<keys treeOrder="250">
 				<itemKeyofBinding id="awwayoftime:itemkeyofdiablo" treeOrder="40"/>
 			</keys>
 		</tool>
@@ -125,13 +125,13 @@
 		<utility treeOrder="10">
 			<storage treeOrder="30">
 				<chests treeOrder="10">
-					<itemAWWayofTime_blockDemonChest id="awwayoftime:blockdemonchest" treeOrder="310"/>
+					<itemAWWayofTime_blockDemonChest id="awwayoftime:blockdemonchest" treeOrder="330"/>
 				</chests>
 			</storage>
 		</utility>
 		<fluidPortableStorage treeOrder="20">
 			<bucket treeOrder="10">
-				<itemAWWayofTime_bucketLife id="awwayoftime:bucketlife" treeOrder="150"/>
+				<itemAWWayofTime_bucketLife id="awwayoftime:bucketlife" treeOrder="160"/>
 			</bucket>
 		</fluidPortableStorage>
 	</item>

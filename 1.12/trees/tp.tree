@@ -72,18 +72,21 @@
 					<itemWubHoe id="tp:wub_hoe" treeOrder="1180"/>
 				</hoe>
 				<otherFarmingTools treeOrder="60">
-					<itemReinforcedWateringCan id="tp:watering_can_upgrade" treeOrder="80"/>
-					<itemWateringCan id="tp:watering_can" treeOrder="110"/>
+					<itemReinforcedWateringCan id="tp:watering_can_upgrade" treeOrder="100"/>
+					<itemWateringCan id="tp:watering_can" treeOrder="130"/>
 				</otherFarmingTools>
 			</farmingTool>
 			<shears class="Item" data="{ToolClass : &quot;shears&quot;}" mergeChildren="true" treeOrder="60">
-				<itemDiamondShears id="tp:diamond_shears" treeOrder="440"/>
-				<itemEmeraldShears id="tp:emerald_shears" treeOrder="450"/>
-				<itemFlintShears id="tp:flint_shears" treeOrder="460"/>
-				<itemGoldenShears id="tp:golden_shears" treeOrder="470"/>
-				<itemStoneShears id="tp:stone_shears" treeOrder="480"/>
-				<itemWoodenShears id="tp:wooden_shears" treeOrder="490"/>
+				<itemDiamondShears id="tp:diamond_shears" treeOrder="450"/>
+				<itemEmeraldShears id="tp:emerald_shears" treeOrder="460"/>
+				<itemFlintShears id="tp:flint_shears" treeOrder="470"/>
+				<itemGoldenShears id="tp:golden_shears" treeOrder="480"/>
+				<itemStoneShears id="tp:stone_shears" treeOrder="490"/>
+				<itemWoodenShears id="tp:wooden_shears" treeOrder="500"/>
 			</shears>
+			<craftingHammers treeOrder="150">
+				<itemStoneHammer id="tp:stone_hammer" treeOrder="30"/>
+			</craftingHammers>
 		</tool>
 		<armor treeOrder="30">
 			<helmet class="ItemArmor" data="{ArmorType : &quot;head&quot;}" treeOrder="20">
@@ -156,6 +159,13 @@
 	</equipment>
 	<block treeOrder="20">
 		<naturalBlock treeOrder="10">
+			<stones treeOrder="10">
+				<cobblestone treeOrder="20">
+					<itemCobblestone id="tp:ghost_block" treeOrder="130"/>
+				</cobblestone>
+				<itemUnhardenedStone id="tp:unhardened_stone" treeOrder="100"/>
+				<itemHardenedStone id="tp:hardened_stone" treeOrder="110"/>
+			</stones>
 			<sands treeOrder="50">
 				<quicksand treeOrder="20">
 					<itemQuickSand id="tp:quick_sand" treeOrder="10"/>
@@ -187,23 +197,65 @@
 					<itemSeptupleCompressedNetherrack id="tp:septuple_compressed_nether_block" treeOrder="80"/>
 					<itemOctupleCompressedNetherrack id="tp:octuple_compressed_nether_block" treeOrder="90"/>
 				</netherrack>
+				<soulSandstone treeOrder="40">
+					<itemSoulSandstone id="tp:soul_sandstone" treeOrder="10"/>
+				</soulSandstone>
 			</netherBlock>
+			<liquid treeOrder="210">
+				<itemizedFluids treeOrder="70">
+					<itemWubWubJuice id="tp:vasholine" treeOrder="180"/>
+				</itemizedFluids>
+			</liquid>
+			<itemLavaInfusedStone id="tp:lava_infused_stone" treeOrder="370"/>
 		</naturalBlock>
 		<manufacturedBlock treeOrder="50">
 			<constructionBlock treeOrder="70">
+				<bricks treeOrder="20">
+					<stoneBricks treeOrder="110">
+						<itemHardenedStoneBricks id="tp:hardened_stone_bricks" treeOrder="100"/>
+						<itemHardenedStoneSmallBricks id="tp:hardened_stone_smallbricks" treeOrder="110"/>
+					</stoneBricks>
+				</bricks>
+				<roads treeOrder="70">
+					<itemAsphalt id="tp:asphalt_block" treeOrder="80"/>
+				</roads>
 				<constructionUtility treeOrder="90">
 					<itemFloatyMcFloatyBlock id="tp:fmf_block" treeOrder="60"/>
 				</constructionUtility>
+				<stairs treeOrder="100">
+					<brickStairs treeOrder="30">
+						<itemHardenedStoneStairs id="tp:hardened_stone_stairs" treeOrder="40"/>
+						<itemHardenedStoneBricksStairs id="tp:hardened_stone_bricks_stairs" treeOrder="50"/>
+						<itemHardenedStoneSmallBricksStairs id="tp:hardened_stone_smallbricks_stairs" treeOrder="60"/>
+					</brickStairs>
+				</stairs>
+				<slabs treeOrder="110">
+					<slabHardenedStone treeOrder="330">
+						<itemHardenedStoneSlab id="tp:hardened_stone_slab_half" treeOrder="40"/>
+						<itemHardenedStoneSlab id="tp:hardened_stone_slab_double" treeOrder="50"/>
+						<itemHardenedStoneBricksSlab id="tp:hardened_stone_bricks_slab_half" treeOrder="60"/>
+						<itemHardenedStoneBricksSlab id="tp:hardened_stone_bricks_slab_double" treeOrder="70"/>
+						<itemHardenedStoneSmallBricksSlab id="tp:hardened_stone_smallbricks_slab_half" treeOrder="80"/>
+						<itemHardenedStoneSmallBricksSlab id="tp:hardened_stone_smallbricks_slab_double" treeOrder="90"/>
+					</slabHardenedStone>
+				</slabs>
 			</constructionBlock>
 		</manufacturedBlock>
 		<mechanism treeOrder="60">
 			<lighting treeOrder="30">
-				<decorativeLights treeOrder="110">
-					<itemLamp id="tp:lamp" treeOrder="380"/>
-					<itemWhiteLamp id="tp:colored_lamp" treeOrder="390"/>
+				<decorativeLights treeOrder="120">
+					<itemLamp id="tp:lamp" treeOrder="390"/>
+					<itemWhiteLamp id="tp:colored_lamp" treeOrder="400"/>
 				</decorativeLights>
 			</lighting>
-			<machines treeOrder="380">
+			<basicCrafting treeOrder="390">
+				<furnaces treeOrder="30">
+					<simpleFurnaces treeOrder="30">
+						<itemIronFurnace id="tp:iron_furnace_block" treeOrder="30"/>
+					</simpleFurnaces>
+				</furnaces>
+			</basicCrafting>
+			<machines treeOrder="410">
 				<cobbleCreators treeOrder="120">
 					<itemCobblestoneGenerator id="tp:cobblegen_block" treeOrder="40"/>
 					<itemCobblestoneGeneratorTier2 id="tp:iron_cobblegen_block" treeOrder="50"/>
@@ -214,17 +266,27 @@
 			</machines>
 		</mechanism>
 	</block>
+	<resources treeOrder="30">
+		<miningResources treeOrder="10">
+			<oreBlock treeOrder="120">
+				<blockNetherStarDict oreDictName="blockNetherStar" treeOrder="1540">
+					<itemCompressedNetherStarBlock id="tp:netherstar_block" treeOrder="10"/>
+				</blockNetherStarDict>
+			</oreBlock>
+		</miningResources>
+	</resources>
 	<item treeOrder="40">
 		<utility treeOrder="10">
 			<storage treeOrder="30">
-				<portableStorage treeOrder="90">
+				<portableStorage treeOrder="100">
 					<itemBigPouch id="tp:pouch" treeOrder="250"/>
 				</portableStorage>
 			</storage>
+			<itemRepairTablet id="tp:repair_tablet" treeOrder="120"/>
 		</utility>
 		<fluidPortableStorage treeOrder="20">
 			<bucket treeOrder="10">
-				<itemInfinityWaterBucket id="tp:infin_bucket" treeOrder="70"/>
+				<itemInfinityWaterBucket id="tp:infin_bucket" treeOrder="80"/>
 			</bucket>
 		</fluidPortableStorage>
 		<parts treeOrder="120">
@@ -239,10 +301,17 @@
 				<preparedFood treeOrder="30">
 					<bacon treeOrder="60">
 						<itemBaconandEggs id="tp:bacon_eggs" treeOrder="60"/>
+						<itemCookedBacon id="tp:cooked_bacon" treeOrder="100"/>
 					</bacon>
 					<pizza treeOrder="140">
 						<itemBamsPineapplePizza id="tp:bams_pizza" treeOrder="40"/>
 					</pizza>
+					<toasts treeOrder="160">
+						<itemToastedBread id="tp:toasted_bread" treeOrder="30"/>
+					</toasts>
+					<breads treeOrder="170">
+						<itemBreadSlice id="tp:bread_slice" treeOrder="30"/>
+					</breads>
 					<sandwich treeOrder="190">
 						<itemBaconandEggSandwich id="tp:bacon_eggs_sandwhich" treeOrder="190"/>
 						<itemBaconSandwich id="tp:bacon_sandwhich" treeOrder="200"/>
@@ -256,7 +325,9 @@
 				</jerky>
 				<cookedFood treeOrder="50">
 					<cookedEgg treeOrder="490">
-						<itemFriedEgg id="tp:fried_egg" treeOrder="40"/>
+						<itemCookedBrownMushroom id="tp:cooked_mushroom_brown" treeOrder="20"/>
+						<itemCookedRedMushroom id="tp:cooked_mushroom_red" treeOrder="30"/>
+						<itemFriedEgg id="tp:fried_egg" treeOrder="60"/>
 					</cookedEgg>
 				</cookedFood>
 				<fruit treeOrder="80">
@@ -272,6 +343,7 @@
 					<cookies treeOrder="10">
 						<itemSugarCookie id="tp:bsc_sugar_cookie" treeOrder="120"/>
 					</cookies>
+					<itemCandy id="tp:little_candy" treeOrder="80"/>
 				</dessert>
 				<drink treeOrder="120">
 					<juice treeOrder="10">
@@ -293,7 +365,15 @@
 						<itemWheatJuice id="tp:wheat_juice" treeOrder="450"/>
 					</juice>
 				</drink>
+				<rawFood treeOrder="130">
+					<rawMeat treeOrder="20">
+						<itemRawBacon id="tp:raw_bacon" treeOrder="20"/>
+					</rawMeat>
+				</rawFood>
 			</edibleFood>
+			<poisonedFood treeOrder="40">
+				<itemCompressedFleshBlock id="tp:flesh_block" treeOrder="30"/>
+			</poisonedFood>
 			<unedibleFood treeOrder="50">
 				<itemCompressedSugarCane id="tp:compressed_sugar_cane" treeOrder="80"/>
 				<itemDoubleCompressedSugarCane id="tp:double_compressed_sugar_cane" treeOrder="90"/>
@@ -308,6 +388,9 @@
 			</unedibleFood>
 		</food>
 		<plant treeOrder="170">
+			<seed treeOrder="60">
+				<itemMyceliumSeed id="tp:mycelium_seeds" treeOrder="30"/>
+			</seed>
 			<irrigation treeOrder="110">
 				<itemGrowthCrystal id="tp:growth_block" treeOrder="80"/>
 				<itemGrowthCrystalTier2 id="tp:growth_upgrade" treeOrder="90"/>

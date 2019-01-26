@@ -47,7 +47,7 @@
 	</equipment>
 	<block treeOrder="20">
 		<mechanism treeOrder="60">
-			<basicCrafting treeOrder="360">
+			<basicCrafting treeOrder="390">
 				<tinkerToolCrafting treeOrder="20">
 					<itemTinkeringTable id="mysticalagradditions:tinkering_table" treeOrder="200"/>
 				</tinkerToolCrafting>
@@ -63,7 +63,7 @@
 			</coals>
 		</miningResources>
 		<huntingResources treeOrder="20">
-			<mobChunks treeOrder="370">
+			<mobChunks treeOrder="410">
 				<mobChunkHigh treeOrder="20">
 					<itemTier6MobChunk id="mysticalagradditions:insanium" damage="4" treeOrder="10"/>
 				</mobChunkHigh>
@@ -77,7 +77,7 @@
 				<itemInferiumSeeds id="mysticalagradditions:tier6_inferium_seeds" treeOrder="1230"/>
 			</seed>
 			<seedlings treeOrder="70">
-				<mysticalCrops treeOrder="630">
+				<mysticalCrops treeOrder="670">
 					<itemAwakenedDraconiumCrop id="mysticalagradditions:awakened_draconium_crop" treeOrder="60"/>
 					<itemDragonEggCrop id="mysticalagradditions:dragon_egg_crop" treeOrder="280"/>
 					<itemNetherStarCrop id="mysticalagradditions:nether_star_crop" treeOrder="700"/>

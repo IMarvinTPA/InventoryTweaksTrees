@@ -28,12 +28,12 @@
 <stuff treeVersion="1.12.2">
 	<block treeOrder="20">
 		<mechanism treeOrder="60">
-			<machines treeOrder="380">
-				<randomMachines treeOrder="210">
-					<itemDrawbridge id="tmechworks:redstonemachine" damage="0" treeOrder="160"/>
-					<itemAdvancedDrawbridge id="tmechworks:redstonemachine" damage="2" treeOrder="170"/>
-					<itemExtendedDrawbridge id="tmechworks:redstonemachine" damage="3" treeOrder="180"/>
-					<itemIgniter id="tmechworks:redstonemachine" damage="1" treeOrder="190"/>
+			<machines treeOrder="410">
+				<randomMachines treeOrder="220">
+					<itemIgniter id="tmechworks:redstonemachine" damage="1" treeOrder="130"/>
+					<itemDrawbridge id="tmechworks:redstonemachine" damage="0" treeOrder="170"/>
+					<itemAdvancedDrawbridge id="tmechworks:redstonemachine" damage="2" treeOrder="180"/>
+					<itemExtendedDrawbridge id="tmechworks:redstonemachine" damage="3" treeOrder="190"/>
 				</randomMachines>
 			</machines>
 		</mechanism>

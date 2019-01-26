@@ -28,28 +28,32 @@
 <stuff treeVersion="1.12.2">
 	<block treeOrder="20">
 		<mechanism treeOrder="60">
-			<resourceTransfer treeOrder="300">
+			<resourceTransfer treeOrder="320">
 				<groundItemCollector treeOrder="10">
 					<itemChute id="buildcraftfactory:chute" treeOrder="50"/>
 				</groundItemCollector>
 			</resourceTransfer>
-			<basicCrafting treeOrder="360">
+			<basicCrafting treeOrder="390">
 				<craftingTables treeOrder="10">
 					<itemAutoWorkbench id="buildcraftfactory:autoworkbench_item" treeOrder="60"/>
 				</craftingTables>
 			</basicCrafting>
-			<machines treeOrder="380">
+			<machines treeOrder="410">
 				<poweredMining treeOrder="130">
-					<itemMiningWell id="buildcraftfactory:mining_well" treeOrder="110"/>
+					<itemMiningWell id="buildcraftfactory:mining_well" treeOrder="140"/>
 				</poweredMining>
 				<poweredFluids treeOrder="140">
-					<itemPump id="buildcraftfactory:pump" treeOrder="170"/>
-					<itemDistiller id="buildcraftfactory:distiller" treeOrder="200"/>
-					<itemHeatExchanger id="buildcraftfactory:heat_exchange" treeOrder="210"/>
+					<poweredFluidTransmuters treeOrder="30">
+						<itemDistiller id="buildcraftfactory:distiller" treeOrder="100"/>
+						<itemHeatExchanger id="buildcraftfactory:heat_exchange" treeOrder="110"/>
+					</poweredFluidTransmuters>
+					<poweredFluidCollector treeOrder="50">
+						<itemPump id="buildcraftfactory:pump" treeOrder="20"/>
+					</poweredFluidCollector>
+					<poweredFluidPlacer treeOrder="60">
+						<itemFloodGate id="buildcraftfactory:flood_gate" treeOrder="20"/>
+					</poweredFluidPlacer>
 				</poweredFluids>
-				<poweredDroppers treeOrder="160">
-					<itemFloodGate id="buildcraftfactory:flood_gate" treeOrder="70"/>
-				</poweredDroppers>
 			</machines>
 		</mechanism>
 	</block>

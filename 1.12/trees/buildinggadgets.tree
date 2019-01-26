@@ -28,7 +28,7 @@
 <stuff treeVersion="1.12.2">
 	<equipment treeOrder="10">
 		<tool treeOrder="20">
-			<exchangeBlockTools mergeChildren="true" treeOrder="190">
+			<exchangeBlockTools mergeChildren="true" treeOrder="200">
 				<itemExchangingGadget id="buildinggadgets:exchangertool" treeOrder="30"/>
 			</exchangeBlockTools>
 		</tool>

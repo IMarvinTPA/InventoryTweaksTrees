@@ -28,7 +28,7 @@
 <stuff treeVersion="1.12.2">
 	<equipment treeOrder="10">
 		<tool treeOrder="20">
-			<chisel treeOrder="210">
+			<chisel treeOrder="220">
 				<itemChisel id="tcomplement:chisel" treeOrder="100"/>
 			</chisel>
 		</tool>
@@ -64,7 +64,7 @@
 	<item treeOrder="40">
 		<fluidPortableStorage treeOrder="20">
 			<bucket treeOrder="10">
-				<itemStoneBucket id="tcomplement:materials" treeOrder="500"/>
+				<itemStoneBucket id="tcomplement:materials" treeOrder="510"/>
 			</bucket>
 		</fluidPortableStorage>
 		<casts treeOrder="110">

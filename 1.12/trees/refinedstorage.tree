@@ -29,9 +29,9 @@
 	<equipment treeOrder="10">
 		<tool treeOrder="20">
 			<wrench class="Item" data="{ToolClass : &quot;wrench&quot;}" mergeChildren="true" treeOrder="130">
-				<itemWrench id="refinedstorage:wrench" treeOrder="300"/>
+				<itemWrench id="refinedstorage:wrench" treeOrder="340"/>
 			</wrench>
-			<cuttingKnives treeOrder="260">
+			<cuttingKnives treeOrder="270">
 				<itemCuttingTool id="refinedstorage:cutting_tool" treeOrder="50"/>
 			</cuttingKnives>
 		</tool>
@@ -49,7 +49,7 @@
 	<resources treeOrder="30">
 		<miningResources treeOrder="10">
 			<oreBlock treeOrder="120">
-				<blockQuartzEnrichedIron treeOrder="1740">
+				<blockQuartzEnrichedIron treeOrder="1800">
 					<itemBlockofQuartzEnrichedIron id="refinedstorage:quartz_enriched_iron_block" treeOrder="10"/>
 				</blockQuartzEnrichedIron>
 			</oreBlock>
@@ -61,7 +61,7 @@
 			</ingot>
 		</miningResources>
 		<huntingResources treeOrder="20">
-			<slimyItems treeOrder="180">
+			<slimyItems treeOrder="220">
 				<itemProcessorBinding id="refinedstorage:processor_binding" treeOrder="60"/>
 			</slimyItems>
 		</huntingResources>
@@ -69,7 +69,7 @@
 	<item treeOrder="40">
 		<utility treeOrder="10">
 			<storage treeOrder="30">
-				<digitalstorage treeOrder="70">
+				<digitalstorage treeOrder="80">
 					<cables treeOrder="10">
 						<meCoveredCable treeOrder="40">
 							<itemCable id="refinedstorage:cable" treeOrder="10"/>
@@ -213,21 +213,21 @@
 						<itemSecurityManager id="refinedstorage:security_manager" treeOrder="730"/>
 					</machines>
 				</digitalstorage>
-				<portableStorage treeOrder="90">
-					<itemWirelessGrid id="refinedstorage:wireless_grid" damage="0" treeOrder="440"/>
-					<itemPortableGrid id="refinedstorage:portable_grid" damage="0" treeOrder="450"/>
-					<itemWirelessFluidGrid id="refinedstorage:wireless_fluid_grid" damage="0" treeOrder="470"/>
-					<itemWirelessCraftingMonitor id="refinedstorage:wireless_crafting_monitor" treeOrder="480"/>
-					<itemCreativeWirelessGrid id="refinedstorage:wireless_grid" damage="1" treeOrder="490"/>
-					<itemCreativePortableGrid id="refinedstorage:portable_grid" damage="1" treeOrder="510"/>
-					<itemCreativeWirelessFluidGrid id="refinedstorage:wireless_fluid_grid" damage="1" treeOrder="520"/>
+				<portableStorage treeOrder="100">
+					<itemWirelessGrid id="refinedstorage:wireless_grid" damage="0" treeOrder="450"/>
+					<itemPortableGrid id="refinedstorage:portable_grid" damage="0" treeOrder="460"/>
+					<itemWirelessFluidGrid id="refinedstorage:wireless_fluid_grid" damage="0" treeOrder="480"/>
+					<itemWirelessCraftingMonitor id="refinedstorage:wireless_crafting_monitor" treeOrder="490"/>
+					<itemCreativeWirelessGrid id="refinedstorage:wireless_grid" damage="1" treeOrder="500"/>
+					<itemCreativePortableGrid id="refinedstorage:portable_grid" damage="1" treeOrder="520"/>
+					<itemCreativeWirelessFluidGrid id="refinedstorage:wireless_fluid_grid" damage="1" treeOrder="530"/>
 				</portableStorage>
 			</storage>
 		</utility>
 		<parts treeOrder="120">
 			<mechanicalParts treeOrder="10">
-				<frames treeOrder="110">
-					<itemMachineCasing id="refinedstorage:machine_casing" treeOrder="200"/>
+				<frames treeOrder="120">
+					<itemMachineCasing id="refinedstorage:machine_casing" treeOrder="310"/>
 				</frames>
 			</mechanicalParts>
 		</parts>

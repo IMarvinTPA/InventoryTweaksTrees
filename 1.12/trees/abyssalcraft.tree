@@ -173,7 +173,7 @@
 		<utility treeOrder="10">
 			<storage treeOrder="30">
 				<chests treeOrder="10">
-					<itemWoodenCrate id="abyssalcraft:crate" treeOrder="440"/>
+					<itemWoodenCrate id="abyssalcraft:crate" treeOrder="460"/>
 				</chests>
 			</storage>
 		</utility>

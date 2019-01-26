@@ -33,7 +33,7 @@
 			</sign>
 		</manufacturedBlock>
 		<mechanism treeOrder="60">
-			<basicCrafting treeOrder="360">
+			<basicCrafting treeOrder="390">
 				<craftingTables treeOrder="10">
 					<itemNaturaBiblioWorkbench id="bibliowoodsnatura:bibliowoodfancyworkbench" treeOrder="40"/>
 				</craftingTables>

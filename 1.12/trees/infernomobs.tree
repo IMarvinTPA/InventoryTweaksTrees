@@ -55,7 +55,7 @@
 	</equipment>
 	<item treeOrder="40">
 		<utility treeOrder="10">
-			<spawnerEggs treeOrder="210">
+			<spawnerEggs treeOrder="220">
 				<itemSpawnAfrit id="infernomobs:infernoegg" damage="3" treeOrder="350"/>
 				<itemSpawnCephignis id="infernomobs:infernoegg" damage="2" treeOrder="360"/>
 				<itemSpawnCinder id="infernomobs:infernoegg" damage="0" treeOrder="370"/>
@@ -65,7 +65,7 @@
 		</utility>
 		<fluidPortableStorage treeOrder="20">
 			<bucket treeOrder="10">
-				<iteminfernomobs_bucketpurelava id="infernomobs:bucketpurelava" treeOrder="330"/>
+				<iteminfernomobs_bucketpurelava id="infernomobs:bucketpurelava" treeOrder="340"/>
 			</bucket>
 		</fluidPortableStorage>
 		<food treeOrder="160">

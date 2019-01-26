@@ -29,12 +29,26 @@
 	<item treeOrder="40">
 		<utility treeOrder="10">
 			<storage treeOrder="30">
-				<treasureContainers treeOrder="100">
-					<itemChanceCube id="chancecubes:chance_cube" treeOrder="120"/>
-					<itemCompactGiantChanceCube id="chancecubes:compact_giant_chance_cube" treeOrder="130"/>
-					<itemChanceIcosahedron id="chancecubes:chance_icosahedron" treeOrder="140"/>
+				<treasureContainers treeOrder="110">
+					<itemChanceCube id="chancecubes:chance_cube" treeOrder="130"/>
+					<itemCompactGiantChanceCube id="chancecubes:compact_giant_chance_cube" treeOrder="140"/>
+					<itemGiantChanceCube id="chancecubes:giant_chance_cube" treeOrder="150"/>
+					<itemChanceIcosahedron id="chancecubes:chance_icosahedron" treeOrder="160"/>
+					<itemChanceCubeDispenser id="chancecubes:cube_dispenser" treeOrder="180"/>
+					<itemChanceCubeScanner id="chancecubes:scanner" treeOrder="190"/>
 				</treasureContainers>
 			</storage>
 		</utility>
+		<instrument treeOrder="80">
+			<luckyItems treeOrder="120">
+				<itemCreativeChancePendant id="chancecubes:creative_pendant" treeOrder="10"/>
+				<itemRewardSelectorPendant id="chancecubes:reward_selector_pendant" treeOrder="20"/>
+				<itemSilkTouchChancePendant id="chancecubes:silk_touch_pendant" treeOrder="30"/>
+				<itemSingleUseRewardSelectorPendant id="chancecubes:single_use_reward_selector_pendant" treeOrder="40"/>
+				<itemTier1ChancePendant id="chancecubes:chance_pendant_tier1" treeOrder="50"/>
+				<itemTier2ChancePendant id="chancecubes:chance_pendant_tier2" treeOrder="60"/>
+				<itemTier3ChancePendant id="chancecubes:chance_pendant_tier3" treeOrder="70"/>
+			</luckyItems>
+		</instrument>
 	</item>
 </stuff>

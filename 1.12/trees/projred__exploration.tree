@@ -136,7 +136,7 @@
 				<barrels treeOrder="40">
 					<itemProjRed_Exploration_projectred_exploration_barrel id="projred|exploration:projectred.exploration.barrel" treeOrder="20"/>
 				</barrels>
-				<portableStorage treeOrder="90">
+				<portableStorage treeOrder="100">
 					<itemPRBackpack id="projred|exploration:projectred.exploration.backpack" treeOrder="280"/>
 				</portableStorage>
 			</storage>

@@ -29,14 +29,14 @@
 	<item treeOrder="40">
 		<utility treeOrder="10">
 			<storage treeOrder="30">
-				<storageupgrades treeOrder="80">
+				<storageupgrades treeOrder="90">
 					<itemBlankUpgrade id="ironbackpacks:upgrade" damage="0" treeOrder="540"/>
 					<itemDamageBarUpgrade id="ironbackpacks:upgrade" damage="0" treeOrder="550"/>
 					<itemEverlastingUpgrade id="ironbackpacks:upgrade" damage="0" treeOrder="560"/>
 					<itemExtraUpgradePoint id="ironbackpacks:upgrade" damage="0" treeOrder="570"/>
 					<itemLatchUpgrade id="ironbackpacks:upgrade" damage="0" treeOrder="580"/>
 				</storageupgrades>
-				<portableStorage treeOrder="90">
+				<portableStorage treeOrder="100">
 					<itemBasicBackpack id="ironbackpacks:backpack" treeOrder="90"/>
 				</portableStorage>
 			</storage>

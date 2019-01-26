@@ -35,7 +35,7 @@
 			</constructionBlock>
 		</manufacturedBlock>
 		<mechanism treeOrder="60">
-			<resourceTransfer treeOrder="300">
+			<resourceTransfer treeOrder="320">
 				<tePipes treeOrder="50">
 					<teItemPipes treeOrder="10">
 						<itemItemduct id="thermaldynamics:thermaldynamics_32" treeOrder="10"/>
@@ -54,8 +54,8 @@
 					<itemLuxduct id="thermaldynamics:thermaldynamics_48" damage="1" treeOrder="60"/>
 				</tePipes>
 			</resourceTransfer>
-			<machines treeOrder="380">
-				<remoteAccess treeOrder="230">
+			<machines treeOrder="410">
+				<remoteAccess treeOrder="240">
 					<viaDuct id="thermaldynamics:thermaldynamics_64" damage="2" treeOrder="120">
 						<itemViaduct id="thermaldynamics:duct_64" treeOrder="10"/>
 						<itemLongRangeLinkingViaduct id="thermaldynamics:thermaldynamics_64" damage="2" treeOrder="20"/>
@@ -65,7 +65,7 @@
 					</viaDuct>
 				</remoteAccess>
 			</machines>
-			<machineupgrades treeOrder="390">
+			<machineupgrades treeOrder="420">
 				<transportUpgrades treeOrder="20">
 					<tePipeUpgrades treeOrder="30">
 						<itemTEPipeServo id="thermaldynamics:servo" treeOrder="10"/>

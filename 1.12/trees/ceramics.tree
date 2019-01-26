@@ -29,8 +29,8 @@
 	<equipment treeOrder="10">
 		<tool treeOrder="20">
 			<shears class="Item" data="{ToolClass : &quot;shears&quot;}" mergeChildren="true" treeOrder="60">
-				<itemClayShears id="ceramics:clay_shears" treeOrder="170"/>
-				<itemUnfiredClayShears id="ceramics:unfired_clay" damage="1" treeOrder="520"/>
+				<itemClayShears id="ceramics:clay_shears" treeOrder="180"/>
+				<itemUnfiredClayShears id="ceramics:unfired_clay" damage="1" treeOrder="530"/>
 			</shears>
 		</tool>
 		<armor treeOrder="30">
@@ -101,7 +101,7 @@
 			</constructionBlock>
 		</manufacturedBlock>
 		<mechanism treeOrder="60">
-			<basicCrafting treeOrder="360">
+			<basicCrafting treeOrder="390">
 				<furnaces treeOrder="30">
 					<tinkerSmeltry treeOrder="40">
 						<castingFaucets treeOrder="40">
@@ -117,7 +117,7 @@
 	</block>
 	<resources treeOrder="30">
 		<miningResources treeOrder="10">
-			<bricks treeOrder="200">
+			<bricks treeOrder="210">
 				<clayBrick id="brick" treeOrder="20">
 					<itemPorcelainBrick id="ceramics:unfired_clay" damage="5" treeOrder="10"/>
 				</clayBrick>
@@ -129,7 +129,7 @@
 			<bucket treeOrder="10">
 				<itemUnfiredClayBucket id="ceramics:unfired_clay" damage="0" treeOrder="30"/>
 				<itemUnfiredClayBucket id="ceramics:clay_bucket_block" treeOrder="40"/>
-				<itemClayBucket id="ceramics:clay_bucket" treeOrder="490"/>
+				<itemClayBucket id="ceramics:clay_bucket" treeOrder="500"/>
 			</bucket>
 		</fluidPortableStorage>
 		<fluidStorage treeOrder="50">

@@ -34,7 +34,7 @@
 				<itemDolly id="jabba:mover" treeOrder="30"/>
 			</blockMovers>
 			<wrench class="Item" data="{ToolClass : &quot;wrench&quot;}" mergeChildren="true" treeOrder="130">
-				<itemJABBA_hammer id="jabba:hammer" treeOrder="170"/>
+				<itemJABBA_hammer id="jabba:hammer" treeOrder="190"/>
 			</wrench>
 		</tool>
 	</equipment>
@@ -44,7 +44,7 @@
 				<barrels treeOrder="40">
 					<itemJABBA_barrel id="jabba:barrel" treeOrder="10"/>
 				</barrels>
-				<storageupgrades treeOrder="80">
+				<storageupgrades treeOrder="90">
 					<itemJABBA_upgradeStructural id="jabba:upgradestructural" treeOrder="370"/>
 					<itemJABBA_upgradeCore id="jabba:upgradecore" treeOrder="380"/>
 					<itemJABBA_upgradeSide id="jabba:upgradeside" treeOrder="390"/>

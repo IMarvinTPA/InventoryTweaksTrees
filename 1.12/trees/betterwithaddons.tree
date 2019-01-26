@@ -93,13 +93,13 @@
 		</manufacturedBlock>
 		<mechanism treeOrder="60">
 			<rails treeOrder="10">
-				<itemRustedRail id="betterwithaddons:rail_rusted" treeOrder="180"/>
+				<itemRustedRail id="betterwithaddons:rail_rusted" treeOrder="210"/>
 			</rails>
 		</mechanism>
 	</block>
 	<resources treeOrder="30">
 		<miningResources treeOrder="10">
-			<bricks treeOrder="200">
+			<bricks treeOrder="210">
 				<itemStainedBrick id="betterwithaddons:brick_stained" treeOrder="50"/>
 			</bricks>
 		</miningResources>

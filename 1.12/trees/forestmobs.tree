@@ -40,7 +40,7 @@
 	</equipment>
 	<item treeOrder="40">
 		<utility treeOrder="10">
-			<spawnerEggs treeOrder="210">
+			<spawnerEggs treeOrder="220">
 				<itemSpawnArisaur id="forestmobs:forestegg" damage="3" treeOrder="250"/>
 				<itemSpawnEnt id="forestmobs:forestegg" damage="0" treeOrder="260"/>
 				<itemSpawnShambler id="forestmobs:forestegg" damage="2" treeOrder="270"/>
@@ -56,7 +56,7 @@
 				</cookedFood>
 				<rawFood treeOrder="130">
 					<rawMeat treeOrder="20">
-						<itemforestmobs_arisaurmeatraw id="forestmobs:arisaurmeatraw" treeOrder="150"/>
+						<itemforestmobs_arisaurmeatraw id="forestmobs:arisaurmeatraw" treeOrder="160"/>
 					</rawMeat>
 				</rawFood>
 			</edibleFood>

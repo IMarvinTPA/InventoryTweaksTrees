@@ -30,15 +30,15 @@
 		<utility treeOrder="10">
 			<storage treeOrder="30">
 				<chests treeOrder="10">
-					<itemCrate id="quantumstorage:crate" treeOrder="510"/>
-					<itemIronStorageCrate id="quantumstorage:chest_iron" treeOrder="520"/>
-					<itemGoldStorageCrate id="quantumstorage:chest_gold" treeOrder="530"/>
-					<itemDiamondStorageCrate id="quantumstorage:chest_diamond" treeOrder="540"/>
+					<itemCrate id="quantumstorage:crate" treeOrder="530"/>
+					<itemIronStorageCrate id="quantumstorage:chest_iron" treeOrder="540"/>
+					<itemGoldStorageCrate id="quantumstorage:chest_gold" treeOrder="550"/>
+					<itemDiamondStorageCrate id="quantumstorage:chest_diamond" treeOrder="560"/>
 				</chests>
 				<deepStorage treeOrder="50">
 					<itemQuantumStorageUnit id="quantumstorage:quantum_storage_unit" treeOrder="20"/>
 				</deepStorage>
-				<voidStorage treeOrder="110">
+				<voidStorage treeOrder="120">
 					<voidBlocks treeOrder="10">
 						<itemFluidTrashCan id="quantumstorage:trashcanfluid" treeOrder="80"/>
 						<itemTrashCan id="quantumstorage:trashcan" treeOrder="90"/>

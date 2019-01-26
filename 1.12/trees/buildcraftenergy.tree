@@ -28,7 +28,7 @@
 <stuff treeVersion="1.12.2">
 	<resources treeOrder="30">
 		<huntingResources treeOrder="20">
-			<slimyItems treeOrder="180">
+			<slimyItems treeOrder="220">
 				<itemitem.globOil.name id="buildcraftenergy:glob_of_oil" treeOrder="50"/>
 			</slimyItems>
 		</huntingResources>

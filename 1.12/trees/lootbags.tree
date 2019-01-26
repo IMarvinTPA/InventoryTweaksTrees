@@ -32,16 +32,16 @@
 				<deepStorage treeOrder="50">
 					<itemBagStorage id="lootbags:loot_storage" treeOrder="30"/>
 				</deepStorage>
-				<treasureContainers treeOrder="100">
+				<treasureContainers treeOrder="110">
 					<itemCommonLootbag id="lootbags:itemlootbag" damage="0" treeOrder="20"/>
 					<itemUncommonLootbag id="lootbags:itemlootbag" damage="1" treeOrder="30"/>
 					<itemRareLootbag id="lootbags:itemlootbag" damage="2" treeOrder="40"/>
 					<itemEpicLootbag id="lootbags:itemlootbag" damage="3" treeOrder="50"/>
 					<itemLegendaryLootbag id="lootbags:itemlootbag" damage="4" treeOrder="60"/>
 					<itemPatientBag id="lootbags:itemlootbag" damage="13" treeOrder="70"/>
-					<itemBagOpener id="lootbags:loot_opener" treeOrder="150"/>
+					<itemBagOpener id="lootbags:loot_opener" treeOrder="170"/>
 				</treasureContainers>
-				<voidStorage treeOrder="110">
+				<voidStorage treeOrder="120">
 					<voidBlocks treeOrder="10">
 						<itemLootRecycler id="lootbags:loot_recycler" treeOrder="100"/>
 					</voidBlocks>

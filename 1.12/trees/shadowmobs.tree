@@ -42,7 +42,7 @@
 	</equipment>
 	<item treeOrder="40">
 		<utility treeOrder="10">
-			<spawnerEggs treeOrder="210">
+			<spawnerEggs treeOrder="220">
 				<itemSpawnChupacabra id="shadowmobs:shadowegg" damage="4" treeOrder="690"/>
 				<itemSpawnEpion id="shadowmobs:shadowegg" damage="2" treeOrder="700"/>
 				<itemSpawnGeist id="shadowmobs:shadowegg" damage="3" treeOrder="710"/>
@@ -58,7 +58,7 @@
 				</cookedFood>
 				<rawFood treeOrder="130">
 					<rawMeat treeOrder="20">
-						<itemshadowmobs_chupacabrameatraw id="shadowmobs:chupacabrameatraw" treeOrder="170"/>
+						<itemshadowmobs_chupacabrameatraw id="shadowmobs:chupacabrameatraw" treeOrder="180"/>
 					</rawMeat>
 				</rawFood>
 			</edibleFood>

@@ -33,7 +33,7 @@
 			</quiver>
 		</weapon>
 		<tool treeOrder="20">
-			<magnets treeOrder="310">
+			<magnets treeOrder="320">
 				<itemFluxomagnetBasic id="thermalinnovation:magnet" treeOrder="30"/>
 			</magnets>
 		</tool>

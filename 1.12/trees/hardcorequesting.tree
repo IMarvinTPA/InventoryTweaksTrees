@@ -29,8 +29,8 @@
 	<item treeOrder="40">
 		<utility treeOrder="10">
 			<storage treeOrder="30">
-				<treasureContainers treeOrder="100">
-					<itemRewardBag id="hardcorequesting:bags" treeOrder="110"/>
+				<treasureContainers treeOrder="110">
+					<itemRewardBag id="hardcorequesting:bags" treeOrder="120"/>
 				</treasureContainers>
 			</storage>
 			<readableBooks treeOrder="90">

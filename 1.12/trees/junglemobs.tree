@@ -40,7 +40,7 @@
 	</equipment>
 	<item treeOrder="40">
 		<utility treeOrder="10">
-			<spawnerEggs treeOrder="210">
+			<spawnerEggs treeOrder="220">
 				<itemSpawnConba id="junglemobs:jungleegg" damage="5" treeOrder="400"/>
 				<itemSpawnConcapede id="junglemobs:jungleegg" damage="2" treeOrder="410"/>
 				<itemSpawnConcapedeSegment id="junglemobs:jungleegg" damage="3" treeOrder="420"/>
@@ -63,7 +63,7 @@
 				</cookedFood>
 				<rawFood treeOrder="130">
 					<rawMeat treeOrder="20">
-						<itemjunglemobs_concapedemeatraw id="junglemobs:concapedemeatraw" treeOrder="180"/>
+						<itemjunglemobs_concapedemeatraw id="junglemobs:concapedemeatraw" treeOrder="190"/>
 					</rawMeat>
 				</rawFood>
 			</edibleFood>

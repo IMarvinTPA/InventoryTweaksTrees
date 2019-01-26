@@ -28,7 +28,7 @@
 <stuff treeVersion="1.12.2">
 	<block treeOrder="20">
 		<mechanism treeOrder="60">
-			<resourceTransfer treeOrder="300">
+			<resourceTransfer treeOrder="320">
 				<prPipes treeOrder="40">
 					<itemItemTransportpipe id="projred|transportation:projectred.transportation.pipe" treeOrder="10"/>
 				</prPipes>

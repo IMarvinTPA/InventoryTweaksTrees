@@ -50,7 +50,7 @@
 	</block>
 	<item treeOrder="40">
 		<parts treeOrder="120">
-			<deocrationParts treeOrder="30">
+			<deocrationParts treeOrder="40">
 				<itemBentSpindle id="missing_pieces:bent_spindle" treeOrder="10"/>
 				<itemFlatSpindle id="missing_pieces:flat_spindle" treeOrder="20"/>
 				<itemSpindle id="missing_pieces:spindle" treeOrder="30"/>

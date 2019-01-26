@@ -54,11 +54,11 @@
 					</ObsidianLevel>
 				</pickaxe>
 			</miningTool>
-			<keys treeOrder="240">
+			<keys treeOrder="250">
 				<itemRowanDoorKey id="witchery:ingredient" damage="54" treeOrder="20"/>
 				<itemRowanKeyring id="witchery:ingredient" damage="84" treeOrder="140"/>
 			</keys>
-			<instrument treeOrder="340">
+			<instrument treeOrder="350">
 				<compass treeOrder="10">
 					<itemPlayerCompass id="witchery:playercompass" treeOrder="60"/>
 					<itemPoppetShelfCompass id="witchery:shelfcompass" treeOrder="70"/>
@@ -190,8 +190,8 @@
 		<utility treeOrder="10">
 			<storage treeOrder="30">
 				<chests treeOrder="10">
-					<itemLeechChest id="witchery:leechchest" treeOrder="350"/>
-					<itemwitchery_refillingchest id="witchery:refillingchest" treeOrder="360"/>
+					<itemLeechChest id="witchery:leechchest" treeOrder="370"/>
+					<itemwitchery_refillingchest id="witchery:refillingchest" treeOrder="380"/>
 				</chests>
 			</storage>
 			<beds treeOrder="80">
@@ -213,8 +213,8 @@
 		</utility>
 		<fluidPortableStorage treeOrder="20">
 			<bucket treeOrder="10">
-				<itemwitchery_buckethollowtears id="witchery:buckethollowtears" treeOrder="240"/>
-				<itemwitchery_bucketspirit id="witchery:bucketspirit" treeOrder="370"/>
+				<itemwitchery_buckethollowtears id="witchery:buckethollowtears" treeOrder="250"/>
+				<itemwitchery_bucketspirit id="witchery:bucketspirit" treeOrder="380"/>
 			</bucket>
 		</fluidPortableStorage>
 		<instrument treeOrder="80">
@@ -256,7 +256,7 @@
 						<rawPork treeOrder="10">
 							<rawPorkchopQ id="witchery:ingredient" damage="50" treeOrder="30"/>
 						</rawPork>
-						<itemwitchery_ingredient_158 id="witchery:ingredient" damage="158" treeOrder="50"/>
+						<itemwitchery_ingredient_158 id="witchery:ingredient" damage="158" treeOrder="60"/>
 					</rawMeat>
 				</rawFood>
 			</edibleFood>

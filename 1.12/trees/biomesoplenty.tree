@@ -173,7 +173,7 @@
 	<resources treeOrder="30">
 		<miningResources treeOrder="10">
 			<oreBlock treeOrder="120">
-				<blockAmethystDict oreDictName="blockAmethyst" treeOrder="110">
+				<blockAmethystDict oreDictName="blockAmethyst" treeOrder="130">
 					<itemBlockofAmethyst id="biomesoplenty:gemore" damage="1" treeOrder="10"/>
 				</blockAmethystDict>
 			</oreBlock>
@@ -187,7 +187,7 @@
 	<item treeOrder="40">
 		<fluidPortableStorage treeOrder="20">
 			<bucket treeOrder="10">
-				<itemBiomesOPlenty_bopBucket id="biomesoplenty:bopbucket" treeOrder="130"/>
+				<itemBiomesOPlenty_bopBucket id="biomesoplenty:bopbucket" treeOrder="140"/>
 			</bucket>
 		</fluidPortableStorage>
 		<decoration treeOrder="130">

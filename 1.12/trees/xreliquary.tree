@@ -54,11 +54,8 @@
 		</manufacturedBlock>
 		<mechanism treeOrder="60">
 			<lighting treeOrder="30">
-				<torch treeOrder="10">
-					<itemInterdictionTorch id="xreliquary:interdiction_torch" treeOrder="10"/>
-				</torch>
-				<mobWarding id="enderio:blockspawnguard" treeOrder="160">
-					<itemInterdictionTorch id="xreliquary:interdiction_torch" treeOrder="20"/>
+				<mobWarding treeOrder="170">
+					<itemInterdictionTorch id="xreliquary:interdiction_torch" treeOrder="40"/>
 				</mobWarding>
 			</lighting>
 		</mechanism>

@@ -48,7 +48,7 @@
 	</equipment>
 	<item treeOrder="40">
 		<utility treeOrder="10">
-			<spawnerEggs treeOrder="210">
+			<spawnerEggs treeOrder="220">
 				<itemSpawnClink id="desertmobs:desertegg" damage="2" treeOrder="170"/>
 				<itemSpawnCrusk id="desertmobs:desertegg" damage="1" treeOrder="180"/>
 				<itemSpawnCryptZombie id="desertmobs:desertegg" damage="0" treeOrder="190"/>
@@ -66,7 +66,7 @@
 				</cookedFood>
 				<rawFood treeOrder="130">
 					<rawMeat treeOrder="20">
-						<itemdesertmobs_joustmeatraw id="desertmobs:joustmeatraw" treeOrder="200"/>
+						<itemdesertmobs_joustmeatraw id="desertmobs:joustmeatraw" treeOrder="210"/>
 					</rawMeat>
 				</rawFood>
 			</edibleFood>

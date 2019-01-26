@@ -46,7 +46,7 @@
 	</equipment>
 	<item treeOrder="40">
 		<utility treeOrder="10">
-			<spawnerEggs treeOrder="210">
+			<spawnerEggs treeOrder="220">
 				<itemSpawnAstaroth id="demonmobs:demonegg" damage="4" treeOrder="90"/>
 				<itemSpawnBehemoth id="demonmobs:demonegg" damage="1" treeOrder="100"/>
 				<itemSpawnBelph id="demonmobs:demonegg" damage="0" treeOrder="110"/>
@@ -64,7 +64,7 @@
 				</cookedFood>
 				<rawFood treeOrder="130">
 					<rawMeat treeOrder="20">
-						<itemdemonmobs_pinkymeatraw id="demonmobs:pinkymeatraw" treeOrder="220"/>
+						<itemdemonmobs_pinkymeatraw id="demonmobs:pinkymeatraw" treeOrder="230"/>
 					</rawMeat>
 				</rawFood>
 			</edibleFood>

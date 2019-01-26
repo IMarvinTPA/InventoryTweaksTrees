@@ -168,19 +168,19 @@
 		</utility>
 		<fluidPortableStorage treeOrder="20">
 			<bucket treeOrder="10">
-				<itemPlantTonic id="thebetweenlands:bl_bucket_plant_tonic" treeOrder="510"/>
 				<itemPlantTonic id="thebetweenlands:bl_bucket_plant_tonic" treeOrder="520"/>
-				<itemSyrmoriteBucket id="thebetweenlands:bl_bucket" treeOrder="530"/>
-				<itemSyrmoriteBucketRubber id="thebetweenlands:bl_bucket_rubber" treeOrder="540"/>
-				<itemSyrmoriteBucketStagnantWater id="thebetweenlands:bl_bucket" treeOrder="550"/>
-				<itemSyrmoriteBucketSwampWater id="thebetweenlands:bl_bucket" treeOrder="560"/>
-				<itemSyrmoriteBucketTar id="thebetweenlands:bl_bucket" treeOrder="570"/>
-				<itemSyrmoriteBucketwithSolidRubber id="thebetweenlands:syrmorite_bucket_solid_rubber" treeOrder="580"/>
-				<itemWeedwoodBucket id="thebetweenlands:bl_bucket" treeOrder="590"/>
-				<itemWeedwoodBucketRubber id="thebetweenlands:bl_bucket_rubber" treeOrder="600"/>
-				<itemWeedwoodBucketStagnantWater id="thebetweenlands:bl_bucket" treeOrder="610"/>
-				<itemWeedwoodBucketSwampWater id="thebetweenlands:bl_bucket" treeOrder="620"/>
-				<itemWeedwoodBucketTar id="thebetweenlands:bl_bucket" treeOrder="630"/>
+				<itemPlantTonic id="thebetweenlands:bl_bucket_plant_tonic" treeOrder="530"/>
+				<itemSyrmoriteBucket id="thebetweenlands:bl_bucket" treeOrder="540"/>
+				<itemSyrmoriteBucketRubber id="thebetweenlands:bl_bucket_rubber" treeOrder="550"/>
+				<itemSyrmoriteBucketStagnantWater id="thebetweenlands:bl_bucket" treeOrder="560"/>
+				<itemSyrmoriteBucketSwampWater id="thebetweenlands:bl_bucket" treeOrder="570"/>
+				<itemSyrmoriteBucketTar id="thebetweenlands:bl_bucket" treeOrder="580"/>
+				<itemSyrmoriteBucketwithSolidRubber id="thebetweenlands:syrmorite_bucket_solid_rubber" treeOrder="590"/>
+				<itemWeedwoodBucket id="thebetweenlands:bl_bucket" treeOrder="600"/>
+				<itemWeedwoodBucketRubber id="thebetweenlands:bl_bucket_rubber" treeOrder="610"/>
+				<itemWeedwoodBucketStagnantWater id="thebetweenlands:bl_bucket" treeOrder="620"/>
+				<itemWeedwoodBucketSwampWater id="thebetweenlands:bl_bucket" treeOrder="630"/>
+				<itemWeedwoodBucketTar id="thebetweenlands:bl_bucket" treeOrder="640"/>
 			</bucket>
 		</fluidPortableStorage>
 		<decoration treeOrder="130">

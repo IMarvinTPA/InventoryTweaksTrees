@@ -71,24 +71,24 @@
 					<itemDraconicHoe id="draconicevolution:draconic_hoe" treeOrder="40"/>
 				</hoe>
 			</farmingTool>
-			<exchangeBlockTools mergeChildren="true" treeOrder="190">
+			<exchangeBlockTools mergeChildren="true" treeOrder="200">
 				<itemCreativeBlockExchanger id="draconicevolution:creative_exchanger" treeOrder="100"/>
 			</exchangeBlockTools>
-			<magnets treeOrder="310">
+			<magnets treeOrder="320">
 				<itemItemDislocator id="draconicevolution:magnet" treeOrder="80"/>
 			</magnets>
-			<teleport treeOrder="320">
-				<itemAdvancedDislocator id="draconicevolution:dislocator_advanced" treeOrder="100"/>
-				<itemDislocator id="draconicevolution:dislocator" treeOrder="110"/>
+			<teleport treeOrder="330">
+				<itemAdvancedDislocator id="draconicevolution:dislocator_advanced" treeOrder="120"/>
+				<itemDislocator id="draconicevolution:dislocator" treeOrder="130"/>
 			</teleport>
 		</tool>
 	</equipment>
 	<item treeOrder="40">
 		<utility treeOrder="10">
 			<storage treeOrder="30">
-				<powerStorage treeOrder="120">
-					<itemCreativeFluxCapacitor id="draconicevolution:draconium_capacitor" treeOrder="100"/>
-				</powerStorage>
+				<portablePowerStorage treeOrder="140">
+					<itemCreativeFluxCapacitor id="draconicevolution:draconium_capacitor" treeOrder="20"/>
+				</portablePowerStorage>
 			</storage>
 		</utility>
 	</item>

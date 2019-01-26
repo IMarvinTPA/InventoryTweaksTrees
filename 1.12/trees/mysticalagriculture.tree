@@ -117,15 +117,15 @@
 					<itemSupremiumHoe id="mysticalagriculture:supremium_hoe" treeOrder="930"/>
 				</hoe>
 				<otherFarmingTools treeOrder="60">
-					<itemInferiumWateringCan id="mysticalagriculture:watering_can" treeOrder="90"/>
+					<itemInferiumWateringCan id="mysticalagriculture:watering_can" treeOrder="110"/>
 				</otherFarmingTools>
 			</farmingTool>
 			<shears class="Item" data="{ToolClass : &quot;shears&quot;}" mergeChildren="true" treeOrder="60">
-				<itemInferiumShears id="mysticalagriculture:inferium_shears" treeOrder="210"/>
-				<itemIntermediumShears id="mysticalagriculture:intermedium_shears" treeOrder="220"/>
-				<itemPrudentiumShears id="mysticalagriculture:prudentium_shears" treeOrder="230"/>
-				<itemSuperiumShears id="mysticalagriculture:superium_shears" treeOrder="240"/>
-				<itemSupremiumShears id="mysticalagriculture:supremium_shears" treeOrder="250"/>
+				<itemInferiumShears id="mysticalagriculture:inferium_shears" treeOrder="220"/>
+				<itemIntermediumShears id="mysticalagriculture:intermedium_shears" treeOrder="230"/>
+				<itemPrudentiumShears id="mysticalagriculture:prudentium_shears" treeOrder="240"/>
+				<itemSuperiumShears id="mysticalagriculture:superium_shears" treeOrder="250"/>
+				<itemSupremiumShears id="mysticalagriculture:supremium_shears" treeOrder="260"/>
 			</shears>
 			<fishingRod class="Item" data="{ToolClass : &quot;fishingrod&quot;}" treeOrder="70">
 				<itemInferiumFishingRod id="mysticalagriculture:inferium_fishing_rod" treeOrder="170"/>
@@ -183,7 +183,7 @@
 					<itemSoulstone id="mysticalagriculture:soulstone" treeOrder="10"/>
 				</stoneSoul>
 			</stones>
-			<obsidian treeOrder="290">
+			<obsidian treeOrder="300">
 				<blockReinforcedObsidianDict oreDictName="blockReinforcedObsidian" treeOrder="50">
 					<itemWitherproofBlock id="mysticalagriculture:witherproof_block" treeOrder="40"/>
 				</blockReinforcedObsidianDict>
@@ -200,7 +200,7 @@
 						<glassDict oreDictName="glass" treeOrder="10">
 							<itemSoulGlass id="mysticalagriculture:soul_glass" treeOrder="30"/>
 						</glassDict>
-						<blockReinforcedGlassDict oreDictName="blockReinforcedGlass" treeOrder="70">
+						<blockReinforcedGlassDict oreDictName="blockReinforcedGlass" treeOrder="80">
 							<itemWitherproofGlass id="mysticalagriculture:witherproof_glass" treeOrder="20"/>
 						</blockReinforcedGlassDict>
 					</glassBlock>
@@ -226,30 +226,30 @@
 		<mechanism treeOrder="60">
 			<lighting treeOrder="30">
 				<torch treeOrder="10">
-					<itemMinersTorch id="mysticalagriculture:miners_torch" treeOrder="580"/>
+					<itemMinersTorch id="mysticalagriculture:miners_torch" treeOrder="570"/>
 				</torch>
-				<decorativeLights treeOrder="110">
+				<decorativeLights treeOrder="120">
 					<itemGlowstoneLamp id="mysticalagriculture:glowstone_lamp" treeOrder="330"/>
 				</decorativeLights>
 			</lighting>
-			<basicCrafting treeOrder="360">
+			<basicCrafting treeOrder="390">
 				<tinkerToolCrafting treeOrder="20">
 					<itemTinkeringTable id="mysticalagriculture:tinkering_table" treeOrder="190"/>
 				</tinkerToolCrafting>
 				<furnaces treeOrder="30">
 					<simpleFurnaces treeOrder="30">
-						<itemInferiumFurnace id="mysticalagriculture:inferium_furnace" treeOrder="120"/>
-						<itemIntermediumFurnace id="mysticalagriculture:intermedium_furnace" treeOrder="130"/>
-						<itemPrudentiumFurnace id="mysticalagriculture:prudentium_furnace" treeOrder="140"/>
-						<itemSuperiumFurnace id="mysticalagriculture:superium_furnace" treeOrder="150"/>
-						<itemSupremiumFurnace id="mysticalagriculture:supremium_furnace" treeOrder="160"/>
-						<itemUltimateFurnace id="mysticalagriculture:ultimate_furnace" treeOrder="170"/>
+						<itemInferiumFurnace id="mysticalagriculture:inferium_furnace" treeOrder="130"/>
+						<itemIntermediumFurnace id="mysticalagriculture:intermedium_furnace" treeOrder="140"/>
+						<itemPrudentiumFurnace id="mysticalagriculture:prudentium_furnace" treeOrder="150"/>
+						<itemSuperiumFurnace id="mysticalagriculture:superium_furnace" treeOrder="160"/>
+						<itemSupremiumFurnace id="mysticalagriculture:supremium_furnace" treeOrder="170"/>
+						<itemUltimateFurnace id="mysticalagriculture:ultimate_furnace" treeOrder="180"/>
 					</simpleFurnaces>
 				</furnaces>
 			</basicCrafting>
-			<machines treeOrder="380">
+			<machines treeOrder="410">
 				<poweredFarming treeOrder="40">
-					<itemSeedReprocessor id="mysticalagriculture:seed_reprocessor" treeOrder="210"/>
+					<itemSeedReprocessor id="mysticalagriculture:seed_reprocessor" treeOrder="230"/>
 				</poweredFarming>
 			</machines>
 		</mechanism>
@@ -263,10 +263,10 @@
 			</nugget>
 		</miningResources>
 		<huntingResources treeOrder="20">
-			<string id="string" treeOrder="110">
+			<string id="string" treeOrder="150">
 				<itemMysticalString id="mysticalagriculture:crafting" damage="23" treeOrder="60"/>
 			</string>
-			<mobChunks treeOrder="370">
+			<mobChunks treeOrder="410">
 				<mobChunkLow treeOrder="10">
 					<itemMobChunk id="mysticalagriculture:chunk" treeOrder="10"/>
 				</mobChunkLow>
@@ -276,7 +276,7 @@
 	<item treeOrder="40">
 		<parts treeOrder="120">
 			<mechanicalParts treeOrder="10">
-				<frames treeOrder="110">
+				<frames treeOrder="120">
 					<itemMysticalMachineFrame id="mysticalagriculture:mystical_machine_frame" treeOrder="170"/>
 				</frames>
 			</mechanicalParts>
@@ -309,7 +309,7 @@
 				<itemInferiumSeeds id="mysticalagriculture:tier5_inferium_seeds" treeOrder="1220"/>
 			</seed>
 			<seedlings treeOrder="70">
-				<mysticalCrops treeOrder="630">
+				<mysticalCrops treeOrder="670">
 					<itemAluminumBrassCrop id="mysticalagriculture:aluminum_brass_crop" treeOrder="10"/>
 					<itemAluminumCrop id="mysticalagriculture:aluminum_crop" treeOrder="20"/>
 					<itemAlumiteCrop id="mysticalagriculture:alumite_crop" treeOrder="30"/>
@@ -421,8 +421,8 @@
 			</seedlings>
 			<fertilizer treeOrder="80">
 				<fertilizerDict oreDictName="fertilizer" treeOrder="30">
-					<itemFertilizedEssence id="mysticalagriculture:fertilized_essence" treeOrder="50"/>
-					<itemMysticalFertilizer id="mysticalagriculture:mystical_fertilizer" treeOrder="60"/>
+					<itemFertilizedEssence id="mysticalagriculture:fertilized_essence" treeOrder="60"/>
+					<itemMysticalFertilizer id="mysticalagriculture:mystical_fertilizer" treeOrder="70"/>
 				</fertilizerDict>
 				<mulches treeOrder="50">
 					<itemGrowthAccelerator id="mysticalagriculture:growth_accelerator" treeOrder="10"/>

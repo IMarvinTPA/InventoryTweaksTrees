@@ -29,7 +29,7 @@
 	<item treeOrder="40">
 		<utility treeOrder="10">
 			<storage treeOrder="30">
-				<storageupgrades treeOrder="80">
+				<storageupgrades treeOrder="90">
 					<itemBlankUpgrade id="improvedbackpacks:blank_upgrade" damage="0" treeOrder="450"/>
 					<itemBoundLeather id="improvedbackpacks:bound_leather" damage="0" treeOrder="460"/>
 					<itemEnderBackpack id="improvedbackpacks:ender_backpack" damage="0" treeOrder="470"/>
@@ -40,7 +40,7 @@
 					<itemStorageUpgradeStone id="improvedbackpacks:upgrade" damage="1" treeOrder="520"/>
 					<itemStorageUpgradeWood id="improvedbackpacks:upgrade" damage="0" treeOrder="530"/>
 				</storageupgrades>
-				<portableStorage treeOrder="90">
+				<portableStorage treeOrder="100">
 					<itemBackpack id="improvedbackpacks:backpack" treeOrder="80"/>
 				</portableStorage>
 			</storage>

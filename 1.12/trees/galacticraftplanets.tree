@@ -106,8 +106,8 @@
 	<item treeOrder="40">
 		<fluidPortableStorage treeOrder="20">
 			<bucket treeOrder="10">
-				<itemBacterialSludgeBucket id="galacticraftplanets:bucket_sludge" treeOrder="470"/>
-				<itemSulfuricAcidBucket id="galacticraftplanets:bucket_sulphuric_acid" treeOrder="480"/>
+				<itemBacterialSludgeBucket id="galacticraftplanets:bucket_sludge" treeOrder="480"/>
+				<itemSulfuricAcidBucket id="galacticraftplanets:bucket_sulphuric_acid" treeOrder="490"/>
 			</bucket>
 		</fluidPortableStorage>
 	</item>

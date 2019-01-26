@@ -32,7 +32,7 @@
 				<chests treeOrder="10">
 					<ironChests id="ironchest:iron_chest" treeOrder="210"/>
 				</chests>
-				<storageupgrades treeOrder="80">
+				<storageupgrades treeOrder="90">
 					<itemIronChest_woodCopperUpgrade id="ironchest:woodcopperupgrade" treeOrder="10"/>
 					<itemWoodtoCopperChestUpgrade id="ironchest:wood_copper_chest_upgrade" treeOrder="20"/>
 					<itemIronChest_woodIronUpgrade id="ironchest:woodironupgrade" treeOrder="30"/>

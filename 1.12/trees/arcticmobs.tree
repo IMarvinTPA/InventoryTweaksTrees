@@ -48,7 +48,7 @@
 	</equipment>
 	<item treeOrder="40">
 		<utility treeOrder="10">
-			<spawnerEggs treeOrder="210">
+			<spawnerEggs treeOrder="220">
 				<itemSpawnArix id="arcticmobs:arcticegg" damage="4" treeOrder="30"/>
 				<itemSpawnFrostweaver id="arcticmobs:arcticegg" damage="1" treeOrder="40"/>
 				<itemSpawnReiver id="arcticmobs:arcticegg" damage="0" treeOrder="50"/>
@@ -59,7 +59,7 @@
 		</utility>
 		<fluidPortableStorage treeOrder="20">
 			<bucket treeOrder="10">
-				<itemarcticmobs_bucketooze id="arcticmobs:bucketooze" treeOrder="310"/>
+				<itemarcticmobs_bucketooze id="arcticmobs:bucketooze" treeOrder="320"/>
 			</bucket>
 		</fluidPortableStorage>
 		<food treeOrder="160">
@@ -74,7 +74,7 @@
 				</cookedFood>
 				<rawFood treeOrder="130">
 					<rawMeat treeOrder="20">
-						<itemarcticmobs_yetimeatraw id="arcticmobs:yetimeatraw" treeOrder="250"/>
+						<itemarcticmobs_yetimeatraw id="arcticmobs:yetimeatraw" treeOrder="260"/>
 					</rawMeat>
 				</rawFood>
 			</edibleFood>
