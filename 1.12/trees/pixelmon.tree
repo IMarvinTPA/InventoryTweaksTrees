@@ -23,7 +23,7 @@
 <stuff treeVersion="1.12.2">
 	<block>
 		<manufacturedBlock>
-            <constructionBlock>
+			<constructionBlock>
 				<oreBlock>
 					<pxmn_fossil id="pixelmon:fossil"/>
 					<pxmn_amethyst_block id="pixelmon:amethyst_block"/>
@@ -31,7 +31,7 @@
 					<pxmn_ruby_block id="pixelmon:ruby_block"/>
 					<pxmn_sapphire_block id="pixelmon:sapphire_block"/>
 				</oreBlock>
-            </constructionBlock>
+			</constructionBlock>
 		</manufacturedBlock>
 		<pxmnBlock>
 			<pxmnMachine>
