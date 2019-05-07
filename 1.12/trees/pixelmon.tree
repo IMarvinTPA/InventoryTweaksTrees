@@ -1,0 +1,1170 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+|=================================================================|
+| INVENTORY TWEAKS Mod - https://inventory-tweaks.readthedocs.org |
+| Tree configuration                                              |
+|=================================================================|
+
+# Q: WHAT IS THIS?
+# A: This file is used to store all the keywords you can use to create item rules, but also to define the items order.
+# You can move/change all that you want, but it's recommended not to delete any default item.
+
+# Q: MY CUSTOM FILE WAS REPLACED =(  
+# A: Since a new major version of Minecraft appeared, I silently updated the tree... BUT!
+# I kept a backup of your version in the same directory. Sorry for the trouble, feel free to import your changes in the new file.
+
+# Q: THE FILE IS BROKEN AND I DON'T KNOW WHAT TO DO =(
+# A: Just delete this file, the default tree will be reloaded next time you sort something!
+
+# CREDITS
+# Thanks to Larandar & Lunaqua for their contributions.
+-->
+<!-- Note: 'stuff' matches everything, even items that don't appear here -->
+<stuff treeVersion="1.12.2">
+	<block>
+		<manufacturedBlock>
+			<constructionBlock>
+				<oreBlock>
+					<pxmn_fossil id="pixelmon:fossil"/>
+					<pxmn_amethyst_block id="pixelmon:amethyst_block"/>
+					<pxmn_crystal_block id="pixelmon:crystal_block"/>
+					<pxmn_ruby_block id="pixelmon:ruby_block"/>
+					<pxmn_sapphire_block id="pixelmon:sapphire_block"/>
+				</oreBlock>
+			</constructionBlock>
+		</manufacturedBlock>
+		<pxmnBlock>
+			<pxmnMachine>
+				<pxmn_pc id="pixelmon:pc"/>
+				<pxmn_ranch id="pixelmon:ranch"/>
+				<pxmn_anvil id="pixelmon:anvil"/>
+				<pxmn_mechanical_anvil id="pixelmon:mechanical_anvil"/>
+				<pxmn_healer id="pixelmon:healer"/>
+				<pxmn_trade_machine id="pixelmon:trade_machine"/>
+				<pxmn_fossil_cleaner id="pixelmon:fossil_cleaner"/>
+				<pxmn_fossil_machine id="pixelmon:fossil_machine"/>
+				<pxmn_cloning_machine id="pixelmon:cloning_machine"/>
+			</pxmnMachine>
+			<pxmn_pixelmon_spawner id="pixelmon:pixelmon_spawner"/>
+			<pxmn_temple_brick id="pixelmon:temple_brick"/>
+			<pxmn_temple_block id="pixelmon:temple_block"/>
+			<pxmn_temple_stairs id="pixelmon:temple_stairs"/>
+			<pxmn_temple_brick_stairs id="pixelmon:temple_brick_stairs"/>
+			<pxmn_temple_pillar id="pixelmon:temple_pillar"/>
+			<pxmn_temple_pillar id="pixelmon:temple_pillar"/>
+			<pxmn_articuno_shrine id="pixelmon:articuno_shrine"/>
+			<pxmn_zapdos_shrine id="pixelmon:zapdos_shrine"/>
+			<pxmn_moltres_shrine id="pixelmon:moltres_shrine"/>
+			<pxmn_poke_chest id="pixelmon:poke_chest"/>
+			<pxmn_ultra_chest id="pixelmon:ultra_chest"/>
+			<pxmn_master_chest id="pixelmon:master_chest"/>
+			<pxmn_item_finder id="pixelmon:item_finder"/>
+			<pxmn_grotto_spawner id="pixelmon:grotto_spawner"/>
+			<pxmn_moss_rock id="pixelmon:moss_rock"/>
+			<pxmn_ice_rock id="pixelmon:ice_rock"/>
+			<pxmn_hidden_cube id="pixelmon:hidden_cube"/>
+			<pxmn_hidden_iron_door id="pixelmon:hidden_iron_door"/>
+			<pxmn_hidden_pressure_plate id="pixelmon:hidden_pressure_plate"/>
+			<pxmn_hidden_wooden_door id="pixelmon:hidden_wooden_door"/>
+			<pxmn_gift_box id="pixelmon:gift_box"/>
+			<pxmn_bolder id="pixelmon:bolder"/>
+			<pxmn_box id="pixelmon:box"/>
+			<pxmn_bridge_block id="pixelmon:bridge_block"/>
+			<pxmn_cave_rock id="pixelmon:cave_rock"/>
+			<pxmn_chair id="pixelmon:chair"/>
+			<pxmn_blue_clock id="pixelmon:blue_clock"/>
+			<pxmn_pink_clock id="pixelmon:pink_clock"/>
+			<pxmn_clothed_table id="pixelmon:clothed_table"/>
+			<pxmn_red_cushion_chair id="pixelmon:red_cushion_chair"/>
+			<pxmn_yellow_cushion_chair id="pixelmon:yellow_cushion_chair"/>
+			<pxmn_end_table id="pixelmon:end_table"/>
+			<pxmn_fossil_display id="pixelmon:fossil_display"/>
+			<pxmn_fridge id="pixelmon:fridge"/>
+			<pxmn_green_folding_chair id="pixelmon:green_folding_chair"/>
+			<pxmn_gym_sign id="pixelmon:gym_sign"/>
+			<pxmn_inside_wall id="pixelmon:inside_wall"/>
+			<pxmn_inside_wall_molding id="pixelmon:inside_wall_molding"/>
+			<pxmn_outside_wall id="pixelmon:outside_wall"/>
+			<pxmn_picket_fence id="pixelmon:picket_fence"/>
+			<pxmn_blue_rug id="pixelmon:blue_rug"/>
+			<pxmn_green_rug id="pixelmon:green_rug"/>
+			<pxmn_red_rug id="pixelmon:red_rug"/>
+			<pxmn_yellow_rug id="pixelmon:yellow_rug"/>
+			<pxmn_pokecenter_sign id="pixelmon:pokecenter_sign"/>
+			<pxmn_poke_dirt id="pixelmon:poke_dirt"/>
+			<pxmn_pokemart_sign id="pixelmon:pokemart_sign"/>
+			<pxmn_poke_sand id="pixelmon:poke_sand"/>
+			<pxmn_poke_sand_corner1 id="pixelmon:poke_sand_corner1"/>
+			<pxmn_poke_sand_corner2 id="pixelmon:poke_sand_corner2"/>
+			<pxmn_poke_sand_corner3 id="pixelmon:poke_sand_corner3"/>
+			<pxmn_poke_sand_corner4 id="pixelmon:poke_sand_corner4"/>
+			<pxmn_poke_sand_side1 id="pixelmon:poke_sand_side1"/>
+			<pxmn_poke_sand_side2 id="pixelmon:poke_sand_side2"/>
+			<pxmn_poke_sand_side3 id="pixelmon:poke_sand_side3"/>
+			<pxmn_poke_sand_side4 id="pixelmon:poke_sand_side4"/>
+			<pxmn_rock id="pixelmon:rock"/>
+			<pxmn_sandy_grass id="pixelmon:sandy_grass"/>
+			<pxmn_shingles id="pixelmon:shingles"/>
+			<pxmn_shingles_corner1 id="pixelmon:shingles_corner1"/>
+			<pxmn_shingles_corner2 id="pixelmon:shingles_corner2"/>
+			<pxmn_trash_can id="pixelmon:trash_can"/>
+			<pxmn_tree id="pixelmon:tree"/>
+			<pxmn_tree_bottom id="pixelmon:tree_bottom"/>
+			<pxmn_tree_top id="pixelmon:tree_top"/>
+			<pxmn_tv id="pixelmon:tv"/>
+			<pxmn_blue_umbrella id="pixelmon:blue_umbrella"/>
+			<pxmn_green_umbrella id="pixelmon:green_umbrella"/>
+			<pxmn_red_umbrella id="pixelmon:red_umbrella"/>
+			<pxmn_yellow_umbrella id="pixelmon:yellow_umbrella"/>
+			<pxmn_blue_vending_machine id="pixelmon:blue_vending_machine"/>
+			<pxmn_green_vending_machine id="pixelmon:green_vending_machine"/>
+			<pxmn_orange_vending_machine id="pixelmon:orange_vending_machine"/>
+			<pxmn_pink_vending_machine id="pixelmon:pink_vending_machine"/>
+			<pxmn_red_vending_machine id="pixelmon:red_vending_machine"/>
+			<pxmn_yellow_vending_machine id="pixelmon:yellow_vending_machine"/>
+			<pxmn_blue_water_float id="pixelmon:blue_water_float"/>
+			<pxmn_green_water_float id="pixelmon:green_water_float"/>
+			<pxmn_orange_water_float id="pixelmon:orange_water_float"/>
+			<pxmn_pink_water_float id="pixelmon:pink_water_float"/>
+			<pxmn_purple_water_float id="pixelmon:purple_water_float"/>
+			<pxmn_red_water_float id="pixelmon:red_water_float"/>
+			<pxmn_yellow_water_float id="pixelmon:yellow_water_float"/>
+			<pxmn_window1 id="pixelmon:window1"/>
+			<pxmn_window2 id="pixelmon:window2"/>
+			<pxmn_wooden_flooring id="pixelmon:wooden_flooring"/>
+			<pxmn_poke_gift id="pixelmon:poke_gift"/>
+			<pxmn_poke_gift_event id="pixelmon:poke_gift_event"/>
+			<pxmn_pixelmon_grass id="pixelmon:pixelmon_grass"/>
+			<pxmn_elevator id="pixelmon:elevator"/>
+			<pxmn_movement_plate id="pixelmon:movement_plate"/>
+			<pxmn_timed_fall id="pixelmon:timed_fall"/>
+			<pxmn_warp_plate id="pixelmon:warp_plate"/>
+			<pxmn_pixelmon_sprite id="pixelmon:pixelmon_sprite"/>
+			<pxmn_painting id="pixelmon:painting"/>
+			<pxmn_stick_plate id="pixelmon:stick_plate"/>
+			<pxmn_poke_grass id="pixelmon:poke_grass"/>
+			<pxmn_ruins_wall id="pixelmon:ruins_wall"/>
+			<pxmn_dusty_ruins_wall id="pixelmon:dusty_ruins_wall"/>
+			<pxmn_spawner_cave_rock id="pixelmon:spawner_cave_rock"/>
+			<pxmn_unown_block id="pixelmon:unown_block"/>
+			<pxmn_unown_block2 id="pixelmon:unown_block2"/>
+			<pxmn_braille_block id="pixelmon:braille_block"/>
+			<pxmn_braille_block2 id="pixelmon:braille_block2"/>
+		</pxmnBlock>
+	</block>
+    <equipment>
+        <weapon>
+            <sword>
+				<pxmn_aluminium_sword id="pixelmon:aluminium_sword"/>
+				<pxmn_amethyst_sword id="pixelmon:amethyst_sword"/>
+				<pxmn_crystal_sword id="pixelmon:crystal_sword"/>
+				<pxmn_ruby_sword id="pixelmon:ruby_sword"/>
+				<pxmn_sapphire_sword id="pixelmon:sapphire_sword"/>
+				<pxmn_dawn_stone_sword id="pixelmon:dawn_stone_sword"/>
+				<pxmn_dusk_stone_sword id="pixelmon:dusk_stone_sword"/>
+				<pxmn_fire_stone_sword id="pixelmon:fire_stone_sword"/>
+				<pxmn_leaf_stone_sword id="pixelmon:leaf_stone_sword"/>
+				<pxmn_moon_stone_sword id="pixelmon:moon_stone_sword"/>
+				<pxmn_sun_stone_sword id="pixelmon:sun_stone_sword"/>
+				<pxmn_thunder_stone_sword id="pixelmon:thunder_stone_sword"/>
+				<pxmn_water_stone_sword id="pixelmon:water_stone_sword"/>
+            </sword>
+        </weapon>
+        <tool>
+            <pickaxe>
+				<pxmn_aluminium_pickaxe id="pixelmon:aluminium_pickaxe"/>
+				<pxmn_amethyst_pickaxe id="pixelmon:amethyst_pickaxe"/>
+				<pxmn_crystal_pickaxe id="pixelmon:crystal_pickaxe"/>
+				<pxmn_ruby_pickaxe id="pixelmon:ruby_pickaxe"/>
+				<pxmn_sapphire_pickaxe id="pixelmon:sapphire_pickaxe"/>
+				<pxmn_dawn_stone_pickaxe id="pixelmon:dawn_stone_pickaxe"/>
+				<pxmn_dusk_stone_pickaxe id="pixelmon:dusk_stone_pickaxe"/>
+				<pxmn_fire_stone_pickaxe id="pixelmon:fire_stone_pickaxe"/>
+				<pxmn_leaf_stone_pickaxe id="pixelmon:leaf_stone_pickaxe"/>
+				<pxmn_moon_stone_pickaxe id="pixelmon:moon_stone_pickaxe"/>
+				<pxmn_sun_stone_pickaxe id="pixelmon:sun_stone_pickaxe"/>
+				<pxmn_thunder_stone_pickaxe id="pixelmon:thunder_stone_pickaxe"/>
+				<pxmn_water_stone_pickaxe id="pixelmon:water_stone_pickaxe"/>
+            </pickaxe>
+            <shovel>
+				<pxmn_aluminium_shovel id="pixelmon:aluminium_shovel"/>
+				<pxmn_amethyst_shovel id="pixelmon:amethyst_shovel"/>
+				<pxmn_crystal_shovel id="pixelmon:crystal_shovel"/>
+				<pxmn_ruby_shovel id="pixelmon:ruby_shovel"/>
+				<pxmn_sapphire_shovel id="pixelmon:sapphire_shovel"/>
+				<pxmn_dawn_stone_shovel id="pixelmon:dawn_stone_shovel"/>
+				<pxmn_dusk_stone_shovel id="pixelmon:dusk_stone_shovel"/>
+				<pxmn_fire_stone_shovel id="pixelmon:fire_stone_shovel"/>
+				<pxmn_leaf_stone_shovel id="pixelmon:leaf_stone_shovel"/>
+				<pxmn_moon_stone_shovel id="pixelmon:moon_stone_shovel"/>
+				<pxmn_sun_stone_shovel id="pixelmon:sun_stone_shovel"/>
+				<pxmn_thunder_stone_shovel id="pixelmon:thunder_stone_shovel"/>
+				<pxmn_water_stone_shovel id="pixelmon:water_stone_shovel"/>
+            </shovel>
+            <axe>
+				<pxmn_aluminium_axe id="pixelmon:aluminium_axe"/>
+				<pxmn_amethyst_axe id="pixelmon:amethyst_axe"/>
+				<pxmn_crystal_axe id="pixelmon:crystal_axe"/>
+				<pxmn_ruby_axe id="pixelmon:ruby_axe"/>
+				<pxmn_sapphire_axe id="pixelmon:sapphire_axe"/>
+				<pxmn_dawn_stone_axe id="pixelmon:dawn_stone_axe"/>
+				<pxmn_dusk_stone_axe id="pixelmon:dusk_stone_axe"/>
+				<pxmn_fire_stone_axe id="pixelmon:fire_stone_axe"/>
+				<pxmn_leaf_stone_axe id="pixelmon:leaf_stone_axe"/>
+				<pxmn_moon_stone_axe id="pixelmon:moon_stone_axe"/>
+				<pxmn_sun_stone_axe id="pixelmon:sun_stone_axe"/>
+				<pxmn_thunder_stone_axe id="pixelmon:thunder_stone_axe"/>
+				<pxmn_water_stone_axe id="pixelmon:water_stone_axe"/>
+            </axe>
+            <hoe>
+				<pxmn_aluminium_hoe id="pixelmon:aluminium_hoe"/>
+				<pxmn_amethyst_hoe id="pixelmon:amethyst_hoe"/>
+				<pxmn_crystal_hoe id="pixelmon:crystal_hoe"/>
+				<pxmn_ruby_hoe id="pixelmon:ruby_hoe"/>
+				<pxmn_sapphire_hoe id="pixelmon:sapphire_hoe"/>
+				<pxmn_dawn_stone_hoe id="pixelmon:dawn_stone_hoe"/>
+				<pxmn_dusk_stone_hoe id="pixelmon:dusk_stone_hoe"/>
+				<pxmn_fire_stone_hoe id="pixelmon:fire_stone_hoe"/>
+				<pxmn_leaf_stone_hoe id="pixelmon:leaf_stone_hoe"/>
+				<pxmn_moon_stone_hoe id="pixelmon:moon_stone_hoe"/>
+				<pxmn_sun_stone_hoe id="pixelmon:sun_stone_hoe"/>
+				<pxmn_thunder_stone_hoe id="pixelmon:thunder_stone_hoe"/>
+				<pxmn_water_stone_hoe id="pixelmon:water_stone_hoe"/>
+            </hoe>
+			<hammer>
+				<pxmn_gold_hammer id="pixelmon:gold_hammer"/>
+				<pxmn_diamond_hammer id="pixelmon:diamond_hammer"/>
+				<pxmn_iron_hammer id="pixelmon:iron_hammer"/>
+				<pxmn_aluminium_hammer id="pixelmon:aluminium_hammer"/>
+				<pxmn_stone_hammer id="pixelmon:stone_hammer"/>
+				<pxmn_wood_hammer id="pixelmon:wood_hammer"/>
+				<pxmn_amethyst_hammer id="pixelmon:amethyst_hammer"/>
+				<pxmn_crystal_hammer id="pixelmon:crystal_hammer"/>
+				<pxmn_ruby_hammer id="pixelmon:ruby_hammer"/>
+				<pxmn_sapphire_hammer id="pixelmon:sapphire_hammer"/>
+				<pxmn_dawn_stone_hammer id="pixelmon:dawn_stone_hammer"/>
+				<pxmn_dusk_stone_hammer id="pixelmon:dusk_stone_hammer"/>
+				<pxmn_fire_stone_hammer id="pixelmon:fire_stone_hammer"/>
+				<pxmn_leaf_stone_hammer id="pixelmon:leaf_stone_hammer"/>
+				<pxmn_moon_stone_hammer id="pixelmon:moon_stone_hammer"/>
+				<pxmn_sun_stone_hammer id="pixelmon:sun_stone_hammer"/>
+				<pxmn_thunder_stone_hammer id="pixelmon:thunder_stone_hammer"/>
+				<pxmn_water_stone_hammer id="pixelmon:water_stone_hammer"/>
+			</hammer>
+            <pxmnFishingRod>
+				<pxmn_old_rod id="pixelmon:old_rod"/>
+				<pxmn_good_rod id="pixelmon:good_rod"/>
+				<pxmn_super_rod id="pixelmon:super_rod"/>
+            </pxmnFishingRod>
+			<pxmn_wailmer_pail id="pixelmon:wailmer_pail"/>
+			<pxmn_camera id="pixelmon:camera"/>
+			<pxmn_film id="pixelmon:film"/>
+			<pxmn_chisel id="pixelmon:chisel"/>
+			<pxmn_trainer_editor id="pixelmon:trainer_editor"/>
+			<pxmn_pokemon_editor id="pixelmon:pokemon_editor"/>
+        </tool>
+        <armor>
+            <helmet>
+				<pxmn_aluminium_helmet id="pixelmon:aluminium_helmet"/>
+				<pxmn_ruby_helm id="pixelmon:ruby_helm"/>
+				<pxmn_sapphire_helm id="pixelmon:sapphire_helm"/>
+				<pxmn_galactic_helm id="pixelmon:galactic_helm"/>
+				<pxmn_neo_plasma_helm id="pixelmon:neo_plasma_helm"/>
+				<pxmn_plasma_helm id="pixelmon:plasma_helm"/>
+				<pxmn_rocket_helm id="pixelmon:rocket_helm"/>
+				<pxmn_dawn_stone_helm id="pixelmon:dawn_stone_helm"/>
+				<pxmn_dusk_stone_helm id="pixelmon:dusk_stone_helm"/>
+				<pxmn_fire_stone_helm id="pixelmon:fire_stone_helm"/>
+				<pxmn_leaf_stone_helm id="pixelmon:leaf_stone_helm"/>
+				<pxmn_moon_stone_helm id="pixelmon:moon_stone_helm"/>
+				<pxmn_sun_stone_helm id="pixelmon:sun_stone_helm"/>
+				<pxmn_thunder_stone_helm id="pixelmon:thunder_stone_helm"/>
+				<pxmn_water_stone_helm id="pixelmon:water_stone_helm"/>
+            </helmet>
+            <chestplate>
+				<pxmn_aluminium_torso id="pixelmon:aluminium_torso"/>
+				<pxmn_ruby_plate id="pixelmon:ruby_plate"/>
+				<pxmn_sapphire_plate id="pixelmon:sapphire_plate"/>
+				<pxmn_galactic_plate id="pixelmon:galactic_plate"/>
+				<pxmn_neo_plasma_plate id="pixelmon:neo_plasma_plate"/>
+				<pxmn_plasma_plate id="pixelmon:plasma_plate"/>
+				<pxmn_rocket_plate id="pixelmon:rocket_plate"/>
+				<pxmn_dawn_stone_plate id="pixelmon:dawn_stone_plate"/>
+				<pxmn_dusk_stone_plate id="pixelmon:dusk_stone_plate"/>
+				<pxmn_fire_stone_plate id="pixelmon:fire_stone_plate"/>
+				<pxmn_leaf_stone_plate id="pixelmon:leaf_stone_plate"/>
+				<pxmn_moon_stone_plate id="pixelmon:moon_stone_plate"/>
+				<pxmn_sun_stone_plate id="pixelmon:sun_stone_plate"/>
+				<pxmn_thunder_stone_plate id="pixelmon:thunder_stone_plate"/>
+				<pxmn_water_stone_plate id="pixelmon:water_stone_plate"/>
+            </chestplate>
+            <leggings>
+				<pxmn_aluminium_leggings id="pixelmon:aluminium_leggings"/>
+				<pxmn_ruby_legs id="pixelmon:ruby_legs"/>
+				<pxmn_sapphire_legs id="pixelmon:sapphire_legs"/>
+				<pxmn_galactic_legs id="pixelmon:galactic_legs"/>
+				<pxmn_neo_plasma_legs id="pixelmon:neo_plasma_legs"/>
+				<pxmn_plasma_legs id="pixelmon:plasma_legs"/>
+				<pxmn_rocket_legs id="pixelmon:rocket_legs"/>
+				<pxmn_dawn_stone_legs id="pixelmon:dawn_stone_legs"/>
+				<pxmn_dusk_stone_legs id="pixelmon:dusk_stone_legs"/>
+				<pxmn_fire_stone_legs id="pixelmon:fire_stone_legs"/>
+				<pxmn_leaf_stone_legs id="pixelmon:leaf_stone_legs"/>
+				<pxmn_moon_stone_legs id="pixelmon:moon_stone_legs"/>
+				<pxmn_sun_stone_legs id="pixelmon:sun_stone_legs"/>
+				<pxmn_thunder_stone_legs id="pixelmon:thunder_stone_legs"/>
+				<pxmn_water_stone_legs id="pixelmon:water_stone_legs"/>
+            </leggings>
+            <boots>
+				<pxmn_aluminium_boots id="pixelmon:aluminium_boots"/>
+				<pxmn_ruby_boots id="pixelmon:ruby_boots"/>
+				<pxmn_sapphire_boots id="pixelmon:sapphire_boots"/>
+				<pxmn_galactic_boots id="pixelmon:galactic_boots"/>
+				<pxmn_neo_plasma_boots id="pixelmon:neo_plasma_boots"/>
+				<pxmn_plasma_boots id="pixelmon:plasma_boots"/>
+				<pxmn_rocket_boots id="pixelmon:rocket_boots"/>
+				<pxmn_dawn_stone_boots id="pixelmon:dawn_stone_boots"/>
+				<pxmn_dusk_stone_boots id="pixelmon:dusk_stone_boots"/>
+				<pxmn_fire_stone_boots id="pixelmon:fire_stone_boots"/>
+				<pxmn_leaf_stone_boots id="pixelmon:leaf_stone_boots"/>
+				<pxmn_moon_stone_boots id="pixelmon:moon_stone_boots"/>
+				<pxmn_sun_stone_boots id="pixelmon:sun_stone_boots"/>
+				<pxmn_thunder_stone_boots id="pixelmon:thunder_stone_boots"/>
+				<pxmn_water_stone_boots id="pixelmon:water_stone_boots"/>
+				<pxmn_new_running_boots id="pixelmon:new_running_boots"/>
+				<pxmn_old_running_boots id="pixelmon:old_running_boots"/>
+            </boots>
+        </armor>
+    </equipment>
+    <resources>
+        <miningResources>
+			<pxmnMiningResources>
+				<pxmn_bauxite_ore id="pixelmon:bauxite_ore"/>
+				<pxmn_fire_stone_ore id="pixelmon:fire_stone_ore"/>
+				<pxmn_water_stone_ore id="pixelmon:water_stone_ore"/>
+				<pxmn_leaf_stone_ore id="pixelmon:leaf_stone_ore"/>
+				<pxmn_thunder_stone_ore id="pixelmon:thunder_stone_ore"/>
+				<pxmn_sun_stone_ore id="pixelmon:sun_stone_ore"/>
+				<pxmn_dawn_dusk_ore id="pixelmon:dawn_dusk_ore"/>
+				<pxmn_amethyst_ore id="pixelmon:amethyst_ore"/>
+				<pxmn_crystal_ore id="pixelmon:crystal_ore"/>
+				<pxmn_ruby_ore id="pixelmon:ruby_ore"/>
+				<pxmn_sapphire_ore id="pixelmon:sapphire_ore"/>
+				<pxmn_silicon_ore id="pixelmon:silicon_ore"/>
+				<pxmn_amethyst id="pixelmon:amethyst"/>
+				<pxmn_crystal id="pixelmon:crystal"/>
+				<pxmn_ruby id="pixelmon:ruby"/>
+				<pxmn_sapphire id="pixelmon:sapphire"/>
+				<pxmn_silicon id="pixelmon:silicon"/>
+				<pxmn_aluminium_ingot id="pixelmon:aluminium_ingot"/>
+				<pxmn_aluminium_plate id="pixelmon:aluminium_plate"/>
+			</pxmnMiningResources>
+        </miningResources>
+		<pxmnEvoStone>
+			<pxmn_sun_stone id="pixelmon:sun_stone"/>
+			<pxmn_fire_stone id="pixelmon:fire_stone"/>
+			<pxmn_water_stone id="pixelmon:water_stone"/>
+			<pxmn_moon_stone id="pixelmon:moon_stone"/>
+			<pxmn_thunder_stone id="pixelmon:thunder_stone"/>
+			<pxmn_leaf_stone id="pixelmon:leaf_stone"/>
+			<pxmn_dusk_stone id="pixelmon:dusk_stone"/>
+			<pxmn_dawn_stone id="pixelmon:dawn_stone"/>
+			<pxmn_ice_stone id="pixelmon:ice_stone"/>
+			<pxmn_thunder_stone_shard id="pixelmon:thunder_stone_shard"/>
+			<pxmn_leaf_stone_shard id="pixelmon:leaf_stone_shard"/>
+			<pxmn_water_stone_shard id="pixelmon:water_stone_shard"/>
+			<pxmn_fire_stone_shard id="pixelmon:fire_stone_shard"/>
+			<pxmn_sun_stone_shard id="pixelmon:sun_stone_shard"/>
+			<pxmn_dusk_stone_shard id="pixelmon:dusk_stone_shard"/>
+			<pxmn_dawn_stone_shard id="pixelmon:dawn_stone_shard"/>
+			<pxmn_ice_stone_shard id="pixelmon:ice_stone_shard"/>
+		</pxmnEvoStone>
+		<pxmnApricorn>
+			<pxmn_black_apricorn id="pixelmon:black_apricorn"/>
+			<pxmn_white_apricorn id="pixelmon:white_apricorn"/>
+			<pxmn_pink_apricorn id="pixelmon:pink_apricorn"/>
+			<pxmn_green_apricorn id="pixelmon:green_apricorn"/>
+			<pxmn_blue_apricorn id="pixelmon:blue_apricorn"/>
+			<pxmn_yellow_apricorn id="pixelmon:yellow_apricorn"/>
+			<pxmn_red_apricorn id="pixelmon:red_apricorn"/>
+			<pxmn_cooked_black_apricorn id="pixelmon:cooked_black_apricorn"/>
+			<pxmn_cooked_white_apricorn id="pixelmon:cooked_white_apricorn"/>
+			<pxmn_cooked_green_apricorn id="pixelmon:cooked_green_apricorn"/>
+			<pxmn_cooked_blue_apricorn id="pixelmon:cooked_blue_apricorn"/>
+			<pxmn_cooked_yellow_apricorn id="pixelmon:cooked_yellow_apricorn"/>
+			<pxmn_cooked_pink_apricorn id="pixelmon:cooked_pink_apricorn"/>
+			<pxmn_cooked_red_apricorn id="pixelmon:cooked_red_apricorn"/>
+		</pxmnApricorn>
+		<pxmnBerry>
+			<pxmn_pomeg_berry id="pixelmon:pomeg_berry"/>
+			<pxmn_kelpsy_berry id="pixelmon:kelpsy_berry"/>
+			<pxmn_qualot_berry id="pixelmon:qualot_berry"/>
+			<pxmn_hondew_berry id="pixelmon:hondew_berry"/>
+			<pxmn_grepa_berry id="pixelmon:grepa_berry"/>
+			<pxmn_tamato_berry id="pixelmon:tamato_berry"/>
+			<pxmn_oran_berry id="pixelmon:oran_berry"/>
+			<pxmn_rawst_berry id="pixelmon:rawst_berry"/>
+			<pxmn_leppa_berry id="pixelmon:leppa_berry"/>
+			<pxmn_apicot_berry id="pixelmon:apicot_berry"/>
+			<pxmn_liechi_berry id="pixelmon:liechi_berry"/>
+			<pxmn_ganlon_berry id="pixelmon:ganlon_berry"/>
+			<pxmn_salac_berry id="pixelmon:salac_berry"/>
+			<pxmn_petaya_berry id="pixelmon:petaya_berry"/>
+			<pxmn_starf_berry id="pixelmon:starf_berry"/>
+			<pxmn_aguav_berry id="pixelmon:aguav_berry"/>
+			<pxmn_figy_berry id="pixelmon:figy_berry"/>
+			<pxmn_iapapa_berry id="pixelmon:iapapa_berry"/>
+			<pxmn_mago_berry id="pixelmon:mago_berry"/>
+			<pxmn_wiki_berry id="pixelmon:wiki_berry"/>
+			<pxmn_lansat_berry id="pixelmon:lansat_berry"/>
+			<pxmn_cheri_berry id="pixelmon:cheri_berry"/>
+			<pxmn_chesto_berry id="pixelmon:chesto_berry"/>
+			<pxmn_pecha_berry id="pixelmon:pecha_berry"/>
+			<pxmn_aspear_berry id="pixelmon:aspear_berry"/>
+			<pxmn_persim_berry id="pixelmon:persim_berry"/>
+			<pxmn_lum_berry id="pixelmon:lum_berry"/>
+			<pxmn_pumkin_berry id="pixelmon:pumkin_berry"/>
+			<pxmn_drash_berry id="pixelmon:drash_berry"/>
+			<pxmn_eggant_berry id="pixelmon:eggant_berry"/>
+			<pxmn_yago_berry id="pixelmon:yago_berry"/>
+			<pxmn_touga_berry id="pixelmon:touga_berry"/>
+			<pxmn_sitrus_berry id="pixelmon:sitrus_berry"/>
+			<pxmn_custap_berry id="pixelmon:custap_berry"/>
+			<pxmn_occa_berry id="pixelmon:occa_berry"/>
+			<pxmn_passho_berry id="pixelmon:passho_berry"/>
+			<pxmn_wacan_berry id="pixelmon:wacan_berry"/>
+			<pxmn_rindo_berry id="pixelmon:rindo_berry"/>
+			<pxmn_yache_berry id="pixelmon:yache_berry"/>
+			<pxmn_chople_berry id="pixelmon:chople_berry"/>
+			<pxmn_kebia_berry id="pixelmon:kebia_berry"/>
+			<pxmn_shuca_berry id="pixelmon:shuca_berry"/>
+			<pxmn_coba_berry id="pixelmon:coba_berry"/>
+			<pxmn_payapa_berry id="pixelmon:payapa_berry"/>
+			<pxmn_tanga_berry id="pixelmon:tanga_berry"/>
+			<pxmn_charti_berry id="pixelmon:charti_berry"/>
+			<pxmn_kasib_berry id="pixelmon:kasib_berry"/>
+			<pxmn_haban_berry id="pixelmon:haban_berry"/>
+			<pxmn_colbur_berry id="pixelmon:colbur_berry"/>
+			<pxmn_babiri_berry id="pixelmon:babiri_berry"/>
+			<pxmn_chilan_berry id="pixelmon:chilan_berry"/>
+			<pxmn_ginema_berry id="pixelmon:ginema_berry"/>
+			<pxmn_jaboca_berry id="pixelmon:jaboca_berry"/>
+			<pxmn_rowap_berry id="pixelmon:rowap_berry"/>
+			<pxmn_enigma_berry id="pixelmon:enigma_berry"/>
+			<pxmn_micle_berry id="pixelmon:micle_berry"/>
+			<pxmn_roseli_berry id="pixelmon:roseli_berry"/>
+			<pxmn_kee_berry id="pixelmon:kee_berry"/>
+			<pxmn_maranga_berry id="pixelmon:maranga_berry"/>
+		</pxmnBerry>
+    </resources>
+	<item>
+		<pxmnItem>
+			<pxmnBall>
+				<pxmn_poke_ball id="pixelmon:poke_ball"/>
+				<pxmn_great_ball id="pixelmon:great_ball"/>
+				<pxmn_ultra_ball id="pixelmon:ultra_ball"/>
+				<pxmn_master_ball id="pixelmon:master_ball"/>
+				<pxmn_level_ball id="pixelmon:level_ball"/>
+				<pxmn_moon_ball id="pixelmon:moon_ball"/>
+				<pxmn_friend_ball id="pixelmon:friend_ball"/>
+				<pxmn_love_ball id="pixelmon:love_ball"/>
+				<pxmn_safari_ball id="pixelmon:safari_ball"/>
+				<pxmn_heavy_ball id="pixelmon:heavy_ball"/>
+				<pxmn_fast_ball id="pixelmon:fast_ball"/>
+				<pxmn_repeat_ball id="pixelmon:repeat_ball"/>
+				<pxmn_timer_ball id="pixelmon:timer_ball"/>
+				<pxmn_nest_ball id="pixelmon:nest_ball"/>
+				<pxmn_net_ball id="pixelmon:net_ball"/>
+				<pxmn_dive_ball id="pixelmon:dive_ball"/>
+				<pxmn_luxury_ball id="pixelmon:luxury_ball"/>
+				<pxmn_heal_ball id="pixelmon:heal_ball"/>
+				<pxmn_dusk_ball id="pixelmon:dusk_ball"/>
+				<pxmn_park_ball id="pixelmon:park_ball"/>
+				<pxmn_quick_ball id="pixelmon:quick_ball"/>
+				<pxmn_lure_ball id="pixelmon:lure_ball"/>
+				<pxmn_sport_ball id="pixelmon:sport_ball"/>
+				<pxmn_cherish_ball id="pixelmon:cherish_ball"/>
+				<pxmn_premier_ball id="pixelmon:premier_ball"/>
+				<pxmn_gs_ball id="pixelmon:gs_ball"/>
+			</pxmnBall>
+			<pxmnBallMaterial>
+				<pxmn_poke_ball_lid id="pixelmon:poke_ball_lid"/>
+				<pxmn_great_ball_lid id="pixelmon:great_ball_lid"/>
+				<pxmn_ultra_ball_lid id="pixelmon:ultra_ball_lid"/>
+				<pxmn_level_ball_lid id="pixelmon:level_ball_lid"/>
+				<pxmn_moon_ball_lid id="pixelmon:moon_ball_lid"/>
+				<pxmn_friend_ball_lid id="pixelmon:friend_ball_lid"/>
+				<pxmn_love_ball_lid id="pixelmon:love_ball_lid"/>
+				<pxmn_safari_ball_lid id="pixelmon:safari_ball_lid"/>
+				<pxmn_heavy_ball_lid id="pixelmon:heavy_ball_lid"/>
+				<pxmn_fast_ball_lid id="pixelmon:fast_ball_lid"/>
+				<pxmn_repeat_ball_lid id="pixelmon:repeat_ball_lid"/>
+				<pxmn_timer_ball_lid id="pixelmon:timer_ball_lid"/>
+				<pxmn_nest_ball_lid id="pixelmon:nest_ball_lid"/>
+				<pxmn_net_ball_lid id="pixelmon:net_ball_lid"/>
+				<pxmn_dive_ball_lid id="pixelmon:dive_ball_lid"/>
+				<pxmn_luxury_ball_lid id="pixelmon:luxury_ball_lid"/>
+				<pxmn_heal_ball_lid id="pixelmon:heal_ball_lid"/>
+				<pxmn_dusk_ball_lid id="pixelmon:dusk_ball_lid"/>
+				<pxmn_quick_ball_lid id="pixelmon:quick_ball_lid"/>
+				<pxmn_lure_ball_lid id="pixelmon:lure_ball_lid"/>
+				<pxmn_sport_ball_lid id="pixelmon:sport_ball_lid"/>
+				<pxmn_premier_ball_lid id="pixelmon:premier_ball_lid"/>
+				<pxmn_poke_ball_disc id="pixelmon:poke_ball_disc"/>
+				<pxmn_great_ball_disc id="pixelmon:great_ball_disc"/>
+				<pxmn_ultra_ball_disc id="pixelmon:ultra_ball_disc"/>
+				<pxmn_level_ball_disc id="pixelmon:level_ball_disc"/>
+				<pxmn_moon_ball_disc id="pixelmon:moon_ball_disc"/>
+				<pxmn_friend_ball_disc id="pixelmon:friend_ball_disc"/>
+				<pxmn_love_ball_disc id="pixelmon:love_ball_disc"/>
+				<pxmn_safari_ball_disc id="pixelmon:safari_ball_disc"/>
+				<pxmn_heavy_ball_disc id="pixelmon:heavy_ball_disc"/>
+				<pxmn_fast_ball_disc id="pixelmon:fast_ball_disc"/>
+				<pxmn_repeat_ball_disc id="pixelmon:repeat_ball_disc"/>
+				<pxmn_timer_ball_disc id="pixelmon:timer_ball_disc"/>
+				<pxmn_nest_ball_disc id="pixelmon:nest_ball_disc"/>
+				<pxmn_net_ball_disc id="pixelmon:net_ball_disc"/>
+				<pxmn_dive_ball_disc id="pixelmon:dive_ball_disc"/>
+				<pxmn_luxury_ball_disc id="pixelmon:luxury_ball_disc"/>
+				<pxmn_heal_ball_disc id="pixelmon:heal_ball_disc"/>
+				<pxmn_dusk_ball_disc id="pixelmon:dusk_ball_disc"/>
+				<pxmn_quick_ball_disc id="pixelmon:quick_ball_disc"/>
+				<pxmn_lure_ball_disc id="pixelmon:lure_ball_disc"/>
+				<pxmn_sport_ball_disc id="pixelmon:sport_ball_disc"/>
+				<pxmn_premier_ball_disc id="pixelmon:premier_ball_disc"/>
+				<pxmn_iron_disc id="pixelmon:iron_disc"/>
+				<pxmn_iron_base id="pixelmon:iron_base"/>
+				<pxmn_aluminium_disc id="pixelmon:aluminium_disc"/>
+				<pxmn_aluminium_base id="pixelmon:aluminium_base"/>
+			</pxmnBallMaterial>
+			<pxmnConsumable>
+				<pxmnMedicine>
+					<pxmn_potion id="pixelmon:potion"/>
+					<pxmn_super_potion id="pixelmon:super_potion"/>
+					<pxmn_hyper_potion id="pixelmon:hyper_potion"/>
+					<pxmn_full_restore id="pixelmon:full_restore"/>
+					<pxmn_revive id="pixelmon:revive"/>
+					<pxmn_max_revive id="pixelmon:max_revive"/>
+					<pxmn_max_potion id="pixelmon:max_potion"/>
+					<pxmn_ether id="pixelmon:ether"/>
+					<pxmn_max_ether id="pixelmon:max_ether"/>
+					<pxmn_elixir id="pixelmon:elixir"/>
+					<pxmn_max_elixir id="pixelmon:max_elixir"/>
+					<pxmn_antidote id="pixelmon:antidote"/>
+					<pxmn_paralyze_heal id="pixelmon:paralyze_heal"/>
+					<pxmn_awakening id="pixelmon:awakening"/>
+					<pxmn_burn_heal id="pixelmon:burn_heal"/>
+					<pxmn_ice_heal id="pixelmon:ice_heal"/>
+					<pxmn_full_heal id="pixelmon:full_heal"/>
+					<pxmn_rage_candy_bar id="pixelmon:rage_candy_bar"/>
+					<pxmn_lava_cookie id="pixelmon:lava_cookie"/>
+					<pxmn_old_gateau id="pixelmon:old_gateau"/>
+					<pxmn_casteliacone id="pixelmon:casteliacone"/>
+					<pxmn_lumiose_galette id="pixelmon:lumiose_galette"/>
+					<pxmn_shalour_sable id="pixelmon:shalour_sable"/>
+					<pxmn_big_malasada id="pixelmon:big_malasada"/>
+					<pxmn_fresh_water id="pixelmon:fresh_water"/>
+					<pxmn_soda_pop id="pixelmon:soda_pop"/>
+					<pxmn_lemonade id="pixelmon:lemonade"/>
+					<pxmn_moomoo_milk id="pixelmon:moomoo_milk"/>
+					<pxmn_x_attack id="pixelmon:x_attack"/>
+					<pxmn_x_defence id="pixelmon:x_defence"/>
+					<pxmn_x_special_attack id="pixelmon:x_special_attack"/>
+					<pxmn_x_special_defence id="pixelmon:x_special_defence"/>
+					<pxmn_x_speed id="pixelmon:x_speed"/>
+					<pxmn_x_accuracy id="pixelmon:x_accuracy"/>
+					<pxmn_dire_hit id="pixelmon:dire_hit"/>
+					<pxmn_energy_powder id="pixelmon:energy_powder"/>
+					<pxmn_energy_root id="pixelmon:energy_root"/>
+					<pxmn_heal_powder id="pixelmon:heal_powder"/>
+					<pxmn_revival_herb id="pixelmon:revival_herb"/>
+					<pxmn_sacredash id="pixelmon:sacredash"/>
+				</pxmnMedicine>
+				<pxmnVitamin>
+					<pxmn_hp_up id="pixelmon:hp_up"/>
+					<pxmn_protein id="pixelmon:protein"/>
+					<pxmn_iron id="pixelmon:iron"/>
+					<pxmn_calcium id="pixelmon:calcium"/>
+					<pxmn_zinc id="pixelmon:zinc"/>
+					<pxmn_carbos id="pixelmon:carbos"/>
+					<pxmn_health_wing id="pixelmon:health_wing"/>
+					<pxmn_muscle_wing id="pixelmon:muscle_wing"/>
+					<pxmn_resist_wing id="pixelmon:resist_wing"/>
+					<pxmn_genius_wing id="pixelmon:genius_wing"/>
+					<pxmn_clever_wing id="pixelmon:clever_wing"/>
+					<pxmn_swift_wing id="pixelmon:swift_wing"/>
+				</pxmnVitamin>
+				<pxmn_rare_candy id="pixelmon:rare_candy"/>
+				<pxmn_ability_capsule id="pixelmon:ability_capsule"/>
+			</pxmnConsumable>
+			<pxmnHeldItem>
+				<pxmnHeldOther>		
+					<pxmn_lucky_egg id="pixelmon:lucky_egg"/>
+					<pxmn_exp_share id="pixelmon:exp_share"/>
+					<pxmn_exp_all id="pixelmon:exp_all"/>
+					<pxmn_choice_band id="pixelmon:choice_band"/>
+					<pxmn_choice_scarf id="pixelmon:choice_scarf"/>
+					<pxmn_choice_specs id="pixelmon:choice_specs"/>
+					<pxmn_muscle_band id="pixelmon:muscle_band"/>
+					<pxmn_macho_brace id="pixelmon:macho_brace"/>
+					<pxmn_power_weight id="pixelmon:power_weight"/>
+					<pxmn_power_bracer id="pixelmon:power_bracer"/>
+					<pxmn_power_belt id="pixelmon:power_belt"/>
+					<pxmn_power_lens id="pixelmon:power_lens"/>
+					<pxmn_power_band id="pixelmon:power_band"/>
+					<pxmn_power_anklet id="pixelmon:power_anklet"/>
+					<pxmn_soothe_bell id="pixelmon:soothe_bell"/>
+					<pxmn_smoke_ball id="pixelmon:smoke_ball"/>
+					<pxmn_wide_lens id="pixelmon:wide_lens"/>
+					<pxmn_leftovers id="pixelmon:leftovers"/>
+					<pxmn_shell_bell id="pixelmon:shell_bell"/>
+					<pxmn_cell_battery id="pixelmon:cell_battery"/>
+					<pxmn_metronome id="pixelmon:metronome"/>
+					<pxmn_absorb_bulb id="pixelmon:absorb_bulb"/>
+					<pxmn_life_orb id="pixelmon:life_orb"/>
+					<pxmn_toxic_orb id="pixelmon:toxic_orb"/>
+					<pxmn_flame_orb id="pixelmon:flame_orb"/>
+					<pxmn_black_belt id="pixelmon:black_belt"/>
+					<pxmn_black_glasses id="pixelmon:black_glasses"/>
+					<pxmn_charcoal id="pixelmon:charcoal"/>
+					<pxmn_dragon_fang id="pixelmon:dragon_fang"/>
+					<pxmn_hard_stone id="pixelmon:hard_stone"/>
+					<pxmn_magnet id="pixelmon:magnet"/>
+					<pxmn_metal_coat id="pixelmon:metal_coat"/>
+					<pxmn_miracle_seed id="pixelmon:miracle_seed"/>
+					<pxmn_mystic_water id="pixelmon:mystic_water"/>
+					<pxmn_never_melt_ice id="pixelmon:never_melt_ice"/>
+					<pxmn_poison_barb id="pixelmon:poison_barb"/>
+					<pxmn_sharp_beak id="pixelmon:sharp_beak"/>
+					<pxmn_silk_scarf id="pixelmon:silk_scarf"/>
+					<pxmn_silver_powder id="pixelmon:silver_powder"/>
+					<pxmn_soft_sand id="pixelmon:soft_sand"/>
+					<pxmn_spell_tag id="pixelmon:spell_tag"/>
+					<pxmn_twisted_spoon id="pixelmon:twisted_spoon"/>
+					<pxmn_destiny_knot id="pixelmon:destiny_knot"/>
+					<pxmn_black_sludge id="pixelmon:black_sludge"/>
+					<pxmn_focus_band id="pixelmon:focus_band"/>
+					<pxmn_focus_sash id="pixelmon:focus_sash"/>
+					<pxmn_berry_juice id="pixelmon:berry_juice"/>
+					<pxmn_scope_lens id="pixelmon:scope_lens"/>
+					<pxmn_air_balloon id="pixelmon:air_balloon"/>
+					<pxmn_rocky_helmet id="pixelmon:rocky_helmet"/>
+					<pxmn_damp_rock id="pixelmon:damp_rock"/>
+					<pxmn_heat_rock id="pixelmon:heat_rock"/>
+					<pxmn_icy_rock id="pixelmon:icy_rock"/>
+					<pxmn_smooth_rock id="pixelmon:smooth_rock"/>
+					<pxmn_eviolite id="pixelmon:eviolite"/>
+					<pxmn_light_ball id="pixelmon:light_ball"/>
+					<pxmn_lucky_punch id="pixelmon:lucky_punch"/>
+					<pxmn_metal_powder id="pixelmon:metal_powder"/>
+					<pxmn_quick_powder id="pixelmon:quick_powder"/>
+					<pxmn_shed_shell id="pixelmon:shed_shell"/>
+					<pxmn_stick id="pixelmon:stick"/>
+					<pxmn_thick_club id="pixelmon:thick_club"/>
+					<pxmn_power_herb id="pixelmon:power_herb"/>
+					<pxmn_mental_herb id="pixelmon:mental_herb"/>
+					<pxmn_quick_claw id="pixelmon:quick_claw"/>
+					<pxmn_red_card id="pixelmon:red_card"/>
+					<pxmn_expert_belt id="pixelmon:expert_belt"/>
+					<pxmn_light_clay id="pixelmon:light_clay"/>
+					<pxmn_sticky_barb id="pixelmon:sticky_barb"/>
+					<pxmn_white_herb id="pixelmon:white_herb"/>
+					<pxmn_big_root id="pixelmon:big_root"/>
+					<pxmn_zoom_lens id="pixelmon:zoom_lens"/>
+					<pxmn_bright_powder id="pixelmon:bright_powder"/>
+					<pxmn_lagging_tail id="pixelmon:lagging_tail"/>
+					<pxmn_wise_glasses id="pixelmon:wise_glasses"/>
+					<pxmn_eject_button id="pixelmon:eject_button"/>
+					<pxmn_binding_band id="pixelmon:binding_band"/>
+					<pxmn_float_stone id="pixelmon:float_stone"/>
+					<pxmn_grip_claw id="pixelmon:grip_claw"/>
+					<pxmn_iron_ball id="pixelmon:iron_ball"/>
+					<pxmn_ring_target id="pixelmon:ring_target"/>
+					<pxmn_amulet_coin id="pixelmon:amulet_coin"/>
+					<pxmn_prism_scale id="pixelmon:prism_scale"/>
+					<pxmn_assault_vest id="pixelmon:assault_vest"/>
+					<pxmn_luminous_moss id="pixelmon:luminous_moss"/>
+					<pxmn_safety_goggles id="pixelmon:safety_goggles"/>
+					<pxmn_snowball id="pixelmon:snowball"/>
+					<pxmn_weakness_policy id="pixelmon:weakness_policy"/>
+					<pxmn_soul_dew id="pixelmon:soul_dew"/>
+					<pxmn_meteorite id="pixelmon:meteorite"/>
+				</pxmnHeldOther>
+				<pxmnEvolutionItem>
+					<pxmn_ever_stone id="pixelmon:ever_stone"/>
+					<pxmn_dubious_disc id="pixelmon:dubious_disc"/>
+					<pxmn_electirizer id="pixelmon:electirizer"/>
+					<pxmn_magmarizer id="pixelmon:magmarizer"/>
+					<pxmn_kings_rock id="pixelmon:kings_rock"/>
+					<pxmn_protector id="pixelmon:protector"/>
+					<pxmn_up-grade id="pixelmon:up-grade"/>
+					<pxmn_razor_fang id="pixelmon:razor_fang"/>
+					<pxmn_dragon_scale id="pixelmon:dragon_scale"/>
+					<pxmn_deep_sea_scale id="pixelmon:deep_sea_scale"/>
+					<pxmn_deep_sea_tooth id="pixelmon:deep_sea_tooth"/>
+					<pxmn_oval_stone id="pixelmon:oval_stone"/>
+					<pxmn_reaper_cloth id="pixelmon:reaper_cloth"/>
+					<pxmn_razor_claw id="pixelmon:razor_claw"/>
+				</pxmnEvolutionItem>
+				<pxmnIncense>
+					<pxmn_full_incense id="pixelmon:full_incense"/>
+					<pxmn_lax_incense id="pixelmon:lax_incense"/>
+					<pxmn_luck_incense id="pixelmon:luck_incense"/>
+					<pxmn_odd_incense id="pixelmon:odd_incense"/>
+					<pxmn_pure_incense id="pixelmon:pure_incense"/>
+					<pxmn_rock_incense id="pixelmon:rock_incense"/>
+					<pxmn_rose_incense id="pixelmon:rose_incense"/>
+					<pxmn_sea_incense id="pixelmon:sea_incense"/>
+					<pxmn_wave_incense id="pixelmon:wave_incense"/>
+				</pxmnIncense>
+				<pxmnPlate>
+					<pxmn_draco_plate id="pixelmon:draco_plate"/>
+					<pxmn_dread_plate id="pixelmon:dread_plate"/>
+					<pxmn_earth_plate id="pixelmon:earth_plate"/>
+					<pxmn_fist_plate id="pixelmon:fist_plate"/>
+					<pxmn_flame_plate id="pixelmon:flame_plate"/>
+					<pxmn_icicle_plate id="pixelmon:icicle_plate"/>
+					<pxmn_insect_plate id="pixelmon:insect_plate"/>
+					<pxmn_iron_plate id="pixelmon:iron_plate"/>
+					<pxmn_meadow_plate id="pixelmon:meadow_plate"/>
+					<pxmn_mind_plate id="pixelmon:mind_plate"/>
+					<pxmn_pixie_plate id="pixelmon:pixie_plate"/>
+					<pxmn_sky_plate id="pixelmon:sky_plate"/>
+					<pxmn_splash_plate id="pixelmon:splash_plate"/>
+					<pxmn_spooky_plate id="pixelmon:spooky_plate"/>
+					<pxmn_stone_plate id="pixelmon:stone_plate"/>
+					<pxmn_toxic_plate id="pixelmon:toxic_plate"/>
+					<pxmn_zap_plate id="pixelmon:zap_plate"/>
+				</pxmnPlate>
+				<pxmnMegaMarble>
+					<pxmn_abomasite id="pixelmon:abomasite"/>
+					<pxmn_absolite id="pixelmon:absolite"/>
+					<pxmn_aerodactylite id="pixelmon:aerodactylite"/>
+					<pxmn_aggronite id="pixelmon:aggronite"/>
+					<pxmn_alakazite id="pixelmon:alakazite"/>
+					<pxmn_altarianite id="pixelmon:altarianite"/>
+					<pxmn_ampharosite id="pixelmon:ampharosite"/>
+					<pxmn_audinite id="pixelmon:audinite"/>
+					<pxmn_banettite id="pixelmon:banettite"/>
+					<pxmn_beedrillite id="pixelmon:beedrillite"/>
+					<pxmn_blastoisinite id="pixelmon:blastoisinite"/>
+					<pxmn_blazikenite id="pixelmon:blazikenite"/>
+					<pxmn_cameruptite id="pixelmon:cameruptite"/>
+					<pxmn_charizardite_x id="pixelmon:charizardite_x"/>
+					<pxmn_charizardite_y id="pixelmon:charizardite_y"/>
+					<pxmn_diancite id="pixelmon:diancite"/>
+					<pxmn_galladite id="pixelmon:galladite"/>
+					<pxmn_garchompite id="pixelmon:garchompite"/>
+					<pxmn_gardevoirite id="pixelmon:gardevoirite"/>
+					<pxmn_gengarite id="pixelmon:gengarite"/>
+					<pxmn_glalitite id="pixelmon:glalitite"/>
+					<pxmn_gyaradosite id="pixelmon:gyaradosite"/>
+					<pxmn_heracronite id="pixelmon:heracronite"/>
+					<pxmn_houndoominite id="pixelmon:houndoominite"/>
+					<pxmn_kangaskhanite id="pixelmon:kangaskhanite"/>
+					<pxmn_latiasite id="pixelmon:latiasite"/>
+					<pxmn_latiosite id="pixelmon:latiosite"/>
+					<pxmn_lopunnite id="pixelmon:lopunnite"/>
+					<pxmn_lucarionite id="pixelmon:lucarionite"/>
+					<pxmn_manectite id="pixelmon:manectite"/>
+					<pxmn_mawilite id="pixelmon:mawilite"/>
+					<pxmn_medichamite id="pixelmon:medichamite"/>
+					<pxmn_metagrossite id="pixelmon:metagrossite"/>
+					<pxmn_mewtwonite_x id="pixelmon:mewtwonite_x"/>
+					<pxmn_mewtwonite_y id="pixelmon:mewtwonite_y"/>
+					<pxmn_pidgeotite id="pixelmon:pidgeotite"/>
+					<pxmn_pinsirite id="pixelmon:pinsirite"/>
+					<pxmn_sablenite id="pixelmon:sablenite"/>
+					<pxmn_salamencite id="pixelmon:salamencite"/>
+					<pxmn_sceptilite id="pixelmon:sceptilite"/>
+					<pxmn_scizorite id="pixelmon:scizorite"/>
+					<pxmn_sharpedonite id="pixelmon:sharpedonite"/>
+					<pxmn_slowbronite id="pixelmon:slowbronite"/>
+					<pxmn_steelixite id="pixelmon:steelixite"/>
+					<pxmn_swampertite id="pixelmon:swampertite"/>
+					<pxmn_tyranitarite id="pixelmon:tyranitarite"/>
+					<pxmn_venusaurite id="pixelmon:venusaurite"/>
+				</pxmnMegaMarble>
+				<pxmnZCrystal>
+					<pxmn_buginium_z id="pixelmon:buginium_z"/>
+					<pxmn_darkinium_z id="pixelmon:darkinium_z"/>
+					<pxmn_dragonium_z id="pixelmon:dragonium_z"/>
+					<pxmn_electrium_z id="pixelmon:electrium_z"/>
+					<pxmn_fairium_z id="pixelmon:fairium_z"/>
+					<pxmn_fightinium_z id="pixelmon:fightinium_z"/>
+					<pxmn_firium_z id="pixelmon:firium_z"/>
+					<pxmn_flyinium_z id="pixelmon:flyinium_z"/>
+					<pxmn_ghostium_z id="pixelmon:ghostium_z"/>
+					<pxmn_grassium_z id="pixelmon:grassium_z"/>
+					<pxmn_groundium_z id="pixelmon:groundium_z"/>
+					<pxmn_icium_z id="pixelmon:icium_z"/>
+					<pxmn_normalium_z id="pixelmon:normalium_z"/>
+					<pxmn_poisonium_z id="pixelmon:poisonium_z"/>
+					<pxmn_psychium_z id="pixelmon:psychium_z"/>
+					<pxmn_rockium_z id="pixelmon:rockium_z"/>
+					<pxmn_steelium_z id="pixelmon:steelium_z"/>
+					<pxmn_waterium_z id="pixelmon:waterium_z"/>
+					<pxmn_aloraichium_z id="pixelmon:aloraichium_z"/>
+					<pxmn_decidium_z id="pixelmon:decidium_z"/>
+					<pxmn_eevium_z id="pixelmon:eevium_z"/>
+					<pxmn_incinium_z id="pixelmon:incinium_z"/>
+					<pxmn_kommonium_z id="pixelmon:kommonium_z"/>
+					<pxmn_lunalium_z id="pixelmon:lunalium_z"/>
+					<pxmn_lycanium_z id="pixelmon:lycanium_z"/>
+					<pxmn_marshadium_z id="pixelmon:marshadium_z"/>
+					<pxmn_mewnium_z id="pixelmon:mewnium_z"/>
+					<pxmn_mimikium_z id="pixelmon:mimikium_z"/>
+					<pxmn_pikanium_z id="pixelmon:pikanium_z"/>
+					<pxmn_pikashunium_z id="pixelmon:pikashunium_z"/>
+					<pxmn_primanium_z id="pixelmon:primanium_z"/>
+					<pxmn_snorlium_z id="pixelmon:snorlium_z"/>
+					<pxmn_solganium_z id="pixelmon:solganium_z"/>
+					<pxmn_tapunium_z id="pixelmon:tapunium_z"/>
+					<pxmn_ultranecrozium_z id="pixelmon:ultranecrozium_z"/>
+				</pxmnZCrystal>
+				<pxmnGem>
+					<pxmn_bug_gem id="pixelmon:bug_gem"/>
+					<pxmn_dark_gem id="pixelmon:dark_gem"/>
+					<pxmn_dragon_gem id="pixelmon:dragon_gem"/>
+					<pxmn_electric_gem id="pixelmon:electric_gem"/>
+					<pxmn_fairy_gem id="pixelmon:fairy_gem"/>
+					<pxmn_fighting_gem id="pixelmon:fighting_gem"/>
+					<pxmn_fire_gem id="pixelmon:fire_gem"/>
+					<pxmn_flying_gem id="pixelmon:flying_gem"/>
+					<pxmn_ghost_gem id="pixelmon:ghost_gem"/>
+					<pxmn_grass_gem id="pixelmon:grass_gem"/>
+					<pxmn_ground_gem id="pixelmon:ground_gem"/>
+					<pxmn_ice_gem id="pixelmon:ice_gem"/>
+					<pxmn_normal_gem id="pixelmon:normal_gem"/>
+					<pxmn_poison_gem id="pixelmon:poison_gem"/>
+					<pxmn_psychic_gem id="pixelmon:psychic_gem"/>
+					<pxmn_rock_gem id="pixelmon:rock_gem"/>
+					<pxmn_steel_gem id="pixelmon:steel_gem"/>
+					<pxmn_water_gem id="pixelmon:water_gem"/>
+				</pxmnGem>
+				<pxmnMail>
+					<pxmn_pokemail_air id="pixelmon:pokemail_air"/>
+					<pxmn_pokemail_bloom id="pixelmon:pokemail_bloom"/>
+					<pxmn_pokemail_brick id="pixelmon:pokemail_brick"/>
+					<pxmn_pokemail_bridged id="pixelmon:pokemail_bridged"/>
+					<pxmn_pokemail_bridgem id="pixelmon:pokemail_bridgem"/>
+					<pxmn_pokemail_bridges id="pixelmon:pokemail_bridges"/>
+					<pxmn_pokemail_bridgev id="pixelmon:pokemail_bridgev"/>
+					<pxmn_pokemail_bubble id="pixelmon:pokemail_bubble"/>
+					<pxmn_pokemail_dream id="pixelmon:pokemail_dream"/>
+					<pxmn_pokemail_fab id="pixelmon:pokemail_fab"/>
+					<pxmn_pokemail_favored id="pixelmon:pokemail_favored"/>
+					<pxmn_pokemail_flame id="pixelmon:pokemail_flame"/>
+					<pxmn_pokemail_glitter id="pixelmon:pokemail_glitter"/>
+					<pxmn_pokemail_grass id="pixelmon:pokemail_grass"/>
+					<pxmn_pokemail_greet id="pixelmon:pokemail_greet"/>
+					<pxmn_pokemail_heart id="pixelmon:pokemail_heart"/>
+					<pxmn_pokemail_inquiry id="pixelmon:pokemail_inquiry"/>
+					<pxmn_pokemail_like id="pixelmon:pokemail_like"/>
+					<pxmn_pokemail_mech id="pixelmon:pokemail_mech"/>
+					<pxmn_pokemail_mosaic id="pixelmon:pokemail_mosaic"/>
+					<pxmn_pokemail_orange id="pixelmon:pokemail_orange"/>
+					<pxmn_pokemail_reply id="pixelmon:pokemail_reply"/>
+					<pxmn_pokemail_retro id="pixelmon:pokemail_retro"/>
+					<pxmn_pokemail_rsvp id="pixelmon:pokemail_rsvp"/>
+					<pxmn_pokemail_snow id="pixelmon:pokemail_snow"/>
+					<pxmn_pokemail_space id="pixelmon:pokemail_space"/>
+					<pxmn_pokemail_steel id="pixelmon:pokemail_steel"/>
+					<pxmn_pokemail_thanks id="pixelmon:pokemail_thanks"/>
+					<pxmn_pokemail_wave id="pixelmon:pokemail_wave"/>
+					<pxmn_pokemail_wood id="pixelmon:pokemail_wood"/>
+				</pxmnMail>
+			</pxmnHeldItem>
+			<pxmnTM>
+				<pxmn_tm1 id="pixelmon:tm1"/>
+				<pxmn_tm2 id="pixelmon:tm2"/>
+				<pxmn_tm3 id="pixelmon:tm3"/>
+				<pxmn_tm4 id="pixelmon:tm4"/>
+				<pxmn_tm5 id="pixelmon:tm5"/>
+				<pxmn_tm6 id="pixelmon:tm6"/>
+				<pxmn_tm7 id="pixelmon:tm7"/>
+				<pxmn_tm8 id="pixelmon:tm8"/>
+				<pxmn_tm9 id="pixelmon:tm9"/>
+				<pxmn_tm10 id="pixelmon:tm10"/>
+				<pxmn_tm11 id="pixelmon:tm11"/>
+				<pxmn_tm12 id="pixelmon:tm12"/>
+				<pxmn_tm13 id="pixelmon:tm13"/>
+				<pxmn_tm14 id="pixelmon:tm14"/>
+				<pxmn_tm15 id="pixelmon:tm15"/>
+				<pxmn_tm16 id="pixelmon:tm16"/>
+				<pxmn_tm17 id="pixelmon:tm17"/>
+				<pxmn_tm18 id="pixelmon:tm18"/>
+				<pxmn_tm19 id="pixelmon:tm19"/>
+				<pxmn_tm20 id="pixelmon:tm20"/>
+				<pxmn_tm21 id="pixelmon:tm21"/>
+				<pxmn_tm22 id="pixelmon:tm22"/>
+				<pxmn_tm23 id="pixelmon:tm23"/>
+				<pxmn_tm24 id="pixelmon:tm24"/>
+				<pxmn_tm25 id="pixelmon:tm25"/>
+				<pxmn_tm26 id="pixelmon:tm26"/>
+				<pxmn_tm27 id="pixelmon:tm27"/>
+				<pxmn_tm28 id="pixelmon:tm28"/>
+				<pxmn_tm29 id="pixelmon:tm29"/>
+				<pxmn_tm30 id="pixelmon:tm30"/>
+				<pxmn_tm31 id="pixelmon:tm31"/>
+				<pxmn_tm32 id="pixelmon:tm32"/>
+				<pxmn_tm33 id="pixelmon:tm33"/>
+				<pxmn_tm34 id="pixelmon:tm34"/>
+				<pxmn_tm35 id="pixelmon:tm35"/>
+				<pxmn_tm36 id="pixelmon:tm36"/>
+				<pxmn_tm37 id="pixelmon:tm37"/>
+				<pxmn_tm38 id="pixelmon:tm38"/>
+				<pxmn_tm39 id="pixelmon:tm39"/>
+				<pxmn_tm40 id="pixelmon:tm40"/>
+				<pxmn_tm41 id="pixelmon:tm41"/>
+				<pxmn_tm42 id="pixelmon:tm42"/>
+				<pxmn_tm43 id="pixelmon:tm43"/>
+				<pxmn_tm44 id="pixelmon:tm44"/>
+				<pxmn_tm45 id="pixelmon:tm45"/>
+				<pxmn_tm46 id="pixelmon:tm46"/>
+				<pxmn_tm47 id="pixelmon:tm47"/>
+				<pxmn_tm48 id="pixelmon:tm48"/>
+				<pxmn_tm49 id="pixelmon:tm49"/>
+				<pxmn_tm50 id="pixelmon:tm50"/>
+				<pxmn_tm51 id="pixelmon:tm51"/>
+				<pxmn_tm52 id="pixelmon:tm52"/>
+				<pxmn_tm53 id="pixelmon:tm53"/>
+				<pxmn_tm54 id="pixelmon:tm54"/>
+				<pxmn_tm55 id="pixelmon:tm55"/>
+				<pxmn_tm56 id="pixelmon:tm56"/>
+				<pxmn_tm57 id="pixelmon:tm57"/>
+				<pxmn_tm58 id="pixelmon:tm58"/>
+				<pxmn_tm59 id="pixelmon:tm59"/>
+				<pxmn_tm60 id="pixelmon:tm60"/>
+				<pxmn_tm61 id="pixelmon:tm61"/>
+				<pxmn_tm62 id="pixelmon:tm62"/>
+				<pxmn_tm63 id="pixelmon:tm63"/>
+				<pxmn_tm64 id="pixelmon:tm64"/>
+				<pxmn_tm65 id="pixelmon:tm65"/>
+				<pxmn_tm66 id="pixelmon:tm66"/>
+				<pxmn_tm67 id="pixelmon:tm67"/>
+				<pxmn_tm68 id="pixelmon:tm68"/>
+				<pxmn_tm69 id="pixelmon:tm69"/>
+				<pxmn_tm70 id="pixelmon:tm70"/>
+				<pxmn_tm71 id="pixelmon:tm71"/>
+				<pxmn_tm72 id="pixelmon:tm72"/>
+				<pxmn_tm73 id="pixelmon:tm73"/>
+				<pxmn_tm74 id="pixelmon:tm74"/>
+				<pxmn_tm75 id="pixelmon:tm75"/>
+				<pxmn_tm76 id="pixelmon:tm76"/>
+				<pxmn_tm77 id="pixelmon:tm77"/>
+				<pxmn_tm78 id="pixelmon:tm78"/>
+				<pxmn_tm79 id="pixelmon:tm79"/>
+				<pxmn_tm80 id="pixelmon:tm80"/>
+				<pxmn_tm81 id="pixelmon:tm81"/>
+				<pxmn_tm82 id="pixelmon:tm82"/>
+				<pxmn_tm83 id="pixelmon:tm83"/>
+				<pxmn_tm84 id="pixelmon:tm84"/>
+				<pxmn_tm85 id="pixelmon:tm85"/>
+				<pxmn_tm86 id="pixelmon:tm86"/>
+				<pxmn_tm87 id="pixelmon:tm87"/>
+				<pxmn_tm88 id="pixelmon:tm88"/>
+				<pxmn_tm89 id="pixelmon:tm89"/>
+				<pxmn_tm90 id="pixelmon:tm90"/>
+				<pxmn_tm91 id="pixelmon:tm91"/>
+				<pxmn_tm92 id="pixelmon:tm92"/>
+				<pxmn_tm93 id="pixelmon:tm93"/>
+				<pxmn_tm94 id="pixelmon:tm94"/>
+				<pxmn_tm95 id="pixelmon:tm95"/>
+				<pxmn_tm96 id="pixelmon:tm96"/>
+				<pxmn_tm97 id="pixelmon:tm97"/>
+				<pxmn_tm98 id="pixelmon:tm98"/>
+				<pxmn_tm99 id="pixelmon:tm99"/>
+				<pxmn_tm100 id="pixelmon:tm100"/>
+				<pxmn_tm101 id="pixelmon:tm101"/>
+				<pxmn_tm102 id="pixelmon:tm102"/>
+				<pxmn_tm103 id="pixelmon:tm103"/>
+				<pxmn_tm104 id="pixelmon:tm104"/>
+				<pxmn_tm105 id="pixelmon:tm105"/>
+				<pxmn_tm106 id="pixelmon:tm106"/>
+				<pxmn_tm107 id="pixelmon:tm107"/>
+				<pxmn_tm108 id="pixelmon:tm108"/>
+				<pxmn_tm109 id="pixelmon:tm109"/>
+				<pxmn_tm110 id="pixelmon:tm110"/>
+				<pxmn_tm111 id="pixelmon:tm111"/>
+				<pxmn_tm112 id="pixelmon:tm112"/>
+				<pxmn_tm113 id="pixelmon:tm113"/>
+				<pxmn_tm114 id="pixelmon:tm114"/>
+				<pxmn_tm115 id="pixelmon:tm115"/>
+				<pxmn_tm116 id="pixelmon:tm116"/>
+				<pxmn_tm117 id="pixelmon:tm117"/>
+				<pxmn_tm118 id="pixelmon:tm118"/>
+				<pxmn_tm119 id="pixelmon:tm119"/>
+				<pxmn_tm120 id="pixelmon:tm120"/>
+				<pxmn_tm121 id="pixelmon:tm121"/>
+				<pxmn_tm122 id="pixelmon:tm122"/>
+				<pxmn_tm123 id="pixelmon:tm123"/>
+				<pxmn_tm124 id="pixelmon:tm124"/>
+				<pxmn_tm125 id="pixelmon:tm125"/>
+				<pxmn_tm126 id="pixelmon:tm126"/>
+				<pxmn_tm127 id="pixelmon:tm127"/>
+				<pxmn_tm128 id="pixelmon:tm128"/>
+				<pxmn_tm129 id="pixelmon:tm129"/>
+				<pxmn_tm130 id="pixelmon:tm130"/>
+				<pxmn_tm131 id="pixelmon:tm131"/>
+				<pxmn_tm132 id="pixelmon:tm132"/>
+				<pxmn_tm133 id="pixelmon:tm133"/>
+				<pxmn_tm134 id="pixelmon:tm134"/>
+				<pxmn_tm135 id="pixelmon:tm135"/>
+				<pxmn_tm136 id="pixelmon:tm136"/>
+				<pxmn_tm137 id="pixelmon:tm137"/>
+				<pxmn_tm138 id="pixelmon:tm138"/>
+				<pxmn_tm139 id="pixelmon:tm139"/>
+				<pxmn_tm140 id="pixelmon:tm140"/>
+				<pxmn_tm141 id="pixelmon:tm141"/>
+				<pxmn_tm142 id="pixelmon:tm142"/>
+				<pxmn_tm143 id="pixelmon:tm143"/>
+				<pxmn_tm144 id="pixelmon:tm144"/>
+				<pxmn_tm145 id="pixelmon:tm145"/>
+				<pxmn_tm146 id="pixelmon:tm146"/>
+				<pxmn_tm147 id="pixelmon:tm147"/>
+				<pxmn_tm148 id="pixelmon:tm148"/>
+				<pxmn_tm149 id="pixelmon:tm149"/>
+				<pxmn_tm150 id="pixelmon:tm150"/>
+				<pxmn_tm151 id="pixelmon:tm151"/>
+				<pxmn_tm152 id="pixelmon:tm152"/>
+				<pxmn_tm153 id="pixelmon:tm153"/>
+				<pxmn_tm154 id="pixelmon:tm154"/>
+				<pxmn_tm155 id="pixelmon:tm155"/>
+				<pxmn_tm156 id="pixelmon:tm156"/>
+				<pxmn_tm157 id="pixelmon:tm157"/>
+				<pxmn_tm158 id="pixelmon:tm158"/>
+				<pxmn_tm159 id="pixelmon:tm159"/>
+				<pxmn_tm160 id="pixelmon:tm160"/>
+				<pxmn_tm161 id="pixelmon:tm161"/>
+				<pxmn_tm162 id="pixelmon:tm162"/>
+				<pxmn_tm163 id="pixelmon:tm163"/>
+				<pxmn_tm164 id="pixelmon:tm164"/>
+				<pxmn_tm165 id="pixelmon:tm165"/>
+				<pxmn_tm166 id="pixelmon:tm166"/>
+				<pxmn_tm167 id="pixelmon:tm167"/>
+				<pxmn_tm168 id="pixelmon:tm168"/>
+				<pxmn_tm169 id="pixelmon:tm169"/>
+				<pxmn_tm170 id="pixelmon:tm170"/>
+				<pxmn_tm171 id="pixelmon:tm171"/>
+				<pxmn_tm172 id="pixelmon:tm172"/>
+				<pxmn_tm173 id="pixelmon:tm173"/>
+				<pxmn_tm174 id="pixelmon:tm174"/>
+				<pxmn_hm1 id="pixelmon:hm1"/>
+				<pxmn_hm2 id="pixelmon:hm2"/>
+				<pxmn_hm3 id="pixelmon:hm3"/>
+				<pxmn_hm4 id="pixelmon:hm4"/>
+				<pxmn_hm5 id="pixelmon:hm5"/>
+				<pxmn_hm6 id="pixelmon:hm6"/>
+				<pxmn_hm7 id="pixelmon:hm7"/>
+				<pxmn_hm8 id="pixelmon:hm8"/>
+				<pxmn_hm9 id="pixelmon:hm9"/>
+				<pxmn_hm10 id="pixelmon:hm10"/>
+			</pxmnTM>
+			<pxmnBadge>
+				<pxmn_balance_badge id="pixelmon:balance_badge"/>
+				<pxmn_basic_badge id="pixelmon:basic_badge"/>
+				<pxmn_beacon_badge id="pixelmon:beacon_badge"/>
+				<pxmn_bolt_badge id="pixelmon:bolt_badge"/>
+				<pxmn_boulder_badge id="pixelmon:boulder_badge"/>
+				<pxmn_bug_badge id="pixelmon:bug_badge"/>
+				<pxmn_cascade_badge id="pixelmon:cascade_badge"/>
+				<pxmn_cliff_badge id="pixelmon:cliff_badge"/>
+				<pxmn_coal_badge id="pixelmon:coal_badge"/>
+				<pxmn_cobble_badge id="pixelmon:cobble_badge"/>
+				<pxmn_dynamo_badge id="pixelmon:dynamo_badge"/>
+				<pxmn_earth_badge id="pixelmon:earth_badge"/>
+				<pxmn_fairy_badge id="pixelmon:fairy_badge"/>
+				<pxmn_feather_badge id="pixelmon:feather_badge"/>
+				<pxmn_fen_badge id="pixelmon:fen_badge"/>
+				<pxmn_fog_badge id="pixelmon:fog_badge"/>
+				<pxmn_forest_badge id="pixelmon:forest_badge"/>
+				<pxmn_freeze_badge id="pixelmon:freeze_badge"/>
+				<pxmn_glacier_badge id="pixelmon:glacier_badge"/>
+				<pxmn_heat_badge id="pixelmon:heat_badge"/>
+				<pxmn_hive_badge id="pixelmon:hive_badge"/>
+				<pxmn_iceberg_badge id="pixelmon:iceberg_badge"/>
+				<pxmn_icicle_badge id="pixelmon:icicle_badge"/>
+				<pxmn_insect_badge id="pixelmon:insect_badge"/>
+				<pxmn_jet_badge id="pixelmon:jet_badge"/>
+				<pxmn_knuckle_badge id="pixelmon:knuckle_badge"/>
+				<pxmn_legend_badge id="pixelmon:legend_badge"/>
+				<pxmn_marsh_badge id="pixelmon:marsh_badge"/>
+				<pxmn_mind_badge id="pixelmon:mind_badge"/>
+				<pxmn_mine_badge id="pixelmon:mine_badge"/>
+				<pxmn_mineral_badge id="pixelmon:mineral_badge"/>
+				<pxmn_plain_badge id="pixelmon:plain_badge"/>
+				<pxmn_plant_badge id="pixelmon:plant_badge"/>
+				<pxmn_psychic_badge id="pixelmon:psychic_badge"/>
+				<pxmn_quake_badge id="pixelmon:quake_badge"/>
+				<pxmn_rainbow_badge id="pixelmon:rainbow_badge"/>
+				<pxmn_rain_badge id="pixelmon:rain_badge"/>
+				<pxmn_relic_badge id="pixelmon:relic_badge"/>
+				<pxmn_rising_badge id="pixelmon:rising_badge"/>
+				<pxmn_rumble_badge id="pixelmon:rumble_badge"/>
+				<pxmn_soul_badge id="pixelmon:soul_badge"/>
+				<pxmn_stone_badge id="pixelmon:stone_badge"/>
+				<pxmn_storm_badge id="pixelmon:storm_badge"/>
+				<pxmn_thunder_badge id="pixelmon:thunder_badge"/>
+				<pxmn_toxic_badge id="pixelmon:toxic_badge"/>
+				<pxmn_trio_badge id="pixelmon:trio_badge"/>
+				<pxmn_volcano_badge id="pixelmon:volcano_badge"/>
+				<pxmn_voltage_badge id="pixelmon:voltage_badge"/>
+				<pxmn_wave_badge id="pixelmon:wave_badge"/>
+				<pxmn_zephyr_badge id="pixelmon:zephyr_badge"/>
+			</pxmnBadge>
+			<pxmnFossil>
+				<pxmn_helix_fossil id="pixelmon:helix_fossil"/>
+				<pxmn_dome_fossil id="pixelmon:dome_fossil"/>
+				<pxmn_old_amber id="pixelmon:old_amber"/>
+				<pxmn_claw_fossil id="pixelmon:claw_fossil"/>
+				<pxmn_skull_fossil id="pixelmon:skull_fossil"/>
+				<pxmn_armor_fossil id="pixelmon:armor_fossil"/>
+				<pxmn_cover_fossil id="pixelmon:cover_fossil"/>
+				<pxmn_plume_fossil id="pixelmon:plume_fossil"/>
+				<pxmn_covered_fossil_0 id="pixelmon:covered_fossil_0"/>
+				<pxmn_covered_fossil_1 id="pixelmon:covered_fossil_1"/>
+				<pxmn_covered_fossil_2 id="pixelmon:covered_fossil_2"/>
+				<pxmn_covered_fossil_3 id="pixelmon:covered_fossil_3"/>
+				<pxmn_covered_fossil_4 id="pixelmon:covered_fossil_4"/>
+				<pxmn_covered_fossil_5 id="pixelmon:covered_fossil_5"/>
+				<pxmn_covered_fossil_6 id="pixelmon:covered_fossil_6"/>
+				<pxmn_covered_fossil_7 id="pixelmon:covered_fossil_7"/>
+			</pxmnFossil>
+			<pxmnMachineMat>
+				<pxmn_fossil_machine_tank id="pixelmon:fossil_machine_tank"/>
+				<pxmn_fossil_machine_display id="pixelmon:fossil_machine_display"/>
+				<pxmn_fossil_machine_top id="pixelmon:fossil_machine_top"/>
+				<pxmn_fossil_machine_base id="pixelmon:fossil_machine_base"/>
+				<pxmn_green_tank id="pixelmon:green_tank"/>
+				<pxmn_orange_tank id="pixelmon:orange_tank"/>
+				<pxmn_cloner_cord id="pixelmon:cloner_cord"/>
+				<pxmn_trade_monitor id="pixelmon:trade_monitor"/>
+				<pxmn_trade_holder_right id="pixelmon:trade_holder_right"/>
+				<pxmn_trade_holder_left id="pixelmon:trade_holder_left"/>
+				<pxmn_trade_panel id="pixelmon:trade_panel"/>
+			</pxmnMachineMat>
+			<pxmnMisc>
+				<pxmn_ranch_upgrade id="pixelmon:ranch_upgrade"/>
+				<pxmn_hourglass_gold id="pixelmon:hourglass_gold"/>
+				<pxmn_hourglass_silver id="pixelmon:hourglass_silver"/>
+				<pxmn_uno_orb id="pixelmon:uno_orb"/>
+				<pxmn_dos_orb id="pixelmon:dos_orb"/>
+				<pxmn_tres_orb id="pixelmon:tres_orb"/>
+				<pxmn_orb id="pixelmon:orb"/>
+				<pxmn_balm_mushroom id="pixelmon:balm_mushroom"/>
+				<pxmn_big_mushroom id="pixelmon:big_mushroom"/>
+				<pxmn_tiny_mushroom id="pixelmon:tiny_mushroom"/>
+				<pxmn_nugget id="pixelmon:nugget"/>
+				<pxmn_big_nugget id="pixelmon:big_nugget"/>
+				<pxmn_pearl id="pixelmon:pearl"/>
+				<pxmn_pearl_string id="pixelmon:pearl_string"/>
+				<pxmn_rare_bone id="pixelmon:rare_bone"/>
+				<pxmn_stardust id="pixelmon:stardust"/>
+				<pxmn_star_piece id="pixelmon:star_piece"/>
+				<pxmn_strange_souvenir id="pixelmon:strange_souvenir"/>
+				<pxmn_slowpoke_tail id="pixelmon:slowpoke_tail"/>
+			</pxmnMisc>
+		</pxmnItem>
+	</item>
+</stuff>
